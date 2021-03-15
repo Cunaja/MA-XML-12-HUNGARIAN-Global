@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_loaction">Keresés a kezdőképernyőn</string>
+    <string name="app_name">Keresés</string>
+    <string name="appindex_description">a telepített alkalmazások funkciói</string>
+    <string name="appindex_search_label">Alkalmazások funkciói</string>
+    <string name="application_desc">Alkalmazás</string>
+    <string name="applications_search_label">Alkalmazások</string>
+    <string name="apps_search_activity" />
+    <string name="apps_whites">( \"com.android.quicksearchbox\", \"com.android.browser\", \"com.android.contacts\", \"com.android.mms\", \"com.miui.gallery\", \"com.android.settings\", \"com.android.deskclock\", \"com.android.camera\", \"com.miui.video\", \"com.miui.securitycenter\", \"com.miui.weather2\", \"com.xiaomi.market\", \"com.android.calendar\", \"com.android.fileexplorer\", \"com.miui.player\", \"com.android.thememanager\", \"com.android.calculator2\", \"com.xiaomi.gamecenter\", \"com.miui.notes\", \"com.xiaomi.smarthome\", \"com.xiaomi.account\", \"com.android.updater\", \"com.xiaomi.o2o\", \"com.xiaomi.shop\", \"com.android.soundrecorder\", \"com.mipay.wallet\", \"com.miui.voip\", \"com.miui.voiceassist\", \"com.android.email\", \"com.miui.networkassistant\", \"com.xiaomi.jr\", \"com.miui.compass\", \"com.miui.luckymoney\", \"com.xiaomi.hm.health\", \"com.xiaomi.channel\", \"com.miui.fm\", \"com.miui.bugreport\", \"com.mi.vtalk\", \"com.xiaomi.payment\", \"com.miui.virtualsim\", \"com.xiaomi.router\", \"com.miui.cloudbackup\", \"com.xiaomi.pass\", \"com.xiaomi.mitv.phone.tvassistan\", \"com.xiaomi.tag\", \"com.xiaomi.xy.sportscamera\", \"com.xiaomi.mishare\", \"com.xiaomi.pricecheck\", \"com.miui.userbook\", \"com.xiaomi.mitv.soundbarapp\", \"com.miui.livetalk\", \"com.android.providers.downloads.ui\", \"com.xiaomi.midrop\", \"com.miui.miuibbs\", \"com.xiaomi.scanner\", \"com.miui.voip\", \"com.wali.live\", \"com.miui.milivetalk\", \"com.android.phone\", \"com.miui.cloudservice\", \"com.miui.yellowpage\", \"com.miui.securitycore\", \"com.duokan.reader\", \"com.xiaomi.vip\", \"com.miui.calculator\", \"com.android.providers.downloads.ui\", \"com.mi.misupport\" )</string>
+    <string name="baidu_search_url_from_default">https://m.baidu.com/s?from=1002253t&amp;word={searchTerms}&amp;tn=ins</string>
+    <string name="baidu_suggest_base">http://m.baidu.com/su?wd=%s&amp;action=opensearch</string>
+    <string name="barcode_install_back">Vissza</string>
+    <string name="barcode_install_cancel">Mégsem</string>
+    <string name="barcode_install_confirm">Telepítés</string>
+    <string name="barcode_system_unmatch">A MIUI frissítése a Képolvasó telepítése előtt</string>
+    <string name="barcode_to_install">Telepítse a Szkennert a folytatáshoz</string>
+    <string name="barcode_uninstalled">A szkenner eltávolítva</string>
+    <string name="browser_search_component">com.android.browser/.BookmarkSearch</string>
+    <string name="choose_search_engine">Alapértelmezett webes kereső kiválasztása</string>
+    <string name="clear_history">Előzmények törlése</string>
+    <string name="clear_shortcuts">Gyorsparancsok törlése</string>
+    <string name="clear_shortcuts_agree">Gyorsparancsok törlése</string>
+    <string name="clear_shortcuts_disagree">Ne törölje a parancsikonokat</string>
+    <string name="clear_shortcuts_prompt">"Törli az összes hivatkozást a nemrégiben választott keresési javaslatokról?
+    
+A böngésző előzményeinek törléséhez használja a böngésző beállításait."</string>
+     <string name="clear_shortcuts_summary">Parancsikonok törlése a nemrégiben választott keresési javaslatokhoz</string>
+	<string name="common_setting">Általános beállítások</string>
+	<string name="connect_and_retry">Csatlakozzon az internethez, és próbálja újra</string>
+	<string name="corpus_description_apps">Telepített alkalmazások</string>
+       <string name="corpus_description_web">Könyvjelzők</string>
+    	<string name="corpus_hint_apps">Alkalmazások keresése</string>
+    	<string name="corpus_label_apps">Alkalmazások</string>
+	<string name="corpus_label_global">Összes</string>
+    	<string name="corpus_label_web">Webes eredmények</string>
+	<string name="corpus_selection_heading">Keresés</string>
+	<string name="cta_declaration">Ehhez a funkcióhoz kapcsolódnia kell az internethez, hozzá kell férnie az eszköz helyéhez, és meg kell tekintenie a hívási előzményeket és a névjegyeket a normál működéshez.</string>
+    	<string name="cta_declaration_ignore">Ne mutasd újra</string>
+	<string name="cta_declaration_negative_text">Nem engedélyezem</string>
+    	<string name="cta_declaration_positive_text">Lehetővé teszi</string>
+    	<string name="cta_declaration_title">Szolgáltatás feltételei</string>
+    	<string name="default_hint">Helyileg vagy az interneten kereshet…</string>
+	<string name="default_search_domain">.google.com</string>
+	<string name="device_settings_category_title">Parancsikonok törlése</string>
+	<string name="distance_unit_kilometer">km</string>
+    <string name="distance_unit_meter">m</string>
+	<string name="entrance_setting">A keresés megnyitása</string>
+	<string name="google_app_label">Google Kereső</string>
+	<string name="google_search_base">http://www.google.com/m?hl=%1$s</string>
+    <string name="google_search_base_pattern">http://%1$s/m?hl=%2$s</string>
+	<string name="google_search_description">Google keresési javaslatok</string>
+	<string name="google_search_hint">Google Kereső</string>
+	<string name="google_search_label">Google</string>
+	<string name="google_settings_category_title">Google Kereső</string>
+      	<string name="google_suggest_base">http://www.google.com/complete/search?hl=%1$s&amp;client=android&amp;q=%2$s</string>
+	<string name="hot_search">Népszerű</string>
+	<string name="loading">Egy pillanat……</string>
+	<string name="local_app">Alkalmazások</string>
+    	<string name="local_setting">Beállítások</string>
+    	<string name="menu_help">Súgó</string>
+    	<string name="menu_settings">Beállítások keresése</string>
+    	<string name="mina_name">Közvetlen alkalmazások</string>
+    	<string name="network_unavailable">Nem sikerült csatlakozni a hálózathoz</string>
+    	<string name="permission_prompt_detail">Filmek, könyvek, zene és egyebek keresése.</string>
+    	<string name="permission_prompt_start">Engedélyez</string>
+    	<string name="permission_prompt_started_info">Engedélyezte a globális keresést</string>
+    	<string name="permission_prompt_title">Többet akar?</string>
+    	<string name="pull_to_input">Húzza le, hogy felfedje a keresősávot</string>
+    	<string name="recent_apps">Legutóbbi alkalmazások</string>
+    	<string name="recent_apps_filter">A nem használt alkalmazások elrejtése</string>
+    	<string name="recent_close_content">"Most kikapcsolja ezt a funkciót?
+Ezt a Beállítások > Telepített alkalmazások > Keresés alpontban módosíthatja"</string>
+	<string name="recent_close_title">Kikapcsolás funkció</string>
+	<string name="recent_delete_content">"Elrejti most ezeket az alkalmazásokat?
+Ezt a Beállítások > Telepített alkalmazások > Keresés alpontban módosíthatja"</string>   	
+	<string name="recent_delete_negative">Mégsem</string>
+   	<string name="recent_delete_positive">OK</string>
+   	<string name="recent_delete_title">Alkalmazások elrejtése</string>
+   	<string name="recent_edit">Szerkesztés</string>
+       <string name="recent_edit_done">Kész</string>
+       <string name="recent_filter_functions">Kikapcsolta a funkciókat</string>
+       <string name="recent_function">Jellemzők</string>
+       <string name="recently_shortcut_label">Legutóbbi hivatkozások</string>
+    	<string name="release_to_input">Engedje el a keresősáv megjelenítéséhez</string>
+    	<string name="remove_from_history">Eltávolítja ezt az elemet a keresési előzmények között?</string>
+   	<string name="remove_from_history_failed">Nem sikerült eltávolítani az elemet az előzmények közül.</string>
+   	<string name="search_apps">Alkalmazások keresése</string>
+   	<string name="search_apps_url">market://search?q=%s&amp;c=apps</string>
+   	<string name="search_button">Keresés</string>
+   	<string name="search_group_fold">Elrejtése</string>
+  	<string name="search_group_unfold">Több</string>
+       <string name="search_history">Előzmény</string>
+    	<string name="search_in_app_store">Keresés a Mi App Store-ban</string>
+    	<string name="search_in_web">Keresés a weben</string>
+    	<string name="search_keyword_quicksearchbox">Keresés</string>
+       <string name="search_path_quicksearchbox">Beállítások / Telepített alkalmazások / Keresés</string>
+       <string name="search_settings">Beállítások keresése</string>
+       <string name="search_sources">Kereshető elemek</string>
+       <string name="search_sources_summary">Válassza ki, mit szeretne keresni a telefonon</string>
+       <string name="search_suggestion">Javaslatok</string>
+       <string name="search_title_quicksearchbox">@string/app_name</string>
+       <string name="search_videos">Videók keresése</string>
+       <string name="search_videos_url">https://www.youtube.com/results?search_query=%s</string>
+       <string name="search_widget">Keresés</string>
+       <string name="send_secret_code">Kód küldése</string>
+       <string name="setting_other">Egyéb</string>
+   	<string name="setting_version">Alk verzió</string>
+       <string name="setting_version_title">Alk verzió</string>
+       <string name="settings_description">A telepített alkalmazások neve</string>
+       	<string name="show_more">Több megjelenítése</string>
+       	<string name="suggest_open_app_failed">Nem sikerült megnyitni ezt az alkalmazást</string>
+   	<string name="swipe_up_summary">Húzza felfelé a globális keresés megnyitásához</string>
+       <string name="swipe_up_title">Húzza felfelé</string>
+       <string name="switch_application">Alkalmazások</string>
+       <string name="switch_browser">Böngésző</string>
+       <string name="switch_contacts">Névjegyek</string>
+       <string name="switch_email">Mail</string>
+       <string name="switch_file">Fájlok</string>
+       <string name="switch_mms">Üzenetek</string>
+       <string name="switch_notes">Jegyzetek</string>
+       <string name="switch_online">Online</string>
+       <string name="switch_prompt_ignore">Figyelmen kívül hagyni</string>
+       <string name="switch_prompt_set">Opciók megtekintése</string>
+       <string name="switch_prompt_title">Nem található %s?</string>
+       <string name="switch_prompt_title_default">Nem találja meg, amire szüksége van?</string>
+       <string name="switch_setting">Beállítások</string>
+       <string name="system_search_category_title">Telefon</string>
+       <string name="top_clicked">Gyakori tételek</string>
+    	<string name="update_check">Frissítések keresése</string>
+    	<string name="update_right_now">Frissítés</string>
+    	<string name="update_title">Frissítés elérhető</string>
+    	<string name="update_version_alpha">Alpha</string>
+       <string name="update_version_dev">Beta</string>
+       <string name="update_version_stable">Stabil</string>
+	<string name="updated_title">A MIUI naprakész</string>
+	<string name="voice_search_hint_quotation_end">\"</string>
+	<string name="voice_search_hint_quotation_start">\"</string>
+    	<string name="voice_search_hint_title">Mondja el nekünk:</string>
+    	<string name="web_search_results">Baidu</string>
+    	<string name="xiaomi_hint">http://global.search.xiaomi.net/global/v3/hint</string>
+    	<string name="xiaomi_homepage_hint">http://global.search.xiaomi.net/global/v5/hints</string>
+    	<string name="xiaomi_homepage_suggest">http://global.search.xiaomi.net/global/v5/home</string>
+    	<string name="xiaomi_search_label">Eredmények</string>
+    	<string name="xiaomi_source_url">https://search.browser.miui.com/</string>
+    	<string name="xiaomi_source_url_alpha">https://search.browser.miui.com/alpha/</string>
+    	<string name="xiaomi_suggest_base">https://global.search.xiaomi.net/global/v5/topclick</string>
+ </resources>

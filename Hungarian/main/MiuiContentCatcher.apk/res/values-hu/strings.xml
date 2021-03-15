@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alkalmazásbővítő szolgáltatás</string>
+    <string name="auth_activity_label">Ellenőrző kódok</string>
+    <string name="auth_fingerprint_content">Ujjlenyomat olvasása…</string>
+    <string name="auth_fingerprint_content_message">Tegye az ujját az érzékelőre</string>
+    <string name="auth_fingerprint_content_message_error">Nem sikerült beolvasni az ujjlenyomatot, próbálja újra</string>
+    <string name="auth_fingerprint_title">Ellenőrizze az ujjlenyomatát</string>
+    <string name="autofill_description">A MIUI képes titkosítani és tárolni a jelszavakat, így bármikor beírhatja őket, amikor csak szükség van rá. A Xiaomi nem fogja tudni elolvasni a titkosított jelszavakat.</string>
+    <string name="autofill_hint_email_address">Email</string>
+    <string name="autofill_hint_name">Név</string>
+    <string name="autofill_hint_password">Jelszó</string>
+    <string name="autofill_hint_phone">Telefonszám</string>
+    <string name="autofill_hint_username">Felhasználónév</string>
+    <string name="autofill_item_activity_label">Alkalmazásjelszavak</string>
+    <string name="autofill_list_activity_label">Alkalmazásjelszavak</string>
+    <string name="autofill_list_title">Jelszavak kezelése</string>
+    <string name="autofill_password">Jelszavak automatikus megadása</string>
+    <string name="autofill_password_activity_label">Ellenőrző kódok</string>
+    <string name="autofill_service_label">Jelszavak kezelése</string>
+    <string name="autofill_setting_activity_label">Jelszavak kezelése</string>
+    <string name="cancel">Mégsem</string>
+    <string name="change_passwork_dialog_content">Már elmentett egy jelszót ehhez a fiókhoz. Frissítse most a jelszót?</string>
+    <string name="change_passwork_dialog_title">Frissíti a jelszót?</string>
+    <string name="delete">Törlés</string>
+    <string name="invalid_package_signature">Érvénytelen alkalmazás aláírás</string>
+    <string name="login_mi_account_alert">Gyors</string>
+    <string name="login_mi_account_summary">A jelszókezelő bekapcsolásához be kell jelentkeznie a Xiaomi fiókba, szeretne bejelentkezni?</string>
+    <string name="ok">OK</string>
+    <string name="password_manager">Jelszókezelő</string>
+    <string name="password_manager_summary">Cloud jelszókezelő, készítsen biztonsági másolatot a Xiaomi-fiókról</string>
+    <string name="save_content_tip">A következő elemek mentésre kerülnek: </string>
+    <string name="search">Keresés</string>
+    <string name="settings_clear_data_confirmation_description">"Ha most törli a jelszavakat, akkor a következő bejelentkezéskor manuálisan kell megadnia őket.
+Törli a jelszót?"</string>
+    <string name="settings_clear_data_confirmation_title">Jelszavak törlése</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="using_miui_autofill_message">A jelszavak automatikus megadásához a MIUI elmenti fiókja adatait és jelszavait az eszközön.</string>
+    <string name="xiaomi_account_type">com.xiaomi</string>
+</resources>

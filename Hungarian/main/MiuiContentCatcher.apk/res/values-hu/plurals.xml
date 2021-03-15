@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="settings_clear_data_confirmation">
+        <item quantity="other">"Ha most törli a jelszavakat, akkor a következő bejelentkezéskor manuálisan kell megadnia őket.
+Törli a %1$s kiválasztott alkalmazás jelszavát? "</item>
+        <item quantity="one">"Ha most törli a jelszavakat, akkor a következő bejelentkezéskor manuálisan kell megadnia őket.
+Törli a %1$s kiválasztott alkalmazás jelszavát? "</item>
+    </plurals>
+</resources>

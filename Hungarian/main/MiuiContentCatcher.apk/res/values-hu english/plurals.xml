@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="settings_clear_data_confirmation">
-        <item quantity="other">If you delete passwords now, you&apos;ll have to enter them manually next time you sign in.\10Delete the passwords for %1$s selected apps?</item>
-        <item quantity="one">If you delete passwords now, you&apos;ll have to enter them manually next time you sign in.\10Delete the password for %1$s selected app?</item>
-    </plurals>
-</resources>
