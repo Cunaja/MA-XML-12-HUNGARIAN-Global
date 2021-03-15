@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="gb_gpu_custom_anisotropic">
+        <item>1X</item>
+        <item>2X</item>
+        <item>4X</item>
+        <item>8X</item>
+        <item>16X</item>
+    </array>
+    <array name="gb_gpu_custom_anti">
+        <item>1X</item>
+        <item>2X</item>
+        <item>4X</item>
+    </array>
+    <array name="gb_gpu_custom_texture">
+        <item>Nagy sebesség</item>
+        <item>Kiegyensúlyozott</item>
+        <item>Magas minőség</item>
+    </array>
+</resources>

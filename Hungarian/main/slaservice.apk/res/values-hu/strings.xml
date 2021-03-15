@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SLA Szolgáltatás</string>
+    <string name="notification_summary">Wi-Fi %1$s\9\9Adathálózat %2$s</string>
+    <string name="notification_title">A Wi-Fi hálózat lassú, és az adathálózatot használja a gyorsításhoz.</string>
+</resources>

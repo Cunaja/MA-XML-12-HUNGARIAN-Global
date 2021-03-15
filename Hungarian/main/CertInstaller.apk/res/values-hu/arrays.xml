@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="credential_usage">
+        <item>VPN és alkalmazások</item>
+        <item>Wi-Fi</item>
+    </array>
+</resources>

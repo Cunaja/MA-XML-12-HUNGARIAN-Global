@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="array" name="device_need_operating_mode" id="2130771968" />
+    <public type="array" name="device_use_cameraone" id="2130771969" />
+    <public type="array" name="device_use_resident_memory" id="2130771970" />
+    <public type="array" name="get_frame_nonsequence" id="2130771971" />
+    <public type="array" name="retry_connect_camera" id="2130771972" />
+    <public type="bool" name="config_is_popup_camera" id="2130837504" />
+    <public type="bool" name="config_release_call_mallopt" id="2130837505" />
+    <public type="drawable" name="ic_launcher" id="2130903040" />
+    <public type="raw" name="panorama_mgb" id="2130968576" />
+    <public type="string" name="my_app_name" id="2131034112" />
+</resources>

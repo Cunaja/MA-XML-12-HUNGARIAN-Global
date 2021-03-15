@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_label">Beállítástároló</string>
+    <string name="wifi_softap_config_change">A hotspot beállításai módosultak</string>
+    <string name="wifi_softap_config_change_summary">Koppintson a részletek megtekintéséhez</string>
+</resources>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="alarm_repeat_type">
+        <item>Egyszer</item>
+        <item>Minden nap</item>
+        <item>Hivatalos munkanapok</item>
+        <item>Hétköznapokon</item>
+        <item>Egyéni</item>
+    </array>
+    <array name="alarm_repeat_type_no_workdays">
+        <item>Egyszer</item>
+        <item>Minden nap</item>
+        <item>Hétköznapokon</item>
+        <item>Egyéni</item>
+    </array>
+    <array name="app_behavior_type_menu">
+        <item>Összes bejegyzés</item>
+        <item>Automatikus indítás</item>
+        <item>Láncindítás</item>
+        <item>Engedélyek használata</item>
+        <item>Érzékeny műveletek</item>
+    </array>
+    <array name="applock_password_types">
+        <item>Minta</item>
+        <item>PIN</item>
+        <item>Jelszó</item>
+    </array>
+    <array name="daily_brand">
+        <item>Egyéni</item>
+        <item>Mi Fan kártya</item>
+        <item>Xiao Tiansheng kártya</item>
+        <item>Tencent King kártya</item>
+    </array>
+    <array name="date_of_app_all">
+        <item>Tegnap (mobiladat) </item>
+        <item>Ma (mobiladat) </item>
+        <item>Múlt hónapban (mobiladat) </item>
+        <item>Ebben a hónapban (mobiladat) </item>
+        <item>Tegnap (Wi-Fi) </item>
+        <item>Ma (Wi-Fi) </item>
+        <item>Múlt hónapban (Wi-Fi) </item>
+        <item>Ebben a hónapban (Wi-Fi) </item>
+    </array>
+    <array name="date_of_traffic">
+        <item>Tegnap </item>
+        <item>Ma </item>
+        <item>Múlt hónapan </item>
+        <item>Ebben a hónapban </item>
+    </array>
+    <array name="date_of_traffic_cmcc">
+        <item>Ezen a héten </item>
+        <item>Ma </item>
+        <item>Ebben a hónapban </item>
+    </array>
+    <array name="date_of_traffic_prefix">
+        <item>Tegnap: </item>
+        <item>Ma: </item>
+        <item>Múlt hónapban: </item>
+        <item>Ebben a hónapban: </item>
+    </array>
+    <array name="date_of_traffic_prefix_cmcc">
+        <item>Ezen a héten: </item>
+        <item>Ma: </item>
+        <item>Ebben a hónapban: </item>
+    </array>
+    <array name="debug_open_intercept">
+        <item>Hozzáférhet és szerkesztheti a készülékén megtalálható fájlokat számítógépről.</item>
+        <item>Az alkalmazások készülékre való telepítése engedélyezésre kerül az Ön kifejezett engedélye nélkül.</item>
+        <item>Megfigyelheti és rögzítheti távolrül a kijelzőn megtalálható tartalmakat.</item>
+        <item>Hozzáférhet készülékének részletes adataihoz.</item>
+    </array>
+    <array name="lock_mode">
+        <item>Ha a készülék zárolva van</item>
+        <item>Lezárt készülék vagy alkalmazásból kilépés</item>
+        <item>Lezárt készülék vagy 1 perccel kilépés után</item>
+    </array>
+    <array name="lock_mode_value">
+        <item>1</item>
+        <item>@null</item>
+        <item>2</item>
+    </array>
+    <array name="mi_service_traffic_type">
+        <item>Mobiladat-használat </item>
+        <item>Wi-Fi-használat </item>
+    </array>
+    <array name="miui_optimization_close_intercept">
+        <item>Fontos: lehetséges, hogy több rendszeralkalmazás nem fog megfelelően működni.</item>
+        <item>A szövegelrendezés, a fiókok és a tartalom lehet, hogy nem fog helyesen megjelenni.</item>
+    </array>
+    <array name="operate_entryValues">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="operate_memory_entryValues">
+        <item>@null</item>
+        <item>1</item>
+        <item>2</item>
+    </array>
+    <array name="over_limit_traffic_waring_style">
+        <item>Figyelmeztetés mutatása</item>
+        <item>Figyelmeztetés és mobiladat-kapcsolat kikapcsolása</item>
+    </array>
+    <array name="pc_settings_thermal_entries">
+        <item>Alapértelmezett</item>
+        <item>A teljesítmény előtérbe helyezése</item>
+    </array>
+    <array name="pc_settings_thermal_summaries">
+        <item>Az alapértelmezett hőmérséklet-ellenőrző mód használata</item>
+        <item>A teljesítmény előtérbe helyezése</item>
+    </array>
+    <array name="perm_intercept_notification">
+        <item>Olvassa el az összes értesítést, beleértve a szöveges üzeneteinek a tartalmát és az esetlegesen személyes adatokat tartalmazó egyéb elemeket</item>
+        <item>Értesítésengedélyek korlátozása bizonyos alkalmazások számára</item>
+        <item>Az értesítésekre való koppintás és az alkalmazások megnyitásának szimulálása</item>
+        <item>DND-mód be- és kikapcsolása</item>
+    </array>
+    <array name="perm_intercept_statitics">
+        <item>Az Ön érdeklődési körével és viselkedésével kapcsolatos adatok begyűjtése annak megismerésével, hogy Ön milyen alkalmazást és milyen gyakran használja</item>
+        <item>A szolgáltatói és nyelvi beállításokhoz, valamint az egyéb adatokhoz való hozzáférés</item>
+    </array>
+    <array name="perm_intercept_unknown_source">
+        <item>A GetApps által nem hitelesített harmadik fél alkalmazások lehetséges, hogy több problémát okoznak és csökkentik a rendszerstabilitást.</item>
+        <item>Némelyik harmadik fél alkalmazás olyan kártevőket tartalmazhat, amely veszélybe sodorja az Ön személyes adatait.</item>
+    </array>
+    <array name="priority_storage_entries">
+        <item>Belső tárhely</item>
+        <item>Külső tárhely</item>
+    </array>
+    <array name="roaming_network_type">
+        <item>Mindig</item>
+        <item>Csak kivételek esetében</item>
+        <item>Soha</item>
+    </array>
+    <array name="sms_report_type">
+        <item>Adatforgalom</item>
+        <item>Telefonegyenleg</item>
+    </array>
+    <array name="sort_title">
+        <item>Állapot szerinti rendezés</item>
+        <item>Név szerinti rendezés</item>
+        <item>Használat gyakorisága szerinti rendezés</item>
+        <item>Felhasznált tárhely szerinti rendezés</item>
+        <item>Telepítés ideje szerinti rendezés</item>
+    </array>
+    <array name="sort_type">
+        <item>Állapot</item>
+        <item>Alkalmazás neve</item>
+        <item>Használat gyakorisága</item>
+        <item>Felhasznált tárhely</item>
+        <item>Telepítés ideje</item>
+    </array>
+    <array name="tether_limit_warn_type">
+        <item>Kikapcsolás és értesítés</item>
+        <item>Csak értesítés</item>
+    </array>
+    <array name="title_app_info">
+        <item>Telepítés forrása</item>
+        <item>Telepítés ideje</item>
+        <item>Utolsó frissítés forrása</item>
+        <item>Utolsó frissítés ideje</item>
+    </array>
+    <array name="traffic_package_type">
+        <item>Havi adatforgalom</item>
+        <item>Napi adatforgalom</item>
+        <item>Korlátlan adatforgalom</item>
+    </array>
+    <array name="traffic_type">
+        <item>Mobiladat-használat </item>
+        <item>Wi-Fi-használat </item>
+    </array>
+</resources>

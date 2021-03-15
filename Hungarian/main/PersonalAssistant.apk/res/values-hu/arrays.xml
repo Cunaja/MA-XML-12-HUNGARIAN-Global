@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="stock_color_schema">
+        <item>Zöld - fel, piros - le</item>
+        <item>Piros - fel, zöld - le</item>
+    </array>
+</resources>

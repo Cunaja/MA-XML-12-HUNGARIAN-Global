@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ugrás a főoldalra</string>
+    <string name="abc_action_bar_up_description">Felfelé mozgatás</string>
+    <string name="abc_action_menu_overflow_description">További lehetőségek</string>
+    <string name="abc_action_mode_done">Kész</string>
+    <string name="abc_activity_chooser_view_see_all">Összes megtekintése</string>
+    <string name="abc_activitychooserview_choose_application">Válasszon ki egy alkalmazást</string>
+    <string name="abc_capital_off">KI</string>
+    <string name="abc_capital_on">BE</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_space_shortcut_label">Szóköz</string>
+    <string name="abc_search_hint">Keresés…</string>
+    <string name="abc_searchview_description_clear">Lekérdezés törlése</string>
+    <string name="abc_searchview_description_query">Keresési lekérdezés</string>
+    <string name="abc_searchview_description_search">Keresés</string>
+    <string name="abc_searchview_description_submit">Lekérdezés küldése</string>
+    <string name="abc_searchview_description_voice">Hangalapú keresés</string>
+    <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
+    <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
+    <string name="abc_toolbar_collapse_description">Összecsukás</string>
+    <string name="search_menu_title">Keresés</string>
+	<string name="cit_sim_check_summary">Győződjön meg arról, hogy a SIM-kártya állapotának és információknak az alábbiakban jelenik meg, ha két SIM-kártyahely van, egyszerre csak két SIM-kártya létezik, és ez a helyes állapot</string>
+    <string name="cit_sim_check_title">SIM-kártya</string>
+	<string name="cit_sim_state_absent">Nem található SIM-kártya</string>
+	<string name="cit_sim_state_ready">SIM-kártya készen áll</string>
+	<string name="mic_tip">Kérjük, csináljon zajt a Mikrofonra. Miután csatlakoztatta a fülhallgatót, hallgassa meg a hangot</string>
+	<string name="pass">Átvitel</string>
+	<string name="test_receiver">Vevőkészülék</string>
+    <string name="test_receiver_summary">"Két véletlen számot fog hallani.
+Kérjük, kattintson a megfelelő gombra a hallott számnak megfelelően."</string>
+	<string name="top_mic_check_record_tip">Felvétel, kérem, mondjon valamit a mikrofonba, a telefon tetején</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="auto_clean_size">
+        <item>100MB</item>
+        <item>300MB</item>
+        <item>500MB</item>
+        <item>1GB</item>
+    </array>
+    <array name="auto_process_mode">
+        <item>Értesítés</item>
+        <item>Tisztítás</item>
+        <item>Értesítés és tisztítás</item>
+    </array>
+    <array name="cache_sort_type">
+        <item>Méret</item>
+        <item>Név</item>
+    </array>
+    <array name="installed_app_sort_type">
+        <item>Gyakran használt</item>
+        <item>Méret</item>
+    </array>
+    <array name="large_file_sort_type">
+        <item>Méret</item>
+        <item>Név</item>
+    </array>
+    <array name="wechat_sort">
+        <item>Dátum</item>
+        <item>Méret</item>
+    </array>
+</resources>

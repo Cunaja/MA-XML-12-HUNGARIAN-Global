@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">Egy órával ezelőtt</item>
+        <item quantity="one">Egy órával ezelőtt</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">Egy órával ezelőtt</item>
+        <item quantity="one">Egy órával ezelőtt</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Fél órával ezelőtt</item>
+        <item quantity="one">Fél órával ezelőtt</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">Egy óra múlva</item>
+        <item quantity="one">Egy óra múlva</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Fél óra múlva</item>
+        <item quantity="one">Fél óra múlva</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Azonnal</item>
+        <item quantity="one">Azonnal</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">%d perc múlva</item>
+        <item quantity="one">1 perc múlva</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Épp most</item>
+        <item quantity="one">Épp most</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d perce</item>
+        <item quantity="one">1 perce</item>
+    </plurals>
+    <plurals name="count_duration_standard">
+        <item quantity="other">%1$d-%2$d alkalommal</item>
+        <item quantity="one">%1$d-%2$d alkalommal</item>
+    </plurals>
+    <plurals name="cousume_unit_format">
+        <item quantity="other">%1$d Cal</item>
+        <item quantity="one">%1$d Cal</item>
+    </plurals>
+    <plurals name="daily_suggestions_steps">
+        <item quantity="other">Tegyen meg minden nap legalább %1$d lépést</item>
+        <item quantity="one">Tegyen meg minden nap legalább %1$d lépést</item>
+    </plurals>
+    <plurals name="day_index">
+        <item quantity="other">%1$d nap</item>
+        <item quantity="one">%1$d nap</item>
+    </plurals>
+    <plurals name="days_in_menstrual_period">
+        <item quantity="other">Menstruáció hossza: %1$d nap</item>
+        <item quantity="one">Menstruáció hossza: %1$d nap</item>
+    </plurals>
+    <plurals name="days_in_period">
+        <item quantity="other">Ciklus hossza: %1$d nap</item>
+        <item quantity="one">Ciklus hossza: %1$d nap</item>
+    </plurals>
+    <plurals name="dialog_choose_items">
+        <item quantity="other">Selected %1$d items</item>
+        <item quantity="one">Selected %1$d item</item>
+    </plurals>
+    <plurals name="dialog_delete_records_confirm">
+        <item quantity="other">Delete %1$d records?</item>
+        <item quantity="one">Delete %1$d record?</item>
+    </plurals>
+    <plurals name="distance_unit_kilometre">
+        <item quantity="other">%1$.1f km</item>
+        <item quantity="one">%1$.1f km</item>
+    </plurals>
+    <plurals name="dream_talk_segment">
+        <item quantity="other">%1$d felvétel</item>
+        <item quantity="one">%1$d felvétel</item>
+    </plurals>
+    <plurals name="dream_talk_segment_unit">
+        <item quantity="other"> instances</item>
+        <item quantity="one"> instance</item>
+    </plurals>
+    <plurals name="duration_unit_hour_format">
+        <item quantity="other">%1$d óra</item>
+        <item quantity="one">%1$d óra</item>
+    </plurals>
+    <plurals name="duration_unit_minute_format">
+        <item quantity="other">%1$d perc</item>
+        <item quantity="one">%1$d perc</item>
+    </plurals>
+    <plurals name="duration_unit_second_format">
+        <item quantity="other">%1$d mp</item>
+        <item quantity="one">%1$d mp</item>
+    </plurals>
+    <plurals name="goal_format_with_unit">
+        <item quantity="other">Cél: %1$d lépés</item>
+        <item quantity="one">Cél: %1$d lépés</item>
+    </plurals>
+    <plurals name="goal_unit">
+        <item quantity="other"> lépés</item>
+        <item quantity="one"> lépés</item>
+    </plurals>
+    <plurals name="goal_unit_with_number">
+        <item quantity="other">%1$d lépés</item>
+        <item quantity="one">%1$d lépés</item>
+    </plurals>
+    <plurals name="group_unit">
+        <item quantity="other">%1$d ciklus</item>
+        <item quantity="one">%1$d ciklus</item>
+    </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Fél órával ezelőtt</item>
+        <item quantity="one">Fél órával ezelőtt</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%1$d ó</item>
+        <item quantity="one">%1$d ó</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">Egy óra múlva</item>
+        <item quantity="one">Egy óra múlva</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Fél óra múlva</item>
+        <item quantity="one">Fél óra múlva</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Azonnal</item>
+        <item quantity="one">Azonnal</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">%d perc múlva</item>
+        <item quantity="one">1 perc múlva</item>
+    </plurals>
+    <plurals name="length_unit_meter_format">
+        <item quantity="other">%1$d méter</item>
+        <item quantity="one">%1$d méter</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Épp most</item>
+        <item quantity="one">Épp most</item>
+    </plurals>
+    <plurals name="mens_offset_predict_menstrual_period">
+        <item quantity="other">A menstruáció várhatóan %1$d nap múlva kezdődik</item>
+        <item quantity="one">A menstruáció várhatóan %1$d nap múlva kezdődik</item>
+    </plurals>
+    <plurals name="menstruation_sum_days">
+        <item quantity="other">%1$d napos menstruáció</item>
+        <item quantity="one">%1$d napos menstruáció</item>
+    </plurals>
+    <plurals name="mesens_card_title_day_in_predict">
+        <item quantity="other">Day %1$d (expected)</item>
+        <item quantity="one">Day %1$d (expected)</item>
+    </plurals>
+    <plurals name="mesens_card_title_days">
+        <item quantity="other">%1$d. nap</item>
+        <item quantity="one">%1$d. nap</item>
+    </plurals>
+    <plurals name="mesens_card_title_predict_date">
+        <item quantity="other">Next period in %1$d days</item>
+        <item quantity="one">Next period in %1$d day</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%1$d perc</item>
+        <item quantity="one">%1$d perc</item>
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="other">%1$d perce</item>
+        <item quantity="one">%1$d perce</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d perccel ezelőtt</item>
+        <item quantity="one">1 perce</item>
+    </plurals>
+    <plurals name="sleep_goal_by_hour">
+        <item quantity="other">Cél: %1$d óra</item>
+        <item quantity="one">Cél: %1$d óra</item>
+    </plurals>
+    <plurals name="sleep_management_exp_hours">
+        <item quantity="other">Current settings won&apos;t guarantee you %1$d hours of sleep daily. You need more than that.</item>
+        <item quantity="one">Current settings won&apos;t guarantee you %1$d hour of sleep daily. You need more than that.</item>
+    </plurals>
+    <plurals name="step_num_format">
+        <item quantity="other">%1$d lépés</item>
+        <item quantity="one">%1$d lépés</item>
+    </plurals>
+    <plurals name="steps_format">
+        <item quantity="other">%1$d</item>
+        <item quantity="one">%1$d</item>
+    </plurals>
+    <plurals name="subtitle_add_record">
+        <item quantity="other">Ön %1$d napja nem rögzítette menstruációit. Rögzítse a pontosabb előrejelzésekért.</item>
+        <item quantity="one">Ön %1$d napja nem rögzítette menstruációit. Rögzítse a pontosabb előrejelzésekért.</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_continued_days">
+        <item quantity="other">Ez a menstruáció összesen %1$d napig tart</item>
+        <item quantity="one">Ez a menstruáció összesen %1$d napig tart</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_cycle_days">
+        <item quantity="other">Ennek a menstruációs ciklusnak a %1$d. napja</item>
+        <item quantity="one">Ennek a menstruációs ciklusnak a %1$d. napja</item>
+    </plurals>
+    <plurals name="sum_cycle_days">
+        <item quantity="other">%1$d napos ciklus</item>
+        <item quantity="one">%1$d napos ciklus</item>
+    </plurals>
+    <plurals name="time_duration_compare_standard">
+        <item quantity="other">≤%1$d perc</item>
+        <item quantity="one">≤%1$d perc</item>
+    </plurals>
+    <plurals name="time_duration_hour_float">
+        <item quantity="other">%1$.2f óra</item>
+        <item quantity="one">%1$.2f óra</item>
+    </plurals>
+    <plurals name="time_duration_hour_int">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="time_duration_hour_standard">
+        <item quantity="other">%1$.1f-%2$.1f óra</item>
+        <item quantity="one">%1$.1f-%2$.1f óra</item>
+    </plurals>
+    <plurals name="time_duration_minute">
+        <item quantity="other">%1$d perc</item>
+        <item quantity="one">%1$d perc</item>
+    </plurals>
+    <plurals name="time_duration_minute_standard">
+        <item quantity="other">%1$d-%2$d perc</item>
+        <item quantity="one">%1$d-%2$d perc</item>
+    </plurals>
+    <plurals name="time_duration_time">
+        <item quantity="other">%1$d alkalom</item>
+        <item quantity="one">%1$d alkalom</item>
+    </plurals>
+    <plurals name="times_format">
+        <item quantity="other">%1$d alkalom</item>
+        <item quantity="one">%1$d alkalom</item>
+    </plurals>
+    <plurals name="title_menstruation_day">
+        <item quantity="other">A menstruáció %1$d. napja</item>
+        <item quantity="one">A menstruáció %1$d. napja</item>
+    </plurals>
+    <plurals name="title_menstruation_margin_next_time_days">
+        <item quantity="other">%1$d nap a következő menstruációig</item>
+        <item quantity="one">%1$d nap a következő menstruációig</item>
+    </plurals>
+    <plurals name="title_menstruation_predict_period">
+        <item quantity="other">A menstruáció becsült %1$d. napja</item>
+        <item quantity="one">A menstruáció becsült %1$d. napja</item>
+    </plurals>
+    <plurals name="title_today_exercise_steps">
+        <item quantity="other">%1$d lépés ma</item>
+        <item quantity="one">%1$d lépés ma</item>
+    </plurals>
+    <plurals name="unit_days">
+        <item quantity="other"> nap</item>
+        <item quantity="one"> nap</item>
+    </plurals>
+    <plurals name="unit_group">
+        <item quantity="other"> ciklus</item>
+        <item quantity="one"> ciklus</item>
+    </plurals>
+    <plurals name="unit_hours">
+        <item quantity="other"> ó </item>
+        <item quantity="one"> ó </item>
+    </plurals>
+    <plurals name="unit_hours2">
+        <item quantity="other"> óra </item>
+        <item quantity="one"> óra </item>
+    </plurals>
+    <plurals name="unit_mins">
+        <item quantity="other"> p </item>
+        <item quantity="one"> p </item>
+    </plurals>
+    <plurals name="unit_mins2">
+        <item quantity="other"> perc </item>
+        <item quantity="one"> perc </item>
+    </plurals>
+    <plurals name="unit_seconds">
+        <item quantity="other"> mp </item>
+        <item quantity="one"> mp </item>
+    </plurals>
+    <plurals name="unit_times">
+        <item quantity="other"> times</item>
+        <item quantity="one"> time</item>
+    </plurals>
+    <plurals name="user_age_display_format_year">
+        <item quantity="other">%1$d éves</item>
+        <item quantity="one">%1$d éves</item>
+    </plurals>
+</resources>

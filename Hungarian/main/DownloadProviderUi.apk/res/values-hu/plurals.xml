@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="dialog_confirm_delete_downloads_message">
+        <item quantity="other">Töröl %d feladatot?</item>
+        <item quantity="one">Töröl %d feladatot?</item>
+    </plurals>
+    <plurals name="durationDays">
+        <item quantity="other">%1$d nap</item>
+        <item quantity="one">%1$d nap</item>
+    </plurals>
+    <plurals name="durationHours">
+        <item quantity="other">%1$d óra</item>
+        <item quantity="one">%1$d óra</item>
+    </plurals>
+</resources>

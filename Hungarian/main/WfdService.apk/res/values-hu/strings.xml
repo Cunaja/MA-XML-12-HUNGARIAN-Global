@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Wfd Szolgáltatás</string>
+    <string name="channel_name">WFD Szolgáltatás</string>
+    <string name="notif_text">A képernyő tükrözése be van kapcsolva</string>
+    <string name="notif_title">Vezeték nélküli kijelző</string>
+    <string name="perm_desc">Hozzáférés a Qualcomm Wi-Fi kijelző köteg API-khoz</string>
+    <string name="perm_label">QC wifi kijelző köteg</string>
+</resources>

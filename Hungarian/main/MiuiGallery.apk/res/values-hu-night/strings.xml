@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="confirm_recommandation_face_is">&lt;Data&gt; Biztos, hogy ő &lt;font color=#e6ffffff&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/font&gt;? Ez a személy áthelyezve a(z) \"%2$s\" albumba. &lt;/Data&gt;</string>
+    <string name="confirm_recommandation_face_not">&lt;Data&gt; Biztos, hogy ő nem &lt;font color=#e6ffffff&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/font&gt;? &lt;/Data&gt;</string>
+    <string name="confirm_recommandation_multiple_faces_are">&lt;Data&gt; Biztos, hogy ők &lt;font color=#e6ffffff&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/font&gt;? Ezek az személyek áthelyezve a(z) \"%2$s\" albumba. &lt;/Data&gt;</string>
+    <string name="confirm_recommandation_multiple_faces_not">&lt;Data&gt; Biztos, hogy ők nem &lt;font color=#e6ffffff&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/font&gt;? &lt;/Data&gt;</string>
+</resources>

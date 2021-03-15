@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add">Hozzáadás</string>
+    <string name="app_name">Xiaomi.eu Kiterjesztés</string>
+    <string name="confirm_reset">Alaphelyzetbe állítás megerősítése</string>
+    <string name="confirm_reset_message">Alaphelyzetbe állítja az alapértelmezett alkalmazásokat?</string>
+    <string name="contributors">Közreműködők</string>
+    <string name="delete">Törlés</string>
+    <string name="hide_apps_close">Látható alkalmazásikonok</string>
+    <string name="hide_apps_open">Rejtett alkalmazásikonok</string>
+    <string name="home_hide_apps">Alkalmazásikonok elrejtése</string>
+    <string name="home_search_bar_app">Keresősáv-szolgáltató</string>
+    <string name="home_search_gesture_app">Húzza felfelé a keresési szolgáltatót</string>
+    <string name="loading">Csak egy pillanat…</string>
+    <string name="lockscreen_side_apps">Oldalpanel parancsikonjai</string>
+    <string name="no_apps">Nincsenek alkalmazások</string>
+    <string name="reset">Visszaállítás</string>
+    <string name="select_app">Alkalmazás kiválasztása</string>
+    <string name="select_apps">Alkalmazások kijelölése</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

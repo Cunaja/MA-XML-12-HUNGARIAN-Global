@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme">
+    </style>
+    <style name="CheckPasswordActivity.Theme">
+        <item name="android:windowBackground">@color/translucent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/CheckPasswordWindowAnimation</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/translucent</item>
+    </style>
+    <style name="CheckPasswordWindowAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter_alpha</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit_alpha</item>
+    </style>
+    <style name="Settings.Label">
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingTop">@dimen/spacing_normal</item>
+        <item name="android:paddingBottom">@dimen/spacing_normal</item>
+        <item name="android:lines">1</item>
+    </style>
+    <style name="Settings.Switch">
+        <item name="android:background">@null</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Line2.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title">
+    </style>
+    <style name="TextAppearance.Compat.Notification.Title.Media">
+    </style>
+    <style name="Theme.NoDividerLine">
+        <item name="?0x10010089">@android:color/transparent</item>
+    </style>
+    <style name="Theme.SettingActivity">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="Theme.SettingActivityImpl">
+        <item name="android:windowAnimationStyle">@style/WindowAnimation</item>
+        <item name="?0x10010071">@drawable/preference_bg</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionContainer">
+        <item name="android:background">@drawable/notification_action_background</item>
+    </style>
+    <style name="Widget.Compat.NotificationActionText">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textSize">@dimen/notification_action_text_size</item>
+        <item name="android:textColor">@color/secondary_text_default_material_light</item>
+    </style>
+    <style name="Widget.Support.CoordinatorLayout">
+        <item name="statusBarBackground">#ff000000</item>
+    </style>
+    <style name="WindowAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_close_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/activity_close_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/activity_close_exit</item>
+    </style>
+</resources>

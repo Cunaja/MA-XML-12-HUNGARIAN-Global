@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_icon_margin_top">19.64dp</dimen>
+    <dimen name="app_icon_margin_top_large">72.6dp</dimen>
+    <dimen name="app_icon_margin_top_medium">50.91dp</dimen>
+    <dimen name="app_install_confirm_panel">32.73dp</dimen>
+    <dimen name="app_snippet_margin_bottom">24.71dp</dimen>
+    <dimen name="app_snippet_margin_bottom_large">78.84dp</dimen>
+    <dimen name="app_snippet_margin_bottom_medium">57.14dp</dimen>
+</resources>

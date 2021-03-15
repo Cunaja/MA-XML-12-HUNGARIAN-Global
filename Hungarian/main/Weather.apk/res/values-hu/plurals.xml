@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="activity_main_update_time_in_one_day">
+        <item quantity="other">%d órája</item>
+        <item quantity="one">%d órája</item>
+    </plurals>
+    <plurals name="activity_main_update_time_in_one_hour">
+        <item quantity="other">%d perccel ezelőtt</item>
+        <item quantity="one">%d perccel ezelőtt</item>
+    </plurals>
+    <plurals name="activity_main_update_time_one_day_ago">
+        <item quantity="other">%d napja</item>
+        <item quantity="one">%d napja</item>
+    </plurals>
+    <plurals name="aqi_all_city_cur_num">
+        <item quantity="other">%1$s állomás átlaga</item>
+        <item quantity="one">%1$s állomás átlaga</item>
+    </plurals>
+    <plurals name="daily_forcast_drawer_on_home">
+        <item quantity="other">%1$s napos előrejelzés</item>
+        <item quantity="one">%1$s napos előrejelzés</item>
+    </plurals>
+    <plurals name="daily_forcast_drawer_on_top">
+        <item quantity="other">%1$s napos előrejelzés</item>
+        <item quantity="one">%1$s napos előrejelzés</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short_minute">
+        <item quantity="other">Visszajelzését %1$s másodperc múlva újra elküldheti</item>
+        <item quantity="one">Visszajelzését %1$s másodperc múlva újra elküldheti</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short_second">
+        <item quantity="other">Visszajelzését %1$s másodperc múlva újra elküldheti</item>
+        <item quantity="one">Visszajelzését %1$s másodperc múlva újra elküldheti</item>
+    </plurals>
+    <plurals name="no_vote_num">
+        <item quantity="other">%1$s személy | </item>
+        <item quantity="one">%1$s személy | </item>
+    </plurals>
+    <plurals name="total_voted_num_text">
+        <item quantity="other">&lt;font color=&apos;#20a7ff&apos;&gt;%1$s&lt;/font&gt; ember szavazott</item>
+        <item quantity="one">&lt;font color=&apos;#20a7ff&apos;&gt;%1$s&lt;/font&gt; ember szavazott</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_centigrade">
+        <item quantity="other">Legmagasabb hőmérséklet: %1$s Celsius-fok</item>
+        <item quantity="one">Legmagasabb hőmérséklet: %1$s Celsius-fok</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_fahrenheit">
+        <item quantity="other">Legmagasabb hőmérséklet: %1$s Fahrenheit-fok</item>
+        <item quantity="one">Legmagasabb hőmérséklet: %1$s Fahrenheit-fok</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_centigrade">
+        <item quantity="other">Legalacsonyabb hőmérséklet: %1$s Celsius-fok</item>
+        <item quantity="one">Legalacsonyabb hőmérséklet: %1$s Celsius-fok</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_fahrenheit">
+        <item quantity="other">Legalacsonyabb hőmérséklet: %1$s Fahrenheit-fok</item>
+        <item quantity="one">Legalacsonyabb hőmérséklet: %1$s Fahrenheit-fok</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Tiszta</item>
+        <item quantity="one">Tiszta</item>
+    </plurals>
+    <plurals name="yes_vote_num">
+        <item quantity="other"> | %1$s személy</item>
+        <item quantity="one"> | %1$s személy</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="borderRadius" format="dimension">
+    </attr>
+    <attr name="type" format="reference|string">
+    </attr>
+    <attr name="gifSource" format="reference|string">
+    </attr>
+    <attr name="isOpaque" format="boolean">
+    </attr>
+    <attr name="freezesAnimation" format="boolean">
+    </attr>
+</resources>
