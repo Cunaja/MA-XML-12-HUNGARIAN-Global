@@ -390,7 +390,8 @@
     <string name="resource_waiting_pause">Szünet</string>
     <string name="resource_wallpaper_download">Háttérkép letöltése</string>
     <string name="ringtone_set_success">Sikeresen beállítva</string>
-    <string name="sdcard_not_mounted_dialog_message">Helyezzen be egy SD-kártyát.\10</string>
+    <string name="sdcard_not_mounted_dialog_message">"Helyezzen be egy SD-kártyát.
+"</string>
     <string name="sdcard_not_mounted_dialog_title">Nem található SD-kártya</string>
     <string name="search_hint_header_text">Népszerű szavak</string>
     <string name="search_menu_title">Keresés</string>

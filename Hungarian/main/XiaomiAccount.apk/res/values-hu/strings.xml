@@ -50,7 +50,8 @@
     <string name="account_secure_info_pref_title">Fiókadatok</string>
     <string name="account_security">Fiókbiztonság</string>
     <string name="account_security_info_pref_title">Biztonsági információk</string>
-    <string name="account_token_expired_msg">Ellenőrző kód lejárt, kezdje újra vagy jelentkezzen ki\10 Az Ön fiókazonosítója: %s</string>
+    <string name="account_token_expired_msg">Ellenőrző kód lejárt, kezdje újra vagy jelentkezzen ki
+ Az Ön fiókazonosítója: %s</string>
     <string name="account_token_expired_title">Az azonosítás sikertelen</string>
     <string name="account_user_avatar">Profilkép</string>
     <string name="account_user_avatar_from_album">Fénykép kiválasztása</string>
@@ -86,7 +87,8 @@
     <string name="bind_weibo_description">Adja hozzá ismerőseit a Sina Weiboról</string>
     <string name="bind_weixin">WeChat-fiók csatlakoztatása</string>
     <string name="binded">Hozzáadva</string>
-    <string name="binded_description">A következö: %s hozzá lett kapcsolva az Ön Mi fiókjához.\10Mostantól a csatlakoztatott %s-fiókkal is be tud lépni Mi fiókjába.</string>
+    <string name="binded_description">A következö: %s hozzá lett kapcsolva az Ön Mi fiókjához.
+Mostantól a csatlakoztatott %s-fiókkal is be tud lépni Mi fiókjába.</string>
     <string name="button_unbind">Lecsatlakozás</string>
     <string name="change_activate_email">E-mail cím módosítása</string>
     <string name="change_email_address">E-mail cím módosítása</string>
@@ -159,7 +161,9 @@
     <string name="device_list_title">Készülékeim</string>
     <string name="device_name">Készüléknév</string>
     <string name="diagnosis_log_send_failed">A napló küldése meghiúsult.</string>
-    <string name="diagnosis_log_sent_format">A napló sikeresen elküldésre került.\10Azonosító:%s\10Küldje el ezt a kódot a vezetőjének.</string>
+    <string name="diagnosis_log_sent_format">A napló sikeresen elküldésre került.
+Azonosító:%s
+Küldje el ezt a kódot a vezetőjének.</string>
     <string name="empty_device_list_notice">Nincsenek készülékek</string>
     <string name="ep_unsupported">Nem tud bejelentkezni a Mi Fiókjába a készülékével</string>
     <string name="error_dup_binded_email">Ez az e-mail cím már hozzá van rendelve egy másik Mi Fiókhoz.</string>
@@ -553,7 +557,10 @@
     <string name="two_factor_auth_need_code_summary">Egy kódot fog látni a többi Mi-készüléken. A bejelentkezéshez írja be ezt a kódot az új készüléken.</string>
     <string name="two_factor_auth_summary">Amikor egy új készülékről vagy helyről próbál bejelentkezni, értesítést kap róla a többi csatlakoztatott készüléken. Meg kell erősítenie, hogy Ön engedélyezte az ilyen bejelentkezési próbálkozásokat.</string>
     <string name="unbind_sns_description">Az eltávolítás után a %s nem jelentkezik be a Mi Fiók használatával.</string>
-    <string name="unlock_help_notice">Segítség:\101. Ha elfelejtette a jelszavát, keresse fel az id.mi.com-ot a visszaállításhoz.\102. Ha nem tudja visszaállítani a jelszót vagy bárki zárolta az Ön készüléket, nyissa meg az i.mi.com-ot a feloldáshoz\10· Az Ön feloldókódja: %s</string>
+    <string name="unlock_help_notice">Segítség:
+1. Ha elfelejtette a jelszavát, keresse fel az id.mi.com-ot a visszaállításhoz.
+2. Ha nem tudja visszaállítani a jelszót vagy bárki zárolta az Ön készüléket, nyissa meg az i.mi.com-ot a feloldáshoz
+· Az Ön feloldókódja: %s</string>
     <string name="update_email_address_dialog_message">Az e-mail cím módosítása előtt a személyazonosságának ellenőrzése szükséges.</string>
     <string name="update_email_address_dialog_title">E-mail frissítése</string>
     <string name="update_phone_notice">Biztonsági beállítások módosítása</string>

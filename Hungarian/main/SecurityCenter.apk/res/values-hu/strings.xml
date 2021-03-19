@@ -65,7 +65,8 @@
     <string name="access_control_app_is_launching">Alkalmazás indítása</string>
     <string name="access_control_failed_need_to_unlock_nofingerprint">Adja meg a jelszavát új ujjlenyomattal való feloldás előtt</string>
     <string name="access_control_fingerprint_not_identified_msg">Ujjlenyomat-beolvasás sikertelen.</string>
-    <string name="access_control_need_password">%s hozzáadvar\10</string>
+    <string name="access_control_need_password">"%s hozzáadva
+"</string>
     <string name="access_control_need_to_unlock_nofingerprint">Adja meg az Alkalmazások zárolása jelszavát</string>
     <string name="accessibility_gameboosterservice_description">Mikor játszik, kapcsolja be a WeChat bejövő hívások némítása lehetőséget</string>
     <string name="action_button_text_100">Optimalizálás</string>
@@ -390,7 +391,14 @@
     <string name="app_manager_pref_ads">Hirdetések</string>
     <string name="app_manager_reset_app_preferences">Alkalmazások preferenciáinak visszaállítása</string>
     <string name="app_manager_reset_app_preferences_button">Visszaállítás</string>
-    <string name="app_manager_reset_app_preferences_desc">Ez alaphelyzetbe fogja állítani minden:\10\10 Letiltott alkalmazás\10 Letiltott alkalmazási értesítés\10 Alapértelmezett alkalmazás\10 Háttér alkalmazásadat-korlátozás\10\10 beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
+    <string name="app_manager_reset_app_preferences_desc">Ez alaphelyzetbe fogja állítani minden:
+
+Letiltott alkalmazás
+Letiltott alkalmazási értesítés
+Alapértelmezett alkalmazás
+Háttér alkalmazásadat-korlátozás
+
+beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="app_manager_reset_app_preferences_title">Visszaállítja az alkalmazások preferenciáit?</string>
     <string name="app_manager_search_prompt">Nincs találat? Próbálja meg az eredmény kijelzése minden alkalmazásból lehetőséget.</string>
     <string name="app_manager_show_all_apps">Összes alkalmazás megjelenítése</string>
@@ -862,7 +870,9 @@
     <string name="data_usage_no_total_package_body">Kattintson az adatforgalmi értékek beállításához</string>
     <string name="data_usage_no_total_package_body_dual">Beállít %s adatkapcsolathoz felhasználható adatforgalmi értéket?</string>
     <string name="data_usage_no_total_package_title">Adatforgalom</string>
-    <string name="data_usage_protected_dialog_message">A MIUI kikapcsolta a mobiladatokat, hogy megakadályozza további díjak kiszabását.\10\10Szolgáltatója különdíjakat számolhat fel, ha visszakapcsolja a mobiladatokat.</string>
+    <string name="data_usage_protected_dialog_message">A MIUI kikapcsolta a mobiladatokat, hogy megakadályozza további díjak kiszabását.
+	
+Szolgáltatója különdíjakat számolhat fel, ha visszakapcsolja a mobiladatokat.</string>
     <string name="data_usage_protected_notify_message">A MIUI kikapcsolta a mobiladatokat, hogy megakadályozza további díjak kiszabását.</string>
     <string name="data_usage_protected_notify_title">Ön már felhasznált 5 GB mobiladatot</string>
     <string name="data_usage_warning_body">Érintse meg az adathasználat részleteinek megtekintéséhez.</string>
@@ -894,7 +904,8 @@
     <string name="detail_app_button">Alkalmazásadatok</string>
     <string name="details_subtitle">A használat részletei</string>
     <string name="device_manager_apply_step_1">Aktiválja a készüléken a rendszergazda jogot ehhez az alkalmazáshoz?</string>
-    <string name="device_manager_apply_step_2">Amennyiben aktiválja a készüléken a rendszergazda jogot ehhez az alkalmazáshoz, azzal veszélynek teszi ki személyes adatait.\10A készülékén lévő összes adat törölhetővé válhat, és a képernyőzár-jelszava is alaphelyzetbe állítható.</string>
+    <string name="device_manager_apply_step_2">Amennyiben aktiválja a készüléken a rendszergazda jogot ehhez az alkalmazáshoz, azzal veszélynek teszi ki személyes adatait.
+A készülékén lévő összes adat törölhetővé válhat, és a képernyőzár-jelszava is alaphelyzetbe állítható.</string>
     <string name="device_manager_apply_step_3">Legyen tisztában vele, milyen veszélyekkel járhat az aktiválás végrehajtása. Most aktiválja a készüléken a rendszergazda jogot ehhez az alkalmazáshoz?</string>
     <string name="dialog_app_roaming_message">%1$s nem használhat mobiladatot barangolás során. Mikor ön barangol csak azok az alkalmazások jutnak mobiladathoz, amiket a kivételekhez adott.</string>
     <string name="dialog_app_roaming_title">%1$s alkalmazásnak nincs engedélye az adatbarangoláshoz</string>
@@ -944,10 +955,13 @@
     <string name="dlg_keyword_ok">Mentés</string>
     <string name="dlg_message_not_open_stranger_identify">Kapcsolja be ezt a szolgáltatást a Beállítások &gt; Telefon menüben.</string>
     <string name="dlg_move_to_white">Hozzáadás a kivételekhez</string>
-    <string name="dlg_no_block">Biztosan engedélyezi ezt a telefonszámot?\10A szám a kivételek közé kerül, de a korábban letiltott számok nem látszanak a híváslistában.</string>
+    <string name="dlg_no_block">Biztosan engedélyezi ezt a telefonszámot?
+A szám a kivételek közé kerül, de a korábban letiltott számok nem látszanak a híváslistában.</string>
     <string name="dlg_no_block_ok">Engedélyezés</string>
-    <string name="dlg_not_block_call">Biztosan engedélyezi a kijelölt telefonszámokat?\10A számok a kivételek közé kerülnek, de a korábban letiltott számok nem látszanak a híváslistában.</string>
-    <string name="dlg_not_block_sms">Biztosan engedélyezi ezt a telefonszámot?\10A szám a kivételek közé kerül, de a korábban letiltott számokról érkezett üzenetek nem látszanak a bejövő üzenetek között.</string>
+    <string name="dlg_not_block_call">Biztosan engedélyezi a kijelölt telefonszámokat?
+A számok a kivételek közé kerülnek, de a korábban letiltott számok nem látszanak a híváslistában.</string>
+    <string name="dlg_not_block_sms">Biztosan engedélyezi ezt a telefonszámot?
+A szám a kivételek közé kerül, de a korábban letiltott számokról érkezett üzenetek nem látszanak a bejövő üzenetek között.</string>
     <string name="dlg_remove_address_blacklist">Törli ezt a régiót a tiltólistáról?</string>
     <string name="dlg_remove_address_whitelist">Törli ezt a régiót a kivételek listájáról?</string>
     <string name="dlg_remove_blacklist">Törli ezeket a telefonszámokat a tiltólistáról?</string>
@@ -1168,16 +1182,22 @@
     <string name="free_send_net_booster">Ingyenes Hálózati sebesség gyorsítás</string>
     <string name="free_send_net_booster_busniess">Szerezzen ingyenes Xunlei sebességgyorsítást</string>
     <string name="free_send_net_booster_busniess_tip">Érintse meg a fogadáshoz</string>
-    <string name="free_send_net_booster_tip">Élvezze a simábban futó játékokat az ingyenes hálózatisebesség-gyorsítással.</string>
+    <string name="free_send_net_booster_tip">Élvezze a simábban futó játékokat az ingyenes hálózati sebesség-gyorsítással.</string>
     <string name="free_time_traffic">Ingyenes adatforgalom értéke</string>
     <string name="free_time_traffic_hint">Ingyenes adatforgalom értéke</string>
     <string name="free_time_traffic_settings">Ingyenes adatforgalom</string>
-    <string name="free_time_traffic_title">Írja be az ingyenes adatforgalom érékét</string>
+    <string name="free_time_traffic_title">Írja be az ingyenes adatforgalom értékét</string>
     <string name="free_traffic_settings">Ingyenes adatforgalom beállítása</string>
-    <string name="function_auto_reject_detail">A funkcióról:\101.Játék közben a SIM-kártyára mobil-adatforgalom nélküli összes hívást automatikusan elutasítjuk.\102. Értesítéseket fog látni a nem fogadott hívásokról, a másik személy pedig egy hangüzenetet hall, amely szerint Ön éppen elfoglalt.\103. Ezt a funkciót csak a kínai mobilszolgáltatók támogatják.</string>
+    <string name="function_auto_reject_detail">A funkcióról:
+1.Játék közben a SIM-kártyára mobil-adatforgalom nélküli összes hívást automatikusan elutasítjuk.
+2. Értesítéseket fog látni a nem fogadott hívásokról, a másik személy pedig egy hangüzenetet hall, amely szerint Ön éppen elfoglalt.
+3. Ezt a funkciót csak a kínai mobilszolgáltatók támogatják.</string>
     <string name="function_auto_reject_title">SIM-kártyákra történő adatszolgáltatás nélküli VoLTE-hívások elutasítása</string>
     <string name="function_close">Kikapcsolva</string>
-    <string name="function_gwsd_detail">A funkcióról:\10 1. Ha mobiladat-forgalmat használ egy adat SIM-kártyán vagy egy VoLTE-hálózatra csatlakoztatott hagyományos SIM-kártyán, a kapcsolatot meg fogják szakítani a bejövő hívások, amíg azokat nem veszi fel.\10 2. Ha ez a funkció be van kapcsolva, a másik fél nem fogja hallani a csengőhangot, kivéve, ha Ön hagyományos SIM-kártyát használ. A bejövő hívások 7-10 másodperces inaktivitás után automatikusan elutsításra kerülnek.\10 3. A China Mobile és a China Unicom által kibocsájtott adat SIM-kártyákat támogatjuk. A China Mobile, a China Unicom és a China Telecom által kibocsájtott hagyományos SIM-kártyákat támogatjuk.</string>
+    <string name="function_gwsd_detail">A funkcióról:
+1. Ha mobiladat-forgalmat használ egy adat SIM-kártyán vagy egy VoLTE-hálózatra csatlakoztatott hagyományos SIM-kártyán, a kapcsolatot meg fogják szakítani a bejövő hívások, amíg azokat nem veszi fel.
+2. Ha ez a funkció be van kapcsolva, a másik fél nem fogja hallani a csengőhangot, kivéve, ha Ön hagyományos SIM-kártyát használ. A bejövő hívások 7-10 másodperces inaktivitás után automatikusan elutasításra kerülnek.
+3. A China Mobile és a China Unicom által kibocsájtott adat SIM-kártyákat támogatjuk. A China Mobile, a China Unicom és a China Telecom által kibocsájtott hagyományos SIM-kártyákat támogatjuk.</string>
     <string name="function_gwsd_title">Ne engedélyezzen bejövő hívásokat, ha azok megszakítanák a SIM adatkapcsolatát</string>
     <string name="function_shield_auto_bright">Az automatikus fényerőszabályzás kikapcsolása</string>
     <string name="function_shield_eye_shield">Az Olvasómód kikapcsolása</string>
@@ -1404,7 +1424,8 @@
     <string name="gs_game_disturb_msg">Ne zavarjanak</string>
     <string name="gs_game_duration">Idő</string>
     <string name="gs_game_manual_record">Felvétel manuálisan</string>
-    <string name="gs_game_manual_record_subtitle">Elkezdheti a felvételt az eszköztárban játék közben. A „Felvétel” gombra való kattintást követően maximálisan 30 másodpercet rögzíthet.\10A videók a Játékgyorsító &gt; Fontos pillanatok menübe kerülnek elmentésre.</string>
+    <string name="gs_game_manual_record_subtitle">Elkezdheti a felvételt az eszköztárban játék közben. A „Felvétel” gombra való kattintást követően maximálisan 30 másodpercet rögzíthet.
+A videók a Játékgyorsító &gt; Fontos pillanatok menübe kerülnek elmentésre.</string>
     <string name="gs_game_manual_record_subtitle_child">A funkció használata során beleütközhet néhány hibába:</string>
     <string name="gs_game_manual_record_subtitle_child_carton">A játékmenet rögzítése sok energiát fogyaszt, amely a játék lelassulásához vezethet.</string>
     <string name="gs_game_manual_record_subtitle_child_conflict">Az egyéb képernyőfelvétellel kapcsolatos funkciók lehetséges, hogy nem fognak megfelelően működni.</string>
@@ -1519,7 +1540,9 @@
     <string name="legal_workday_invalidate">Hét-Pén (Szünnapok kivételével)</string>
     <string name="legal_workday_invalidate_message">Érintse meg a munkaszüneti napok frissítéséhez.</string>
     <string name="legal_workday_message">(Ünnepnapok kihagyása)</string>
-    <string name="leisure_usage_dialog_message">Elérte a csúcsidőn kívüli adatforgalmi határt.\10\10A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat használ.</string>
+    <string name="leisure_usage_dialog_message">Elérte a csúcsidőn kívüli adatforgalmi határt.
+
+A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat használ.</string>
     <string name="leisure_usage_dialog_title">Ön elérte a csúcsidőn kívüli adatkorlátot, hálózati kapcsolat megszakítva</string>
     <string name="list_empty_text">Üres</string>
     <string name="load_only_under_wlan">Betöltés csak Wi-Fi használatával</string>
@@ -1602,8 +1625,10 @@
     <string name="main_primary_message_traffic_warning">Mobiladat-forgalmi figyelmeztetés</string>
     <string name="main_purchase_tips">Promóció</string>
     <string name="main_tc_over">Sikeresen hitelesítve</string>
-    <string name="main_tc_send_sms">SMS küldése\10a hitelesítéshez</string>
-    <string name="main_tc_wait_result">Várakozás a szolgáltatóra\10hogy válaszoljon</string>
+    <string name="main_tc_send_sms">SMS küldése
+a hitelesítéshez</string>
+    <string name="main_tc_wait_result">Várakozás a szolgáltatóra
+hogy válaszoljon</string>
     <string name="main_today_used">Ma használt</string>
     <string name="main_toolbar_firewall">Korlátozás</string>
     <string name="main_toolbar_purchase">Feltöltés</string>
@@ -1774,12 +1799,39 @@
     <string name="network_connected_exception_title">Hálózati teszt</string>
     <string name="network_control">Hálózati felügyelet</string>
     <string name="network_diagnostics">Hálózati diagnosztika</string>
-    <string name="network_mobile_exception_detail">Készüléke nem csatlakozik az internetre:\10\10 1. Ellenőrizze, hogy nem haladta meg a havi felhasználható mobiladat-kapcsolat értéket.\10\10 2. Ha most töltötte fel egyenlegét, indítsa újra a készülékét majd próbálja újra.\10\10 3. A szolgáltató térereje gyenge jelenlegi tartózkodási helyén.</string>
+    <string name="network_mobile_exception_detail">Készüléke nem csatlakozik az internetre:
+
+1. Ellenőrizze, hogy nem haladta meg a havi felhasználható mobiladat-kapcsolat értéket.
+
+2. Ha most töltötte fel egyenlegét, indítsa újra a készülékét majd próbálja újra.
+
+3. A szolgáltató térereje gyenge jelenlegi tartózkodási helyén.</string>
     <string name="network_operator_exception_summary">Nem sikerült aktiválni a SIM-kártyát. Ellenőrizze, hogy a SIM-kártya megfelelően lett behelyezve és a szolgáltatója aktiválta a mobiladat-kapcsolatot.</string>
     <string name="network_permission_exception_tips">Nem használható mobiladat-kapcsolat az internetre való csatlakozáshoz</string>
     <string name="network_roaming_exception_tips">Barangolás során nem használható mobiladat-kapcsolat az internetcsatlakozáshoz.</string>
-    <string name="network_route_exception_detail">Probléma lehet a routerrel, amelyhez csatlakoztatva van:\10\10 1. Nyilvános Wi-Fi-hálózati hiba\10Ha nyilvános Wi-Fi-hálózatra csatlakozott, a csatlakozott felhasználók lelassíthatják a hálózatot, illetve kapcsolódási problémákat okozhatnak. Váltson át másik hálózatra és próbálja újra.\10\10 2. Internetszolgáltató hiba\10Ellenőrizze, hogy a szolgáltatónak megfelelő kapcsolat van beállítva.\10\10 3. Router hardverhiba\10Próbálja meg újraindítani a routert vagy ellenőrizze az adminbeállításokat a routerben.\10\10 4. Egyéb routerhiba\10Állítsa vissza a router gyári beállításait.\10\10 5. Ellenőrizze, hogy a router megfelelően van-e csatlakoztatva\10Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondolja, hogy kapcsolódási hiba van, lépjen kapcsolatba az internetszolgáltatójával.</string>
-    <string name="network_sim_exception_detail">Lehetséges, hogy probléma van a SIM-kártyával:\10\101. Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató előírásainak. Próbálja egy ismerős SIM-kártyáját nézze meg, hogy azzal tud-e normálisan csatlakozni.\10\102. Ha Ön 2 SIM-kártyát használ, próbáljon átváltani a másik kártyára, hogy meglássa tud-e csatlakozni normálisan.\10\103. Győződjön meg róla, hogy a SIM-kártya és a foglalata nem sérült-e. Bizonyosodjon meg róla, hogy a SIM, amit használ tökéletesen illeszkedik a készülék SIM foglalatába.</string>
+    <string name="network_route_exception_detail">Probléma lehet a routerrel, amelyhez csatlakoztatva van:
+
+1. Nyilvános Wi-Fi-hálózati hiba
+Ha nyilvános Wi-Fi-hálózatra csatlakozott, a csatlakozott felhasználók lelassíthatják a hálózatot, illetve kapcsolódási problémákat okozhatnak. Váltson át másik hálózatra és próbálja újra.
+
+2. Internetszolgáltató hiba
+Ellenőrizze, hogy a szolgáltatónak megfelelő kapcsolat van beállítva.
+
+3. Router hardverhiba
+Próbálja meg újraindítani a routert vagy ellenőrizze az admin beállításokat a routerben.
+
+4. Egyéb routerhiba
+Állítsa vissza a router gyári beállításait.
+
+5. Ellenőrizze, hogy a router megfelelően van-e csatlakoztatva
+Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondolja, hogy kapcsolódási hiba van, lépjen kapcsolatba az internetszolgáltatójával.</string>
+    <string name="network_sim_exception_detail">Lehetséges, hogy probléma van a SIM-kártyával:
+	
+Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató előírásainak. Próbálja egy ismerős SIM-kártyáját nézze meg, hogy azzal tud-e normálisan csatlakozni.
+
+2. Ha Ön 2 SIM-kártyát használ, próbáljon átváltani a másik kártyára, hogy meglássa tud-e csatlakozni normálisan.
+
+3. Győződjön meg róla, hogy a SIM-kártya és a foglalata nem sérült-e. Bizonyosodjon meg róla, hogy a SIM, amit használ tökéletesen illeszkedik a készülék SIM foglalatába.</string>
     <string name="network_speed_for_apps_close">Kényszerített leállítás</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Leállítja ezt az alkalmazást?</string>
     <string name="network_speed_for_apps_close_system_app_dlg_msg">Nem kényszerítheti a rendszeralkalmazás leállítását.</string>
@@ -1941,7 +1993,8 @@
     <string name="packages_subtitle">Mellékelt csomagok</string>
     <string name="passwordIncorrect">A felhasználónév vagy a jelszó hibás</string>
     <string name="password_forget_pattern_confirm">Rendben</string>
-    <string name="password_forget_pattern_message">Biztonsági okokból csak Gyári adatok visszaállítása után állíthatja alaphelyzetbe jelszavát.\10Érintse meg a visszaállításhoz.</string>
+    <string name="password_forget_pattern_message">Biztonsági okokból csak Gyári adatok visszaállítása után állíthatja alaphelyzetbe jelszavát.
+Érintse meg a visszaállításhoz.</string>
     <string name="password_forget_pattern_message_none">Alkalmazások nincsenek zárolva. Vissza tudja állítani a jelszavát.</string>
     <string name="password_forget_pattern_reset">Visszaállítás</string>
     <string name="password_forget_pattern_title">Figyelem</string>
@@ -2399,7 +2452,9 @@
     <string name="privacy_pop_record">Hangrögzítés a mai napon</string>
     <string name="privacy_pop_storage">Tárhelyhez való hozzáférés a mai napon</string>
     <string name="privacy_prompt_tc_sms_report_message">A telefonszáma és szolgáltatójának adatai fel lesznek töltve a Xiaomi szerverére az adatforgalmi adatok lekéréséhez.</string>
-    <string name="privacy_prompt_traffic_adjust_message">Miután elindította a hitelesítést, a MIUI rendszer csatlakozik a hálózathoz, kódolja a szolgáltatóinformációt, telefonszámot, IMEI számot és Mi Fiókot, és feltölti ezeket a MIUI szerverére. Mindez annak érdekében történik, hogy megszerezze a szolgáltatói sablont és megtudja, ha lehetséges, a vásárlás adatait.\10\10A hitelesítéskor a MIUI szöveges üzenetet fog küldeni a szolgáltatójának a hitelesítési sablon beszerzésének érdekében.</string>
+    <string name="privacy_prompt_traffic_adjust_message">Miután elindította a hitelesítést, a MIUI rendszer csatlakozik a hálózathoz, kódolja a szolgáltatóinformációt, telefonszámot, IMEI számot és Mi Fiókot, és feltölti ezeket a MIUI szerverére. Mindez annak érdekében történik, hogy megszerezze a szolgáltatói sablont és megtudja, ha lehetséges, a vásárlás adatait.
+	
+	A hitelesítéskor a MIUI szöveges üzenetet fog küldeni a szolgáltatójának a hitelesítési sablon beszerzésének érdekében.</string>
     <string name="privacy_prompt_upload">Feltöltés</string>
     <string name="privacy_protect_summary">Védje személyes adatait</string>
     <string name="privacy_protect_title">Adatvédelem</string>
@@ -2905,9 +2960,15 @@
     <string name="storage_available_total_size">%1$s elérhető ebből: %2$s</string>
     <string name="storage_available_total_size1">Foglalt: %1$s | Összesen: %2$s</string>
     <string name="storage_deepclean_entry">Mély tisztítás</string>
-    <string name="storage_dialog_unmountable">Ez a(z) ^1 sérült.\10\10A(z) ^1 használatához először be kell állítania.</string>
-    <string name="storage_dialog_unmounted">Ez a(z) USB storage device biztonságosan eltávolításra került, de még elérhető.\10\10A(z) ^1 használatához először csatlakoztatnia kell.</string>
-    <string name="storage_dialog_unsupported">Ez az eszköz nem támogatja a következőt: ^1.\10\10A(z) ^1 ezzel az eszközzel való használatához először be kell állítania.</string>
+    <string name="storage_dialog_unmountable">Ez a(z) ^1 sérült.
+	
+	A(z) ^1 használatához először be kell állítania.</string>
+    <string name="storage_dialog_unmounted">Ez a(z) USB tárolóeszköz biztonságosan eltávolításra került, de még elérhető.
+	
+A(z) ^1 használatához először csatlakoztatnia kell.</string>
+    <string name="storage_dialog_unsupported">Ez az eszköz nem támogatja a következőt: ^1.
+	
+A(z) ^1 ezzel az eszközzel való használatához először be kell állítania.</string>
     <string name="storage_format_failure">A(z) %1$s formázása sikertelen</string>
     <string name="storage_format_success">A(z) %1$s sikeresen formázva</string>
     <string name="storage_item_apk_name">APK-k</string>
@@ -2926,7 +2987,9 @@
     <string name="storage_unmount_failure">A(z) %1$s leválasztása sikertelen</string>
     <string name="storage_unmount_success">%1$s sikeresen leválasztva</string>
     <string name="storage_wizard_format_confirm_v2_action">^1 formázása</string>
-    <string name="storage_wizard_format_confirm_v2_body">Ezt a(z) ^1 SD-kártyát formázni kell az alkalmazások, fájlok és média tárolásához.\10\10A formázás eltávolítja a tartalmakat a(z) ^2 SD-kártyáról. A tartalmak elvesztésének elkerülése érdkeében készítsen róluk biztonsági mentést egy másik ^3 SD-kártyára vagy eszközre.</string>
+    <string name="storage_wizard_format_confirm_v2_body">Ezt a(z) ^1 SD-kártyát formázni kell az alkalmazások, fájlok és média tárolásához.
+	
+A formázás eltávolítja a tartalmakat a(z) ^2 SD-kártyáról. A tartalmak elvesztésének elkerülése érdekében készítsen róluk biztonsági mentést egy másik ^3 SD-kártyára vagy eszközre.</string>
     <string name="storage_wizard_format_confirm_v2_title">Formázza ezt a(z) ^1 SD-kártyát most?</string>
     <string name="suggest_app_tolock">Javaslatok</string>
     <string name="suggest_app_tolock_masked">Tartalom elrejtve</string>
@@ -3212,13 +3275,21 @@
     <string name="traffic_alert_auto_modify_notification_titile">Az adat-előfizetés frissítve</string>
     <string name="traffic_alert_auto_modify_package_summary">Automatikusan beállítja az adatcsomagot a szolgáltatói információ szerint</string>
     <string name="traffic_config_alert_auto_modify">Az adat-előfizetés automatikus frissítése</string>
-    <string name="traffic_config_alert_body">A szolgáltatói előfizetés szerint: %s\10\10Elfogadja?</string>
-    <string name="traffic_config_alert_body_extra">\10Ön további %1$s extra adatmennyiséget vásárolt ebben a hónapban. Ez különbözik a %2$s-tól, ami manuálisan lett hozzáadva.</string>
-    <string name="traffic_config_alert_body_extra_notset">\10Ön további %s extra adatmennyiséget vásárolt ebben a hónapban. Ez nem tükrözi a havi adatforgalmi korlátozást, melyet manuálisan beállított.</string>
-    <string name="traffic_config_alert_body_leisure">\10A csomagjának havi limitje csúcsidőn kívül %1$s. Ez különbözik az ön által beállított %2$s értéktől.</string>
-    <string name="traffic_config_alert_body_leisure_notset">\10Havi csomagjának adatforgalmi korlátja csúcsidőn kívül %1$s. Ön nem állított be csúcsidőn kívüli adatforgalmi korlátot.</string>
-    <string name="traffic_config_alert_body_normal">\10A csomagjának havi limitje csúcsidőben %1$s. Ez különbözik az ön által beállított %2$s értéktől.</string>
-    <string name="traffic_config_alert_package">\10Áthúzta az extra adatokat</string>
+    <string name="traffic_config_alert_body">A szolgáltatói előfizetés szerint: %s
+
+Elfogadja?</string>
+    <string name="traffic_config_alert_body_extra">"
+Ön további %1$s extra adatmennyiséget vásárolt ebben a hónapban. Ez különbözik a %2$s-tól, ami manuálisan lett hozzáadva."</string>
+    <string name="traffic_config_alert_body_extra_notset">"
+Ön további %s extra adatmennyiséget vásárolt ebben a hónapban. Ez nem tükrözi a havi adatforgalmi korlátozást, melyet manuálisan beállított".</string>
+    <string name="traffic_config_alert_body_leisure">"
+A csomagjának havi limitje csúcsidőn kívül %1$s. Ez különbözik az ön által beállított %2$s értéktől."</string>
+    <string name="traffic_config_alert_body_leisure_notset">"
+Havi csomagjának adatforgalmi korlátja csúcsidőn kívül %1$s. Ön nem állított be csúcsidőn kívüli adatforgalmi korlátot."</string>
+    <string name="traffic_config_alert_body_normal">"
+A csomagjának havi limitje csúcsidőben %1$s. Ez különbözik az ön által beállított %2$s értéktől."</string>
+    <string name="traffic_config_alert_package">"
+Áthúzta az extra adatokat"</string>
     <string name="traffic_config_alert_setted">Beállítások alkalmazva</string>
     <string name="traffic_config_alert_title">%s javítás</string>
     <string name="traffic_correction_failed">Adatforgalmi adatok fogadása nem sikerült</string>
@@ -3227,7 +3298,9 @@
     <string name="traffic_correction_success">Adatforgalom frissítve</string>
     <string name="traffic_correction_success_notify_message">A részletek megtekintéséhez érintse meg.</string>
     <string name="traffic_limit_error_alert_body">A még felhasználható adatmennyisége ebben a hónapban: %1$s. Ez több, mint a manuálisan beállított %2$s. Megváltoztatja a beállított értéket?</string>
-    <string name="traffic_limit_error_alert_package">\10\10A hátralévő adat tartalmazza az előző hónapból áthozott adat mennyiséget is.</string>
+    <string name="traffic_limit_error_alert_package">"
+	
+A hátralévő adat tartalmazza az előző hónapból áthozott adat mennyiséget is."</string>
     <string name="traffic_limit_error_alert_title">%s adatforgalmi korlát emlékeztető</string>
     <string name="traffic_none">Nincs</string>
     <string name="traffic_over_purchase_link">Elérte a mobiladat-kapcsolat limitjét.&lt;br/&gt;Ha tovább használja a mobilnetet, a szolgáltatója további díjat számolhat fel.&lt;br/&gt;&lt;br/&gt;&lt;font color=\'#ccffffff\'&gt;&lt;U&gt;Egyenleg feltöltéséhez érintse meg.&lt;/U&gt;&lt;/font&gt;</string>

@@ -151,7 +151,8 @@
     <string name="baby_album_new_photo_remind">Új fényképek vannak a Babaalbumban.</string>
     <string name="baby_album_setting_title">Baba adatai</string>
     <string name="baby_album_settings">Babaalbum beállításai</string>
-    <string name="baby_album_sharer_accept_dialog_msg">Kedves %1$snak/nek%2$s\10%3$s %4$s megosztotta %5$s albumát veled</string>
+    <string name="baby_album_sharer_accept_dialog_msg">Kedves %1$snak/nek%2$s
+%3$s %4$s megosztotta %5$s albumát veled</string>
     <string name="baby_album_sharer_recommand_face">Hozzáadja %1$s meglévő fényképeit?</string>
     <string name="baby_album_sharers_page_title">Megosztás a családdal</string>
     <string name="baby_birthday">Születésnap</string>
@@ -537,7 +538,8 @@
     <string name="ext_sdcard_permission_request_reason">A Galériának engedélyre van szüksége az SD-kártyához való hozzáféréshez. Ezzel törölheti és szerkesztheti az SD-kártyán tárolt képeit és videóit.</string>
     <string name="ext_sdcard_permission_request_title">Engedélyezze a galériának az SD-kártyához való hozzáférést</string>
     <string name="ext_sdcard_request_succeed_toast_text">Kész!</string>
-    <string name="face_album_empty">Nincs elegendő fénykép személyek felismeréséhez.\10Készítsen több fotót a barátairól!</string>
+    <string name="face_album_empty">Nincs elegendő fénykép személyek felismeréséhez.
+Készítsen több fotót a barátairól!</string>
     <string name="face_album_empty_syncing">Adatok szinkronizálása, jöjjön vissza később</string>
     <string name="face_album_empty_syncing_when_connect_wifi">Csatlakozzon a hálózathoz az adatok szinkronizálásához</string>
     <string name="face_album_long_tap_tip">Több személy kiválasztásához vagy a csoport beállításainak módosításához nyomja hosszan a profil fényképet</string>
@@ -560,7 +562,8 @@
     <string name="fancy_color_desc">Színek</string>
     <string name="fast_share_auto_render">Szépítés</string>
     <string name="fast_share_auto_render_finish">Szépítve</string>
-    <string name="feature_guidance_photo_effects">Új fényképeffektek \10érhetők el</string>
+    <string name="feature_guidance_photo_effects">Új fényképeffektek
+érhetők el</string>
     <string name="feature_guidance_video_editor_smart_effects">Új effektek érhetők el</string>
     <string name="file_cannot_print">Ez az elem nem nyomtatható.</string>
     <string name="file_cannot_screen_throw">Ez az elem nem vetíthető ki.</string>
@@ -633,8 +636,10 @@
     <string name="generate_story_summary">A MIUI kielemzi az Ön képeit és emlékeket hoz létre. Az emlékek létrehozásának letiltásához kapcsolja ki ezt a funkciót.</string>
     <string name="generate_story_title">Emlékek</string>
     <string name="get_album_info_in_process">Megosztott album adatainak lekérése…</string>
-    <string name="grant_permission_go_and_set">Beállítáa</string>
-    <string name="grant_permission_text">A megfelelő működéshez a Galéria hozzáférést igényel ehhez: \10%s\10, kattintson a \"Beállítás\" gombra az Engedélyekre lépéshez.</string>
+    <string name="grant_permission_go_and_set">Beállítás</string>
+    <string name="grant_permission_text">A megfelelő működéshez a Galéria hozzáférést igényel ehhez:
+%s
+kattintson a \"Beállítás\" gombra az Engedélyekre lépéshez.</string>
     <string name="grant_permission_title">Hozzáférés engedélyezése</string>
     <string name="grant_permission_unlock_and_set">Feloldás és beállítás</string>
     <string name="has_invalid_recipient">Érvénytelen címzett(ek): %1$s</string>
@@ -729,7 +734,8 @@
     <string name="main_save_origin">Eredeti fájl mentése</string>
     <string name="mark_myself_default_name">Én</string>
     <string name="mark_myself_suggestion_load_more">Ez nem én vagyok</string>
-    <string name="mark_myself_suggestion_title">A Galéria személyre szabásához\10válassza ki a fényképeket, amelyeken Ön látható</string>
+    <string name="mark_myself_suggestion_title">A Galéria személyre szabásához
+válassza ki a fényképeket, amelyeken Ön látható</string>
     <string name="mark_operation_failed">Hozzáadás sikertelen</string>
     <string name="mark_operation_processing">Folyamatban…</string>
     <string name="mark_operation_succeeded">Sikeresen hozzáadva</string>
@@ -993,7 +999,7 @@
     <string name="photo_font_download_without_wifi_title">Adatforgalmi figyelmeztetés</string>
     <string name="photo_movie_module_finish">Klippek betöltése sikeres</string>
     <string name="photo_movie_module_loading">Klippek betöltése…</string>
-    <string name="photo_movie_select_image_range">A klippek 3-20 képből állhatnak</string>
+    <string name="photo_movie_select_image_range">A Klippek 3-20 képből állhatnak</string>
     <string name="photo_page_save_uri_image_fail">Nem menthető a Galériába</string>
     <string name="photo_page_save_uri_image_ok">Fénykép mentve a Galériába</string>
     <string name="photo_print_menu_loading">Beépülő modul betöltése…</string>
@@ -1203,7 +1209,7 @@
     <string name="set_as_video_wallpaper_description">Letölti az elemet és használja videoháttérképként?</string>
     <string name="set_as_video_wallpaper_title">Beállítás videoháttérképként</string>
     <string name="set_as_wallpaper_description">Ez a kép egy indexkép, letölti az eredetit?</string>
-    <string name="set_as_wallpaper_title">Beálítás háttérképként</string>
+    <string name="set_as_wallpaper_title">Beállítás háttérképként</string>
     <string name="set_face_group_toast_msg_new_user">Nyomja hosszan egy személy névjegyét az összekapcsoláshoz vagy kihagyáshoz.</string>
     <string name="set_face_group_toast_msg_old_user">Tartsa az ujját a személy fotóján csoport létrehozásához (Család, Barátok, Osztálytársak, stb.)</string>
     <string name="set_face_group_toast_title_new_user">Javaslat</string>
@@ -1245,19 +1251,19 @@
     <string name="slim_running">Optimalizálás…</string>
     <string name="slim_space">felszabadult</string>
     <string name="slim_stop">Optimalizálás leállítása</string>
-    <string name="solar_term_clear_and_bright">Pure brightness</string>
-    <string name="solar_term_cold_dews">Cold dew</string>
-    <string name="solar_term_grain_buds">Grain buds</string>
-    <string name="solar_term_grain_in_ear">Grain in ear</string>
-    <string name="solar_term_grain_rain">Grain rain</string>
-    <string name="solar_term_great_cold">Great cold</string>
-    <string name="solar_term_hoar_frost_falls">Descent of frost</string>
-    <string name="solar_term_insects_awaken">Waking of insects</string>
-    <string name="solar_term_slight_cold">Slight cold</string>
-    <string name="solar_term_slight_heat">Slight heat</string>
-    <string name="solar_term_stopping_the_heat">End of heat</string>
-    <string name="solar_term_the_rains">Heavy rains</string>
-    <string name="solar_term_white_dews">White dew</string>
+    <string name="solar_term_clear_and_bright">Tiszta fényerő</string>
+    <string name="solar_term_cold_dews">Hideg harmat</string>
+    <string name="solar_term_grain_buds">Gabona rügyek</string>
+    <string name="solar_term_grain_in_ear">Gabona a fülben</string>
+    <string name="solar_term_grain_rain">Gabona eső</string>
+    <string name="solar_term_great_cold">Nagy hideg</string>
+    <string name="solar_term_hoar_frost_falls">A fagy ereszkedése</string>
+    <string name="solar_term_insects_awaken">A rovarok ébredése</string>
+    <string name="solar_term_slight_cold">Enyhe hideg</string>
+    <string name="solar_term_slight_heat">Enyhe meleg</string>
+    <string name="solar_term_stopping_the_heat">Vége a hőnek</string>
+    <string name="solar_term_the_rains">Heves esőzések</string>
+    <string name="solar_term_white_dews">Fehér harmat</string>
     <string name="special_type_eye_repair">Csukott szem megjavítva AI-val</string>
     <string name="special_type_night_beauty">AI alacsony fényviszony portré</string>
     <string name="special_type_night_mode">AI éjszakai mód</string>
@@ -1336,14 +1342,14 @@
     <string name="text_edit_sub_menu_text">Buborék</string>
     <string name="text_tab_bubble">Buborékok</string>
     <string name="text_tab_watermark">Vízjelek</string>
-    <string name="the_eve_of_the_spring_festival">Eve of Spring Festival</string>
-    <string name="the_fifth_day">Fifth Day</string>
-    <string name="the_forth_day">Fourth Day</string>
-    <string name="the_second_day">Second Day</string>
-    <string name="the_seventh_day">Seventh Day</string>
-    <string name="the_sixth_day">Sixth Day</string>
-    <string name="the_spring_festival">Spring Festival</string>
-    <string name="the_third_day">Third Day</string>
+    <string name="the_eve_of_the_spring_festival">Tavaszi Fesztivál estéje</string>
+    <string name="the_fifth_day">Ötödik nap</string>
+    <string name="the_forth_day">Negyedik nap</string>
+    <string name="the_second_day">Második nap</string>
+    <string name="the_seventh_day">Hetedik nap</string>
+    <string name="the_sixth_day">Hatodik nap</string>
+    <string name="the_spring_festival">Tavaszi Fesztivál</string>
+    <string name="the_third_day">Harmadik nap</string>
     <string name="things_album_empty_title">Rendezheti a fényképeket a rajtuk szereplő tárgyak alapján</string>
     <string name="throwing_print">Nyomtatás</string>
     <string name="throwing_screen">Kivetítés</string>

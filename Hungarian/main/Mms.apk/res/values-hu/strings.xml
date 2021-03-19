@@ -624,7 +624,8 @@
     <string name="second_mms_introduction">Váltás Második asztalra</string>
     <string name="second_mms_switch">Váltás</string>
     <string name="secs">mp</string>
-    <string name="security_alert_desc">\"A feladó nincs a névjegyek közt.\"\10\"</string>
+    <string name="security_alert_desc"><font color="#7f000000">"A feladó nincs a névjegyek közt.
+ "</font></string>
     <string name="security_alert_desc_highlight">Telefonszám bejelentése</string>
     <string name="security_alert_dialog_desc">A telefonszám (%s) és az üzenet elküldése a Xiaomihoz ellenőrzésre.</string>
     <string name="security_alert_dialog_title">Jelentés</string>
@@ -754,7 +755,8 @@
     <string name="type_to_compose_text_enter_to_send">Írja be az üzenetet</string>
     <string name="type_to_compose_text_or_leave_blank">Írja be az üzenetet, vagy hagyja üresen</string>
     <string name="type_video">videó</string>
-    <string name="undelivered_msg_dialog_body">Nem lehet elküldeni ezt az üzenetet.\10Utolsó kísérlet: %s.</string>
+    <string name="undelivered_msg_dialog_body">Nem lehet elküldeni ezt az üzenetet.
+Utolsó kísérlet: %s.</string>
     <string name="undelivered_msg_dialog_title">Kézbesítetlen üzenet</string>
     <string name="undelivered_sms_dialog_body">Nem lehet elküldeni ezt az üzenetet.</string>
     <string name="unknown_num">Ismeretlen szám</string>
@@ -765,8 +767,10 @@
     <string name="unsubscribe">Leiratkozás</string>
     <string name="unsupported_media_format">Nem támogatott %1$s formátum.</string>
     <string name="updating">Frissítés…</string>
-    <string name="url_fraud_dangerous_alert">A weboldal, amit próbál meglátogatni veszélyes lehet. Sérülést okozhat az készülékén vagy adataiban. Megnyitja?\10%s</string>
-    <string name="url_fraud_risky_alert">A(z) %s weboldal, amit próbál meglátogatni veszélyes lehet. Mindenképp megnyitja?\10</string>
+    <string name="url_fraud_dangerous_alert">A weboldal, amit próbál meglátogatni veszélyes lehet. Sérülést okozhat az készülékén vagy adataiban. Megnyitja?
+%s</string>
+    <string name="url_fraud_risky_alert">"A(z) %s weboldal, amit próbál meglátogatni veszélyes lehet. Mindenképp megnyitja?
+"</string>
     <string name="url_fraud_title">A weboldal hamis lehet</string>
     <string name="url_fraud_visit">Mégis megtekintem</string>
     <string name="url_result_safe">Ez az URL biztonságos</string>

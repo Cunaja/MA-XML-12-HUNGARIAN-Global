@@ -72,7 +72,8 @@
     <string name="localPhoneName">Telefon neve</string>
     <string name="no_transfers">Az átvitelek előzménye üres.</string>
     <string name="not_exist_file">Nincs fájl</string>
-    <string name="not_exist_file_desc">A fájl nem létezik. \10</string>
+    <string name="not_exist_file_desc">"A fájl nem létezik.
+"</string>
     <string name="notification_received">Bluetooth megosztás: %1$s fogadva</string>
     <string name="notification_received_fail">Bluetooth megosztás: %1$s fájl fogadása nem sikerült</string>
     <string name="notification_receiving">Bluetooth megosztás: %1$s fogadása</string>
@@ -115,7 +116,8 @@
     <string name="unknownNumber">Ismeretlen</string>
     <string name="unknown_device">Ismeretlen eszköz</string>
     <string name="unknown_file">Ismeretlen fájl</string>
-    <string name="unknown_file_desc">Nincs alkalmazás a fájltípus kezeléséhez. \10</string>
+    <string name="unknown_file_desc">"Nincs alkalmazás a fájltípus kezeléséhez.
+"</string>
     <string name="update_record">Rekord megerősítése</string>
     <string name="upload_fail_cancel">Bezárás</string>
     <string name="upload_fail_line1">A fájlt nem sikerült elküldeni a következőnek: \"%1$s\".</string>

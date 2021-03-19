@@ -5,7 +5,8 @@
     <string name="app_name">Készülékkeresés</string>
     <string name="captcha">Robotszűrő kód</string>
     <string name="change_find_device_status_failed">Nem sikerült kinyit. %s.</string>
-    <string name="default_debt_msg_words">Ez a készülék késedelmes részletfizetés miatt zárolva lett.\10Részletekért lépjen kapcsolatba az értékesítővel.</string>
+    <string name="default_debt_msg_words">Ez a készülék késedelmes részletfizetés miatt zárolva lett.
+Részletekért lépjen kapcsolatba az értékesítővel.</string>
     <string name="default_lock_msg_words">A készülék egy Mi Fiókhoz van kapcsolva. Biztonsági okokból meg kell adnia a jelszavát a készülék hitelesítéséhez.</string>
     <string name="default_lock_msg_words_with_phone">Üdv! Elveszítettem a telefonom. Megadná az elérhetőségét? Köszönöm!</string>
     <string name="device_locked">Ez a készülék le van zárva</string>
@@ -70,7 +71,14 @@
     <string name="unlock_error_unknown">A bejelentkezés sikertelen</string>
     <string name="unlock_error_user_name">Hibás felhasználónév</string>
     <string name="unlock_error_wrong_vcode">A megadott kód hibás</string>
-    <string name="unlock_help">Csatlakozzon a hálózathoz.\10Helyezzen be egy működő SIM-kártyát és ne csatlakozzon érvénytelen Wi-Fi-hálózatokhoz.\10\10Elfelejtette jelszavát?\10Menjen az id.mi.com-ra, válassza az „Elfelejtette jelszavát?” opciót és kövesse az utasításokat.\10\10Nem tudja aktiválni készülékét?\10Menjen az i.mi.com/ss oldalra és küldje be jelentkezését a készülék feloldásához.</string>
+    <string name="unlock_help">Csatlakozzon a hálózathoz.
+Helyezzen be egy működő SIM-kártyát és ne csatlakozzon érvénytelen Wi-Fi-hálózatokhoz.
+
+Elfelejtette jelszavát?
+Menjen az id.mi.com-ra, válassza az „Elfelejtette jelszavát?” opciót és kövesse az utasításokat.
+
+Nem tudja aktiválni készülékét?
+Menjen az i.mi.com/ss oldalra és küldje be jelentkezését a készülék feloldásához.</string>
     <string name="unlock_help_title">Feloldási segítség:</string>
     <string name="unlock_number">Kód feloldása: %s</string>
     <string name="unlock_wrong_captcha">A megadott kód hibás</string>

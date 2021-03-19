@@ -82,8 +82,11 @@
     <string name="catch_full_log_dialog_confirm_text">Vissza a Kezdőképernyőre</string>
     <string name="catch_full_log_dialog_content">A MIUI naplófájlokat generál. Ez korlátozhatja a készülék összteljesítményét. Ha nem képes a probléma újbóli előidézésére, térjen vissza a naplózáshoz és érintse meg a \"Mégse\" gombot.</string>
     <string name="catch_full_log_dump_hprof_failed">A napló létrehozása az akadozásokról nem sikerült</string>
-    <string name="catch_full_log_item_content_catch_direct">1. Lépjen vissza a jelentendő alkalmazásba és idézze elő a hibát.\102. Térjen vissza erre az oldalra és érintse meg a \"Befejezés és feltöltés\" gombot.</string>
-    <string name="catch_full_log_item_content_need_open">1. Érintse meg a \"Napló létrehozása\" lehetőséget.\102. Lépjen vissza a jelentendő alkalmazásba és idézze elő a hibát.\103. Térjen vissza erre az oldalra és érintse meg a \"Befejezés és feltöltés\" gombot.</string>
+    <string name="catch_full_log_item_content_catch_direct">1. Lépjen vissza a jelentendő alkalmazásba és idézze elő a hibát.
+2. Térjen vissza erre az oldalra és érintse meg a \"Befejezés és feltöltés\" gombot.</string>
+    <string name="catch_full_log_item_content_need_open">1. Érintse meg a \"Napló létrehozása\" lehetőséget.
+2. Lépjen vissza a jelentendő alkalmazásba és idézze elő a hibát.
+3. Térjen vissza erre az oldalra és érintse meg a \"Befejezés és feltöltés\" gombot.</string>
     <string name="catch_full_log_item_content_title">Lépések</string>
     <string name="catch_full_log_item_title_audio">Hang, hangfelvétel és hanghívás</string>
     <string name="catch_full_log_item_title_dump_heap">Akadozás</string>
@@ -123,7 +126,9 @@
     <string name="customer_service_station">Szolgáltatási helyek</string>
     <string name="description">Jellemezze a problémát angolul</string>
     <string name="diagnosis_log_send_failed">Naplók küldése sikertelen. Próbálja újra.</string>
-    <string name="diagnosis_log_sent_format">A naplók sikeresen elküldésre kerültek.\10Azonosító:%s\10Küldje el ezt a kódot a vezetőjének.</string>
+    <string name="diagnosis_log_sent_format">A naplók sikeresen elküldésre kerültek.
+Azonosító:%s
+Küldje el ezt a kódot a vezetőjének.</string>
     <string name="discard_draft_dialog_button_cancel">Nem</string>
     <string name="discard_draft_dialog_button_discard">Elvetés</string>
     <string name="discard_draft_dialog_content">A jelentésen végzett összes módosítás elveszik.</string>
@@ -172,7 +177,10 @@
     <string name="feedback_continue">Visszajelzés folytatása</string>
     <string name="feedback_delete_images">Képek törlése</string>
     <string name="feedback_description">Leírás</string>
-    <string name="feedback_description_hint">Mutassa be az itt felmerült problémát.\10%1$d. Melyik alkalmazásban vagy milyen oldalon találkozott a problémával?\10%2$d. Milyen műveletek elvégzése után jelent meg a probléma?\10%3$d. Adjon nekünk további információkat, amelyek segíthetnek a probléma megoldásában.</string>
+    <string name="feedback_description_hint">Mutassa be az itt felmerült problémát.
+%1$d. Melyik alkalmazásban vagy milyen oldalon találkozott a problémával?
+%2$d. Milyen műveletek elvégzése után jelent meg a probléma?
+%3$d. Adjon nekünk további információkat, amelyek segíthetnek a probléma megoldásában.</string>
     <string name="feedback_description_hint_suggestion">Áruld el, hogyan szeretnéd fejleszteni az MIUI-t.</string>
     <string name="feedback_description_suggest_hint">Szeretném, ha hozzáadnák ezt az új funkciót (...), mert szükségem van erre (...).</string>
     <string name="feedback_detail_copy_toast">Kimásolva a vágólapra</string>
@@ -414,7 +422,7 @@
     <string name="passport_unknow_host_network_error">Ellenőrizze a hálózati beállításokat, majd próbálja újra</string>
     <string name="passport_unknow_network_error">Hálózati hiba történt</string>
     <string name="passport_user_agreement_link">&lt;Data&gt;Elolvastam és elfogadom a Xiaomi &lt;a href=%1$s&gt;Felhasználói megállapodását&lt;/a&gt; és &lt;a href=%2$s&gt;Adatvédelmi szabályzatát&lt;/a&gt;.&lt;/Data&gt;</string>
-    <string name="passport_user_agreement_link_more">&lt;Data&gt;ELolvastam és elfogadom a következő dokumentumokat: Xiaomi &lt;a href=%1$s&gt;Felhasználóu megállapodása&lt;/a&gt; és &lt;a href=%4$s&gt;Adatvédelmi szabályzata&lt;/a&gt;, &lt;a href=%2$s&gt;%3$s&lt;/a&gt;.&lt;/Data&gt;</string>
+    <string name="passport_user_agreement_link_more">&lt;Data&gt;ELolvastam és elfogadom a következő dokumentumokat: Xiaomi &lt;a href=%1$s&gt;Felhasználói megállapodása&lt;/a&gt; és &lt;a href=%4$s&gt;Adatvédelmi szabályzata&lt;/a&gt;, &lt;a href=%2$s&gt;%3$s&lt;/a&gt;.&lt;/Data&gt;</string>
     <string name="passport_user_id_intro">Adja meg a jelszót a következőhöz: %1$s</string>
     <string name="passport_v_code_error">Az ellenőrző kód érvénytelen</string>
     <string name="passport_vcode_notification_title">A bejelentkezés ellenőrzése befejezetlen</string>
@@ -527,7 +535,9 @@
     <string name="toast_third_packagename_required">Írja be az alkalmazás nevét</string>
     <string name="update_dialog_cancel">Mégse</string>
     <string name="update_dialog_confirm">Frissítés</string>
-    <string name="update_dialog_content_log">Újdonságok:\10%1$s\10Méret:%2$s</string>
+    <string name="update_dialog_content_log">Újdonságok:
+%1$s
+Méret:%2$s</string>
     <string name="update_dialog_content_version">Frissíthet a(z) %1$s verzióra.</string>
     <string name="update_dialog_title">Elérhető egy frissítés</string>
     <string name="update_email_address_dialog_message">A helyreállítási e-mail-cím frissítése előtt a személyazonosságának ellenőrzése szükséges.</string>

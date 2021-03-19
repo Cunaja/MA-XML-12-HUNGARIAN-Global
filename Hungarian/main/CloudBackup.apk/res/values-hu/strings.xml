@@ -73,8 +73,18 @@
     <string name="cloud_app_restore_success">Alkalmazások visszaállítva</string>
     <string name="cloud_app_restore_wifi_prompt">Visszaállítás a Xiaomi Cloudból.</string>
     <string name="cloud_back_up_date_format">yyyy.MM.dd HH:mm</string>
-    <string name="cloud_back_up_detail_discription">Az alábbi elemek kerülnek majd mentésre a Xiaomi Cloud-tárhelyre, ha telefonja Wi-Fi-hez csatlakozik: \10*  Alkalmazások, Kezdőképernyő-elrendezés és háttérképek \10*  Ébresztési-, Óra- és Időbeállítások \10*  Értesítések beállításai \10*  MIUI- és rendszerbeállítások \10\"Figyelem: Az Ön által telepített alkalmazások adatai nem kerülnek Xiaomi Cloud mentésre.</string>
-    <string name="cloud_back_up_detail_discription_china">These items will be backed up to Xiaomi Cloud when your device is connected to WLAN: \10*  Apps, Home screen layout, and wallpapers \10*  Alarm, clock, and time settings \10*  Notification settings \10*  MIUI and system settings \10Note: Data for apps you\'ve installed won\'t be backed up to Xiaomi Cloud.</string>
+    <string name="cloud_back_up_detail_discription">"Az alábbi elemek kerülnek majd mentésre a Xiaomi Cloud-tárhelyre, ha telefonja Wi-Fi-hez csatlakozik:
+*  Alkalmazások, Kezdőképernyő-elrendezés és háttérképek
+*  Ébresztési-, Óra- és Időbeállítások
+*  Értesítések beállításai
+*  MIUI- és rendszerbeállítások
+Figyelem: Az Ön által telepített alkalmazások adatai nem kerülnek Xiaomi Cloud mentésre."</string>
+    <string name="cloud_back_up_detail_discription_china">"Az alábbi elemek kerülnek majd mentésre a Xiaomi Cloud-tárhelyre, ha telefonja Wi-Fi-hez csatlakozik:
+*  Alkalmazások, Kezdőképernyő-elrendezés és háttérképek
+*  Ébresztési-, Óra- és Időbeállítások
+*  Értesítések beállításai
+*  MIUI- és rendszerbeállítások
+Figyelem: Az Ön által telepített alkalmazások adatai nem kerülnek Xiaomi Cloud mentésre."</string>
     <string name="cloud_back_up_frequence_choice_title">Mentés ütemezése</string>
     <string name="cloud_back_up_frequence_long">Minden 7. napon</string>
     <string name="cloud_back_up_frequence_short">Minden nap</string>
@@ -89,7 +99,7 @@
     <string name="cloud_backup_detail_manage">Mentések kezelése</string>
     <string name="cloud_backup_detail_state">Automatikus mentések</string>
     <string name="cloud_backup_detail_state_summary">A Xiaomi Cloud mentés automatikus elkészítése Wi-Fi-kapcsolat esetén.</string>
-    <string name="cloud_backup_detail_state_summary_china">Create Xiaomi Cloud backups automatically when connected to WLAN.</string>
+    <string name="cloud_backup_detail_state_summary_china">A Xiaomi Cloud mentés automatikus elkészítése Wi-Fi-kapcsolat esetén.</string>
     <string name="cloud_backup_detail_time">Utolsó mentés: %1$s</string>
     <string name="cloud_backup_detail_title">Kezdőképernyő, alkalmazások és beállítások.</string>
     <string name="cloud_backup_have_data">Mentés található a Xiaomi Cloudban</string>
@@ -186,7 +196,8 @@
     <string name="restore_app_order_finish">Kész</string>
     <string name="restore_app_order_loading">Egy pillanat…</string>
     <string name="restore_app_order_retry">Próbálja újra</string>
-    <string name="restore_app_order_retry_desc">Nem sikerült csatlakozni a hálózathoz.\10Ellenőrizze a hálózati beállításokat és próbálja újra.</string>
+    <string name="restore_app_order_retry_desc">Nem sikerült csatlakozni a hálózathoz.
+Ellenőrizze a hálózati beállításokat és próbálja újra.</string>
     <string name="restore_app_order_search_hint">Elemek keresése a fontosság beállításához</string>
     <string name="restore_app_order_search_installed">Ezen a készüléken lévő alkalmazások</string>
     <string name="restore_app_order_search_normal">Normál fontosságú alkalmazások</string>

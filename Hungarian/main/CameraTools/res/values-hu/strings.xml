@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Ugrás a főoldalra</string>
+    <string name="abc_action_bar_up_description">Felfelé mozgatás</string>
+    <string name="abc_action_menu_overflow_description">További lehetőségek</string>
+    <string name="abc_action_mode_done">Kész</string>
+    <string name="abc_activity_chooser_view_see_all">Összes megtekintése</string>
+    <string name="abc_activitychooserview_choose_application">Válasszon ki egy alkalmazást</string>
+    <string name="abc_capital_off">KI</string>
+    <string name="abc_capital_on">BE</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">Szóköz</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Keresés…</string>
+    <string name="abc_searchview_description_clear">Lekérdezés törlése</string>
+    <string name="abc_searchview_description_query">Keresési lekérdezés</string>
+    <string name="abc_searchview_description_search">Keresés</string>
+    <string name="abc_searchview_description_submit">Lekérdezés küldése</string>
+    <string name="abc_searchview_description_voice">Hangalapú keresés</string>
+    <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
+    <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
+    <string name="abc_toolbar_collapse_description">Összecsukás</string>
+	<string name="api_unsupport">"Ez az eszköz nem támogatja a Camera2 API-t."</string>
+    <string name="app_name">Kameraeszközök</string>
     <string name="calendar_default_name">Alapértelmezett</string>
     <string name="calendar_info">Naptár információ</string>
     <string name="calendar_info_error">Hiba</string>
@@ -7,6 +36,27 @@
     <string name="calendar_info_events_dirty">Események: %1$d, Nincs mentve: %2$d</string>
     <string name="calendar_info_no_calendars">Nincsenek naptárak</string>
     <string name="calendar_storage">Naptártároló</string>
+    <string name="cali_button">Kalibráció</string>
+    <string name="cali_done">Kalibrálás kész!</string>
+    <string name="cali_fail">Hiba</string>
+    <string name="cali_failed">A kalibrálás nem sikerült, próbálkozz újra!</string>
+    <string name="cali_failed_distance_too_close">"Nem sikerült kalibrálni. Lépjen ki a mintától, és próbálkozzon újra."</string>
+    <string name="cali_failed_distance_too_far">"Nem sikerült kalibrálni. Menjen közelebb a mintához, és próbálja újra."</string>
+    <string name="cali_failed_module_mismatch">A kalibrálás nem sikerült</string>
+    <string name="cali_going">A kalibrálás folyamatban van...</string>
+    <string name="cali_pass">Pass</string>
+    <string name="cali_prompt_info">Győződjön meg arról, hogy a pontozott négyzetek hozzáérnek a keret határaihoz</string>
+    <string name="cali_title">Kamera beállítás</string>
+    <string name="calibration_hint_usage">A kamera nincs kalibrálva. Kérjük, fejezze be a kalibrálást.</string>
+    <string name="camera_capture">Rögzítés</string>
+    <string name="camera_check_summary">"Tesztelési utasítások:
+
+1.Koppintson a kalibrálás gombra.
+2.A fényképezőgép kalibrálását jelzi egy kalibrálási engedély címke.
+3.Végezze el a kalibrálást a visszaküldött eredmény felszólítása szerint. Miután a kalibrálás sikeres volt, kattintson a Pass gombra.
+4.Indítsa újra az eszközt az adatok kalibrálása és a változtatások végrehajtása érdekében."</string>
+    <string name="capture_fail">A rögzítés sikertelen, próbálkozzon újra!</string>
+    <string name="capture_success">Kattintson a kalibrálás gombra!</string>
     <string name="channel_name">Naptáremlékeztetők</string>
     <string name="cta_notice">Indítsa el a Naptárat, majd először engedélyezze, hogy az csatlakozzon az internetre.</string>
     <string name="debug_tool_delete_button">Törlés</string>
@@ -22,5 +72,7 @@
     <string name="holiday_update_summary">Érintse meg a naptár adatainak frissítéséhez.</string>
     <string name="holiday_update_title">Frissítés érhető el</string>
     <string name="provider_label">Naptár</string>
+    <string name="search_menu_title">Keresés</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="upgrade_msg">Naptár adatbázisának frissítése…</string>
 </resources>

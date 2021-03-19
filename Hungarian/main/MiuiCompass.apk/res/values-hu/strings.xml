@@ -42,7 +42,7 @@
     <string name="cta_agree_desc">Az alkalmazás összes funkciójának használatához engedélyezze az internethez való csatlakozást és adja meg az opcionális engedélyeket.</string>
     <string name="cta_v2_app_purpose">útirány, koordináták, légnyomás és aktuális magasság megjelenítése</string>
     <string name="dialog_body_no_network">Csatlakozzon WIFI-hez vagy kapcsolja be a mobiladatforgalmat.</string>
-    <string name="dialog_body_no_network_china">Connect to WLAN or turn on mobile data.</string>
+    <string name="dialog_body_no_network_china">Csatlakozzon a WLAN hálózathoz, vagy kapcsolja be a mobil adatot.</string>
     <string name="dialog_calibrat_altitude">Kalibrálás…</string>
     <string name="dialog_title_no_network">Nem sikerült kapcsolódni a hálózathoz</string>
     <string name="direction_east">K</string>

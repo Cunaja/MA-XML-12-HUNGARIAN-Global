@@ -452,7 +452,9 @@
     <string name="usb_audio_disable_routing_summary">Automatikus hangátirányítás tiltása USB-hangeszközök használatakor</string>
     <string name="use_system_language_to_select_input_method_subtypes">A rendszernyelv használata</string>
     <string name="user_add_user_item_title">Felhasználó</string>
-    <string name="user_add_user_message_short">Amikor egy új felhasználót ad hozzá, neki be kell állítania a saját asztalát.\10\10Minden felhasználó frissítheti az alkalmazásokat az összes többi felhasználó számára.</string>
+    <string name="user_add_user_message_short">Amikor egy új felhasználót ad hozzá, neki be kell állítania a saját asztalát.
+
+Minden felhasználó frissítheti az alkalmazásokat az összes többi felhasználó számára.</string>
     <string name="user_add_user_title">Hozzáad egy új felhasználót?</string>
     <string name="user_add_user_type_title">Hozzáad</string>
     <string name="user_guest">Vendég</string>
@@ -522,8 +524,10 @@
     <string name="wifi_unmetered_label">Nem mért</string>
     <string name="wifi_wapi_as_certificate">AS-tanúsítvány</string>
     <string name="wifi_wapi_cert_mode_hand_text">Manuális kiválasztás</string>
-    <string name="wifi_wapi_fail_to_auth">A WAPI hitelesítés nem végezhető el.\10Győződjön meg róla, hogy a tanúsítvány valódi.</string>
-    <string name="wifi_wapi_fail_to_init">A WAPI-tanúsítványokat nem lehet megnyitni.\10Úgy tűnik, nincs engedélyezve a hitelesítőtároló.</string>
+    <string name="wifi_wapi_fail_to_auth">A WAPI hitelesítés nem végezhető el.
+Győződjön meg róla, hogy a tanúsítvány valódi.</string>
+    <string name="wifi_wapi_fail_to_init">A WAPI-tanúsítványokat nem lehet megnyitni.
+Úgy tűnik, nincs engedélyezve a hitelesítőtároló.</string>
     <string name="wifi_wapi_psk_type">Jelszótípus</string>
     <string name="wifi_wapi_user_certificate">Felhasználói tanúsítvány</string>
     <string name="window_animation_scale_title">Ablakanimáció tempója</string>

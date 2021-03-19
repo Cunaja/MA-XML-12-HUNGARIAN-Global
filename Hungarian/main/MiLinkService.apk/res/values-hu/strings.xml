@@ -26,9 +26,9 @@
     <string name="am">de.</string>
     <string name="casting_tips">Kivetítés…</string>
     <string name="clearable_edittext_clear_description">Törlés</string>
-    <string name="close_hotspot_hint">Kívetítés előtt kapcsolja ki a hordozható hotspotot</string>
+    <string name="close_hotspot_hint">Kivetítés előtt kapcsolja ki a hordozható hotspotot</string>
     <string name="close_slave_wifi_hint">Kivetítés előtt csatlakozzon le a segéd Wi-Fi-hálózatokról</string>
-    <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
+    <string name="close_slave_wifi_hint_china">Átküldés előtt bontsa a kapcsolatot a kiegészítő WLAN-hálózatokkal</string>
     <string name="console_guide_btn_got_it">Rendben</string>
     <string name="console_guide_subtitle_hang_up">Folytathatja a kivetítést, ha a készülék képernyője ki van kapcsolva. Ez a funkció csökkenti az energiafogyasztást.</string>
     <string name="console_guide_subtitle_private">Ne jelenítsen meg lebegő értesítéseket, bejövő hívásokat és egyéb személyes elemeket a külső monitorokon</string>
@@ -48,14 +48,19 @@
     <string name="dialog_miplay_permission_title">Engedélyek szükségesek</string>
     <string name="dialog_nfc_cast_wifi_off">Wi-Fi bekapcsolása kivetítéshez az NFC használatával. Bekapcsolja most?</string>
     <string name="dialog_no_device_message">&lt;Data&gt;1. Csatlakoztassa mind a telefont, mind a TV-t ugyanabba a Wi-Fi hálózatba.&lt;br&gt;&lt;br&gt;2. Néhány TV-modellnél ez a funkció csak akkor elérhető, ha a képernyő tükrözése be van kapcsolva. További információkért tekintse meg a &lt;a href=milink://com.milink.service/specification&gt;\"Súgó\"&lt;/a&gt; menüpontot.&lt;/Data&gt;</string>
-    <string name="dialog_no_device_message_china">&lt;Data&gt;1. Connect both your phone and TV to the same WLAN network.&lt;br&gt;&lt;br&gt;2. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification&gt;\"Help\"&lt;/a&gt; to learn more.&lt;/Data&gt;</string>
+    <string name="dialog_no_device_message_china">&lt;Data&gt;1. Csatlakoztassa a telefont és a tévét is ugyanahhoz a WLAN hálózathoz.&lt;br&gt;&lt;br&gt;2. Egyes tévékészülékeknél ez a funkció csak akkor érhető el, ha a képernyő tükrözése be van kapcsolva. Nézet &lt;a href=milink://com.milink.service/specification&gt;\"Súgó\"&lt;/a&gt; több tananyag.&lt;/Data&gt;</string>
     <string name="dialog_only_suport_content">Képek, videók vagy zene streamelése</string>
     <string name="dialog_open_wifi_bt">Bekapcsolás</string>
-    <string name="dialog_please_make_sure_tv_ok_or_help">Gondoskodjon róla, hogy a vezeték nélküli felvétel funkció be van kapcsolva a céleszközön.\10Ha problémája akad a csatlakozással, tekintse meg a Súgót.</string>
+    <string name="dialog_please_make_sure_tv_ok_or_help">Gondoskodjon róla, hogy a vezeték nélküli felvétel funkció be van kapcsolva a céleszközön.
+Ha problémája akad a csatlakozással, tekintse meg a Súgót.</string>
     <string name="dialog_recent_connected">Legutóbbi</string>
     <string name="dialog_retry">Próbálja újra</string>
-    <string name="dialog_scan_message">1. Csatlakoztassa mind a telefont, mind a TV-t ugyanabba a Wi-Fi hálózatba.\10\102. Néhány TV-modellnél ez a funkció csak akkor elérhető, ha a képernyő tükrözése be van kapcsolva.További információkért tekintse meg a \"Súgó\" menüpontot.</string>
-    <string name="dialog_scan_message_china">1. Connect both your phone and TV to the same WLAN network.\10\102. On some TV models, this feature is only available when screen mirroring is on. View \"Help\" to learn more.</string>
+    <string name="dialog_scan_message">1. Csatlakoztassa mind a telefont, mind a TV-t ugyanabba a Wi-Fi hálózatba.
+
+2. Néhány TV-modellnél ez a funkció csak akkor elérhető, ha a képernyő tükrözése be van kapcsolva.További információkért tekintse meg a \"Súgó\" menüpontot.</string>
+    <string name="dialog_scan_message_china">1. Csatlakoztassa a telefont és a tévét is ugyanahhoz a WLAN hálózathoz.
+
+2. Egyes tévékészülékeknél ez a funkció csak akkor érhető el, ha a képernyő tükrözése be van kapcsolva. Nézet \"Súgó\" több tananyag.</string>
     <string name="dialog_scanning_device">Készülékek keresése a közelben…</string>
     <string name="dialog_scanning_precondition">A Vezeték nélküli megjelenítés használatához kapcsolja be a WIFI-t és a Bluetooth-t.</string>
     <string name="dialog_select_tv">Eszköz kiválasztása (%d)</string>
@@ -88,18 +93,31 @@
     <string name="help_page_text_03">A kivetítés során a telefonjának képernyőjéről kivetíthet egy nagyobb külső monitorra. Ezzel megoszthat képeket és videókat ismerőseivel és családjával anélkül, hogy mobiladatforgalmat kellene használnia.</string>
     <string name="help_page_text_04">Hogyan vetíthetek ki dolgokat egy nagyobb képernyőre?</string>
     <string name="help_page_text_05">1. lépés: ellenőrizze eszközeit és a hálózati környezetet</string>
-    <string name="help_page_text_06">1. Ha Mi telefonról szeretne Mi TV-re kivetíteni, nem kell csatlakoznia az internethez.\102. Ha nem tud kapcsolatot teremteni a két eszköz között, próbálja meg mindkét eszközt ugyanarra a WIFI-hálózatra csatlakoztatni.</string>
-    <string name="help_page_text_06_global">1. Mi TV-k, Mi Boxok és Mi Projektorok:\10A legnagyobb hatékonyság érdekében telefonját és külső monitorját ugyanarra a Wi-Fi-hálózatra csatlakoztassa. Ha eltérő hálózatra vannak csatlakoztatva, lehetséges, hogy eltart egy kis ideig a külső monitor megtalálása és csatlakoztatása.\10Figyelem: A régebbi Mi TV-k lehetséges, hogy nem támogatják az eltérő hálózatokról való vetítést.\102. Ha más márkájú tévét, set-top boxot vagy projektort használ, telefonját és külső monitorját ugyanarra a Wi-Fi-hálózatra csatlakoztassa.\10Ha a két készülék nem csatlakoztatható ugyanarra a hálózatra, kapcsolja be a Miracastot a külső monitoron. A Miracast-funkció elnevezése változó lehet.</string>
+    <string name="help_page_text_06">1. Ha Mi telefonról szeretne Mi TV-re kivetíteni, nem kell csatlakoznia az internethez.
+	2. Ha nem tud kapcsolatot teremteni a két eszköz között, próbálja meg mindkét eszközt ugyanarra a WIFI-hálózatra csatlakoztatni.</string>
+    <string name="help_page_text_06_global">1. Mi TV-k, Mi Boxok és Mi Projektorok:
+A legnagyobb hatékonyság érdekében telefonját és külső monitorját ugyanarra a Wi-Fi-hálózatra csatlakoztassa. Ha eltérő hálózatra vannak csatlakoztatva, lehetséges, hogy eltart egy kis ideig a külső monitor megtalálása és csatlakoztatása.
+Figyelem: A régebbi Mi TV-k lehetséges, hogy nem támogatják az eltérő hálózatokról való vetítést.
+2. Ha más márkájú tévét, set-top boxot vagy projektort használ, telefonját és külső monitorját ugyanarra a Wi-Fi-hálózatra csatlakoztassa.
+Ha a két készülék nem csatlakoztatható ugyanarra a hálózatra, kapcsolja be a Miracastot a külső monitoron. A Miracast-funkció elnevezése változó lehet.</string>
     <string name="help_page_text_08">2. lépés: Kapcsolja be a kivetítést</string>
     <string name="help_page_text_09">Koppintson telefonjának értesítési sávjában a „Kivetítés” lehetőségre. A stabilabb kapcsolat érdekében kapcsolja be a WIFI-t és a Bluetooth-t is.</string>
     <string name="help_page_text_10">Ha a Galériából vagy a Mi Videóból szeretne kivetíteni, használhatja az ezekbe az alkalmazásokba beépített kivetítési funkciókat.</string>
     <string name="help_page_text_11">3. lépés: Válasszon eszközt</string>
     <string name="help_page_text_12">A kivetítés elindításához válasszon egy külső eszközt az elérhető eszközök listájából.</string>
     <string name="help_page_text_13">Nem tud csatlakozni egy külső eszközhöz?</string>
-    <string name="help_page_text_14">1. Ha Xiaomi-eszközt szeretne használni, de nem találja az elérhető eszközök listájában, próbálja ki a következőt:\10Csatlakoztassa a telefonját és a külső monitort (pl. tévéjét) is ugyanarra a WIFI-hálózatra vagy csatlakoztassa a külső monitort telefonjának hotspotjára. Ha nincs elérhető WIFI-hálózat vagy nem tudja mindkét eszközt ugyanarra a hálózatra csatlakoztatni, ellenőrizze, hogy a kivetítési funkció friss-e a külső monitoron, kapcsolja be a Bluetooth-t a telefonján és a külső monitoron is, valamint kapcsolja be a Miracastot a tévéjén. \102. Ha először vetít ki Xiaomi-eszközön, el kell végeznie a hitelesítést. \103. Ha nem Xiaomi-eszközt szeretne használni, de nem találja eszközét az elérhető eszközök listáján, próbálja ki a következőt:\10Csatlakoztassa a telefonját és a külső monitort (pl. tévéjét) is ugyanarra a WIFI-hálózatra vagy csatlakoztassa a külső monitort telefonjának hotspotjára. Ha ez nem oldja meg a problémát, telepítse a LeEco kivetítő alkalmazást tévéjére és kövesse az utasításokat.</string>
-    <string name="help_page_text_14_global">1. Ha Xiaomi-eszközt szeretne használni, de nem találja az elérhető eszközök listájában, próbálja ki a következőt:\10Csatlakoztassa a telefonját és a külső monitort (pl. tévéjét) is ugyanarra a WIFI-hálózatra vagy csatlakoztassa a külső monitort telefonjának hotspotjára. Ha nincs elérhető WIFI-hálózat vagy nem tudja mindkét eszközt ugyanarra a hálózatra csatlakoztatni, ellenőrizze, hogy a kivetítési funkció friss-e a külső monitoron, kapcsolja be a Bluetooth-t a telefonján és a külső monitoron is, valamint kapcsolja be a Miracastot a tévéjén.\102. Ha először vetít ki Xiaomi-eszközön, el kell végeznie a hitelesítést.\103. Ha nem Xiaomi-eszközt szeretne használni, de nem találja eszközét az elérhető eszközök listáján, próbálja ki a következőt:\10Csatlakoztassa a telefonját és a külső monitort (pl. tévéjét) is ugyanarra a WIFI-hálózatra vagy csatlakoztassa a külső monitort telefonjának hotspotjára.</string>
+    <string name="help_page_text_14">1. Ha Xiaomi-eszközt szeretne használni, de nem találja az elérhető eszközök listájában, próbálja ki a következőt:
+Csatlakoztassa a telefonját és a külső monitort (pl. tévéjét) is ugyanarra a WIFI-hálózatra vagy csatlakoztassa a külső monitort telefonjának hotspotjára. Ha nincs elérhető WIFI-hálózat vagy nem tudja mindkét eszközt ugyanarra a hálózatra csatlakoztatni, ellenőrizze, hogy a kivetítési funkció friss-e a külső monitoron, kapcsolja be a Bluetooth-t a telefonján és a külső monitoron is, valamint kapcsolja be a Miracastot a tévéjén.
+2. Ha először vetít ki Xiaomi-eszközön, el kell végeznie a hitelesítést.
+3. Ha nem Xiaomi-eszközt szeretne használni, de nem találja eszközét az elérhető eszközök listáján, próbálja ki a következőt:
+Csatlakoztassa a telefonját és a külső monitort (pl. tévéjét) is ugyanarra a WIFI-hálózatra vagy csatlakoztassa a külső monitort telefonjának hotspotjára. Ha ez nem oldja meg a problémát, telepítse a LeEco kivetítő alkalmazást tévéjére és kövesse az utasításokat.</string>
+    <string name="help_page_text_14_global">1. Ha Xiaomi-eszközt szeretne használni, de nem találja az elérhető eszközök listájában, próbálja ki a következőt:Csatlakoztassa a telefonját és a külső monitort (pl. tévéjét) is ugyanarra a WIFI-hálózatra vagy csatlakoztassa a külső monitort telefonjának hotspotjára. Ha nincs elérhető WIFI-hálózat vagy nem tudja mindkét eszközt ugyanarra a hálózatra csatlakoztatni, ellenőrizze, hogy a kivetítési funkció friss-e a külső monitoron, kapcsolja be a Bluetooth-t a telefonján és a külső monitoron is, valamint kapcsolja be a Miracastot a tévéjén.
+	2. Ha először vetít ki Xiaomi-eszközön, el kell végeznie a hitelesítést.
+	3. Ha nem Xiaomi-eszközt szeretne használni, de nem találja eszközét az elérhető eszközök listáján, próbálja ki a következőt:
+Csatlakoztassa a telefonját és a külső monitort (pl. tévéjét) is ugyanarra a WIFI-hálózatra vagy csatlakoztassa a külső monitort telefonjának hotspotjára.</string>
     <string name="help_page_text_15">A Miracast-funkció különböző eszközökön</string>
-    <string name="help_page_text_17">A legtöbb Bluetooth-funkcióval rendelkező Mi TV modellre kivetíthet Mi telefonjáról anélkül, hogy manuálisan bekapcsolná a Miracastot.\10Ha be kell kapcsolnia a Miracastot, nyomja meg a [MENU] gombot és válassza az Alkalmazásaim &gt; Kivetítés &gt; Miracast opciót.</string>
+    <string name="help_page_text_17">A legtöbb Bluetooth-funkcióval rendelkező Mi TV modellre kivetíthet Mi telefonjáról anélkül, hogy manuálisan bekapcsolná a Miracastot.
+Ha be kell kapcsolnia a Miracastot, nyomja meg a [MENU] gombot és válassza az Alkalmazásaim &gt; Kivetítés &gt; Miracast opciót.</string>
     <string name="help_page_text_17_1">Xiaomi ügyfélszolgálat: 400-100-5678</string>
     <string name="help_page_text_19">Először ellenőrizze, hogy eszköze támogatja-e a Miracast-funkciót. Némelyik modell esetén megnyomhatja a [SOURCE] gombot a távirányítón, és kiválaszthatja a „Képernyőtükrözés” opciót. Ez a funkció bizonyos modelleken alapértelmezésként be van kapcsolva.</string>
     <string name="help_page_text_20">Samsung ügyfélszolgálat: 400-810-5858</string>
@@ -125,8 +143,10 @@
     <string name="help_page_text_50">AODIN ügyfélszolgálat: 400-810-5858</string>
     <string name="help_page_text_52">Először ellenőrizze, hogy eszköze támogatja-e a Miracast-funkciót. Némelyik modellen kiválaszthatja a Beállítások &gt; Hálózatok &gt; Többképpernyő &gt; Vezeték nélküli megjelenítés.</string>
     <string name="help_page_text_53">LeEco ügyfélszolgálat: 10109000</string>
-    <string name="help_page_text_55">Ha nem tud csatlakozni a hálózathoz, ellenőrizze, hogy a külső monitor támogatja-e a Miracast-funkciót és hogy be van-e kapcsolva. Némelyik modell esetén ezt a funkciót Vezeték nélküli megjelenítésnek, Képernyőtükrözésnek, illetve Többképernyőnek hívják. Tekintse meg az alábbi információkat és tudja meg, hogyan kapcsolhatja be a Miracastot.\104. Ha problémába ütközik, a „Szolgáltatások és visszajelzés” alkalmazásban jelentheti.</string>
-    <string name="help_page_text_55_global">Ha nem tud csatlakozni a hálózathoz, ellenőrizze, hogy a külső monitor támogatja-e a Miracast-funkciót és hogy be van-e kapcsolva. Némelyik modell esetén ezt a funkciót Vezeték nélküli megjelenítésnek, Képernyőtükrözésnek, illetve Többképernyőnek hívják.\104. Ha problémába ütközik, a „Szolgáltatások és visszajelzés” alkalmazásban jelentheti.</string>
+    <string name="help_page_text_55">Ha nem tud csatlakozni a hálózathoz, ellenőrizze, hogy a külső monitor támogatja-e a Miracast-funkciót és hogy be van-e kapcsolva. Némelyik modell esetén ezt a funkciót Vezeték nélküli megjelenítésnek, Képernyőtükrözésnek, illetve Többképernyőnek hívják. Tekintse meg az alábbi információkat és tudja meg, hogyan kapcsolhatja be a Miracastot.
+	4. Ha problémába ütközik, a „Szolgáltatások és visszajelzés” alkalmazásban jelentheti.</string>
+    <string name="help_page_text_55_global">Ha nem tud csatlakozni a hálózathoz, ellenőrizze, hogy a külső monitor támogatja-e a Miracast-funkciót és hogy be van-e kapcsolva. Némelyik modell esetén ezt a funkciót Vezeték nélküli megjelenítésnek, Képernyőtükrözésnek, illetve Többképernyőnek hívják.
+	4. Ha problémába ütközik, a „Szolgáltatások és visszajelzés” alkalmazásban jelentheti.</string>
     <string name="help_page_text_end">Ha eszközének márkája nem látható itt, vegye fel a kapcsolatot a kivetítési funkcióval kapcsolatos további információkért.</string>
     <string name="keyguard_security_setting_privacy_policy">Adatvédelmi Irányelvek</string>
     <string name="midnight">Éjjel</string>
@@ -185,13 +205,19 @@
     <string name="privacy_permission_optional">Opcionális engedélyek</string>
     <string name="privacy_permission_optional_desc">További funkciókhoz használható, amíg használja őket</string>
     <string name="privacy_permission_wlan">Wi-Fi ki- és bekapcsolása</string>
-    <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
+    <string name="privacy_permission_wlan_china">A WLAN be- és kikapcsolása</string>
     <string name="privacy_permission_wlan_desc">A közelben elérhető eszközök megtalálásához</string>
     <string name="privacy_permission_wlan_desc_china">A közelben elérhető eszközök megtalálásához</string>
     <string name="privacy_positive">Elfogadom</string>
-    <string name="privacy_text_1">&lt;Data&gt;Üdvözli Önt a Kivetítés! A Kivetítés funkcióval kivetíthet telefonjának képernyőjéről egy nagyobb külső monitorra.\10Mi megvédjük az Ön személyes adatait a vonatkozó törvényi rendelkezésekkel, szabályozásokkal és adatvédelmi irányelvekkel összhangban. Némelyik funkciót egy harmadik fél szolgáltató, a HappyCast biztosítja. A funkció használata előtt olvassa el és fogadja el a &lt;a href=%2$s&gt;HappyCast jogi nyilatkozatát&lt;/a&gt; és a &lt;a href=%1$s&gt;HappyCast adatvédelmi irányelvét&lt;/a&gt;.\10A normál működés érdekében az alkalmazásnak csatlakoznia kell az internethez és az Ön személyes adatainak begyűjtéséhez szükségse van a következő engedélyekre.&lt;/Data&gt;</string>
-    <string name="privacy_text_2">&lt;Data&gt;Ha nem egyezik bele ezen engedélyek megadásába vagy személyes adatainak megosztásába és feltöltésébe, nem fogja tudni használni az alkalmazást. Ilyen esetben dönthet úgy, hogy letörli az alkalmazást, kijelentkezik vagy letiltja az engedélyeket a Beállításokban.\10A funkció használata előtt olvassa el és fogadja el &lt;a href=%1$s&gt;Felhasználói szerződésünket&lt;/a&gt; és &lt;a href=%2$s&gt;Adatvédelmi irányelvünket&lt;/a&gt;.&lt;/Data&gt;</string>
-    <string name="privacy_text_pemission">　　•Férjen hozzá és mentsen le képeket eszközére elemek külső monitorra való kivetítéséhez\10　　•Vegyen fel hívásokat és hanganyagot hang külső eszközökre való kivetítéséhez\10　　•Férjen hozzá telefonszámokhoz, az IMEI-hez és az IMSI-hez eszközének beazonosítása érdekében\10　　•Férjen hozzá helyzetéhez közeli eszközök megkereséséhez</string>
+    <string name="privacy_text_1">&lt;Data&gt;Üdvözli Önt a Kivetítés! A Kivetítés funkcióval kivetíthet telefonjának képernyőjéről egy nagyobb külső monitorra.
+	Mi megvédjük az Ön személyes adatait a vonatkozó törvényi rendelkezésekkel, szabályozásokkal és adatvédelmi irányelvekkel összhangban. Némelyik funkciót egy harmadik fél szolgáltató, a HappyCast biztosítja. A funkció használata előtt olvassa el és fogadja el a &lt;a href=%2$s&gt;HappyCast jogi nyilatkozatát&lt;/a&gt; és a &lt;a href=%1$s&gt;HappyCast adatvédelmi irányelvét&lt;/a&gt;.
+	A normál működés érdekében az alkalmazásnak csatlakoznia kell az internethez és az Ön személyes adatainak begyűjtéséhez szükségse van a következő engedélyekre.&lt;/Data&gt;</string>
+    <string name="privacy_text_2">&lt;Data&gt;Ha nem egyezik bele ezen engedélyek megadásába vagy személyes adatainak megosztásába és feltöltésébe, nem fogja tudni használni az alkalmazást. Ilyen esetben dönthet úgy, hogy letörli az alkalmazást, kijelentkezik vagy letiltja az engedélyeket a Beállításokban.
+	A funkció használata előtt olvassa el és fogadja el &lt;a href=%1$s&gt;Felhasználói szerződésünket&lt;/a&gt; és &lt;a href=%2$s&gt;Adatvédelmi irányelvünket&lt;/a&gt;.&lt;/Data&gt;</string>
+    <string name="privacy_text_pemission">　　•Férjen hozzá és mentsen le képeket eszközére elemek külső monitorra való kivetítéséhez
+•Vegyen fel hívásokat és hanganyagot hang külső eszközökre való kivetítéséhez
+•Férjen hozzá telefonszámokhoz, az IMEI-hez és az IMSI-hez eszközének beazonosítása érdekében
+•Férjen hozzá helyzetéhez közeli eszközök megkereséséhez</string>
     <string name="privacy_title">Figyelem</string>
     <string name="private_protect">Személyes elemek elrejtése</string>
     <string name="san_wait_msg_1">Kapcsolja be a vezeték nélküli felvételt a céleszközön</string>
@@ -227,7 +253,7 @@
     <string name="sunday">Vasárnap</string>
     <string name="sunday_short">V</string>
     <string name="sunday_shortest">v.</string>
-    <string name="synergy_casting">跨屏协作时无法使用投屏</string>
+    <string name="synergy_casting">A képernyőkön történő együttműködés során nem használható a képernyőtükrözés</string>
     <string name="the_anniversary_of_lifting_martial_law">A harci törvény feloldásának évfordulója</string>
     <string name="the_anti_aggression_day">Agresszióellenes Nap</string>
     <string name="the_arbor_day">A Fák Napja</string>

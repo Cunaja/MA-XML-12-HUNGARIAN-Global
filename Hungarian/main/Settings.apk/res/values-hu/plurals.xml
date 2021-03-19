@@ -369,12 +369,20 @@
         <item quantity="one">Tanúsítvány elfogadása megbízhatóként vagy eltávolítása</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message">
-        <item quantity="other">%s tanúsítványkibocsátókat telepített az Ön munkaprofiljához, ami lehetővé teheti a munkahelyi hálózati tevékenységek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.\10\10Ha további információt szeretne ezekről a tanúsítványokról, lépjen kapcsolatba a rendszergazdával.</item>
-        <item quantity="one">%s tanúsítványkibocsátót telepített az Ön munkaprofiljához, ami lehetővé teheti a munkahelyi hálózati tevékenységek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.\10\10Ha további információt szeretne erről a tanúsítványról, lépjen kapcsolatba a rendszergazdával.</item>
+        <item quantity="other">%s tanúsítványkibocsátókat telepített az Ön munkaprofiljához, ami lehetővé teheti a munkahelyi hálózati tevékenységek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.
+		
+Ha további információt szeretne ezekről a tanúsítványokról, lépjen kapcsolatba a rendszergazdával.</item>
+        <item quantity="one">%s tanúsítványkibocsátót telepített az Ön munkaprofiljához, ami lehetővé teheti a munkahelyi hálózati tevékenységek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.
+		
+Ha további információt szeretne erről a tanúsítványról, lépjen kapcsolatba a rendszergazdával.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner">
-        <item quantity="other">%s tanúsítványkibocsátókat telepített az Ön eszközére, ami lehetővé teheti a hálózati tevékenységeinek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.\10\10Ha további információt szeretne ezekről a tanúsítványokról, lépjen kapcsolatba a rendszergazdával.</item>
-        <item quantity="one">%s tanúsítványkibocsátót telepített az Ön eszközére, ami lehetővé teheti a hálózati tevékenységeinek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.\10\10Ha további információt szeretne erről a tanúsítványról, lépjen kapcsolatba a rendszergazdával.</item>
+        <item quantity="other">%s tanúsítványkibocsátókat telepített az Ön eszközére, ami lehetővé teheti a hálózati tevékenységeinek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.
+		
+10Ha további információt szeretne ezekről a tanúsítványokról, lépjen kapcsolatba a rendszergazdával.</item>
+        <item quantity="one">%s tanúsítványkibocsátót telepített az Ön eszközére, ami lehetővé teheti a hálózati tevékenységeinek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.
+		
+Ha további információt szeretne erről a tanúsítványról, lépjen kapcsolatba a rendszergazdával.</item>
     </plurals>
     <plurals name="ssl_ca_cert_settings_button">
         <item quantity="other">Tanúsítványok ellenőrzése</item>

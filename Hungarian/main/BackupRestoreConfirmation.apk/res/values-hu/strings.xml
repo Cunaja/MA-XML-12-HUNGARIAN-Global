@@ -2,7 +2,10 @@
 <resources>
     <string name="allow_backup_button_label">Adatok biztonsági mentése</string>
     <string name="allow_restore_button_label">Adatok visszaállítása</string>
-    <string name="backup_confirm_text">Kérés érkezett az összes adat biztonsági mentésére egy csatlakoztatott asztali számítógépre. Engedélyezi, hogy ez megtörténjen?\10\10Ha nem Ön kérte a mentést, ne engedélyezze a művelet folytatását.</string>
+    <string name="backup_confirm_text">Kérés érkezett az összes adat biztonsági mentésére egy csatlakoztatott asztali számítógépre. Engedélyezi, hogy ez megtörténjen?
+
+Ha nem Ön kérte a mentést, ne engedélyezze a művelet folytatását.</string>
+
     <string name="backup_confirm_title">Teljes biztonsági mentés</string>
     <string name="backup_enc_password_optional">Ha minden mentett adatot szeretne titkosítani, adjon meg egy jelszót alább:</string>
     <string name="backup_enc_password_required">Mivel az eszköz titkosítva van, a biztonsági mentést is titkosítani kell. Kérjük, alább adjon meg egy jelszót:</string>
@@ -12,7 +15,9 @@
     <string name="deny_restore_button_label">Ne állítsa vissza</string>
     <string name="device_encryption_backup_text">Kérjük, adja meg az eszköz titkosítási jelszavát. Ezt használjuk a biztonsági mentések archívumának titkosításához is.</string>
     <string name="device_encryption_restore_text">Kérjük, adja meg az eszköz titkosítási jelszavát.</string>
-    <string name="restore_confirm_text">Kérés érkezett egy csatlakoztatott asztali számítógép összes adatának teljes helyreállítására. Engedélyezi, hogy ez megtörténjen?\10\10Ha nem Ön kérte a visszaállítást, ne engedélyezze a művelet folytatását. Ez az eszközön lévő összes jelenlegi adatot felülírja!</string>
+    <string name="restore_confirm_text">Kérés érkezett egy csatlakoztatott asztali számítógép összes adatának teljes helyreállítására. Engedélyezi, hogy ez megtörténjen?
+
+Ha nem Ön kérte a visszaállítást, ne engedélyezze a művelet folytatását. Ez az eszközön lévő összes jelenlegi adatot felülírja!</string>
     <string name="restore_confirm_title">Teljes helyreállítás</string>
     <string name="restore_enc_password_text">Ha a visszaállítási adatok titkosítva vannak, kérjük, adja meg a jelszót alább:</string>
     <string name="toast_backup_ended">A biztonsági mentés befejeződött</string>

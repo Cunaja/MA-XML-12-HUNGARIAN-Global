@@ -244,16 +244,21 @@
     <string name="bluetooth_sap_profile_summary_connected">Csatlakozva az SAP-hoz</string>
     <string name="bluetooth_sap_profile_summary_use_for">Használat SIM-elérésre</string>
     <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bluetooth hang – bit/minta</string>
-    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Bluetooth-hangkodek aktiválása\10Kiválasztás: Bit/minta</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Bluetooth-hangkodek aktiválása
+Kiválasztás: Bit/minta</string>
     <string name="bluetooth_select_a2dp_codec_channel_mode">Bluetooth hang – Csatornamód</string>
-    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Bluetooth-hangkodek aktiválása\10Kiválasztás: Csatornamód</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Bluetooth-hangkodek aktiválása
+Kiválasztás: Csatornamód</string>
     <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Bluetooth LDAC hangkodek: lejátszási minőség</string>
-    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Bluetooth LDAC hangkodek aktiválása\10Kiválasztás: Lejátszási minőség</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Bluetooth LDAC hangkodek aktiválása
+Kiválasztás: Lejátszási minőség</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth hang – mintavételezési gyakoriság</string>
-    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Bluetooth-hangkodek aktiválása\10Kiválasztás: Mintavételezési gyakoriság</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Bluetooth-hangkodek aktiválása
+Kiválasztás: Mintavételezési gyakoriság</string>
     <string name="bluetooth_select_a2dp_codec_streaming_label">Streamelés: %1$s</string>
     <string name="bluetooth_select_a2dp_codec_type">Bluetooth hang – Kodek</string>
-    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth-hangkodek aktiválása\10Kiválasztás</string>
+    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth-hangkodek aktiválása
+Kiválasztás</string>
     <string name="bluetooth_select_a2dp_codec_type_help_info">A kiszürkítés azt jelenti, hogy nem támogatja telefon vagy headset</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">A Bluetooth AVRCP-verziójának kiválasztása</string>
     <string name="bluetooth_select_avrcp_version_string">A Bluetooth AVRCP-verziója</string>
@@ -560,7 +565,10 @@
     <string name="contactdeleteFailed">A névjegy törlése a SIM-kártyáról nem sikerült.</string>
     <string name="contactdeleteSuccess">A névjegy törölve a SIM-kártyáról.</string>
     <string name="content_description_menu_button">Menü</string>
-    <string name="convert_to_fbe_warning">Konvertálja az adatalapú titkosítást használó partíciót fájlalapú titkosítást használóvá.\10 FIGYELEM! A művelet minden adatot töröl.\10 A funkció alfatesztelésben van, és lehet, hogy nem megfelelően működik.\10 Nyomja meg a „Törlés és konvertálás…” lehetőséget a folytatáshoz.</string>
+    <string name="convert_to_fbe_warning">Konvertálja az adatalapú titkosítást használó partíciót fájlalapú titkosítást használóvá.
+ FIGYELEM! A művelet minden adatot töröl.
+ A funkció alfa-tesztelésben van, és lehet, hogy nem megfelelően működik.
+ Nyomja meg a „Törlés és konvertálás…” lehetőséget a folytatáshoz.</string>
     <string name="convert_to_file_encryption">Konvertálás fájlalapú titkosításra</string>
     <string name="convert_to_file_encryption_done">Már fájlalapú titkosítást használ</string>
     <string name="convert_to_file_encryption_enabled">Konvertálás…</string>
@@ -811,8 +819,10 @@
     <string name="force_resizable_activities_summary">Legyen az összes tevékenység átméretezhető a többablakos megjelenítés érdekében a jegyzékértékektől függetlenül.</string>
     <string name="force_rtl_layout_all_locales">Elrendezés jobbról balra</string>
     <string name="force_rtl_layout_all_locales_summary">Elrendezés jobbról balra minden nyelvnél</string>
-    <string name="fw_change_failed">Nem sikerült megváltoztatni a továbbítási számot.\10Ha a probléma továbbra is fennáll, forduljon a szolgáltatójához.</string>
-    <string name="fw_get_in_vm_failed">Nem sikerült lekérni és elmenteni a jelenlegi hívásátirányítási beállításokat.\10Mégis átvált az új szolgáltatóra?</string>
+    <string name="fw_change_failed">Nem sikerült megváltoztatni a továbbítási számot.
+Ha a probléma továbbra is fennáll, forduljon a szolgáltatójához.</string>
+    <string name="fw_get_in_vm_failed">Nem sikerült lekérni és elmenteni a jelenlegi hívásátirányítási beállításokat.
+Mégis átvált az új szolgáltatóra?</string>
     <string name="general_news_settings">Általános hírek</string>
     <string name="general_setting">Beállítások</string>
     <string name="get_pin2">Írja be a PIN2 kódot</string>
@@ -1159,7 +1169,8 @@
     <string name="network_settings_information">Mobiladatok kikapcsolása?</string>
     <string name="network_settings_next">Tovább</string>
     <string name="network_settings_query_failed_message">Hálózathoz csatlakozás sikertelen, nyomja meg a Mégse gombot az automatikus választáshoz, vagy OK gombot az újra próbálkozáshoz.</string>
-    <string name="network_settings_select_automatic_hint">A kiválasztott hálózatra nem lehet regisztrálni.\10Használja az elsődleges hálózatot ehelyett.</string>
+    <string name="network_settings_select_automatic_hint">A kiválasztott hálózatra nem lehet regisztrálni.
+Használja az elsődleges hálózatot ehelyett.</string>
     <string name="network_settings_title">Mobilszolgáltatók</string>
     <string name="network_settings_turn_off">Kikapcsolva</string>
     <string name="network_settings_warn_message">Készüléke csak a manuálisan kiválasztott hálózatot fogja használni.</string>
@@ -1235,7 +1246,9 @@
     <string name="ota_activate">Aktiválás</string>
     <string name="ota_call_end">Vissza</string>
     <string name="ota_failure">A telefon programozása sikertelen</string>
-    <string name="ota_hfa_activation_dialog_message">A telefon aktiválja a mobiladat-szolgáltatást.\10\10Ez akár 5 percet is igénybe vehet.</string>
+    <string name="ota_hfa_activation_dialog_message">A telefon aktiválja a mobiladat-szolgáltatást.
+
+Ez akár 5 percet is igénybe vehet.</string>
     <string name="ota_hfa_activation_title">Aktiválás...</string>
     <string name="ota_listen">Kövesse a hallott utasításokat, amíg azt nem hallja, hogy az aktiválás befejeződött.</string>
     <string name="ota_next">Tovább</string>
@@ -1249,9 +1262,14 @@
     <string name="ota_title_activate">Aktiválja telefonját</string>
     <string name="ota_title_activate_success">A telefon aktiválva.</string>
     <string name="ota_title_problem_with_activation">Gond volt az aktiválással</string>
-    <string name="ota_touch_activate">A telefonszolgáltatás aktiválásához egy speciális hívást kell indítania. \10\10Az \"Aktiválás\" megnyomása után kövesse az utasításokat.</string>
+    <string name="ota_touch_activate">A telefonszolgáltatás aktiválásához egy speciális hívást kell indítania. 
+
+Az \"Aktiválás\" megnyomása után kövesse az utasításokat.</string>
     <string name="ota_try_again">Újrapróbálkozás</string>
-    <string name="ota_unsuccessful">Nem aktiválta a telefont. \10Lehet, hogy keresnie kell egy jobb lefedettségű területet (egy ablak közelében vagy a szabadban). \10\10Próbálkozzon újra vagy hívja az ügyfélszolgálatot a további lehetőségekért.</string>
+    <string name="ota_unsuccessful">Nem aktiválta a telefont.
+Lehet, hogy keresnie kell egy jobb lefedettségű területet (egy ablak közelében vagy a szabadban). 
+
+Próbálkozzon újra vagy hívja az ügyfélszolgálatot a további lehetőségekért.</string>
     <string name="other_available_phone_accounts">Egyéb elérhető fiókok</string>
     <string name="other_settings">Egyéb hívásbeállítások</string>
     <string name="other_settings_category">Egyéb</string>
@@ -1295,7 +1313,8 @@
     <string name="path_turnover_mute_title">Rendszeralkalmazások/Telefon/A bejövő hívás beállításai/Lefordításkor némítás</string>
     <string name="path_voicemail_settings">Rendszeralkalmazások/Telefon/További beállítások/Hangposta beállítások</string>
     <string name="pause_prompt_no">Nem</string>
-    <string name="pause_prompt_str">Hangjelzések küldése\10</string>
+    <string name="pause_prompt_str">"Hangjelzések küldése
+"</string>
     <string name="pause_prompt_yes">Igen</string>
     <string name="payphone">Nyilvános telefon</string>
     <string name="phoneAppLabel">Telefonszolgáltatás</string>
@@ -1324,17 +1343,19 @@
     <string name="phone_report_title">Bejövő hívás adatainak elolvasása</string>
     <string name="picture_color_mode">Kép színe mód</string>
     <string name="picture_color_mode_desc">sRGB használata</string>
-    <string name="pin2_attempts">\10%d próbálkozási lehetősége maradt.</string>
+    <string name="pin2_attempts">"
+%d próbálkozási lehetősége maradt."</string>
     <string name="pin2_changed">A PIN2-kód sikeresen módosítva.</string>
     <string name="pin2_error_exception">Hálózattal vagy SIM kártyával kapcsolatos hiba</string>
     <string name="pin2_invalid">A fix hívószám nincs frissítve, mert hibás PIN kódot írt be.</string>
     <string name="pin2_invalid_or_name_is_too_long">Érvénytelen PIN-kód vagy a név túl hosszú.</string>
-    <string name="pin2_lock_warning">\10PIN2 funkciói a következő helytelen próbálkozás után le lesznek tiltva.</string>
+    <string name="pin2_lock_warning">"PIN2 funkciói a következő helytelen próbálkozás után le lesznek tiltva."</string>
     <string name="pin2_or_fdn_invalid">A fix hívószám nem lett frissítve. Hibás a PIN2 kód, vagy a telefonszámot elutasították.</string>
     <string name="pin2_unblocked">PIN2 kód letiltása feloldva</string>
     <string name="pin_changed">PIN-kód frissítve</string>
     <string name="pin_failed">A PIN-kód helytelen</string>
-    <string name="pin_lock_warning">\10Újabb hibás kísérlet után a telefon automatikusan lezár!</string>
+    <string name="pin_lock_warning">"
+Újabb hibás kísérlet után a telefon automatikusan lezár!"</string>
     <string name="pin_progress_change_pin">PIN változtatás…</string>
     <string name="pin_progress_change_pin2">PIN2 változtatás…</string>
     <string name="pin_progress_set_fdn_lock">FDN zár beállítás…</string>
@@ -1461,7 +1482,7 @@
     <string name="puk2_label">Írja be a PUK2-kódot</string>
     <string name="puk2_requested">A jelszó helytelen. SIM kártya zárolva. Adja meg a PUK2 kódot.</string>
     <string name="puk_label">Írja be a PUK-kódot</string>
-    <string name="puk_lock_warning">\10Újabb hibás kísérlet után a SIM-kártya zárolásra kerül.</string>
+    <string name="puk_lock_warning">"Újabb hibás kísérlet után a SIM-kártya zárolásra kerül."</string>
     <string name="puk_requested">A jelszó helytelen. PIN-kód letiltva. Adja meg a PUK kódot.</string>
     <string name="puk_unlocked">SIM kártyája letiltása megszűnt. Feloldás folyamatban...</string>
     <string name="quick_dial_setting_title">Gyorstárcsázás</string>
@@ -1500,7 +1521,11 @@
     <string name="radio_info_http_client_test">HTTP-kliens tesztje:</string>
     <string name="radio_info_ims_feature_status_available">Rendelkezésre áll</string>
     <string name="radio_info_ims_feature_status_unavailable">Nem áll rendelkezésre</string>
-    <string name="radio_info_ims_reg_status">IMS-regisztráció: %1$s\10Hanghívás LTE-adatkapcsolaton keresztül: %2$s\10Hanghívás Wi-Fi-kapcsolaton keresztül: %3$s\10Videohívás: %4$s\10UT-felület: %5$s</string>
+    <string name="radio_info_ims_reg_status">IMS-regisztráció: %1$s
+Hanghívás LTE-adatkapcsolaton keresztül: %2$s
+Hanghívás Wi-Fi-kapcsolaton keresztül: %3$s
+Videohívás: %4$s
+T-felület: %5$s</string>
     <string name="radio_info_ims_reg_status_not_registered">Nem regisztrált</string>
     <string name="radio_info_ims_reg_status_registered">Regisztrált</string>
     <string name="radio_info_ims_reg_status_title">IMS-állapot</string>
@@ -1595,7 +1620,9 @@
     <string name="roaming_user_package_summary_kr">Vásárolja meg, mondja le és szerkessze barangolási csomagját. A menü barangolás közbeni használatáért nem számítunk fel Önnek díjat.</string>
     <string name="roaming_user_package_title_kr">Barangolási csomag használata</string>
     <string name="roaming_warning">Lehet, hogy jelentős összeget számítanak fel érte.</string>
-    <string name="rtt_mode_more_information">Az RTT funkció a siket, hallássérült, beszédzavaros vagy a hangalapú kommunikáción kívül más kommunikációt is igénylő hívóknak lehet segítségére.&lt;br&gt; &lt;a href=http://support.google.com/mobile?p=telephony_rtt&gt;További információ.&lt;/a&gt;\10       &lt;br&gt;&lt;br&gt; - Az RTT-hívásokat a rendszer üzenetátiratként menti.\10       &lt;br&gt; - Az RTT funkció nem áll rendelkezésre videohívásokban.</string>
+    <string name="rtt_mode_more_information">Az RTT funkció a siket, hallássérült, beszédzavaros vagy a hangalapú kommunikáción kívül más kommunikációt is igénylő hívóknak lehet segítségére.&lt;br&gt; &lt;a href=http://support.google.com/mobile?p=telephony_rtt&gt;További információ.&lt;/a&gt;
+	       &lt;br&gt;&lt;br&gt; - Az RTT-hívásokat a rendszer üzenetátiratként menti.
+		   &lt;br&gt; - Az RTT funkció nem áll rendelkezésre videohívásokban.</string>
     <string name="rtt_mode_summary">Üzenetküldés engedélyezése a hangalapú hívásokban</string>
     <string name="rtt_mode_title">Valós idejű szöveg (RTT) típusú hívás</string>
     <string name="running_process_item_user_label">Felhasználó: %1$s</string>
@@ -1847,16 +1874,19 @@
     <string name="tethering_settings_not_available">Az internetmegosztási beállítások nem érhetők el ennél a felhasználónál</string>
     <string name="third_party_account_summary">Ezt a fiókot jelenleg a(z) %s alkalmazás használja.</string>
     <string name="throttle_current_usage">Az aktuális időszakban felhasznált adatmennyiség</string>
-    <string name="throttle_data_rate_reduced_subtext">Elérte a felső korlátot: %1$s\10Az adatsebesség lecsökken %2$d kb/s-ra</string>
+    <string name="throttle_data_rate_reduced_subtext">Elérte a felső korlátot: %1$s
+Az adatsebesség lecsökken %2$d kb/s-ra</string>
     <string name="throttle_data_usage">Adathasználat</string>
     <string name="throttle_data_usage_subtext">az időszakra vonatkozó maximum: %3$s/%1$s (%2$d٪)</string>
     <string name="throttle_help">További információ</string>
     <string name="throttle_help_subtext">További információk mobilszolgáltatója hálózatának adatfelhasználási irányelveiről</string>
     <string name="throttle_rate">Adatsebesség-irányelvek</string>
     <string name="throttle_rate_subtext">Az adatátvitel sebessége %1$d kb/s-ra csökken, ha átlépi az adathasználati korlátot.</string>
-    <string name="throttle_status_subtext">az időszakra vonatkozó maximum: %3$s/%1$s (%2$d٪)\10A következő időszak %4$d nap múlva kezdődik (%5$s)</string>
+    <string name="throttle_status_subtext">az időszakra vonatkozó maximum: %3$s/%1$s (%2$d٪)
+A következő időszak %4$d nap múlva kezdődik (%5$s)</string>
     <string name="throttle_time_frame">Adathasználat időtartama</string>
-    <string name="throttle_time_frame_subtext">A ciklus %1$d٪ -a letelt\10A következő időszak %2$d nap múlva kezdődik (%3$s)</string>
+    <string name="throttle_time_frame_subtext">A ciklus %1$d٪ -a letelt
+A következő időszak %2$d nap múlva kezdődik (%3$s)</string>
     <string name="time_unit_just_now">Az imént</string>
     <string name="title_cfu_enabled">Hívásátirányítás bekapcsolva</string>
     <string name="title_convert_fbe">Konvertálás fájlalapú titkosításra</string>
@@ -1918,8 +1948,14 @@
     <string name="user_add_profile_item_title">Korlátozott profil</string>
     <string name="user_add_user_item_summary">A felhasználóknak saját alkalmazásaik és tartalmaik vannak</string>
     <string name="user_add_user_item_title">Felhasználó</string>
-    <string name="user_add_user_message_long">További felhasználók létrehozásával megoszthatja ezt az eszközt másokkal. Minden felhasználó saját felülettel rendelkezik, amelyet személyre szabhat saját alkalmazásaival, háttérképével stb. A felhasználók módosíthatják az eszköz beállításait is, például a Wi‑Fi használatát, amely mindenkit érint.\10\10Ha új felhasználót ad hozzá, az illetőnek be kell állítania saját felületét.\10\10Bármely felhasználó frissítheti az alkalmazásokat valamennyi felhasználó számára. Előfordulhat, hogy a kisegítő lehetőségekkel kapcsolatos beállításokat és szolgáltatásokat nem viszi át a rendszer az új felhasználóhoz.</string>
-    <string name="user_add_user_message_short">Ha új felhasználót ad hozzá, az illetőnek be kell állítania saját tárterületét.\10\10Bármely felhasználó frissítheti az alkalmazásokat valamennyi felhasználó számára.</string>
+    <string name="user_add_user_message_long">További felhasználók létrehozásával megoszthatja ezt az eszközt másokkal. Minden felhasználó saját felülettel rendelkezik, amelyet személyre szabhat saját alkalmazásaival, háttérképével stb. A felhasználók módosíthatják az eszköz beállításait is, például a Wi‑Fi használatát, amely mindenkit érint.
+	
+Ha új felhasználót ad hozzá, az illetőnek be kell állítania saját felületét.
+
+Bármely felhasználó frissítheti az alkalmazásokat valamennyi felhasználó számára. Előfordulhat, hogy a kisegítő lehetőségekkel kapcsolatos beállításokat és szolgáltatásokat nem viszi át a rendszer az új felhasználóhoz.</string>
+    <string name="user_add_user_message_short">Ha új felhasználót ad hozzá, az illetőnek be kell állítania saját tárterületét.
+	
+Bármely felhasználó frissítheti az alkalmazásokat valamennyi felhasználó számára.</string>
     <string name="user_add_user_title">Hozzáad új felhasználót?</string>
     <string name="user_add_user_type_title">Hozzáadás</string>
     <string name="user_guest">Vendég</string>
@@ -1945,7 +1981,8 @@
     <string name="vice_slot_volte_data_switch_summary">Készüléke mobiladat-hálózatra fog csatlakozni a másodlagos SIM-kártyán zajló VoLTE hívások folyamán</string>
     <string name="vice_slot_volte_data_switch_title">A másodlagos SIM-kártyán mobiladat-forgalom használata VoLTE hívásokkor</string>
     <string name="video_calling_settings_title">Szolgáltatói videohívás</string>
-    <string name="vm_change_failed">Nem sikerült módosítani a hangposta számát.\10Ha a probléma továbbra is fennáll, forduljon a szolgáltatóhoz.</string>
+    <string name="vm_change_failed">Nem sikerült módosítani a hangposta számát.
+Ha a probléma továbbra is fennáll, forduljon a szolgáltatóhoz.</string>
     <string name="vm_change_pin_error_invalid">Az új PIN-kód érvénytelen karaktereket tartalmaz.</string>
     <string name="vm_change_pin_error_mismatch">A régi PIN-kód nem egyezik a tárolttal.</string>
     <string name="vm_change_pin_error_system_error">Nem sikerült módosítani a PIN-kódot</string>
@@ -1965,7 +2002,11 @@
     <string name="voice_service_cannot_call_notification_title">A jelenlegi hálózaton nem kezdeményezhet hívást</string>
     <string name="voice_service_switch_summary">Kapcsolja be a VoLTE hívási lehetőséget, ha VoLTE hálózatot használ</string>
     <string name="voice_service_switch_title">VoLTE hivási szolgáltatás használata</string>
-    <string name="voice_service_warning_dialog_body">Ez a tablet támogatja a VoLTE hívásokat a 4G hálózatokban. Győződjön meg róla, hogy a hálózat, amelyhez a készülék csatlakozik, támogatja ezt a funkciót. A VoLTE szolgáltatásokat a szolgáltató biztosítja. Vegye fel a kapcsolatot a helyi szolgáltatójával, hogy megtudja, a VoLTE támogatott-e az ön területén.\10\10Ha az állapotsoron megjelenik erre vonatkozó információ, akkor a VoLTE hívások nem érhetők el. Ha nem tud hívásokat kezdeményezni vagy fogadni, vagy a hívás megszakad, győződjön meg róla, hogy a hálózata kompatibilis a VoLTE-vel.\10\10A tablethez nincs fülhallgató csatlakoztatva. Kihangosított módra válthat, vagy fülhallgatót kell csatlakoztatnia a hívások kezdeményezéséhez.</string>
+    <string name="voice_service_warning_dialog_body">Ez a tablet támogatja a VoLTE hívásokat a 4G hálózatokban. Győződjön meg róla, hogy a hálózat, amelyhez a készülék csatlakozik, támogatja ezt a funkciót. A VoLTE szolgáltatásokat a szolgáltató biztosítja. Vegye fel a kapcsolatot a helyi szolgáltatójával, hogy megtudja, a VoLTE támogatott-e az ön területén.
+
+Ha az állapotsoron megjelenik erre vonatkozó információ, akkor a VoLTE hívások nem érhetők el. Ha nem tud hívásokat kezdeményezni vagy fogadni, vagy a hívás megszakad, győződjön meg róla, hogy a hálózata kompatibilis a VoLTE-vel.
+
+A tablethez nincs fülhallgató csatlakoztatva. Kihangosított módra válthat, vagy fülhallgatót kell csatlakoztatnia a hívások kezdeményezéséhez.</string>
     <string name="voice_service_warning_dialog_cancel">Mégse</string>
     <string name="voice_service_warning_dialog_ok">Rendben</string>
     <string name="voice_service_warning_dialog_ok_timer">Rendben (%d)</string>
@@ -1997,17 +2038,22 @@
     <string name="volte_switch_summary2">Bekapcsolás előtt győződjön meg arról, hogy a szolgáltatója támogatja-e ezt a funkciót. Ellenkező esetben a normál hívásait fogja érinteni.</string>
     <string name="volte_switch_title">VoLTE-használat</string>
     <string name="volte_tips_when_turn_on">A China Telecom VoLTE szolgáltatások csak az általa hálózatilag lefedett területeken nyújtja. Önnek a saját szolgáltatója biztosítja a VoLTE szolgáltatásokat.</string>
-    <string name="vowifi_emergency_notification_content">Segélyhívások kizárólag mobiladatforgalommmal lefedett területeken</string>
+    <string name="vowifi_emergency_notification_content">Segélyhívások kizárólag mobiladatforgalommal lefedett területeken</string>
     <string name="vowifi_emergency_notification_title">Vodafone WIFI-hívás</string>
     <string name="vowifi_emergency_warning_check">Ne jelenjen meg újra.</string>
-    <string name="vowifi_emergency_warning_message">Segélykérő hívások nem kezdeményezhetők WIFI-n keresztül.\10\10Segélyhívás kezdeményezéséhez a készülék automatikusan mobilhálózatra kapcsol (2G/3G).\10\10A segélyhívások csak a cellákkal lefedett területeken lehetségesek.</string>
+    <string name="vowifi_emergency_warning_message">Segélykérő hívások nem kezdeményezhetők WIFI-n keresztül.
+	
+Segélyhívás kezdeményezéséhez a készülék automatikusan mobilhálózatra kapcsol (2G/3G).
+
+A segélyhívások csak a cellákkal lefedett területeken lehetségesek.</string>
     <string name="vowifi_emergency_warning_title">Segélyhívások WIFI-híváson keresztül</string>
     <string name="vpn_settings_not_available">A VPN-beállítások nem érhetők el ennél a felhasználónál</string>
     <string name="vt_provisioned_switch_string">Videohívás beütemezve</string>
     <string name="vvm_unsupported_message_format">Nem támogatott üzenettípus. Hívja a következő telefonszámot az üzenet meghallgatásához: %s.</string>
     <string name="wait_for_debugger">Várjon a hibakeresőre.</string>
     <string name="wait_for_debugger_summary">A javított alkalmazás a hibakeresőre vár.</string>
-    <string name="wait_prompt_str">Elküldi a következő hangjelzéseket?\10</string>
+    <string name="wait_prompt_str">"Elküldi a következő hangjelzéseket?
+"</string>
     <string name="wfc_provisioned_switch_string">Wi-Fi-hívás beütemezve</string>
     <string name="wfcmode_mobile_preferred">Mobilhálózatok előnyben részesítése</string>
     <string name="wfcmode_wifi_only">Csak Wi-Fi</string>
@@ -2018,8 +2064,18 @@
     <string name="wifi_call_available_title">Wifi-hívások bekapcsolása</string>
     <string name="wifi_call_cancel">További információ</string>
     <string name="wifi_call_help">Súgó</string>
-    <string name="wifi_call_help_message_1">A Wi-Fi Hívás az Orange által biztosított szolgáltatás, amellyel Wi-Fi-n keresztül indíthat és fogadhat hívásokat. Ezt a funkciót rossz hálózati lefedettséggel rendelkező helyeken használhatja.\10\10A Wi-Fi hívás használatához kapcsolja be a Beállítások &gt; Wi-Fi hívás menüben.\10\10A szolgáltatás aktiválásához az Orange küldeni fog Önnek egy megerősítő üzenetet, amint a szolgáltatás elérhetővé válik. Ezután csatlakozhat a Wi-Fi-hálózathoz és indíthat hívásokat.\10\10A Wi-Fi-n keresztül indított hívások az Ön adatcsomagjának megfelelően keresztül kerülnek kiszámlázásra.\10\10Ha a funkció elérhető, a következő ikont fogja látni a képernyő tetején.</string>
-    <string name="wifi_call_help_message_2">Ha a Wi-Fi-hálózatok használatát választja, hívásindításhoz ez lesz az alapértelmezett beállítás. Ha nincs Wi-Fi-hez csatlakozva vagy gyenge a jel, hívásindításhoz mobilhálózatot fog használni.\10\10Ha a mobilhálózatok használatát választja, hívásindításhoz ez lesz az alapértelmezett beállítás. Ha nincs mobilhálózati lefedettség vagy gyenge a jel, Wi-Fi-hálózatot fog használni.</string>
+    <string name="wifi_call_help_message_1">A Wi-Fi Hívás az Orange által biztosított szolgáltatás, amellyel Wi-Fi-n keresztül indíthat és fogadhat hívásokat. Ezt a funkciót rossz hálózati lefedettséggel rendelkező helyeken használhatja.
+	
+A Wi-Fi hívás használatához kapcsolja be a Beállítások &gt; Wi-Fi hívás menüben.
+
+A szolgáltatás aktiválásához az Orange küldeni fog Önnek egy megerősítő üzenetet, amint a szolgáltatás elérhetővé válik. Ezután csatlakozhat a Wi-Fi-hálózathoz és indíthat hívásokat.
+
+A Wi-Fi-n keresztül indított hívások az Ön adatcsomagjának megfelelően keresztül kerülnek kiszámlázásra.
+
+Ha a funkció elérhető, a következő ikont fogja látni a képernyő tetején.</string>
+    <string name="wifi_call_help_message_2">Ha a Wi-Fi-hálózatok használatát választja, hívásindításhoz ez lesz az alapértelmezett beállítás. Ha nincs Wi-Fi-hez csatlakozva vagy gyenge a jel, hívásindításhoz mobilhálózatot fog használni.
+	
+Ha a mobilhálózatok használatát választja, hívásindításhoz ez lesz az alapértelmezett beállítás. Ha nincs mobilhálózati lefedettség vagy gyenge a jel, Wi-Fi-hálózatot fog használni.</string>
     <string name="wifi_call_help_title">Wifi-hívások súgó</string>
     <string name="wifi_call_notification_message">Ezt a szolgáltatást az Orange biztosítja. A szolgáltatás aktiválása néhány órát igénybe vehet. Amint elérhetővé válik, egy megerősítő SMS-t fog kapni.</string>
     <string name="wifi_call_preferred_summary">Amennyiben a mobilhálózatokat választja ki, a mobilhálózatokat használja alapértelmezettként. Olyan esetben, ha nincs vagy gyenge a mobilhálózati jel, a wifihálózat fog bekapcsolni helyette.</string>

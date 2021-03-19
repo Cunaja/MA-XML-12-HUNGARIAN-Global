@@ -2,7 +2,10 @@
 <resources>
     <string name="app_label">Névjegyzék tároló</string>
     <string name="call_log_provider_label">Hívásnapló</string>
-    <string name="debug_dump_database_message">Erre készül:\101. Másolatot készít az adatbázisáról (ami magában foglalja névjegyeit és hívásnaplóját) a belső tárhelyre\102. Elküldi ezeket e-mailben.\10Ne felejtse el törölni a másolatot miután átmásolta vagy elküldte.</string>
+    <string name="debug_dump_database_message">Erre készül:
+1. Másolatot készít az adatbázisáról (ami magában foglalja névjegyeit és hívásnaplóját) a belső tárhelyre
+2. Elküldi ezeket e-mailben.
+Ne felejtse el törölni a másolatot miután átmásolta vagy elküldte.</string>
     <string name="debug_dump_delete_button">Törlés most</string>
     <string name="debug_dump_email_body">Csatolva a névjegy adatbázisom minden névjegy információmmal. Kezelje bizalmasan!</string>
     <string name="debug_dump_email_sender_picker">Válasszon alkalmazást a file küldéséhez</string>

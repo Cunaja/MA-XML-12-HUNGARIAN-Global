@@ -189,11 +189,17 @@
     <string name="accessibility_shortcut_enabling_service">Nyomva tartotta a hangerőgombokat. %1$s bekapcsolva.</string>
     <string name="accessibility_shortcut_menu_item_status_off">KI</string>
     <string name="accessibility_shortcut_menu_item_status_on">BE</string>
-    <string name="accessibility_shortcut_multiple_service_warning">A kisegítő lehetőségek bekapcsolásához tartsa nyomva néhány másodpercig mindkét hangerőgombot. Ez hatással lehet az eszköz működésére.\10\10Jelenlegi funkciók:\10%1$s\10A kiválasztott funkciókat a Beállítások &gt; Kisegítő lehetőségek pontban módosíthatja.</string>
+    <string name="accessibility_shortcut_multiple_service_warning">A kisegítő lehetőségek bekapcsolásához tartsa nyomva néhány másodpercig mindkét hangerőgombot. Ez hatással lehet az eszköz működésére.
+
+Jelenlegi funkciók:
+%1$s
+A kiválasztott funkciókat a Beállítások &gt; Kisegítő lehetőségek pontban módosíthatja.</string>
     <string name="accessibility_shortcut_multiple_service_warning_title">Bekapcsolja a kisegítő lehetőségeket?</string>
     <string name="accessibility_shortcut_off">Nem kapcsolom be</string>
     <string name="accessibility_shortcut_on">Bekapcsolom</string>
-    <string name="accessibility_shortcut_single_service_warning">A(z) %1$s kisegítő lehetőség bekapcsolásához tartsa nyomva néhány másodpercig mindkét hangerőgombot. Ez hatással lehet az eszköz működésére.\10\10Ezt a gyorsparancsot a Beállítások &gt; Kisegítő lehetőségek pontban módosíthatja másik funkció használatára.</string>
+    <string name="accessibility_shortcut_single_service_warning">A(z) %1$s kisegítő lehetőség bekapcsolásához tartsa nyomva néhány másodpercig mindkét hangerőgombot. Ez hatással lehet az eszköz működésére.
+	
+Ezt a gyorsparancsot a Beállítások &gt; Kisegítő lehetőségek pontban módosíthatja másik funkció használatára.</string>
     <string name="accessibility_shortcut_single_service_warning_title">Bekapcsolja a következőt: %1$s?</string>
     <string name="accessibility_shortcut_spoken_feedback">A(z) %1$s használatához tartsa lenyomva három másodpercig a két hangerőgombot</string>
     <string name="accessibility_shortcut_toogle_warning">Ha a gyorsparancs aktív, akkor a két hangerőgomb három másodpercig tartó együttes lenyomásával kisegítő funkciót indíthat el.</string>
@@ -324,8 +330,16 @@
     <string name="badPin">A megadott régi PIN-kód helytelen.</string>
     <string name="badPuk">A megadott PUK kód helytelen.</string>
     <string name="battery_saver_charged_notification_summary">A telefon töltöttsége elegendő. A funkciók használata már nincs korlátozva.</string>
-    <string name="battery_saver_description">Az Akkumulátorkímélő mód az akkumulátor üzemidejének növelése érdekében a következőket teszi:\10\10• Bekapcsolja a sötét témát.\10• Kikapcsolja vagy korlátozza a háttérben futó tevékenységeket, egyes vizuális effekteket, az „Ok Google” parancsot és egyéb funkciókat.</string>
-    <string name="battery_saver_description_with_learn_more">Az Akkumulátorkímélő mód az akkumulátor üzemidejének növelése érdekében a következőket teszi:\10\10• Bekapcsolja a sötét témát.\10• Kikapcsolja vagy korlátozza a háttérben futó tevékenységeket, egyes vizuális effekteket, az „Ok Google” parancsot és egyéb funkciókat.\10\10További információ.</string>
+    <string name="battery_saver_description">Az Akkumulátorkímélő mód az akkumulátor üzemidejének növelése érdekében a következőket teszi:
+	
+• Bekapcsolja a sötét témát.
+• Kikapcsolja vagy korlátozza a háttérben futó tevékenységeket, egyes vizuális effekteket, az „Ok Google” parancsot és egyéb funkciókat.</string>
+    <string name="battery_saver_description_with_learn_more">Az Akkumulátorkímélő mód az akkumulátor üzemidejének növelése érdekében a következőket teszi:
+
+• Bekapcsolja a sötét témát.
+• Kikapcsolja vagy korlátozza a háttérben futó tevékenységeket, egyes vizuális effekteket, az „Ok Google” parancsot és egyéb funkciókat.
+
+További információ.</string>
     <string name="battery_saver_notification_channel_name">Akkumulátorkímélő mód</string>
     <string name="battery_saver_off_notification_title">Akkumulátorkímélő mód kikapcsolva</string>
     <string name="beforeOneMonthDurationPast">Több mint 1 hónapja</string>
@@ -396,7 +410,8 @@
     <string name="copied">Átmásolva</string>
     <string name="country_detector">Országfelismerő</string>
     <string name="country_selection_title">Régió beállítása</string>
-    <string name="create_contact_using">Névjegy létrehozása \10a(z) %s szám használatával</string>
+    <string name="create_contact_using">Névjegy létrehozása
+a(z) %s szám használatával</string>
     <string name="data_saver_description">Az adatforgalom csökkentése érdekében az Adatforgalom-csökkentő megakadályozza, hogy egyes alkalmazások adatokat küldjenek vagy fogadjanak a háttérben. Az Ön által jelenleg használt alkalmazások hozzáférhetnek az adatokhoz, de csak ritkábban. Ez például azt jelentheti, hogy a képek csak rákoppintás után jelennek meg.</string>
     <string name="data_saver_enable_button">Bekapcsolás</string>
     <string name="data_saver_enable_title">Bekapcsolja az Adatforgalom-csökkentőt?</string>
@@ -446,7 +461,8 @@
     <string name="description_target_unlock_tablet">A feloldásához húzza végig az ujját.</string>
     <string name="device_ownership_relinquished">Az adminisztrátor átadta az eszközt személyes használatra</string>
     <string name="device_storage_monitor_notification_channel">Eszköztárhely</string>
-    <string name="dial_number_using">Szám hívása\10ezzel: %s</string>
+    <string name="dial_number_using">Szám hívása
+ezzel: %s</string>
     <string name="disable_accessibility_shortcut">Billentyűparancs kikapcsolása</string>
     <string name="display_manager_built_in_display_name">Beépített képernyő</string>
     <string name="display_manager_hdmi_display_name">HDMI-képernyő</string>
@@ -570,7 +586,9 @@
     <string name="face_recalibrate_notification_name">Arcalapú feloldás</string>
     <string name="face_recalibrate_notification_title">Rögzítsen újra képet az arcáról</string>
     <string name="faceunlock_multiple_failures">Elérte az arcalapú feloldási kísérletek maximális számát</string>
-    <string name="factory_reset_message">A rendszergazdai alkalmazás nem használható. A rendszer most törli az eszközt.\10\10Kérdéseivel forduljon szervezete rendszergazdájához.</string>
+    <string name="factory_reset_message">A rendszergazdai alkalmazás nem használható. A rendszer most törli az eszközt.
+
+Kérdéseivel forduljon szervezete rendszergazdájához.</string>
     <string name="factory_reset_warning">A rendszer törölni fogja eszközét</string>
     <string name="factorytest_failed">A gyári teszt sikertelen</string>
     <string name="factorytest_no_action">Nem található olyan csomag, amely tartalmazná a FACTORY_TEST műveletet.</string>
@@ -695,7 +713,9 @@
     <string name="issued_by">Kiállította:</string>
     <string name="issued_on">Kiállítva:</string>
     <string name="issued_to">Kiállítva a következőnek:</string>
-    <string name="js_dialog_before_unload">%s\10\10Biztosan szeretné elhagyni az oldalt?</string>
+    <string name="js_dialog_before_unload">%s
+	
+Biztosan szeretné elhagyni az oldalt?</string>
     <string name="js_dialog_before_unload_negative_button">Ezen az oldalon maradok</string>
     <string name="js_dialog_before_unload_positive_button">Oldal elhagyása</string>
     <string name="js_dialog_before_unload_title">Navigáció megerősítése</string>
@@ -736,7 +756,9 @@
     <string name="keyguard_password_entry_touch_hint">Koppintson a jelszómegadáshoz</string>
     <string name="keyguard_password_wrong_pin_code">Helytelen PIN-kód.</string>
     <string name="kg_enter_confirm_pin_hint">Kívánt PIN-kód megerősítése</string>
-    <string name="kg_failed_attempts_almost_at_login">%1$d alkalommal helytelenül rajzolta le a feloldási mintát. További %2$d sikertelen kísérlet után egy e-mail fiók használatával kell feloldania a telefonját.\10\10 Kérjük, próbálja újra %3$d másodperc múlva.</string>
+    <string name="kg_failed_attempts_almost_at_login">%1$d alkalommal helytelenül rajzolta le a feloldási mintát. További %2$d sikertelen kísérlet után egy e-mail fiók használatával kell feloldania a telefonját.
+	
+Kérjük, próbálja újra %3$d másodperc múlva.</string>
     <string name="kg_failed_attempts_almost_at_wipe">A telefont %1$d alkalommal próbálta meg sikertelenül feloldani. %2$d további sikertelen próbálkozás után a rendszer visszaállítja a telefon gyári alapértelmezett beállításait, és minden felhasználói adat elvész.</string>
     <string name="kg_failed_attempts_now_wiping">A telefont %d alkalommal próbálta meg sikertelenül feloldani. A rendszer visszaállítja a telefon gyári alapértelmezett beállításait.</string>
     <string name="kg_forgot_pattern_button_text">Elfelejtett minta</string>
@@ -744,7 +766,8 @@
     <string name="kg_invalid_puk">Adja meg újra a helyes PUK kódot. Az ismételt próbálkozással véglegesen letiltja a SIM kártyát.</string>
     <string name="kg_invalid_sim_pin_hint">4–8 számjegyű PIN kódot írjon be.</string>
     <string name="kg_invalid_sim_puk_hint">A PUK kód 8 karakter hosszú kell, hogy legyen.</string>
-    <string name="kg_login_account_recovery_hint">Elfelejtette a felhasználónevét vagy jelszavát?\10Keresse fel a google.com/accounts/recovery webhelyet.</string>
+    <string name="kg_login_account_recovery_hint">Elfelejtette a felhasználónevét vagy jelszavát?
+Keresse fel a google.com/accounts/recovery webhelyet.</string>
     <string name="kg_login_checking_password">Fiók ellenőrzése...</string>
     <string name="kg_login_instructions">A feloldáshoz jelentkezzen be Google-fiókjával.</string>
     <string name="kg_login_invalid_input">Érvénytelen felhasználónév vagy jelszó.</string>
@@ -761,9 +784,15 @@
     <string name="kg_reordering_delete_drop_target_text">Eltávolítás</string>
     <string name="kg_sim_pin_instructions">Adja meg a SIM kártya PIN kódját</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM kártya feloldása...</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message">%1$d alkalommal helytelenül adta meg a jelszót. \10\10Próbálja újra %2$d másodperc múlva.</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message">%1$d alkalommal rosszul rajzolta le feloldási mintát. \10\10Próbálja újra %2$d másodperc múlva.</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message">%1$d alkalommal helytelenül adta meg PIN kódját. \10\10Próbálja újra %2$d másodperc múlva.</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">%1$d alkalommal helytelenül adta meg a jelszót.
+
+Próbálja újra %2$d másodperc múlva.</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">%1$d alkalommal rosszul rajzolta le feloldási mintát.
+
+Próbálja újra %2$d másodperc múlva.</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">%1$d alkalommal helytelenül adta meg PIN kódját.
+
+Próbálja újra %2$d másodperc múlva.</string>
     <string name="kg_wrong_password">Helytelen jelszó</string>
     <string name="kg_wrong_pattern">Helytelen minta</string>
     <string name="kg_wrong_pin">Helytelen PIN-kód</string>
@@ -781,8 +810,12 @@
     <string name="location_changed_notification_text">További információt a rendszergazdától kaphat</string>
     <string name="location_changed_notification_title">Az alkalmazások hozzáférhetnek az Ön tartózkodási helyéhez</string>
     <string name="location_service">Helyszolgáltatás</string>
-    <string name="lock_to_app_description">A képernyőrögzítés lezárja a kijelzőt egyetlen nézetben.\10\10A feloldáshoz tartsa lenyomva a Home és kikapcsológombot.</string>
-    <string name="lock_to_app_description_accessible">A képernyőrögzítés lezárja a kijelzőt egyetlen nézetben.\10\10A feloldáshoz tartsa lenyomva a Home és kikapcsológombot.</string>
+    <string name="lock_to_app_description">A képernyőrögzítés lezárja a kijelzőt egyetlen nézetben.
+	
+A feloldáshoz tartsa lenyomva a Home és kikapcsológombot.</string>
+    <string name="lock_to_app_description_accessible">A képernyőrögzítés lezárja a kijelzőt egyetlen nézetben.
+	
+A feloldáshoz tartsa lenyomva a Home és kikapcsológombot.</string>
     <string name="lock_to_app_toast">A képernyő rögzítésének feloldásához tartsa lenyomva a Home és kikapcsológombot.</string>
     <string name="lock_to_app_toast_accessible">A képernyő rögzítésének feloldásához tartsa lenyomva a Home és kikapcsológombot.</string>
     <string name="lock_to_app_unlock_password">Jelszó kérése a rögzítés feloldásához</string>
@@ -797,10 +830,13 @@
     <string name="lockscreen_carrier_default">Nincs szolgáltatás</string>
     <string name="lockscreen_emergency_call">Segélyhívás</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe">A telefont %1$d alkalommal próbálta meg sikertelenül feloldani. %2$d további sikertelen próbálkozás után a rendszer visszaállítja a telefon gyári alapértelmezett beállításait, és minden felhasználói adat elvész.</string>
-    <string name="lockscreen_failed_attempts_almost_glogin">Helytelenül rajzolta le a feloldási mintát %1$d alkalommal. További %2$d sikertelen kísérlet után a Google rendszerében használt bejelentkezési adataival kell feloldania a telefonját.\10\10 Kérjük, próbálja újra %3$d másodperc múlva.</string>
+    <string name="lockscreen_failed_attempts_almost_glogin">Helytelenül rajzolta le a feloldási mintát %1$d alkalommal. További %2$d sikertelen kísérlet után a Google rendszerében használt bejelentkezési adataival kell feloldania a telefonját.
+	
+Kérjük, próbálja újra %3$d másodperc múlva.</string>
     <string name="lockscreen_failed_attempts_now_wiping">A telefont %d alkalommal próbálta meg sikertelenül feloldani. A rendszer visszaállítja a telefon gyári alapértelmezett beállításait.</string>
     <string name="lockscreen_forgot_pattern_button_text">Elfelejtette a mintát?</string>
-    <string name="lockscreen_glogin_account_recovery_hint">Elfelejtette a felhasználónevét vagy jelszavát?\10Keresse fel a google.com/accounts/recovery webhelyet.</string>
+    <string name="lockscreen_glogin_account_recovery_hint">Elfelejtette a felhasználónevét vagy jelszavát?
+Keresse fel a google.com/accounts/recovery webhelyet.</string>
     <string name="lockscreen_glogin_checking_password">Ellenőrzés...</string>
     <string name="lockscreen_glogin_forgot_pattern">Fiók feloldása</string>
     <string name="lockscreen_glogin_instructions">A feloldáshoz jelentkezzen be Google-fiókjával.</string>
@@ -820,7 +856,8 @@
     <string name="lockscreen_pattern_correct">Helyes!</string>
     <string name="lockscreen_pattern_instructions">Rajzolja le a mintát a feloldáshoz</string>
     <string name="lockscreen_pattern_wrong">Próbálja újra</string>
-    <string name="lockscreen_permanent_disabled_sim_instructions">SIM-kártyája véglegesen letiltva.\10Forduljon a vezeték nélküli szolgáltatójához másik SIM-kártyáért.</string>
+    <string name="lockscreen_permanent_disabled_sim_instructions">SIM-kártyája véglegesen letiltva.
+Forduljon a vezeték nélküli szolgáltatójához másik SIM-kártyáért.</string>
     <string name="lockscreen_permanent_disabled_sim_message_short">Használhatatlan SIM-kártya.</string>
     <string name="lockscreen_return_to_call">Hívás folytatása</string>
     <string name="lockscreen_screen_locked">A képernyő le van zárva.</string>
@@ -832,9 +869,15 @@
     <string name="lockscreen_sound_on_label">Hang bekapcsolása</string>
     <string name="lockscreen_storage_locked">Oldja fel a funkciók és adatok eléréséhez</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Próbálkozzon újra %d másodperc múlva.</string>
-    <string name="lockscreen_too_many_failed_attempts_dialog_message">%1$d alkalommal rosszul rajzolta le feloldási mintát. \10\10Kérjük, %2$d másodperc múlva próbálja újra.</string>
-    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">Ön helytelenül adta meg a jelszót %1$d alkalommal. \10 \10 Próbálja újra %2$d másodperc múlva.</string>
-    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">Ön %1$d alkalommal helytelenül adta meg PIN kódját. \10 \10 Próbálja újra %2$d másodperc múlva.</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message">%1$d alkalommal rosszul rajzolta le feloldási mintát.
+
+Kérjük, %2$d másodperc múlva próbálja újra.</string>
+    <string name="lockscreen_too_many_failed_password_attempts_dialog_message">Ön helytelenül adta meg a jelszót %1$d alkalommal.
+
+Próbálja újra %2$d másodperc múlva.</string>
+    <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">Ön %1$d alkalommal helytelenül adta meg PIN kódját.
+
+Próbálja újra %2$d másodperc múlva.</string>
     <string name="lockscreen_transport_ffw_description">Előretekerés</string>
     <string name="lockscreen_transport_next_description">Következő szám</string>
     <string name="lockscreen_transport_pause_description">Szünet</string>
@@ -1226,7 +1269,8 @@
     <string name="permgrouplab_sensors">Testérzékelők</string>
     <string name="permgrouplab_storage">Fájlok és média</string>
     <string name="permission_request_notification_title">Az engedélykérés megtörtént</string>
-    <string name="permission_request_notification_with_subtitle">Az engedélykérés megtörtént\10a(z) %s fiók számára.</string>
+    <string name="permission_request_notification_with_subtitle">Az engedélykérés megtörtént
+a(z) %s fiók számára.</string>
     <string name="permlab_acceptHandover">Másik alkalmazásból indított hívás folytatása</string>
     <string name="permlab_accessBackgroundLocation">Hozzáférés a helyadatokhoz a háttérben</string>
     <string name="permlab_accessCoarseLocation">megközelítőleges helyadatokhoz való hozzáférés csak előtérben</string>
@@ -1501,7 +1545,9 @@
     <string name="roamingText9">Roaming - teljes szolgáltatásműködés</string>
     <string name="roamingTextSearching">Szolgáltatás keresése</string>
     <string name="safeMode">Biztonsági üzemmód</string>
-    <string name="safe_media_volume_warning">Az ajánlott szint fölé szeretné emelni a hangerőt?\10\10Ha hosszú időn át teszi ki magát nagy hangerőnek, azzal károsíthatja a hallását.</string>
+    <string name="safe_media_volume_warning">Az ajánlott szint fölé szeretné emelni a hangerőt?
+	
+Ha hosszú időn át teszi ki magát nagy hangerőnek, azzal károsíthatja a hallását.</string>
     <string name="save_password_label">Megerősítés</string>
     <string name="save_password_message">Szeretné, hogy a böngésző megjegyezze a jelszót?</string>
     <string name="save_password_never">Soha</string>
@@ -1715,10 +1761,12 @@
     <string name="vpn_text_long">Csatlakozva ide: %s. Érintse meg a hálózat kezeléséhez.</string>
     <string name="vpn_title">VPN aktiválva</string>
     <string name="vpn_title_long">A(z) %s aktiválta a VPN-t</string>
-    <string name="vr_listener_binding_label">Virtuálisvalóság-figyelő</string>
+    <string name="vr_listener_binding_label">Virtuális valóság-figyelő</string>
     <string name="wait">Várakozás</string>
     <string name="wallpaper_binding_label">Háttérkép</string>
-    <string name="webpage_unresponsive">Az oldal nem válaszol.\10\10Szeretné bezárni?</string>
+    <string name="webpage_unresponsive">Az oldal nem válaszol.
+
+Szeretné bezárni?</string>
     <string name="websearch">Webes keresés</string>
     <string name="week">hét</string>
     <string name="weeks">hét</string>

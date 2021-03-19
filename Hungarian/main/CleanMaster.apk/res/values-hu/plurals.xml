@@ -13,8 +13,10 @@
         <item quantity="one">%d éve nem használva</item>
     </plurals>
     <plurals name="clean_long_msg_p1">
-        <item quantity="other">%1$d fájl tisztítása (%2$d%%)\10</item>
-        <item quantity="one">%1$d fájl tisztítása (%2$d%%)\10</item>
+        <item quantity="other">"%1$d fájl tisztítása (%2$d%%)
+"</item>
+        <item quantity="one">"%1$d fájl tisztítása (%2$d%%)
+"</item>
     </plurals>
     <plurals name="clean_long_msg_p2">
         <item quantity="other">%1$d elem másodpercenként | Hátralévő idő: %2$s</item>

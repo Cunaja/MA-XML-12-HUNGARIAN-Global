@@ -64,9 +64,9 @@
     <string name="error_send_file_not_found">A fájl nem található. Próbálja újra.</string>
     <string name="error_send_file_service_disabled">Kimenő átvitel törölve</string>
     <string name="error_send_transfer_error">Sikertelen fájlátvitel. Próbálja újra.</string>
-    <string name="error_send_transfer_pc_error">Lejárt az idő a transzferhez. Frissítsd a fájlmegosztó alkalmazást a számítógépeden, majd próbáld neg újra.</string>
+    <string name="error_send_transfer_pc_error">Lejárt az idő a transzferhez. Frissítsd a fájlmegosztó alkalmazást a számítógépeden, majd próbálja újra.</string>
     <string name="error_slave_wifi_in_use">Ha a kettős Wi-Fi be van kapcsolva, a Mi Megosztás nem fog működni. Kapcsolja ki a kettős Wi-Fi-t a Beállításokban és próbálja újra.</string>
-    <string name="error_slave_wifi_in_use_china">Mi Share won\'t work when dual WLAN is on. Turn off dual WLAN in the Settings and try again.</string>
+    <string name="error_slave_wifi_in_use_china">A Mi Share nem fog működni, ha a kettős WLAN be van kapcsolva. Kapcsolja ki a kettős WLAN-t a Beállításokban, és próbálja újra.</string>
     <string name="error_timeout">A munkamenet lejárt. Várjon egy-két percet, és próbálkozzon újra.</string>
     <string name="error_user_refuse">Nem küldhető. Az átvitelt elutasították.</string>
     <string name="error_wifi_display_in_use">Kivetítés közben nem küldhetők fájlok más készülékekre</string>
@@ -90,10 +90,12 @@
     <string name="mi_drop">Mi Megosztás</string>
     <string name="mishare_folder_in_file_explorer">Fájlkezelő és MiShare</string>
     <string name="mishare_service_channel_desc">Értesítések a Mi Share-folyamatokról</string>
-    <string name="mishare_settings_summary_international">A Mi Megosztás használatával elemeket küldhet az Önhöz közeli eszközökre.\10A Mi Megosztás kompatibilis a Mi- és a Redmi-telefonokal.\10Az OPPO, avivo, a realme és az egyéb márkák is hamarosan kompatibilisek lesznek a Mi Megosztással. A kompatibilis eszközök listáját megtekintheti weboldalunkon.</string>
+    <string name="mishare_settings_summary_international">A Mi Megosztás használatával elemeket küldhet az Önhöz közeli eszközökre.
+A Mi Megosztás kompatibilis a Mi- és a Redmi-telefonokal.
+Az OPPO, avivo, a realme és az egyéb márkák is hamarosan kompatibilisek lesznek a Mi Megosztással. A kompatibilis eszközök listáját megtekintheti weboldalunkon.</string>
     <string name="mishare_state_protection">Mi Megosztás automatikus bekapcsolása</string>
     <string name="mishare_state_protection_summary">Mi Megosztás automatikus visszakapcsolása, ha a Bluetooth-t vagy a wifit visszakapcsolják</string>
-    <string name="mishare_state_protection_summary_china">Turn Mi Share back on automatically when Bluetooth or WLAN are turned back on</string>
+    <string name="mishare_state_protection_summary_china">A Mi Share funkció automatikus bekapcsolása, amikor a Bluetooth vagy a WLAN újra bekapcsol</string>
     <string name="mishare_transefer_channel_desc">Értesítések a Mi Share-en keresztül küldött és fogadott fájlokról</string>
     <string name="no_longer_prompt">Tiltás</string>
     <string name="no_longer_receive">Letiltja ezt a készüléket? Ezt követően nem fogadhat innen fájlokat.</string>
@@ -103,7 +105,8 @@
     <string name="pc_device_model_name">Számítógép</string>
     <string name="permission_denied_hint">A Mi Share használatához adja meg a szükséges engedélyeket</string>
     <string name="preference_copied">„%1$s” a vágólapra lett másolva.</string>
-    <string name="purpose">Üdvözli Önt a Mi Share! Az alkalmazás segítségével áthelyezhet fájlokat eszközök között. A vonatkozó törvényekkel, szabályozásokkal és irányelvekkel összhangban védjük az Ön személyes adatait.\10A Mi Share használata előtt meg kell adnia a következő engedélyeket, valamint engedélyeznie kell, hogy begyűjtsük a következő személyes adatokat:</string>
+    <string name="purpose">Üdvözli Önt a Mi Share! Az alkalmazás segítségével áthelyezhet fájlokat eszközök között. A vonatkozó törvényekkel, szabályozásokkal és irányelvekkel összhangban védjük az Ön személyes adatait.
+A Mi Share használata előtt meg kell adnia a következő engedélyeket, valamint engedélyeznie kell, hogy begyűjtsük a következő személyes adatokat:</string>
     <string name="purpose_v12">Üdvözli Önt a Mi Megosztás! Az alkalmazással átviheti fájljait eszközei között.</string>
     <string name="queue_full">Új műveletek hozzáadása előtt fejezze be a folyamatban lévőket.</string>
     <string name="receive_complete">Sikeresen fogadva</string>
@@ -121,7 +124,7 @@
     <string name="send_files_to_remote_success_title">Sikeresen elküldve</string>
     <string name="send_successfully">Sikeresen elküldve</string>
     <string name="sender_error">Sikertelen küldés. Várjon egy-két percet, majd próbálja újra.</string>
-    <string name="some_files_receive_completed">Tekintse meg a már fogadott fájlokatt itt: %1$s.</string>
+    <string name="some_files_receive_completed">Tekintse meg a már fogadott fájlokat itt: %1$s.</string>
     <string name="somepc_send_much_file_to_you_files">%1$s felhasználó több mint 200 fájlt küld Önnek…</string>
     <string name="somepc_send_muchfile_files">%1$s felhasználó több mint 200 fájlt küld Önnek…</string>
     <string name="start_receive_much_files_from_pc">Több mint 200 fájl fogadása innen: %1$s…</string>
@@ -129,7 +132,7 @@
     <string name="support_device_type">Támogatott eszközök</string>
     <string name="throwing_print">Nyomtatás</string>
     <string name="throwing_screen">Kivetítés</string>
-    <string name="tips_prompt_enable_midrop">Fájlmegsztás közeli készülékekkel</string>
+    <string name="tips_prompt_enable_midrop">Fájlmegosztás közeli készülékekkel</string>
     <string name="to_feedback">Jelentés</string>
     <string name="transfer_intercept_to_remote">Sikertelen küldés: %1$s</string>
     <string name="transfer_to_pc_summary">Az Mi Jegyzetekbe telepített AloT szoftver legújabb verziója kompatibilis a Mi Megosztással. A MIUI weboldalán megtekintheti a támogatott laptop modelleket. Ha laptopja rajta van a listán, de az AloT nincs rá telepítve, frissítse laptopjának BIOS-át és hálózatikártya-meghajtóját, majd töltse le az AloT-ot.</string>
@@ -146,5 +149,5 @@
     <string name="wait_receive_file">Várakozás a fogadásra…</string>
     <string name="wait_remote_receive_tips">Várakozás…</string>
     <string name="wifi_is_not_enabled">Először kapcsolja be a wifit</string>
-    <string name="wifi_is_not_enabled_china">Turn on WLAN first</string>
+    <string name="wifi_is_not_enabled_china">Először kapcsolja be a WLAN-t</string>
 </resources>

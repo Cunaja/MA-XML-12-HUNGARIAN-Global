@@ -21,7 +21,8 @@
     <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
     <string name="app_name">Képernyőkép</string>
-    <string name="long_screenshot_guide_text">Görgethető képernyőkép\10készítéséhez érintse meg</string>
+    <string name="long_screenshot_guide_text">Görgethető képernyőkép
+készítéséhez érintse meg</string>
     <string name="long_screenshot_out_of_memory_error">A kép mérete túl nagy</string>
     <string name="long_screenshot_processing">Folyamatban…</string>
     <string name="long_screenshot_stop">Kész</string>

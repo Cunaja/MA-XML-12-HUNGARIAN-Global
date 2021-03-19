@@ -261,7 +261,8 @@
     <string name="new_event_description">Új</string>
     <string name="no_contact_birthday_hint">Nincs importálható születésnap</string>
     <string name="no_events_hint">Nincs esemény</string>
-    <string name="no_network">Nem sikerült csatlakozni a hálózathoz.\10Ellenőrizze a beállításokat és próbálja újra.</string>
+    <string name="no_network">Nem sikerült csatlakozni a hálózathoz.
+Ellenőrizze a beállításokat és próbálja újra.</string>
     <string name="no_network_btn">Próbálja újra</string>
     <string name="no_title_label">(Nincs megnevezés)</string>
     <string name="no_visiable_calendar_message">Hozzá kell adnia egy naptárfiókot. Érintse meg a \"Fiók hozzáadása\"-t a továbblépéshez.</string>
@@ -312,7 +313,7 @@
     <string name="repeat_alarm_changed_credit_event">Mindig emlékeztessen a hitelkártya számlákra</string>
     <string name="repeat_alarm_changed_electricity_event">Mindig emlékeztessen az áramszámlákra</string>
     <string name="repeat_alarm_changed_flight_event">Mindig emlékeztessen a járatokra</string>
-    <string name="repeat_alarm_changed_gas_event">Mindig emlékeztessen a gázsszámlákra</string>
+    <string name="repeat_alarm_changed_gas_event">Mindig emlékeztessen a gázszámlákra</string>
     <string name="repeat_alarm_changed_hotel_event">Mindig emlékeztessen a szállodákra</string>
     <string name="repeat_alarm_changed_loan_event">Mindig emlékeztessen a hiteltörlesztőkre</string>
     <string name="repeat_alarm_changed_movie_event">Mindig emlékeztessen a filmekre</string>
@@ -357,7 +358,7 @@
     <string name="setting_about_miui_version">MIUI-verzió: </string>
     <string name="setting_about_summary">Verzió: </string>
     <string name="setting_accounts">Naptárfiókok</string>
-    <string name="setting_daysoff_no_update">A nemzeti ünepekre vonatkozó adatok frissültek.</string>
+    <string name="setting_daysoff_no_update">A nemzeti ünnepekre vonatkozó adatok frissültek.</string>
     <string name="setting_daysoff_update">Adatok frissítése a nemzeti ünnepekre vonatkozóan</string>
     <string name="setting_daysoff_update_cta_cancel">Először engedélyezze, hogy a naptár csatlakozzon az internethez</string>
     <string name="setting_daysoff_update_net_err">Nem sikerült a frissítések ellenőrzése. Várjon egy kicsit és próbálja újra.</string>

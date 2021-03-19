@@ -102,7 +102,8 @@
     <string name="next_fingerprint">Tovább</string>
     <string name="note_introduction">Az alkalmazással létrehozhat, megtekinthet és szerkeszthet jegyzeteket.</string>
     <string name="other_settings">További beállítások</string>
-    <string name="other_settings_ad_dialog_content">A funkció kikapcsolását követően többé nem kap személyreszabott hirdetéseket. Azonban továbbra is kap olyan hirdetéseket, amelyek nem kötődnek az érdeklődési területeihez. A személyre szabott hirdetésekről további információt a Xiaomi Adatvédelmi irányelveiben talál.\10Mégis kikapcsolja a személyre szabott hirdetéseket?</string>
+    <string name="other_settings_ad_dialog_content">A funkció kikapcsolását követően többé nem kap személyreszabott hirdetéseket. Azonban továbbra is kap olyan hirdetéseket, amelyek nem kötődnek az érdeklődési területeihez. A személyre szabott hirdetésekről további információt a Xiaomi Adatvédelmi irányelveiben talál.
+	Mégis kikapcsolja a személyre szabott hirdetéseket?</string>
     <string name="other_settings_ad_disable_summary">Kapcsolja be a hirdetések személyre szabásához</string>
     <string name="other_settings_ad_enable">Személyre szabott hirdetések</string>
     <string name="other_settings_ad_enable_summary">Hirdetések személyre szabása az érdeklődési területei alapján</string>
@@ -172,7 +173,8 @@
     <string name="pref_title_voice_slot">Hívásra használt SIM</string>
     <string name="privacy_policy">Adatvédelmi Irányelvek</string>
     <string name="protect_persoanl_info_statement">Megvédjük az Ön személyes adatait a vonatkozó jogszabályokkal, szabályozásokkal és adatvédelmi irányelvekkel összhangban.</string>
-    <string name="provision_inputmethod_policy_description">\10A kiválasztott billentyűzet Adatvédelmi irányelveinek megtekintése.</string>
+    <string name="provision_inputmethod_policy_description">"
+	A kiválasztott billentyűzet Adatvédelmi irányelveinek megtekintése."</string>
     <string name="provision_inputmethod_policy_description1">Adatvédelmi Irányelvek</string>
 	<string name="provision_next">Következő</string>
     <string name="provision_skip_underline">Kihagyás</string>
@@ -226,16 +228,24 @@
     <string name="summary_not_set">Nincs beállítva</string>
     <string name="system_navigation_mode">Rendszerirányítási módok</string>
     <string name="terms_of_use">Felhasználási feltételek</string>
-    <string name="terms_of_use_label">Olvassa el a Felhasználói szerződést és az Adatvédelmi nyilatkozatot, hogy megértse, milyen információkat gyűjtünk, hogyan használjuk fel őket és milyen lehetőségei vannak.\10A MIUI használata előtt el kell fogadnia a Felhasználói szerződést és az Adatvédelmi nyilatkozatot.\10%s és a Mi Fiók elemeihez internetkapcsolat és helymeghatározás szükséges.</string>
+    <string name="terms_of_use_label">Olvassa el a Felhasználói szerződést és az Adatvédelmi nyilatkozatot, hogy megértse, milyen információkat gyűjtünk, hogyan használjuk fel őket és milyen lehetőségei vannak.
+	A MIUI használata előtt el kell fogadnia a Felhasználói szerződést és az Adatvédelmi nyilatkozatot.
+	%s és a Mi Fiók elemeihez internetkapcsolat és helymeghatározás szükséges.</string>
     <string name="terms_of_use_label_Mistore">, Mi Áruház rendszerbővítmény</string>
     <string name="terms_of_use_label_package">, Csomagtelepítő</string>
     <string name="terms_of_use_label_phrase">, Gyakori kifejezések</string>
     <string name="terms_of_use_label_systemhelper">, Önállóan bejegyzett szolgáltatáshoz</string>
     <string name="terms_of_use_label_updater">, Frissítés</string>
     <string name="terms_of_use_lable_apps">A Mi szolgáltatásokhoz, a Mi SIM-aktiválási szolgáltatáshoz, a Xiaomi Cloudhoz, a Készülékkereséshez, a Kezdőképernyőhöz, a Játékközponthoz, a MIUI Daemon és MSA rendszerelemekhez, a Fordítási szolgáltatáshoz, a MIUI SDK, a Gyorsalkalmazásokhoz, a Gyorselérési kártyákhoz, a statisztikákhoz, a Mi Linkhez</string>
-    <string name="terms_of_use_lable_default_input_method_facemoji">\10\10A Facemoji használata előtt el kell fogadnia a szolgáltatás Adatvédelmi Irányelveit.</string>
-    <string name="terms_of_use_lable_default_input_method_kika">\10\10A Kika használata előtt el kell fogadnia a szolgáltatás Adatvédelmi Irányelveit.</string>
-    <string name="terms_of_use_lable_default_input_method_mint">\10\10A funkció használata előtt el kell fogadnia a Mint Keyboard adatvédelmi Irányelveit.</string>
+    <string name="terms_of_use_lable_default_input_method_facemoji">"
+	
+	Facemoji használata előtt el kell fogadnia a szolgáltatás Adatvédelmi Irányelveit."</string>
+    <string name="terms_of_use_lable_default_input_method_kika">"
+	
+	Kika használata előtt el kell fogadnia a szolgáltatás Adatvédelmi Irányelveit."</string>
+    <string name="terms_of_use_lable_default_input_method_mint">"
+	
+	funkció használata előtt el kell fogadnia a Mint Keyboard adatvédelmi Irányelveit."</string>
     <string name="terms_of_use_lable_gms">, Google Play szolgáltatásokhoz</string>
     <string name="terms_of_use_lable_smart_cards">, Okoskártyákhoz</string>
     <string name="terms_privacy_policy_input_method_facemoji">Facemoji Adatvédelmi Irányelvei</string>
@@ -244,7 +254,9 @@
     <string name="user_agreement">Felhasználói szerződés</string>
     <string name="user_agreement_declare">A MIUI használata előtt Önnek el kell olvasnia és el kell fogadnia a Felhasználói szerződést és az Adatvédelmi irányelvet. Amíg eszköze aktiválásra kerül, a Mi SIM Aktivációs Szolgáltatások, a Xiaomi Cloud, az Eszközkeresés, a Kezdőképernyő, a Gyakori kifejezések, a Fordítási szolgáltatás, a MIUI Daemon, a HTML Viewer, a MIUI SDK, az AI Asszisztens, az Akkumulátor és teljesítmény, az Energiadetektor, a Joyose, az OS AI Beállítások, az Engedélykezelő és az Updater csatlakozik a hálózathoz. Az Okos szolgáltatások csatlakozik a hálózathoz és hozzáfér az Ön helyzetéhez.</string>
     <string name="voice_assist_advice">A Mi AI hangvezérlést biztosít Önnek, de több energiát fogyaszt (+1% óránként).</string>
-    <string name="voice_assist_condition">Ezekben az esetekben lesz képes használni a Mi AI-t:r\101. Ha a képernyő be van kapcsolva.r\102. Ha a képernyő ki van kapcsolva, de Ön zenét hallgat.</string>
+    <string name="voice_assist_condition">Ezekben az esetekben lesz képes használni a Mi AI-t:r
+1. Ha a képernyő be van kapcsolva.r
+2. Ha a képernyő ki van kapcsolva, de Ön zenét hallgat.</string>
     <string name="voice_assist_desp">Mondja a telefonjának azt, hogy: \"Mi AI\". A Mi AI érzékelni fogja a hangját és vezérelni tudja a készülékét.</string>
     <string name="voice_assist_title">Felébresztés hanggal</string>
     <string name="welcome">Üdvözöljük</string>

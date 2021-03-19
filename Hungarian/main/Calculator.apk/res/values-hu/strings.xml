@@ -235,7 +235,9 @@
     <string name="loan_repayment_detail_loading">Részletes visszafizetés betöltése…</string>
     <string name="loan_type_title">Kamatláb szabvány</string>
     <string name="lpr_ok">Értem</string>
-    <string name="lpr_tips_msg">2019. október 8-tól a személyes kereskedelmi lakáshitel kamatláb az irányadó hitelkamatláb (LPR) szerint kerül majd kiszámításra az előzőekben használt 4,9%-os irányadó kamatláb helyett. Mostantól a végső kamatláb egy LPR-bázispont hozzáadásával kerül megerősítésre.\10\10Az egy- és ötéves LPR-ek a People\'s Bank of China weboldalán minden hónap 20. napján kerülnek megállapításra (az ünnepnapok késésekre lehet számítani).</string>
+    <string name="lpr_tips_msg">2019. október 8-tól a személyes kereskedelmi lakáshitel kamatláb az irányadó hitelkamatláb (LPR) szerint kerül majd kiszámításra az előzőekben használt 4,9%-os irányadó kamatláb helyett. Mostantól a végső kamatláb egy LPR-bázispont hozzáadásával kerül megerősítésre.
+	
+	Az egy- és ötéves LPR-ek a People\'s Bank of China weboldalán minden hónap 20. napján kerülnek megállapításra (az ünnepnapok késésekre lehet számítani).</string>
     <string name="lpr_tips_title">LPR (irányadó hitelkamatláb)</string>
     <string name="medical_treatment">Orvosi kezelés</string>
     <string name="menuDesc">menü</string>
@@ -620,7 +622,9 @@
     <string name="word_figure_guide_text">Nyomja meg és tartsa lenyomva a szöveget az esetek közötti váltáshoz.</string>
     <string name="xiaomi_connect_download_manager_fail">Nem tudott csatlakozni a letöltésekhez. Ellenőrizze, hogy ez app a megfelelő engedélyekkel rendelkezik-e a Beállítások &gt; Telepített alkalmazásokban.</string>
     <string name="xiaomi_external_storage_unavailable">Nincs elérhető tárhely. Ellenőrizze az SD-kártyát.</string>
-    <string name="xiaomi_update_dialog_message">Bemutatjuk a következő verziót: %1$s\10Méret:%2$s</string>
-    <string name="xiaomi_update_dialog_message_diff">Bemutatjuk a következő verziót: %1$s\10Delta frissítés mérete:%2$s</string>
+    <string name="xiaomi_update_dialog_message">Bemutatjuk a következő verziót: %1$s
+	Méret:%2$s</string>
+    <string name="xiaomi_update_dialog_message_diff">Bemutatjuk a következő verziót: %1$s
+	Delta frissítés mérete:%2$s</string>
     <string name="xiaomi_update_dialog_title">%1$s frissítés!</string>
 </resources>

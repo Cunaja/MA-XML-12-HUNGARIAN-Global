@@ -95,8 +95,10 @@
     <string name="click_soft_ap_to_link">Válasszon egy hotspot-csatlakozási lehetőséget</string>
     <string name="click_to_view">Megtekintés</string>
     <string name="close_twice_auth_btn">Kétlépcsős ellenőrzés kikapcsolása</string>
-    <string name="close_twice_auth_note">Megjegyzés:\10Miután létrehozott egy új biztonsági kérdést és megerősítette a születési dátumát, a kétlépcsős ellenőrzés automatikusan kikapcsolódik. Ha az Apple fiókjának weboldalán nem lát lehetőséget a kétlépcsős ellenőrzés kikapcsolására, akkor nem kapcsolhatja ki.</string>
-    <string name="close_twice_auth_operation">A bezáráshoz látogasson el a \10https://appleid.apple.com/#!&amp;page=signin weboldalra</string>
+    <string name="close_twice_auth_note">Megjegyzés:
+Miután létrehozott egy új biztonsági kérdést és megerősítette a születési dátumát, a kétlépcsős ellenőrzés automatikusan kikapcsolódik. Ha az Apple fiókjának weboldalán nem lát lehetőséget a kétlépcsős ellenőrzés kikapcsolására, akkor nem kapcsolhatja ki.</string>
+    <string name="close_twice_auth_operation">A bezáráshoz látogasson el a 
+https://appleid.apple.com/#!&amp;page=signin weboldalra</string>
     <string name="close_twice_auth_step_1">1. Nyissa meg az appleid.apple.com weboldalt bármely böngészővel, bármilyen számítógépen.</string>
     <string name="close_twice_auth_step_2">2. Lépjen be az Apple azonosítójával, menjen a beállítások \"Biztonság\" részébe és válassza a szerkesztést, ha ki szeretné kapcsolni.</string>
     <string name="close_twice_auth_step_3">3. Kattintson a \"Kétlépcsős ellenőrzés kikapcsolása\" gombra. Majd hagyja jóvá.</string>
@@ -188,11 +190,13 @@
     <string name="findlost_contact">Névjegy keresése</string>
     <string name="findlost_contact_online">Névjegyek visszaállítása a felhőből</string>
     <string name="flash_drive_backup_btn">Mentés az USB-meghajtóra</string>
-    <string name="flash_drive_backup_note">Mentse az alkalmazásait USB-meghajtóra.\10Mielőtt elkezdené, bizonyosodjon meg róla, hogy van elég hely az USB-n.</string>
+    <string name="flash_drive_backup_note">Mentse az alkalmazásait USB-meghajtóra.
+Mielőtt elkezdené, bizonyosodjon meg róla, hogy van elég hely az USB-n.</string>
     <string name="flash_drive_backup_restore">USB mentések</string>
     <string name="flash_drive_connection_failed">Az USB-meghajtó leválasztva</string>
     <string name="flash_drive_restore_btn">Visszaállítás az USB-meghajtóról</string>
-    <string name="flash_drive_search_backup_files">USB mentések keresése…\10Ne változtasson a mentések tartalmán és ne nevezze át őket.</string>
+    <string name="flash_drive_search_backup_files">USB mentések keresése
+Ne változtasson a mentések tartalmán és ne nevezze át őket.</string>
     <string name="gallery_summary">Galériabeállítások (nem tartalmazza a fényképeket)</string>
     <string name="guarded_mode_dialog_backup_message">Biztonsági mentés nem engedélyezett Vendégmódban.</string>
     <string name="guarded_mode_dialog_title">Ön Vendégmódban van</string>
@@ -205,9 +209,11 @@
     <string name="hsa_send_again_countdown">Újraküldés (%dmp)</string>
     <string name="hsa_send_failed">Nem sikerült elküldeni az ellenőrző kódot. Várjon egy-két percet, majd próbálja újra.</string>
     <string name="hsa_sending">Küldés…</string>
-    <string name="hsa_tip_message">1. Ha nem kapja meg az ellenőrzőkódot, győződjön meg róla, hogy már bejelentkezett az iCloud-ba az Apple készülékén.r\10Ha az ellenőrzőkód beírása sem segít, kapcsolja ki a kétlépcsős hitelesítést. </string>
+    <string name="hsa_tip_message">1. Ha nem kapja meg az ellenőrzőkódot, győződjön meg róla, hogy már bejelentkezett az iCloud-ba az Apple készülékén.r
+Ha az ellenőrzőkód beírása sem segít, kapcsolja ki a kétlépcsős hitelesítést. </string>
     <string name="hsa_tip_message_shutdown_hsa">Hogyan kapcsolja ki a kétlépcsős ellenőrzést</string>
-    <string name="hsa_tip_message_with_device">1. Egy ellenőrző kódot tartalmazó üzenetet küldtünk az Apple azonosítóhoz kötött \"%s\" készülékre.r\102. Kapcsolja ki a kétlépcsős azonosítást, ha az ellenőrző kód nem működik.</string>
+    <string name="hsa_tip_message_with_device">1. Egy ellenőrző kódot tartalmazó üzenetet küldtünk az Apple azonosítóhoz kötött \"%s\" készülékre.r
+2. Kapcsolja ki a kétlépcsős azonosítást, ha az ellenőrző kód nem működik.</string>
     <string name="hsa_tip_title">Tippek:</string>
     <string name="hsa_title">Kétlépcsős ellenőrzés</string>
     <string name="hsa_verify_failed">Kétlépcsős ellenőrzés meghiúsult</string>
@@ -216,16 +222,22 @@
     <string name="hsa_verify_shutdown">Kikapcsolás</string>
     <string name="iCloud_ID_verification_tip">Érintse meg az \"Engedélyezés\"-t az Apple készüléken, hogy megjelenjen az ellenőrzőkód. Ide írja be az ellenőrzőkódot.</string>
     <string name="icloud_backup_tip">Jelentkezzen be az iCloud fiókjába az iOS rendszerű régi készüléken</string>
-    <string name="icloud_how_to_backup_tip_steps">1. Nyissa meg a Beállításokat az iOS készülékén és válassza az iCloudot.r\102. Váltsa a kapcsolókat a Névjegyzéknél és más elemeknél.r\103. Válassza a Fényképeket majd állítsa a kapcsolót az iCloud Fénykép Könyvtárra.</string>
+    <string name="icloud_how_to_backup_tip_steps">1. Nyissa meg a Beállításokat az iOS készülékén és válassza az iCloudot.
+2. Váltsa a kapcsolókat a Névjegyzéknél és más elemeknél
+3. Válassza a Fényképeket majd állítsa a kapcsolót az iCloud Fénykép Könyvtárra.</string>
     <string name="icloud_how_to_backup_tip_summary">Adatok importálása előtt az iOS rendszeren készítenie kell egy iCloud mentést.</string>
     <string name="icloud_how_to_backup_tip_title">Tippek:</string>
     <string name="icloud_login_title">Bejelentkezés az iCloudba</string>
-    <string name="icloud_need_sync">Adatok importálása előtt az iOS rendszerenr\10készítenie kell egy iCloud mentést.</string>
+    <string name="icloud_need_sync">Adatok importálása előtt az iOS rendszeren
+készítenie kell egy iCloud mentést.</string>
     <string name="icloud_need_wifi_message">Nem kapcsolódik Wi-Fi-hálózathoz. iCloud-adatok importálásához csatakozzon Wi-Fi-hez.</string>
     <string name="icloud_need_wifi_title">Csatlakozzon Wi-Fi-hálózathoz</string>
     <string name="import_again">Újraimportálás</string>
     <string name="import_data_from_icloud">Adat importálása az iCloudból</string>
-    <string name="import_from_xiaomi_account_hint1">1.\9Telepítse a Mi Talkot és jelentkezzen be.\10\9http://www.miliao.com\10\102.\9Lépjen a Mi Talk beállításaiba és válassza a ”Névjegyek mentése a Mi Fiókba” lehetőséget</string>
+    <string name="import_from_xiaomi_account_hint1">1.\u0009Telepítse a Mi Talkot és jelentkezzen be.
+\u0009http://www.miliao.com
+
+2.\u0009Lépjen a Mi Talk beállításaiba és válassza a ”Névjegyek mentése a Mi Fiókba” lehetőséget</string>
     <string name="import_from_xiaomi_account_hint2">Ha már rendelkezik mentéssel, érintse meg a Tovább-ot.</string>
     <string name="import_from_xiaomi_account_hint_title">Használja a Mi Talkot névjegyek mentéséhez.</string>
     <string name="import_tip_summary">Kompatibilitási problémák miatt adatainak csak egy részét importálhatja iOS készülékéről. Mielőtt elkezdené a Mi Átköltözést, győződjön meg róla, hogy készített iCloud mentést.</string>
@@ -234,7 +246,10 @@
     <string name="list_footer_tip_title">Tippek:</string>
     <string name="loading_data">Adatok betöltése</string>
     <string name="local_app_name">Biztonsági mentés</string>
-    <string name="local_back_up_detail_description">Megjegyzés:\101. Az adatvesztés és a helyi biztonsági mentések számítógépre való másolásához.\102. Mindig másolja át a helyi biztonsági mentéseket a számítógépére, mielőtt gyári visszaállítást hajt végre, máskülönben a helyi biztonsági mentések elvesznek.\103. Hol kerülnek tárolásra a helyi biztonsági mentések? %1$s</string>
+    <string name="local_back_up_detail_description">Megjegyzés:
+1. Az adatvesztés és a helyi biztonsági mentések számítógépre való másolásához.
+2. Mindig másolja át a helyi biztonsági mentéseket a számítógépére, mielőtt gyári visszaállítást hajt végre, máskülönben a helyi biztonsági mentések elvesznek.
+3. Hol kerülnek tárolásra a helyi biztonsági mentések? %1$s</string>
     <string name="local_backup_select_activity">Biztonsági mentés készítése</string>
     <string name="local_backup_window_title">Helyi adatmentés</string>
     <string name="local_button_backup_data">Mentés</string>
@@ -301,7 +316,8 @@
     <string name="new_local_button_backup">Biztonsági mentés</string>
     <string name="new_local_button_restore">Helyreállítás</string>
     <string name="new_local_click_to_jump">A részletes utasítások megtekintéséhez koppintson</string>
-    <string name="new_local_detail_description">Figyelem:\10%1$d. Az adatvesztés elkerülése érdekében másolja át a biztonsági mentéseket a számítógépére. %2$s.%3$d. A biztonsági mentések a MIUI-Backup-AllBackup mappába kerülnek elmentésre.</string>
+    <string name="new_local_detail_description">Figyelem:
+%1$d. Az adatvesztés elkerülése érdekében másolja át a biztonsági mentéseket a számítógépére. %2$s.%3$d. A biztonsági mentések a MIUI-Backup-AllBackup mappába kerülnek elmentésre.</string>
     <string name="new_local_tab_backup">Biztonsági mentés</string>
     <string name="new_local_tab_restore">Visszaállítás</string>
     <string name="new_low_storage_title">Nincs elég szabad tárhely</string>
@@ -329,7 +345,9 @@
     <string name="new_tab_pc_backup">Biztonsági mentés</string>
     <string name="new_tab_pc_restore">Visszaállítás</string>
     <string name="new_task_finished">Kész</string>
-    <string name="new_usb_detail_description">Figyelem:\10%1$d. Ezzel a módszerrel harmadik féltől származó alkalmazásokról és alkalmazásadatokról készíthet biztonsági mentést.\10%2$d. A biztonsági mentések tárolásához gondoskodjon róla, hogy elegendő tárhely áll rendelkezésre az USB-meghajtón.</string>
+    <string name="new_usb_detail_description">Figyelem:
+%1$d. Ezzel a módszerrel harmadik féltől származó alkalmazásokról és alkalmazásadatokról készíthet biztonsági mentést.
+%2$d. A biztonsági mentések tárolásához gondoskodjon róla, hogy elegendő tárhely áll rendelkezésre az USB-meghajtón.</string>
     <string name="new_usb_disconnect_dialog_message">Először csatlakoztasson egy USB-meghajtót.</string>
     <string name="new_usb_disconnect_dialog_title">Nem található USB-meghajtó</string>
     <string name="new_usb_select_data_no_space">Mindössze %s tárhely áll rendelkezésre USB-meghajtóján. Szabadítson fel tárhelyet.</string>
@@ -415,10 +433,13 @@
     <string name="retry">Próbálja újra</string>
     <string name="reverse_all">Összes törlése</string>
     <string name="router_backup_hint">Hagyja bekapcsolva az eszközt</string>
-    <string name="save_finish_with_failing_items">Az átvitel megszakadt.r\10A nem importált adatokat újra importálni kell.</string>
-    <string name="saving_data">Adatok importálása az iClodból…r\10Kérjük, ne kapcsolja ki Wi-Fi-t</string>
+    <string name="save_finish_with_failing_items">Az átvitel megszakadt
+A nem importált adatokat újra importálni kell.</string>
+    <string name="saving_data">Adatok importálása az iClodból…
+Kérjük, ne kapcsolja ki Wi-Fi-t</string>
     <string name="saving_data_no_time">Adatok visszaállítása…</string>
-    <string name="saving_data_space_low">Nincs elég szabad tárhely.r\10Szabadítson fel legalább %s méretű helyet.</string>
+    <string name="saving_data_space_low">Nincs elég szabad tárhely.
+Szabadítson fel legalább %s méretű helyet.</string>
     <string name="sc_bad_request">Hibás kérés</string>
     <string name="sc_internal_server_error">Belső szerver hiba</string>
     <string name="sc_network_unavailable">Ellenőrizze a hálózati kapcsolatot és próbálja újra.</string>
@@ -531,7 +552,9 @@
     <string name="trans_detail_item_app_data_selected_tip">A kapcsolódó alkalmazások is ki lettek választva.</string>
     <string name="trans_detail_item_app_data_skip_data">Az alkalmazásadatok nem vihetők át</string>
     <string name="trans_detail_item_app_data_too_large_tip">Úgy tűnik, ez az elem túlságosan nagy az átvitelhez.</string>
-    <string name="trans_detail_list_footer">1. Kiválaszthatja az áthelyezni kívánt alkalmazásokat.\102. Ha egy alkalmazás adatait választja, a megfelelő alkalmazás is kiválasztásra kerül.\103. Lehet, hogy kompatibilitási problémák miatt a WeChat és a QQ alkalmazások adatai nem vihetők át. Megpróbálhatja az alkalmazáson belüli átviteli funkciókat.</string>
+    <string name="trans_detail_list_footer">1. Kiválaszthatja az áthelyezni kívánt alkalmazásokat.
+2. Ha egy alkalmazás adatait választja, a megfelelő alkalmazás is kiválasztásra kerül.
+3. Lehet, hogy kompatibilitási problémák miatt a WeChat és a QQ alkalmazások adatai nem vihetők át. Megpróbálhatja az alkalmazáson belüli átviteli funkciókat.</string>
     <string name="trans_detail_page_tip">Minél több elemet választ ki, annál tovább tart az átvitel.</string>
     <string name="trans_detail_qq_data">QQ-adatok (beleértve a csevegési előzményeket)</string>
     <string name="trans_detail_sys_data_list_title">Rendszeralkalmazások</string>
@@ -551,7 +574,8 @@
     <string name="trans_generating_qrcode">QR-kód létrehozása…</string>
     <string name="trans_install_guide_button_start">Kezdés</string>
     <string name="trans_install_guide_page_title">Telepítse a régi készülékére a Mi Átköltözés alkalmazást</string>
-    <string name="trans_install_guide_scan_install_tip">Olvassa be ezt a QR-kódot a régi készülékén\10a Mi Átköltözés letöltéséhez és telepítéséhez.</string>
+    <string name="trans_install_guide_scan_install_tip">Olvassa be ezt a QR-kódot a régi készülékén
+a Mi Átköltözés letöltéséhez és telepítéséhez.</string>
     <string name="trans_install_guide_step1_content">Olvassa be a QR-kódot a régi készülékével a Mi Átköltözés letöltéséhez és telepítéséhez.</string>
     <string name="trans_install_guide_step1_title">1. lépés</string>
     <string name="trans_install_guide_step2_content">Ha a telepítés befejeződött, érintse meg a \"Kezdés\" gombot.</string>
@@ -600,7 +624,8 @@
     <string name="trans_intro_title_private">Rejtett album:</string>
     <string name="trans_main_tutor">Névjegyek, hívásnapló, üzenetek, képernyő elrendezés, alkalmazások, beállítások, stb. átköltöztetése új készülékre</string>
     <string name="trans_my_device">Készülékem</string>
-    <string name="trans_native_no_space">A régi készüléken nincs elegendő tárhely (%s elérhető).\10Szabadítson fel tárhelyet, vagy csak fontos elemeket vigyen át.</string>
+    <string name="trans_native_no_space">A régi készüléken nincs elegendő tárhely (%s elérhető).
+Szabadítson fel tárhelyet, vagy csak fontos elemeket vigyen át.</string>
     <string name="trans_old_phone_low_space_msg">A Mi Átköltözésnek szabad tárhelyre van szüksége az átvitt adatok csomagolásához, de úgy tűnik, nincs elég hely a régi készüléken. Szabadítson fel némi tárhelyet a \"Biztonság\" alkalmazásban, vagy csak a fontos elemeket továbbítsa.</string>
     <string name="trans_old_phone_low_space_title">Nincs elég szabad tárhely</string>
     <string name="trans_one_key_migrate">Mi Átköltözés</string>
@@ -611,11 +636,16 @@
     <string name="trans_open_location_title">Helymeghatározási szolgáltatások bekapcsolása</string>
     <string name="trans_operate_func_one">A módszer</string>
     <string name="trans_operate_func_two">B módszer</string>
-    <string name="trans_operate_new_phone_tips">Lépjen be a Beállítások &gt; További beállítások &gt; Mi Átköltözés menüpontba\10QR-kód generálásához érintse meg az [Én vagyok a fogadó] gombot</string>
-    <string name="trans_operate_old_phone_tips1">1. Telepítse a Mi Átköltözés alkalmazást a régi készülékre\102. Nyissa meg az alkalmazást és érintse meg a Start gombot\103. Olvassa be a QR-kódot a régi készülékével</string>
+    <string name="trans_operate_new_phone_tips">Lépjen be a Beállítások &gt; További beállítások &gt; Mi Átköltözés menüpontba
+QR-kód generálásához érintse meg az [Én vagyok a fogadó] gombot</string>
+    <string name="trans_operate_old_phone_tips1">1. Telepítse a Mi Átköltözés alkalmazást a régi készülékre
+2. Nyissa meg az alkalmazást és érintse meg a Start gombot
+3. Olvassa be a QR-kódot a régi készülékével</string>
     <string name="trans_operate_old_phone_tips2">Lépjen be a Beállítások &gt; További beállítások &gt; Mi Átköltözés menüpontba, Érintse meg az [Én vagyok a küldő] gombot</string>
-    <string name="trans_operate_reconnect_new_tips">Várja meg míg az új készülék kiírja \"A csatlakozás megszakadt\".\10Aztán érintse meg a \"Csatlakoztassa újra\" gombot QR-kód készítéséhez.</string>
-    <string name="trans_operate_reconnect_old_tips">Várja meg míg a régi készülék kiírja \"A csatlakozás megszakadt\".\10Aztán érintse meg a \"Csatlakoztassa újra\" gombot QR-kód beolvasásához.</string>
+    <string name="trans_operate_reconnect_new_tips">Várja meg míg az új készülék kiírja \"A csatlakozás megszakadt\".
+Aztán érintse meg a \"Csatlakoztassa újra\" gombot QR-kód készítéséhez.</string>
+    <string name="trans_operate_reconnect_old_tips">Várja meg míg a régi készülék kiírja \"A csatlakozás megszakadt\".
+Aztán érintse meg a \"Csatlakoztassa újra\" gombot QR-kód beolvasásához.</string>
     <string name="trans_operate_tip_for_other_android">Nyissa meg a Mi Átköltözés alkalmazást a régi készülékén, érintse meg a \"Kezdés\" gombot és olvassa be a QR-kódot.</string>
     <string name="trans_pausing">Szüneteltetés…</string>
     <string name="trans_please_waiting">Egy pillanat…</string>
@@ -631,7 +661,9 @@
     <string name="trans_progress_subdescript_transingsddata_sender">%1$s SD-kártya adatának küldése, %2$s befejezve</string>
     <string name="trans_progress_subdescript_waiting">Várakozás %s fogadására</string>
     <string name="trans_receiver">Én vagyok a fogadó</string>
-    <string name="trans_receiver_time_remained">%s van hátra.\10Ne kapcsolja ki a Wi-Fi hotspotot.\10Tartsa a készülékeket közel egymáshoz.</string>
+    <string name="trans_receiver_time_remained">%s van hátra.
+Ne kapcsolja ki a Wi-Fi hotspotot.
+Tartsa a készülékeket közel egymáshoz.</string>
     <string name="trans_receiving_completed">Sikeresen fogadva</string>
     <string name="trans_restoring">Visszaállítás…</string>
     <string name="trans_restoring_no_items">Adatok lekérése…</string>
@@ -641,9 +673,13 @@
     <string name="trans_security_tips_message">Néhány alkalmazás nem támogatja a Mi Átköltözést.</string>
     <string name="trans_security_tips_title">A Mi Átköltözés összeegyeztethetősége</string>
     <string name="trans_select_data">Elküldendő elemek kijelölése</string>
-    <string name="trans_select_data_no_space">Az új készüléken nincs elegendő tárhely (%s elérhető).\10Szabadítson fel tárhelyet, vagy csak fontos elemeket vigyen át.</string>
-    <string name="trans_select_data_tips">Válassza ki az átvinni kívánt elemeket.\10A hasonló elemek felülírásra kerülnek az új készüléken.\10(Az átvitt elemek kijelzett mérete csupán becslésen alapul.)</string>
-    <string name="trans_select_data_too_large">Túl sok elemet jelölt ki átvitelre.\10Csak a fontos elemeket jelölje ki, hogy felgyorsuljon a fájlátvitel.</string>
+    <string name="trans_select_data_no_space">Az új készüléken nincs elegendő tárhely (%s elérhető).
+Szabadítson fel tárhelyet, vagy csak fontos elemeket vigyen át.</string>
+    <string name="trans_select_data_tips">Válassza ki az átvinni kívánt elemeket.
+A hasonló elemek felülírásra kerülnek az új készüléken.
+(Az átvitt elemek kijelzett mérete csupán becslésen alapul.)</string>
+    <string name="trans_select_data_too_large">Túl sok elemet jelölt ki átvitelre.
+Csak a fontos elemeket jelölje ki, hogy felgyorsuljon a fájlátvitel.</string>
     <string name="trans_select_device_receive">Válasszon egy készüléket az adatok fogadásához.</string>
     <string name="trans_select_device_send">Válasszon egy készüléket az adatok átköltözéséhez.</string>
     <string name="trans_select_notification_message">Érintse meg a megtekintéshez</string>
@@ -651,8 +687,11 @@
     <string name="trans_sender">Én vagyok a küldő</string>
     <string name="trans_sender_connectting">Megerősítés az új készüléken</string>
     <string name="trans_sender_searching">Új készülékek keresése</string>
-    <string name="trans_sender_searching_ensurance">Ellenőrizze, hogy a régi készülék be van-e kapcsolva\10Várakozás a régi készülék csatlakozására…</string>
-    <string name="trans_sender_time_remained">%s van hátra.\10Ne kapcsolja ki a Wi-Fi-t.\10Tartsa a készülékeket közel egymáshoz.</string>
+    <string name="trans_sender_searching_ensurance">Ellenőrizze, hogy a régi készülék be van-e kapcsolva
+Várakozás a régi készülék csatlakozására…</string>
+    <string name="trans_sender_time_remained">%s van hátra.
+Ne kapcsolja ki a Wi-Fi-t.
+Tartsa a készülékeket közel egymáshoz.</string>
     <string name="trans_sending_completed">Adatok elküldve</string>
     <string name="trans_show_qr_code_label">Régi készülék csatlakoztatása</string>
     <string name="trans_show_qr_code_tips">QR-kód olvasás a régi készülékkel</string>
@@ -662,25 +701,32 @@
     <string name="trans_success_dialog_button_market_favourable_comment">Értékelje a Mi Átköltözést</string>
     <string name="trans_success_dialog_button_survey">Kérdőív</string>
     <string name="trans_success_dialog_market_comment_and_survey_title">Minden készen van! Mondja el, mit gondol a Mi Átköltözésről.</string>
-    <string name="trans_success_dialog_market_comment_title">Most már otthon érezheti magát az új készülékén.\10Megkedvelte a Mi Átköltözést?</string>
+    <string name="trans_success_dialog_market_comment_title">Most már otthon érezheti magát az új készülékén.
+Megkedvelte a Mi Átköltözést?</string>
     <string name="trans_success_dialog_survey_title">Értékeljük a visszajelzését</string>
     <string name="trans_success_survey_hint">Először töltse ki az összes mezőt.</string>
     <string name="trans_switching_5g">Váltás 5GHz-es Wi-Fi-kapcsolatra…</string>
     <string name="trans_time_format_second">Kevesebb, mint egy perce</string>
     <string name="trans_time_spent">Eltöltött idő: %s</string>
-    <string name="trans_wait_trans_data">Csatlakozva a régi készülékhez.\10 Várakozás az átköltözésre…</string>
-    <string name="trans_waiting_ensurance">Ellenőrizze, hogy a régi készülék be van-e kapcsolva\10és a Mi Átköltözés engedélyezve van-e</string>
+    <string name="trans_wait_trans_data">Csatlakozva a régi készülékhez.
+Várakozás az átköltözésre…</string>
+    <string name="trans_waiting_ensurance">Ellenőrizze, hogy a régi készülék be van-e kapcsolva
+és a Mi Átköltözés engedélyezve van-e</string>
     <string name="trans_waiting_for_sender">Várakozás a régi készülék csatlakozására…</string>
     <string name="trans_wlan_tips_message">Ne kapcsolja ki a Wi-Fi-t, illetve ne váltson másik Wi-Fi-hálózatra az átvitel során. Különben a Mi Átköltözés nem tudja áttenni az adatait.</string>
     <string name="trans_wlan_tips_title">Ne kapcsolja ki a Wi-Fi-t</string>
     <string name="unit_byte">byte</string>
     <string name="unknown_hint">Ismeretlen</string>
-    <string name="usb_backup_select_data_too_large">A kiválasztott fájlok nagyok. Legyen biztos benne, hogy van elég hely az USB-meghajtón.\10Csak a fontos elemeket vigye át.</string>
-    <string name="usb_restore_select_data_too_large">A mentési fájlok nagyok. Sok időbe telhet a visszaállításuk.\10Gyorsabb lehet, ha csak a fontos elemeket állítja vissza.</string>
-    <string name="usb_trans_native_no_space">USB-meghajtóján már csak %s érhető el.\10Szabadítson fel tárhelyet vagy több apróbb átvitelt vigyen véghez.</string>
+    <string name="usb_backup_select_data_too_large">A kiválasztott fájlok nagyok. Legyen biztos benne, hogy van elég hely az USB-meghajtón.
+Csak a fontos elemeket vigye át.</string>
+    <string name="usb_restore_select_data_too_large">A mentési fájlok nagyok. Sok időbe telhet a visszaállításuk.
+Gyorsabb lehet, ha csak a fontos elemeket állítja vissza.</string>
+    <string name="usb_trans_native_no_space">USB-meghajtóján már csak %s érhető el.
+Szabadítson fel tárhelyet vagy több apróbb átvitelt vigyen véghez.</string>
     <string name="usb_trans_old_phone_low_space_msg">Több tárhelyre van szüksége a mentéseinek becsomagolásához. Nincs elegendő szabad tárhely az átvitel folytatásához. A Biztonság alkalmazásban tud helyet felszabadítani és felesleges fájlokat törölni vagy csak a legfontosabb elemeket vigye át.</string>
     <string name="usb_trans_old_phone_low_space_title">Nincs elég tárhely</string>
-    <string name="usb_trans_select_data_no_space">USB-meghajtóján már csak %s érhető el.\10Szabadítson fel tárhelyet vagy csak a fontos elemeket másolja át.</string>
+    <string name="usb_trans_select_data_no_space">USB-meghajtóján már csak %s érhető el.
+Szabadítson fel tárhelyet vagy csak a fontos elemeket másolja át.</string>
     <string name="user_feedback">Visszajelzés</string>
     <string name="user_name">Apple azonosító vagy e-mail</string>
     <string name="user_name_null">A felhasználónév mező nem lehet üres</string>
@@ -690,12 +736,16 @@
     <string name="v7_preference_off">KI</string>
     <string name="v7_preference_on">BE</string>
     <string name="view_password_description">Jelszó megjelenítése</string>
-    <string name="wait_link">Nyissa meg a Mi Átköltözést a régi készüléken,\10nyomja meg az \"Én vagyok a küldő\" gombot és válasszon egy hotspotot.\10Ne zárja be az oldalt a kapcsolat létrejötte előtt.</string>
+    <string name="wait_link">Nyissa meg a Mi Átköltözést a régi készüléken,
+nyomja meg az \"Én vagyok a küldő\" gombot és válasszon egy hotspotot.
+Ne zárja be az oldalt a kapcsolat létrejötte előtt.</string>
     <string name="waiting">Egy pillanat…</string>
     <string name="wifi_title">Wi-Fi-beállítások</string>
     <string name="xiaomi_connect_download_manager_fail">Nem sikerült elindítani a letöltést. győződjön meg róla, hogy a letöltéskezelő megfelelően működik.</string>
     <string name="xiaomi_external_storage_unavailable">Az adattároló eszköz nem elérhető, ellenőrizze az SD-kártyát.</string>
-    <string name="xiaomi_update_dialog_message">Bemutatkozik az %1$s verzió\10Méret: %2$s</string>
-    <string name="xiaomi_update_dialog_message_diff">Bemutatkozik az %1$s\10Delta frissítés mérete: %2$s</string>
+    <string name="xiaomi_update_dialog_message">Bemutatkozik az %1$s verzió
+Méret: %2$s</string>
+    <string name="xiaomi_update_dialog_message_diff">Bemutatkozik az %1$s
+Delta frissítés mérete: %2$s</string>
     <string name="xiaomi_update_dialog_title">Frissítés érhető el</string>
 </resources>

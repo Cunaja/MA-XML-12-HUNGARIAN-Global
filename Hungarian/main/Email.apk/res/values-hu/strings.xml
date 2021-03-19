@@ -30,10 +30,13 @@
     <string name="account_name_toast">Egy fiók ugyanezzel a névvel már létezik</string>
     <string name="account_options_actionbar_title">Fiókbeállítások</string>
     <string name="account_options_sync_title">Szinkronizálás</string>
-    <string name="account_password_spaces_error">Ez a jelszó egy vagy több szóközzel kezdődik vagy végződik. \10Sok szerver nem támogatja a szóközöket tartalmazó  jelszavakat.</string>
-    <string name="account_security_dialog_content_fmt">%s a biztonsági beállítások frissítését igényli.</string>
+    <string name="account_password_spaces_error">"Ez a jelszó egy vagy több szóközzel kezdődik vagy végződik.
+	    Sok szerver nem támogatja a szóközöket tartalmazó  jelszavakat."</string>
+    <string name="account_security_dialog_content_fmt">%s a biztonsági beállítások frissítését
+    	igényli.</string>
     <string name="account_security_dialog_title">Biztonsági frissítés</string>
-    <string name="account_security_policy_explanation_fmt">A(z) %s szerver engedélyt kér, hogy távolról vezérelhesse az Android eszköz egyes biztonsági funkcióit.</string>
+    <string name="account_security_policy_explanation_fmt">A(z) %s szerver engedélyt kér, hogy távolról vezérelhesse az Android eszköz
+		egyes biztonsági funkcióit.</string>
     <string name="account_security_title">Eszközbiztonság</string>
     <string name="account_security_verification">Fiók ellenőrzése</string>
     <string name="account_set_up_change_type_note">Ha váltania kell a POP3 és az IMAP beállítások közt, törölje a fiókját és csináljon egy újat a megfelelő beállításokkal.</string>
@@ -60,6 +63,7 @@
     <string name="account_settings_notifications">Értesítések</string>
     <string name="account_settings_notify_label">E-mail-értesítések</string>
     <string name="account_settings_notify_summary">Értesítés megjelenítése új e-mail érkezésekor</string>
+	<string name="account_settings_only_notify_inbox">Csak a beérkező leveleknél van push</string>																			   
     <string name="account_settings_param">Fiókbeállítások</string>
     <string name="account_settings_preference_att_save_path">A mellékletek alapértelmezett helye</string>
     <string name="account_settings_preference_head_icon">Profilképek</string>
@@ -102,12 +106,14 @@
     <string name="account_setup_failed_dlg_auth_message">A megadott felhasználói név vagy jelszó helytelen. Adja meg újra.</string>
     <string name="account_setup_failed_dlg_bar_title">Módok a bejelentkezéshez %s</string>
     <string name="account_setup_failed_dlg_certificate_message">Nem lehet biztonságos kapcsolatot létesíteni a szerverrel.</string>
-    <string name="account_setup_failed_dlg_certificate_message_fmt">Nem lehet biztonságos kapcsolatot létesíteni a szerverrel.\10(%s)</string>
+    <string name="account_setup_failed_dlg_certificate_message_fmt">Nem lehet biztonságos kapcsolatot létesíteni a szerverrel.
+(%s)</string>
     <string name="account_setup_failed_dlg_device_locked">A fiókja védett. Hitelesítse eszközét a QQ Biztonság használatával, vagy távolítsa el a védelmet.</string>
     <string name="account_setup_failed_dlg_edit_details_action">Részletek szerkesztése</string>
     <string name="account_setup_failed_dlg_error_code">Hibakód: %s</string>
     <string name="account_setup_failed_dlg_server_message">Nem lehet kapcsolódni a szerverhez.</string>
-    <string name="account_setup_failed_dlg_server_message_fmt">Nem lehet kapcsolódni a szerverhez.\10(%s)</string>
+    <string name="account_setup_failed_dlg_server_message_fmt">Nem lehet kapcsolódni a szerverhez.
+(%s)</string>
     <string name="account_setup_failed_dlg_title">Fiók beállítása sikertelen</string>
     <string name="account_setup_failed_dlg_todo2">Fiók beállítása az alábbiak szerint</string>
     <string name="account_setup_failed_dlg_unknown_auth_message">Ismeretlen hiba.</string>
@@ -425,7 +431,11 @@
     <string name="empty_trash_dialog_title">Lomtár ürítése?</string>
     <string name="enable_sync_in_account_settings">%1$s bekapcsolása.</string>
     <string name="error">Hiba</string>
-    <string name="exception_cancel">\10        Az esemény vissza lett vonva ekkor:\10        %s\10    </string>
+    <string name="exception_cancel">"
+        Az esemény vissza lett vonva
+        ekkor:
+        %s
+    "</string>	
     <string name="exception_updated">Az esemény részletei megváltoztak ekkorra: %s</string>
     <string name="exchange_name">Vállalati</string>
     <string name="expand_button_title">Speciális</string>
@@ -601,17 +611,50 @@
     <string name="mark_unread">Olvasatlan</string>
     <string name="me_object_pronun">nekem</string>
     <string name="me_subject_pronun">én</string>
-    <string name="meeting_accepted">\10        Fogadva:\10        %s\10    </string>
-    <string name="meeting_allday">\10        Idő:\10        %s\10        (minden nap)\10    </string>
-    <string name="meeting_allday_recurring">\10        Idő:\10        %s\10        (minden nap, ismétlődő)\10    </string>
-    <string name="meeting_canceled">\10        Megszakítva:\10        %s\10    </string>
-    <string name="meeting_declined">\10        Elutasítva:\10        %s\10    </string>
-    <string name="meeting_recurring">\10        Idő:\10        %s\10        (ismétlődő)\10    </string>
+	<string name="meeting_accepted">"
+        Fogadva:
+        %s
+    "</string>
+    <string name="meeting_allday">"
+        Idő:
+        %s
+        (minden nap)
+    "</string>
+    <string name="meeting_allday_recurring">"
+        Idő:
+        %s
+        (minden nap, ismétlődő)
+    "</string>
+    <string name="meeting_canceled">"
+        Megszakítva:
+        %s
+    "</string>
+    <string name="meeting_declined">"
+        Elutasítva:
+        %s
+    "</string>
+    <string name="meeting_recurring">"
+        Idő:
+        %s
+        (ismétlődő)
+    "</string>
     <string name="meeting_responded_failed">Nincs válasz</string>
-    <string name="meeting_tentative">\10        Függő:\10        %s\10    </string>
-    <string name="meeting_updated">\10        Frissítve:\10        %s\10    </string>
-    <string name="meeting_when">\10        Idő:\10        %s\10    </string>
-    <string name="meeting_where">\10        Helyszín:\10        %s\10    </string>
+    <string name="meeting_tentative">"
+        Függő:
+        %s
+    "</string>
+    <string name="meeting_updated">"
+        Frissítve:
+        %s
+    "</string>
+    <string name="meeting_when">"
+        Idő:
+        %s
+    "</string>
+    <string name="meeting_where">"
+        Helyszín:
+        %s
+    "</string>
     <string name="megabytes">%s MB</string>
     <string name="menu_att_mgr">Mellékletek</string>
     <string name="menu_att_mgr_order_default">Legutóbb megtekintett</string>
@@ -668,7 +711,8 @@
     <string name="no">Nem</string>
     <string name="no_application_found">Nincs megfelelő alkalmazás a melléklet megnyitásához.</string>
     <string name="no_application_found_title">Melléklet megnyitása.</string>
-    <string name="no_bill_discribe">Nem található számla\10Próbáljon meg átváltani egy másik e-mail fiókra.</string>
+    <string name="no_bill_discribe">Nem található számla
+Próbáljon meg átváltani egy másik e-mail fiókra.</string>
     <string name="no_contacts">Nincsenek névjegyek.</string>
     <string name="no_conversations">Nincsenek üzenetek</string>
     <string name="no_img_application_found">A fájl megnyitásához nem található alkalmazás</string>
@@ -777,7 +821,8 @@
     <string name="personal_data_collection_title">Személyes adatok gyűjtésének engedélyezése</string>
     <string name="phone">telefon</string>
     <string name="pl_select_age">Életkor kiválasztása</string>
-    <string name="pls_parse_bill_discribe">Számlák és útinfók elemzése a levelezésében,\10hogy kaphasson értesítéseket a kifizetésekről és utazásokról</string>
+    <string name="pls_parse_bill_discribe">Számlák és útinfók elemzése a levelezésében,
+hogy kaphasson értesítéseket a kifizetésekről és utazásokról</string>
     <string name="policy_app_blacklist">Megadott alkalmazások tiltása</string>
     <string name="policy_app_whitelist">Csak a megadott alkalmazások engedélyezése</string>
     <string name="policy_bluetooth_restricted">Bluetooth használat korlátozása</string>
@@ -876,7 +921,8 @@
     <string name="remind_attachment_size_limit">Az e-mailjeinek %sMB-nál kisebbnek kell lenniük</string>
     <string name="reminder">Emlékeztető</string>
     <string name="reminder_picker_title">Emlékeztető</string>
-    <string name="remote_search_body_too_large_prompt">Ez az e-mail túl hosszú.\10Várjon, amíg teljesen szinkronizálásra kerül, vagy az üzenetet a számítógépen tekintse meg.</string>
+    <string name="remote_search_body_too_large_prompt">Ez az e-mail túl hosszú.
+Várjon, amíg teljesen szinkronizálásra kerül, vagy az üzenetet a számítógépen tekintse meg.</string>
     <string name="remove_account">Fiók eltávolítása</string>
     <string name="remove_folder">Eltávolítás innen: %1$s</string>
     <string name="remove_star">Nem kedvenc</string>
@@ -908,7 +954,8 @@
     <string name="search_tabs_name_subject">Tárgy</string>
     <string name="search_txt_size_limit_prompt">Keresési kifejezésnek 3 karakternél többnek kell lennie</string>
     <string name="security_needed_ticker_fmt">\"%s \" fiók biztonsági beállítások frissítését igényli.</string>
-    <string name="security_notification_content_unsupported_title">Ütközik a biztonsági\10         irányelvekkel</string>
+    <string name="security_notification_content_unsupported_title">Ütközik a biztonsági
+irányelvekkel</string>
     <string name="security_notification_content_update_title">Biztonsági frissítés szükséges</string>
     <string name="security_unsupported_ticker_fmt">\"%s \" fiók biztonsági követelmények miatt nem szinkronizálható.</string>
     <string name="see_more_content">Még több</string>
@@ -924,7 +971,8 @@
     <string name="sending_message">Üzenet küldése…</string>
     <string name="sending_quick_reply">\"%s\" küldése</string>
     <string name="sent_folder_selection_title">Elküldött elemek mappa kiválasztása a szerveren %s</string>
-    <string name="ser_resp_err_map_certificate_validator_err">Szerver tanúsítványának hitelesítése sikertelen\10\9 (Bizonyosodjon meg róla, hogy az \'Automatikus szinkronizálási idő\' be van kapcsolva a Beállításokban)</string>
+    <string name="ser_resp_err_map_certificate_validator_err">Szerver tanúsítványának hitelesítése sikertelen
+\u0009  (Bizonyosodjon meg róla, hogy az \'Automatikus szinkronizálási idő\' be van kapcsolva a Beállításokban)</string>
     <string name="ser_resp_err_map_landing_more_failure">Egymás után többször nem sikerült bejelentkezni. Várj egy-két percet, majd próbáld meg újra.</string>
     <string name="ser_resp_err_map_landing_too_frequently">Túl sok gyakori bejelentkezési kísérlet. Várj egy-két percet, majd próbáld meg újra.</string>
     <string name="ser_resp_err_map_mailbox_locked">Ez az e-mail-fiók zárolva van. Lépj kapcsolatba az e-mail-szolgáltatóval, hogy előbb oldják fel a zárat.</string>
@@ -942,7 +990,9 @@
     <string name="server_cet_data">Érvényességi időtartam: </string>
     <string name="server_cet_data_exp">A szerver tanúsítványa lejárt.</string>
     <string name="server_cet_domain">Domain név: </string>
-    <string name="server_cet_error_sug">Próbálja ki a következőket:\101. Csatlakozzon egy másik hálózathoz, vagy indítsa újra a Wi-Fi routert.\102. Ellenőrizze, hogy érvényes tanúsítványokat használ.</string>
+    <string name="server_cet_error_sug">Próbálja ki a következőket:
+1. Csatlakozzon egy másik hálózathoz, vagy indítsa újra a Wi-Fi routert.
+2. Ellenőrizze, hogy érvényes tanúsítványokat használ.</string>
     <string name="server_cet_error_title_1">A szerver tanúsítványa nem támogatja ezt a domaint</string>
     <string name="server_cet_error_title_2">A tanúsítvány lejárt</string>
     <string name="server_cet_error_title_3">A tanúsítvány kiállítója nem megbízható szervezet.</string>
@@ -1029,10 +1079,13 @@
     <string name="trigger_before_minute">%d perccel előbb</string>
     <string name="trigger_before_week">%d héttel előbb</string>
     <string name="try_exchange_login">Bejelentkezés EXCHANGE segítségével</string>
-    <string name="turn_auto_sync_on_dialog_body">Módosítások minden\10    alkalmazáson és fiókon, nem csak a Gmailen, szinkronizálva lesznek\10    az egyéb eszközök és a %1$s között.</string>
+    <string name="turn_auto_sync_on_dialog_body">Módosítások minden
+alkalmazáson és fiókon, nem csak a Gmailen, szinkronizálva lesznek
+az egyéb eszközök és a %1$s között.</string>
     <string name="turn_auto_sync_on_dialog_confirm_btn">Kapcsolja be</string>
     <string name="turn_auto_sync_on_dialog_title">Autom. szinkr. bekapcsolása?</string>
-    <string name="unbind_dialog_text">Az E-mail alkalmazás ezek után nem fogja elemezni az e-maileket.\10Eltávolítja a fiókot?</string>
+    <string name="unbind_dialog_text">Az E-mail alkalmazás ezek után nem fogja elemezni az e-maileket.
+Eltávolítja a fiókot?</string>
     <string name="under_16_content">Megerősíted, hogy még nem vagy 16 éves?</string>
     <string name="under_sixteen">Még nem vagyok 16 éves.</string>
     <string name="undo">Visszavon</string>
@@ -1052,14 +1105,15 @@
     <string name="user_privacy_settings">Adatvédelmi beállítások</string>
     <string name="user_privacy_settings_agreement_authorization">(Az „Engedélyezés” lehetőségre való koppintással megadja a Mail számára az összes szükséges engedélyt)</string>
     <string name="user_privacy_settings_path">Az engedély visszavonásához menjen a Beállítások &gt; Adatvédelmi beállítások menüpontba.</string>
-    <string name="user_privacy_settings_summary">Titkosított formában begyűjtjük Android-azonosítóját és egyedi felhasználói azonosítóként használjuk fel a Mailben. A naplófájlokat is begyújthetjük. Az adatvédelmi beállításokban bármikor visszavonhatja az engedélyt.</string>
+    <string name="user_privacy_settings_summary">Titkosított formában begyűjtjük Android-azonosítóját és egyedi felhasználói azonosítóként használjuk fel a Mailben. A naplófájlokat is begyűjthetjük. Az adatvédelmi beállításokban bármikor visszavonhatja az engedélyt.</string>
     <string name="user_privacy_settings_title">Mail adatvédelmi nyilatkozat</string>
     <string name="v7_preference_off">KI</string>
     <string name="v7_preference_on">BE</string>
     <string name="verify_code">Ellenőrző kód</string>
     <string name="version_string">Verzió: %s</string>
     <string name="view_more_conversations">További beszélgetések megtekintése</string>
-    <string name="wait_for_manual_sync_body">Fiók automatikus szinkronizálása kikapcsolva.\10Kattintson a Szinkronizálás mostra az egyszeri szinkronizáláshoz, vagy módosítsa a szinkronizálási beállításokat az automatikus szinkronizálás bekapcsolásához.</string>
+    <string name="wait_for_manual_sync_body">Fiók automatikus szinkronizálása kikapcsolva.
+Kattintson a Szinkronizálás mostra az egyszeri szinkronizáláshoz, vagy módosítsa a szinkronizálási beállításokat az automatikus szinkronizálás bekapcsolásához.</string>
     <string name="wait_for_sync_title">Várakozás a szinkronizálásra</string>
     <string name="wait_while_update_db">Adatbázis frissítése…</string>
     <string name="webview_logout">Megpróbálhat újra bejelentkezni</string>

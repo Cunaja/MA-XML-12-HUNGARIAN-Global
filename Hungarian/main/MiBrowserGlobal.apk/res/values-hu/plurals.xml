@@ -221,8 +221,8 @@
         <item quantity="one">%1$d megtekintés</item>
     </plurals>
     <plurals name="views">
-        <item quantity="other">%dk views</item>
-        <item quantity="one">%dk view</item>
+        <item quantity="other">%dk nézet</item>
+        <item quantity="one">%dk nézet</item>
     </plurals>
     <plurals name="vote_all_people">
         <item quantity="other">%d ember szavazott</item>

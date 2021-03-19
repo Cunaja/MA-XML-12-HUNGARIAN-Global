@@ -57,12 +57,12 @@
 	<string name="activity_not_found_notice">Nem található az alkalmazás</string>
 	<string name="add">Hozzáadás</string>
     <string name="add_cw_fail_tip">"Nem sikerült hozzáadni háttérképet"</string>
-    <string name="add_cw_success_tip">Added wallpaper successfully</string>
-    <string name="add_first_cw_toast1">Added successfully. Turned on Wallpaper Carousel and started the slideshow.</string>
-    <string name="add_first_cw_toast2">Added some items successfully. Turned on Wallpaper Carousel and started the slideshow.</string>
-    <string name="add_first_cw_toast3">Added wallpapers successfully. Turned on Wallpaper Carousel and started the slideshow.</string>
-    <string name="add_first_cw_toast4">Turned on Wallpaper Carousel and started the slideshow</string>
-    <string name="add_launch_hint_text">Add Home screen shortcut</string>
+    <string name="add_cw_success_tip">A háttérkép sikeresen hozzáadva</string>
+    <string name="add_first_cw_toast1">Sikeresen hozzáadva. Bekapcsolta a háttérkép körhintát, és elindította a diavetítést.</string>
+    <string name="add_first_cw_toast2">Elemek sikeresen hozzáadva. Bekapcsolta a háttérkép körhintát, és elindította a diavetítést.</string>
+    <string name="add_first_cw_toast3">Háttérképek sikeresen hozzáadva. Bekapcsolta a háttérkép körhintát, és elindította a diavetítést.</string>
+    <string name="add_first_cw_toast4">Bekapcsolta a háttérkép körhintát, és elindította a diavetítést.</string>
+    <string name="add_launch_hint_text">Kezdőképernyő parancsikonjának hozzáadása</string>
 	<string name="add_to_trust_device">Ez egy megbízható készülék</string>
 	<string name="app_name">Mi Háttérkép Körhinta</string>
     <string name="auth_fail_warning">Időtúllépés történt. Jelentkezzen be újra.</string>
@@ -78,7 +78,9 @@
     <string name="confirm_new_pwd">Erősítse meg az új jelszót</string>
     <string name="confirm_unbundled_phone_dialog_message">Ez a telefonszám a %2$s Mi Fiókhoz lett társítva ekkor: %1$s. Ha folytatja, nem lesz többé társítva a %3$s Mi Fiókhoz. Folytatja?</string>
     <string name="diagnosis_log_send_failed">Naplók küldése sikertelen. Próbálja újra.</string>
-    <string name="diagnosis_log_sent_format">A naplók sikeresen elküldésre kerültek.\10Azonosító:%s\10Küldje el ezt a kódot a vezetőjének.</string>
+    <string name="diagnosis_log_sent_format">A naplók sikeresen elküldésre kerültek.
+Azonosító:%s
+Küldje el ezt a kódot a vezetőjének.</string>
     <string name="error_dup_binded_email">Ez az e-mail cím már hozzá van rendelve egy másik Mi Fiókhoz.</string>
     <string name="error_invalid_bind_address">A megadott e-mail cím érvénytelen.</string>
     <string name="exceed_binded_phone_times_notice">Ez a szám már hozzá van rendelve másik Mi Fiókhoz.</string>

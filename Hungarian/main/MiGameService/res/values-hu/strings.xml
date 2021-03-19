@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Mi játék szolgáltatás</string>
     <string name="bt_infer">infer</string>
-    <string name="conflict_with_bs_anchor_tool">A cápaidő leállt a többképernyős felvevő miatt</string>
+    <string name="conflict_with_bs_anchor_tool">A cápaidő leállt a több-képernyős felvevő miatt</string>
     <string name="frag_debug_options">Hibakeresési beállítások</string>
     <string name="frag_float_window">Lebegő ablak</string>
     <string name="frag_frxy_test">FRXY Funkció teszt</string>
@@ -10,13 +10,13 @@
     <string name="frag_game_type_kpl">kpl</string>
     <string name="frag_game_type_pubg">pubg</string>
     <string name="frag_kpl_test">KPL Funkció teszt</string>
-    <string name="frag_light_test">Light Common Api Test</string>
-    <string name="frag_multi_digit_bin_test">Multi Digits Binary Test</string>
-    <string name="frag_multi_digit_rgb_test">Multi Digits RGB Test</string>
-    <string name="frag_object_detection_test">Object Detection Test</string>
-    <string name="frag_pubg_test">PUBG Feature Test</string>
-    <string name="frag_pubg_text_lt_test">Text LT Test</string>
-    <string name="frag_pubg_text_test">Text Test</string>
+    <string name="frag_light_test">Light Common Api teszt</string>
+    <string name="frag_multi_digit_bin_test">Multi Digits Binary teszt</string>
+    <string name="frag_multi_digit_rgb_test">Multi Digits RGB teszt</string>
+    <string name="frag_object_detection_test">Object Detection teszt</string>
+    <string name="frag_pubg_test">PUBG Feature teszt</string>
+    <string name="frag_pubg_text_lt_test">Text LT teszt</string>
+    <string name="frag_pubg_text_test">Text teszt</string>
     <string name="frag_region_test">Régió teszt</string>
     <string name="frag_sharktime_test">SharkTime Teszt</string>
     <string name="frag_skin_test">Skin Teszt</string>

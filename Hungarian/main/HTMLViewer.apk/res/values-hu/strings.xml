@@ -6,7 +6,8 @@
     <string name="app_version_which_call">Az alkalmazás %s verziója</string>
     <string name="autoconnect">Automatikus csatlakozás</string>
     <string name="ime_privacy_policy">Billentyűzet kiválasztása</string>
-    <string name="license_host_unreachable">Nem sikerült a hálózathoz csatlakozni. Az információ megtekintéséhez\10egy másik készüléken nyissa meg ezt az oldalt: %s.</string>
+    <string name="license_host_unreachable">Nem sikerült a hálózathoz csatlakozni. Az információ megtekintéséhez
+egy másik készüléken nyissa meg ezt az oldalt: %s.</string>
     <string name="loading">Egy pillanat…</string>
     <string name="mibi_license">A Mi Credit Felhasználói Szerződése</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Húzza le a frissítéshez</string>
@@ -34,6 +35,7 @@
     <string name="settings_license_activity_unavailable">A licencek nem tölthetők be.</string>
     <string name="settings_safetylegal_activity_loading">Egy pillanat…</string>
     <string name="settings_safetylegal_activity_title">Biztonsági információ</string>
-    <string name="settings_safetylegal_activity_unreachable">Nem sikerült a hálózathoz csatlakozni. Az információ megtekintéséhez\10egy másik számítógépen nyissa meg ezt az oldalt: %s.</string>
+    <string name="settings_safetylegal_activity_unreachable">Nem sikerült a hálózathoz csatlakozni. Az információ megtekintéséhez
+egy másik számítógépen nyissa meg ezt az oldalt: %s.</string>
     <string name="settings_safetylegal_title">Biztonsági információ</string>
 </resources>

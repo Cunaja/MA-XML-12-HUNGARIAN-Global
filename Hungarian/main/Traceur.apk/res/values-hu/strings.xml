@@ -152,16 +152,21 @@
     <string name="bluetooth_sap_profile_summary_connected">Csatlakozva az SAP-hoz</string>
     <string name="bluetooth_sap_profile_summary_use_for">Használat SIM-elérésre</string>
     <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bluetooth hang – bit/minta</string>
-    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Bluetooth-hangkodek aktiválása\10Kiválasztás: Bit/minta</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Bluetooth-hangkodek aktiválása
+Kiválasztás: Bit/minta</string>
     <string name="bluetooth_select_a2dp_codec_channel_mode">Bluetooth hang – Csatornamód</string>
-    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Bluetooth-hangkodek aktiválása\10Kiválasztás: Csatornamód</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Bluetooth-hangkodek aktiválása
+Kiválasztás: Csatornamód</string>
     <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Bluetooth LDAC hangkodek: lejátszási minőség</string>
-    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Bluetooth LDAC hangkodek aktiválása\10Kiválasztás: Lejátszási minőség</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Bluetooth LDAC hangkodek aktiválása
+Kiválasztás: Lejátszási minőség</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth hang – mintavételezési gyakoriság</string>
-    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Bluetooth-hangkodek aktiválása\10Kiválasztás: Mintavételezési gyakoriság</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Bluetooth-hangkodek aktiválása
+Kiválasztás: Mintavételezési gyakoriság</string>
     <string name="bluetooth_select_a2dp_codec_streaming_label">Streamelés: %1$s</string>
     <string name="bluetooth_select_a2dp_codec_type">Bluetooth hang – Kodek</string>
-    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth-hangkodek aktiválása\10Kiválasztás</string>
+    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth-hangkodek aktiválása
+Kiválasztás</string>
     <string name="bluetooth_select_a2dp_codec_type_help_info">A kiszürkítés azt jelenti, hogy nem támogatja telefon vagy headset</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">A Bluetooth AVRCP-verziójának kiválasztása</string>
     <string name="bluetooth_select_avrcp_version_string">A Bluetooth AVRCP-verziója</string>
@@ -203,7 +208,10 @@
     <string name="connected_via_network_scorer_default">Automatikusan csatlakozott a hálózatértékelés szolgáltatóján keresztül</string>
     <string name="connected_via_passpoint">Csatlakozva a következőn keresztül: %1$s</string>
     <string name="content_description_menu_button">Menü</string>
-    <string name="convert_to_fbe_warning">Konvertálja az adatalapú titkosítást használó partíciót fájlalapú titkosítást használóvá.\10 FIGYELEM! A művelet minden adatot töröl.\10 A funkció alfatesztelésben van, és lehet, hogy nem megfelelően működik.\10 Nyomja meg a „Törlés és konvertálás…” lehetőséget a folytatáshoz.</string>
+    <string name="convert_to_fbe_warning">Konvertálja az adatalapú titkosítást használó partíciót fájlalapú titkosítást használóvá.
+ FIGYELEM! A művelet minden adatot töröl.
+ A funkció alfatesztelésben van, és lehet, hogy nem megfelelően működik.
+ Nyomja meg a „Törlés és konvertálás…” lehetőséget a folytatáshoz.</string>
     <string name="convert_to_file_encryption">Konvertálás fájlalapú titkosításra</string>
     <string name="convert_to_file_encryption_done">Már fájlalapú titkosítást használ</string>
     <string name="convert_to_file_encryption_enabled">Konvertálás…</string>
@@ -560,8 +568,14 @@
     <string name="user_add_profile_item_title">Korlátozott profil</string>
     <string name="user_add_user_item_summary">A felhasználóknak saját alkalmazásaik és tartalmaik vannak</string>
     <string name="user_add_user_item_title">Felhasználó</string>
-    <string name="user_add_user_message_long">További felhasználók létrehozásával megoszthatja ezt az eszközt másokkal. Minden felhasználó saját felülettel rendelkezik, amelyet személyre szabhat saját alkalmazásaival, háttérképével stb. A felhasználók módosíthatják az eszköz beállításait is, például a Wi‑Fi használatát, amely mindenkit érint.\10\10Ha új felhasználót ad hozzá, az illetőnek be kell állítania saját felületét.\10\10Bármely felhasználó frissítheti az alkalmazásokat valamennyi felhasználó számára. Előfordulhat, hogy a kisegítő lehetőségekkel kapcsolatos beállításokat és szolgáltatásokat nem viszi át a rendszer az új felhasználóhoz.</string>
-    <string name="user_add_user_message_short">Ha új felhasználót ad hozzá, az illetőnek be kell állítania saját tárterületét.\10\10Bármely felhasználó frissítheti az alkalmazásokat valamennyi felhasználó számára.</string>
+    <string name="user_add_user_message_long">További felhasználók létrehozásával megoszthatja ezt az eszközt másokkal. Minden felhasználó saját felülettel rendelkezik, amelyet személyre szabhat saját alkalmazásaival, háttérképével stb. A felhasználók módosíthatják az eszköz beállításait is, például a Wi‑Fi használatát, amely mindenkit érint.
+	
+	Ha új felhasználót ad hozzá, az illetőnek be kell állítania saját felületét.
+	
+	Bármely felhasználó frissítheti az alkalmazásokat valamennyi felhasználó számára. Előfordulhat, hogy a kisegítő lehetőségekkel kapcsolatos beállításokat és szolgáltatásokat nem viszi át a rendszer az új felhasználóhoz.</string>
+    <string name="user_add_user_message_short">Ha új felhasználót ad hozzá, az illetőnek be kell állítania saját tárterületét.
+	
+	Bármely felhasználó frissítheti az alkalmazásokat valamennyi felhasználó számára.</string>
     <string name="user_add_user_title">Hozzáad új felhasználót?</string>
     <string name="user_add_user_type_title">Hozzáadás</string>
     <string name="user_guest">Vendég</string>

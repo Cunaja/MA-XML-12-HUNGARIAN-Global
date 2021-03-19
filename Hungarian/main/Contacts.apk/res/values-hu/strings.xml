@@ -298,7 +298,8 @@
     <string name="description_send_message">Üzenet küldése neki: %1$s</string>
     <string name="deselect_all">Kijelölések törlése</string>
     <string name="device_import_account_dialog_title">Válasszon egy fiókot</string>
-    <string name="device_import_account_dialog_title_suffix">\10(%1$s névjegytalálat)</string>
+    <string name="device_import_account_dialog_title_suffix">
+(%1$s névjegytalálat)</string>
     <string name="device_import_local_account">Helyi fiók</string>
     <string name="device_import_message">Importálás</string>
     <string name="device_import_progress_begin_message">Importálás…</string>
@@ -309,8 +310,17 @@
     <string name="device_other_title">Importálás egy másik készülékről</string>
     <string name="device_paired_dialog_message">Névjegyek párosítása…</string>
     <string name="device_pairing_dialog_message">Párosítás…</string>
-    <string name="device_transfer_by_bluetooth_message">%1$d. A másik készüléken kapcsolja be a Bluetooth-t.\10\10-Android készülékeken a hálózati beállításokban találhatja a Bluetooth-t.\10-iOS készülékeken a Bluetooth a Beállítások menüben található.\10\10%2$d. Android készülékeken be kell kapcsolni a Láthatóság módot is.\10\10%3$d. Koppintson a „Következő” gombra és adja meg a szükséges engedélyeket a Névjegyek alkalmazás számára.</string>
-    <string name="device_transfer_by_sim_message">%1$d. A másik készülék névjegyeit mentse el a SIM-kártyára;\10\10%2$d. Nyissa meg a Névjegyek alkalmazás beállításait, ott a „Névjegyek Importálása/Exportálása” -- „Importálás SIM-kártyáról” menüt, válassza ki a kívánt névjegyeket, majd koppintson az „Importálás” lehetőségre.</string>
+    <string name="device_transfer_by_bluetooth_message">%1$d. A másik készüléken kapcsolja be a Bluetooth-t.
+
+-Android készülékeken a hálózati beállításokban találhatja a Bluetooth-t.
+-iOS készülékeken a Bluetooth a Beállítások menüben található.
+
+%2$d. Android készülékeken be kell kapcsolni a Láthatóság módot is.
+
+%3$d. Koppintson a „Következő” gombra és adja meg a szükséges engedélyeket a Névjegyek alkalmazás számára.</string>
+    <string name="device_transfer_by_sim_message">%1$d. A másik készülék névjegyeit mentse el a SIM-kártyára;
+	
+%2$d. Nyissa meg a Névjegyek alkalmazás beállításait, ott a „Névjegyek Importálása/Exportálása” -- „Importálás SIM-kártyáról” menüt, válassza ki a kívánt névjegyeket, majd koppintson az „Importálás” lehetőségre.</string>
     <string name="device_version_header_bluetooth">Importálás Bluetooth-on keresztül</string>
     <string name="device_version_header_no_bluetooth">Importálás a SIM-kártyáról</string>
     <string name="dialerIconLabel">Legutóbbiak</string>
@@ -373,7 +383,8 @@
     <string name="export_to_sim2">Exportálás a SIM2-kártyára</string>
     <string name="export_to_sim_prepare_title">Előkészítés…</string>
     <string name="export_to_sim_title">Exportálás…</string>
-    <string name="exporting_contact_failed_message">Nem sikerült exportálni a névjegyadatokat.\10Oka: \"%s\"</string>
+    <string name="exporting_contact_failed_message">Nem sikerült exportálni a névjegyadatokat.
+Oka: \"%s\"</string>
     <string name="exporting_contact_failed_title">Sikertelen exportálás</string>
     <string name="exporting_contact_list_message">Importálás a(z) %s fájlba.</string>
     <string name="exporting_contact_list_title">Névjegyadatok exportálása</string>
@@ -741,7 +752,9 @@
     <string name="remove_blacklist">Eltávolítás a tiltólistáról</string>
     <string name="remove_blacklist_dialog_message">Fogadja a hívásokat és az üzeneteket erről a számról?</string>
     <string name="remove_blacklist_dialog_title">Törli ezt a telefonszámot a tiltólistáról?</string>
-    <string name="remove_duplicate">A MIUI segít megtalálni és összekapcsolni a dupla névjegyeket.\10\10 Először érintse meg az Összekapcsolás ikont a képernyő alján.</string>
+    <string name="remove_duplicate">A MIUI segít megtalálni és összekapcsolni a dupla névjegyeket.
+
+Először érintse meg az Összekapcsolás ikont a képernyő alján.</string>
     <string name="restore_nickname">Visszaállítás</string>
     <string name="return_call">Koppintson a híváshoz való visszatéréshez</string>
     <string name="return_call_calling">Hívás folyamatban</string>
@@ -951,7 +964,11 @@
     <string name="unknown_details_new_contact">Új</string>
     <string name="update_sim_contact_photo_toast">SIM-kártyán lévő névjegyhez nem állíthat be fényképet</string>
     <string name="upgrade_in_progress">Névjegylista frissítése folyamatban van.</string>
-    <string name="upgrade_out_of_memory">A névjegyek frissítése folyamatban van. \10\10A frissítési folyamathoz nagyjából %s MB belső tárhelyre van szükség.\10\10Válasszon az alábbi lehetőségek közül:</string>
+    <string name="upgrade_out_of_memory">A névjegyek frissítése folyamatban van.
+
+A frissítési folyamathoz nagyjából %s MB belső tárhelyre van szükség.
+
+Válasszon az alábbi lehetőségek közül:</string>
     <string name="use_photo_as_primary2">%1$s fényképének használata</string>
     <string name="v7_preference_off">KI</string>
     <string name="v7_preference_on">BE</string>

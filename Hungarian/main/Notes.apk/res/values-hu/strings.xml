@@ -495,10 +495,14 @@
     <string name="toast_refuse_to_record_when_in_call">Hívás közben nem használhatja ezt a funkciót</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Ez a funkció nem használható a Megosztott képernyővel</string>
     <string name="toast_refuse_to_record_when_in_multi_window_new">A funkció nem használható Osztott képernyőn vagy lebegő ablakban</string>
-    <string name="toast_refuse_to_use_contact">A névjegyzék engedélyek korlátozva vannak.\10A névjegyek elolvasásához és a fiókok eszközön való megkereséséhez engedélyezze a Jegyzeteket.</string>
-    <string name="toast_refuse_to_use_external_storage">A tárolási engedélyek korlátozva vannak.\10Az SD-kártya tartalmának olvasásához engedélyezze a Jegyzeteket.</string>
-    <string name="toast_refuse_to_use_phone_state">A telefon engedélyezi korlátozva vannak.\10A telefon státuszának és azonosítójának elolvasásához engedélyezze a Jegyzeteket.</string>
-    <string name="toast_refuse_to_use_record_audio">A mikrofon engedélyei korlátozva vannak.\10Hang felvételéhez engedélyezze a Jegyzeteket.</string>
+    <string name="toast_refuse_to_use_contact">A névjegyzék engedélyek korlátozva vannak.
+A névjegyek elolvasásához és a fiókok eszközön való megkereséséhez engedélyezze a Jegyzeteket.</string>
+    <string name="toast_refuse_to_use_external_storage">A tárolási engedélyek korlátozva vannak.
+Az SD-kártya tartalmának olvasásához engedélyezze a Jegyzeteket.</string>
+    <string name="toast_refuse_to_use_phone_state">A telefon engedélyezi korlátozva vannak.
+A telefon státuszának és azonosítójának elolvasásához engedélyezze a Jegyzeteket.</string>
+    <string name="toast_refuse_to_use_record_audio">A mikrofon engedélyei korlátozva vannak.
+Hang felvételéhez engedélyezze a Jegyzeteket.</string>
     <string name="today">Ma</string>
     <string name="todo_alert_title_delete">Befejezett feladatok törlése</string>
     <string name="todo_audio_default_content">[Hangfeladat] </string>

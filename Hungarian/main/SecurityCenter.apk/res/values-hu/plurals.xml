@@ -97,8 +97,12 @@
         <item quantity="one">%d alkalmazás védve</item>
     </plurals>
     <plurals name="daily_sim_over_limit_dialog_message">
-        <item quantity="other">Már felhasznált %s napi adatcsomagot.\10\10Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjakat számolhat fel.</item>
-        <item quantity="one">Már felhasznált %s napi adatcsomagot.\10\10Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjakat számolhat fel.</item>
+        <item quantity="other">Már felhasznált %s napi adatcsomagot.
+
+Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjakat számolhat fel.</item>
+        <item quantity="one">Már felhasznált %s napi adatcsomagot.
+
+Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjakat számolhat fel.</item>
     </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">Már felhasznált %s napi adatcsomagot.</item>

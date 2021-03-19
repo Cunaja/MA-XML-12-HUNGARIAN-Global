@@ -228,7 +228,9 @@
     <string name="description">Leírás</string>
     <string name="detail_select_source">Visszajátszás forrásának kiválasztása</string>
     <string name="diagnosis_log_send_failed">Naplók küldése sikertelen. Próbálja újra.</string>
-    <string name="diagnosis_log_sent_format">A naplók sikeresen elküldésre kerültek.\10Azonosító:%s\10Küldje el ezt a kódot a vezetőjének.</string>
+    <string name="diagnosis_log_sent_format">A naplók sikeresen elküldésre kerültek.
+Azonosító:%s
+Küldje el ezt a kódot a vezetőjének.</string>
     <string name="dialog_privacy_info_new2">A szolgáltatások használatához bele kell egyeznie, hogy az %1$s felhasználja és tárolja a személyes adatait. Az alábbi \"Elfogadom\" gombra koppintással kijelenti, hogy elolvasta és elfogadja az &lt;a href=%2$s&gt;Adatvédelmi szabályzatunkat&lt;/a&gt;.</string>
     <string name="dialog_privacy_info_new3">A szolgáltatás használatához engedélyeznie kell a %1$s alkalmazást, hogy az Adatvédelmi szabályzattal összhangban gyűjtsük, dolgozzuk és használjuk fel az Ön személyes adatait. Az alábbi Elfogad gombra való kattintással Ön elfogadja a Xiaomi &lt;a href=%2$s&gt;Adatvédelmi szabályzatát&lt;/a&gt; és &lt;a href=%3$s&gt;Felhasználói szerződését&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;Az Elfogad gombra való kattintással lehetővé teszi a Mi Video számára, hogy hozzáférjen a készülékére telepített alkalmazások listájához. Ezzel az engedéllyel a Mi Video megoszthat elemeket, megtudhatja, hogy telepítve van-e egy alkalmazás az Ön készülékére, az alkalmazás melyik verziója van telepítve és hogy egy alkalmazás biztonságos-e.</string>
     <string name="dialog_privacy_title">Engedélyezés</string>
@@ -361,14 +363,16 @@
     <string name="galleryplus_network_connect_check">Nem sikerült kapcsolódni a hálózathoz</string>
     <string name="galleryplus_network_connect_confirm">Csatlakozás a Wi-Fi-hez vagy mobil adatforgalom bekapcsolása a hálózati beállításokban.</string>
     <string name="galleryplus_network_error">Nem sikerült kapcsolódni a hálózathoz</string>
-    <string name="galleryplus_network_not_wifi">A mobiladatkapcsolat használata videók streamelésére további szolgáltatói költségeket vonhat maga után</string>
+    <string name="galleryplus_network_not_wifi">A mobiladatkapcsokat használata videók streamelésére további szolgáltatói költségeket vonhat maga után</string>
     <string name="galleryplus_online_cta">Az Mi Videó megfelelő működéséhez internetkapcsolat szükséges. Folytatja?</string>
     <string name="galleryplus_online_cta_agree">Elfogadom</string>
     <string name="galleryplus_online_cta_disagree">Elutasítás</string>
     <string name="galleryplus_online_cta_title">Felhasználási feltételek</string>
     <string name="galleryplus_online_video_loading">Csak egy pillanat…</string>
     <string name="galleryplus_permission_content">A funkció használatához adja meg a Mi Video számára a szükséges engedélyeket.</string>
-    <string name="galleryplus_permission_content2">A funkció használatához menjen a Beállítások &gt; Alkalmazások &gt; Mi Video &gt; Alkalmazásengedélyek menübe és engedélyezze a Mi Video számára a következőt:\10\101. Tárhelyhez való hozzáférés\102. Készülékazonosítóhoz való hozzáférés</string>
+    <string name="galleryplus_permission_content2">A funkció használatához menjen a Beállítások &gt; Alkalmazások &gt; Mi Video &gt; Alkalmazásengedélyek menübe és engedélyezze a Mi Video számára a következőt:
+1. Tárhelyhez való hozzáférés
+2. Készülékazonosítóhoz való hozzáférés</string>
     <string name="galleryplus_permission_open_settings">Beállítások</string>
     <string name="galleryplus_permission_refuse">Nem, köszönöm</string>
     <string name="galleryplus_permission_retry">Engedélyek</string>
@@ -431,7 +435,8 @@
     <string name="item_setting_go_back">Beleegyezés visszavonása</string>
     <string name="just_a_second">Egy pillanat...…</string>
     <string name="language_later_setting_tips">A nyelvi preferenciáit a Profil és nyelv alatt módosíthatja.</string>
-    <string name="language_select_tips">Válassza ki a kívánt nyelvet\10a videókhoz</string>
+    <string name="language_select_tips">Válassza ki a kívánt nyelvet
+a videókhoz</string>
     <string name="language_setting_tips">Válassza ki a nyelvi preferenciáit, hogy relevánsabb tartalom ajánlatokat kapjon. Nyelvi preferenciáit a Profil és nyelv alatt módosíthatja.</string>
     <string name="language_setting_tips_dialog">A Fiók és nyelv alatt választhatja ki a nyelvi preferenciákat.</string>
     <string name="later">Később</string>
@@ -697,7 +702,8 @@
     <string name="ovp_player_plugin_dlg_no_content">Nincs telepítve videólejátszó-beépülő.</string>
     <string name="ovp_player_plugin_dlg_title">Videólejátszó beépülők</string>
     <string name="ovp_player_update_dialog_info">A videó lejátszásához frissítse a Mi Video plugint a legújabb verzióra. Frissítés most?</string>
-    <string name="ovp_player_update_info">Nem játszható le a videó.\10Először frissítse a Mi Videót a legújabb verzióra.</string>
+    <string name="ovp_player_update_info">Nem játszható le a videó.
+Először frissítse a Mi Videót a legújabb verzióra.</string>
     <string name="ovp_playlist">Lejátszási lista</string>
     <string name="ovp_plugin_install_failure">Beépülő modul telepítése sikertelen</string>
     <string name="ovp_resolution_auto">Automatikus</string>
@@ -812,7 +818,10 @@
     <string name="passport_wrong_vcode">A beírt kód helytelen</string>
     <string name="passport_wrong_voice">Az Ön által megadott kód helytelen</string>
     <string name="permission_continue">Tovább</string>
-    <string name="permission_info">A Mi Videónak hozzáférésre van szüksége az Ön eszközének IMEI-számához, hogy elvégezhesse a következő(ke)t:\10 \10Szolgáltatások jobb testre szabása az Ön eszköze számára;\10Fiókbiztonság növelése.</string>
+    <string name="permission_info">A Mi Videónak hozzáférésre van szüksége az Ön eszközének IMEI-számához, hogy elvégezhesse a következő(ke)t:
+
+Szolgáltatások jobb testre szabása az Ön eszköze számára;
+Fiókbiztonság növelése.</string>
     <string name="permission_info1">A Mi Videó hozzá kell férjen az Ön készülékének IMEI-számához, hogy elvégezhesse a következőket:</string>
     <string name="permission_info2">Az alkalmazás szolgáltatásainak az Ön készülékéhez igazítása;</string>
     <string name="permission_info3">Az Ön fiókjának biztonságosabbá tétele</string>

@@ -46,7 +46,8 @@
     <string name="config_restrict_running_title">Háttérben futó tevékenységek korlátozása</string>
     <string name="config_restrict_running_warning">A háttérben futó alkalmazások bezárásra kerülnek. Ez rendellenes működésüket okozhatja.</string>
     <string name="config_scenario_policies_title">Speciális módok</string>
-    <string name="config_suggest_description">Alkalmazások és tevékenységek azonosítása a fontos folyamatok fenntartása érdekében.\10Az akkumulátorkímélő szelektíven kezeli a fontos alkalmazásokat.</string>
+    <string name="config_suggest_description">Alkalmazások és tevékenységek azonosítása a fontos folyamatok fenntartása érdekében.
+Az akkumulátorkímélő szelektíven kezeli a fontos alkalmazásokat.</string>
     <string name="config_suggest_suffix_title">Akkumulátorkímélő (ajánlott)</string>
     <string name="copy">Másolás</string>
     <string name="empty_title_apps_container_list">Nincs alkalmazás</string>
@@ -57,7 +58,10 @@
     <string name="extreme_add_white_list_title">A háttérfolyamat-tiltás kivételei</string>
     <string name="extreme_mode_max_item_alert">Legfeljebb 4 alkalmazást választhat ki, amelyek akkor is futhatnak a háttérben, ha a Rendkívül erős akkumulátorkímélő be van kapcsolva</string>
     <string name="extreme_power_config_mode_category">Rendkívül erős akkumulátorkímélő</string>
-    <string name="extreme_power_config_mode_desc">A Rendkívül erős akkumulátorkímélő leállít minden háttérben futó alkalmazást miután kilépett belőle és visszatért a Kezdőképernyőre. Az alkalmazásokból nem érkezik többé értesítés és az alkalmazás frissítéseket sem kap.\10Ha szeretné, hogy egy alkalmazás futhasson a háttérben, lakatolja le azt az Előzményekben, vagy adja hozzá a Háttérfolyamat-tiltás kivételeihez. Ha a Rendkívül erős akkumulátorkímélő be van kapcsolva maximálisan 4 alkalmazás futhat a háttérben.\10Ez az akkumulátorkímélő mód alapértelmezetten kikapcsolja az NFC-t. Ezt módosíthatja a Beállításokban.\10Amikor az akkumulátora eléri a 30%-os töltöttséget a Rendkívül erős akkumulátorkímélő automatikusan kikapcsol, hogy készülékén minden funkció újra normálisan működhessen.</string>
+    <string name="extreme_power_config_mode_desc">A Rendkívül erős akkumulátorkímélő leállít minden háttérben futó alkalmazást miután kilépett belőle és visszatért a Kezdőképernyőre. Az alkalmazásokból nem érkezik többé értesítés és az alkalmazás frissítéseket sem kap.
+	Ha szeretné, hogy egy alkalmazás futhasson a háttérben, lakatolja le azt az Előzményekben, vagy adja hozzá a Háttérfolyamat-tiltás kivételeihez. Ha a Rendkívül erős akkumulátorkímélő be van kapcsolva maximálisan 4 alkalmazás futhat a háttérben.
+Ez az akkumulátorkímélő mód alapértelmezetten kikapcsolja az NFC-t. Ezt módosíthatja a Beállításokban.
+Amikor az akkumulátora eléri a 30%-os töltöttséget a Rendkívül erős akkumulátorkímélő automatikusan kikapcsol, hogy készülékén minden funkció újra normálisan működhessen.</string>
     <string name="extreme_power_config_mode_summary">A Rendkívül erős akkumulátorkímélő korlátozza a háttéraktivitást és leállítja a szinkronizálást.</string>
     <string name="extreme_power_config_mode_title">Rendkívül erős akkumulátorkímélő</string>
     <string name="extreme_power_settings_title">beállítások</string>

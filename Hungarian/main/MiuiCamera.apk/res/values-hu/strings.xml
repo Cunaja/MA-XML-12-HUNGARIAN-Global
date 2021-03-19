@@ -48,8 +48,8 @@
     <string name="accessibility_camera_record_stop">Videófelvétel leállítása</string>
     <string name="accessibility_camera_shutter_finish">A fénykép sikeresen elkészült</string>
     <string name="accessibility_camera_switch_capture_recording">Váltás kép- és videómódok között</string>
-    <string name="accessibility_camera_ultra_wide_bokeh_off">A teljesalakos mód kikapcsolva</string>
-    <string name="accessibility_camera_ultra_wide_bokeh_on">A teljesalakos mód bekapcsolva</string>
+    <string name="accessibility_camera_ultra_wide_bokeh_off">A teljes alakos mód kikapcsolva</string>
+    <string name="accessibility_camera_ultra_wide_bokeh_on">A teljes alakos mód bekapcsolva</string>
     <string name="accessibility_camera_video_960fps_120">120fps</string>
     <string name="accessibility_camera_video_960fps_240">240fps</string>
     <string name="accessibility_camera_video_960fps_960">960fps</string>
@@ -643,7 +643,7 @@ nagyobbnak tűnjenek a képeken"</string>
     <string name="pano_how_to_use_prompt_start">Érintse meg a mozgásának megfelelő nyilat, majd lassan mozogjon.</string>
     <string name="pano_how_to_use_prompt_to_move">Kezdje lassan az elfordulást</string>
     <string name="parameter_ambilight_title">Hosszú expozíció</string>
-    <string name="parameter_description_pro_capture_title">Pro funkciók képek késítéséhez</string>
+    <string name="parameter_description_pro_capture_title">Pro funkciók képek készítéséhez</string>
     <string name="parameter_description_pro_video_title">Pro funkciók videók rögzítéséhez</string>
     <string name="parameter_description_sub_title">Készítsen még kreatívabb képeket és videókat</string>
     <string name="parameter_ef_split_description">Kihúzhatja az expozíciós gyűrűt a fókuszgyűrűből és hozzáigazíthatja a két paramétert külön-külön.</string>
@@ -656,7 +656,7 @@ nagyobbnak tűnjenek a képeken"</string>
     <string name="parameter_exposure_title">Expozíciókompenzáció</string>
     <string name="parameter_focus_description">Manuálisan és automatikusan is fókuszálhat. Minél nagyobb fókuszértéket állít be a csúszkán, annál messzebb lesz a lencsék fókuszterülete.</string>
     <string name="parameter_focus_title">Fókusz</string>
-    <string name="parameter_histogram_description">A hisztogram az expozíci valósághű bemutatása a kép legsötétebb részeinek bal oldalon és legvilágosabb részeinek jobb oldalon való megjelenítésével. A skála függőleges része azt mutatja meg, hogy mennyire világos vagy sötét a jelenetrész.</string>
+    <string name="parameter_histogram_description">A hisztogram az expozíció valósághű bemutatása a kép legsötétebb részeinek bal oldalon és legvilágosabb részeinek jobb oldalon való megjelenítésével. A skála függőleges része azt mutatja meg, hogy mennyire világos vagy sötét a jelenetrész.</string>
     <string name="parameter_histogram_title">Hisztogram</string>
     <string name="parameter_iso_description">Az ISO-értékek automatikusan meghatárózhatók a fénymérővel. Az értéket manuálisan is módosíthatja. Ne feledje: a magasabb ISO érzékenyebbé teszi a kamerát a fényre, de több digitális zajt visz a képre.</string>
     <string name="parameter_iso_title">ISO-érzékenység</string>
@@ -1106,7 +1106,7 @@ A kép témája éles marad, míg a háttér elhomályosodik."</string>
     <string name="snap_confirmed">Lecserélés</string>
     <string name="spaceIsLow_content_external_storage_priority">Az SD-kártya hamarosan megtelik</string>
     <string name="spaceIsLow_content_primary_storage_priority">Az USB háttértáron hamarosan elfogy a hely</string>
-    <string name="speech_shutter_open_tip">Monjda ki a következőket: \"拍照\" vagy \"茄子\" fotó készítéséhez</string>
+    <string name="speech_shutter_open_tip">Mondja ki a következőket: \"拍照 Paizhào\" vagy \"茄子 Qiézi\" fotó készítéséhez</string>
     <string name="speech_shutter_tip">Hangzár</string>
     <string name="sticker_tab1">Aranyos</string>
     <string name="sticker_tab2">Vicces</string>

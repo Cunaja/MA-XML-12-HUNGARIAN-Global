@@ -37,8 +37,10 @@
     <string name="activate_popup_confirm_failed_server">Újrapróbálkozás</string>
     <string name="activate_popup_desc_2_intl_sim_cards">2 db aktiváló nemzetközi üzenet küldése szükséges az %s szolgáltatás megrendeléséhez (szolgáltatói tarifa).</string>
     <string name="activate_popup_desc_2_sim_cards">2 db aktiváló üzenet küldése szükséges az %s2 bekapcsolásához (szolgáltatói tarifa).</string>
-    <string name="activate_popup_desc_all_gateway_failed_query_info">Nem található a telefonszáma. Ellenőrizze, hogy a SIM-kártyája már aktiválva van-e.\10%s újraaktiválásához írja be az új SIM-kártyához rendelt telefonszámot.</string>
-    <string name="activate_popup_desc_all_gateway_failed_send_sms">Az aktiváló üzenetet nem sikerült elküldeni. Ellenőrizze, hogy a SIM-kártyája már aktiválva van-e.\10%s újraaktiválásához írja be az új SIM-kártyához rendelt telefonszámot.</string>
+    <string name="activate_popup_desc_all_gateway_failed_query_info">Nem található a telefonszáma. Ellenőrizze, hogy a SIM-kártyája már aktiválva van-e.
+%s újraaktiválásához írja be az új SIM-kártyához rendelt telefonszámot.</string>
+    <string name="activate_popup_desc_all_gateway_failed_send_sms">Az aktiváló üzenetet nem sikerült elküldeni. Ellenőrizze, hogy a SIM-kártyája már aktiválva van-e.
+%s újraaktiválásához írja be az új SIM-kártyához rendelt telefonszámot.</string>
     <string name="activate_popup_desc_error_device_id">Írja be a tárcsázóba *#06# az IMEI szám ellenőrzéséhez</string>
     <string name="activate_popup_desc_failed_phone_error">A megadott telefonszám érvénytelen.</string>
     <string name="activate_popup_desc_failed_query_info">A telefonszám nem található. Győződjön meg róla, hogy a SIM-kártyája aktiválva van-e.</string>

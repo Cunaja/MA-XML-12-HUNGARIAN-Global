@@ -23,6 +23,7 @@
     <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
     <string name="abc_slice_error">Nem sikerült kapcsolódni</string>
     <string name="abc_slice_more">Több</string>
+	<string name="abc_slice_more_content">+ %1$d</string>													 
     <string name="abc_slice_permission_allow">Engedélyezés</string>
     <string name="abc_slice_permission_checkbox">Engedélyezi a(z) %1$s alkalmazásnak, hogy bármely alkalmazásból részletet jelenítsen meg</string>
     <string name="abc_slice_permission_deny">Elutasítás</string>
@@ -34,8 +35,8 @@
     <string name="abc_slices_permission_request">A(z) %1$s alkalmazás részleteket szeretne megjeleníteni a(z) %2$s alkalmazásból</string>
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
     <string name="about_ad_service_instructions">A hirdetési szolgáltatásokról és az adatvédelemről</string>
-    <string name="about_phone_device_name_warning">Eszköze neve látható a telefonján lévő alkalmazások számára. Mások is láthatják, ha csatlakoztatja telefonját más Bluetooth-eszközökhöz, vagy ha Wi-Fi-hotspotot állít be.</string>
-    <string name="about_phone_enter_xiaomi_net">Bővebb információ</string>
+    <string name="about_phone_device_name_warning">Az eszköz nevét a telefonon lévő alkalmazások láthatják. Más emberek is láthatják, amikor csatlakozik Bluetooth-eszközökhöz vagy beállít egy Wi-Fi hotspotot.</string>
+	<string name="about_phone_enter_xiaomi_net">Bővebb információ</string>
     <string name="about_settings">A telefonról</string>
     <string name="about_settings_summary">Jogi információk, állapot, szoftververzió megtekintése</string>
     <string name="ac_enable_summary">Egyes alkalmazásokhoz állítson be jelszót</string>
@@ -48,7 +49,8 @@
     <string name="accelerometer_title">Automatikus képernyőforgatás</string>
     <string name="access_control_app_entry_multiple">%s indítása</string>
     <string name="access_control_app_entry_single">Alkalmazásindítás</string>
-    <string name="access_control_need_password">%s védett\10</string>
+    <string name="access_control_need_password">"%s védett
+"</string>
     <string name="access_control_need_to_unlock">Jelszó szükséges:</string>
     <string name="access_control_no_back_footer">[icon] érintése a kilépéshez</string>
     <string name="access_control_password_title">Alkalmazások zárolása</string>
@@ -57,7 +59,7 @@
     <string name="access_point_names">Hozzáférési pontok nevei</string>
     <string name="accessibility_autoclick_custom_title">Egyéni</string>
     <string name="accessibility_autoclick_default_title">Ki</string>
-    <string name="accessibility_autoclick_description">Az automatikus kattintás csatlakoztatott egérrel működik. Beállíthatja, hogy az egérkurzor automatikusan kattintási műveletet hajtson végre, amikor egy adott ideig nem mozdul.</string>
+    <string name="accessibility_autoclick_description">Az automatikus kattintás csatlakoztatott egérrel működik. Beállíthatja, hogy az egérkurzor automatikusan kattintási műveletet hajtson végre, amikor egy adott ideig nem mozdul..</string>
     <string name="accessibility_autoclick_long_summary">1 másodperc</string>
     <string name="accessibility_autoclick_long_title">Hosszú</string>
     <string name="accessibility_autoclick_longer_desc">Hosszabb</string>
@@ -68,17 +70,21 @@
     <string name="accessibility_autoclick_short_summary">0,2 másodperc</string>
     <string name="accessibility_autoclick_short_title">Rövid</string>
     <string name="accessibility_autoclick_shorter_desc">Rövidebb</string>
+    <string name="accessibility_back">Vissza</string>											   
     <string name="accessibility_caption_master_switch_summary">Csak támogatott alkalmazásnál</string>
     <string name="accessibility_caption_master_switch_title">Felirat megjelenítése</string>
     <string name="accessibility_caption_preference_summary">Nem minden alkalmazás támogatja ezeket a feliratozási beállításokat.</string>
     <string name="accessibility_captioning_title">Feliratbeállítások</string>
     <string name="accessibility_category_personal">„Személyes profil” fiókok</string>
     <string name="accessibility_category_work">„Munkaprofil” fiókok – %s</string>
-    <string name="accessibility_close_tab">Aktuális lap bezárása</string>
-    <string name="accessibility_control_timeout_preference_summary">Válassza ki, hogy mennyi ideig legyenek láthatók azok az üzenetek, amelyek művelet elvégzését kérik, de csak ideiglenesen láthatók a képernyőn.\10\10Nem minden alkalmazás támogatja ezt a beállítást.</string>
+    <string name="accessibility_clear">Clear</string>
+    <string name="accessibility_close_tab">Close current tab</string>
+    <string name="accessibility_control_timeout_preference_summary">"Válassza ki, hogy mennyi ideig legyenek láthatók azok az üzenetek, amelyek művelet elvégzését kérik, de csak ideiglenesen láthatók a képernyőn.
+
+Nem minden alkalmazás támogatja ezt a beállítást."</string>
     <string name="accessibility_control_timeout_preference_title">Művelet elvégzésére szánt idő</string>
     <string name="accessibility_daltonizer_master_switch_title">Színkorrekció használata</string>
-	<string name="accessibility_caption_preference_summary">Nem minden alkalmazás támogatja ezeket a feliratbeállításokat</string>
+    <string name="accessibility_caption_preference_summary">Nem minden alkalmazás támogatja ezeket a feliratbeállításokat</string>
     <string name="accessibility_description_state_stopped">Ez a szolgáltatás nem működik megfelelően.</string>
     <string name="accessibility_dialog_button_allow">Engedélyezés</string>
     <string name="accessibility_dialog_button_cancel">Mégse</string>
@@ -114,7 +120,9 @@
     <string name="accessibility_magnification_service_settings_title">Nagyítási beállítások</string>
     <string name="accessibility_manual_zen_less_time">Kevesebb idő.</string>
     <string name="accessibility_manual_zen_more_time">Több idő.</string>
-    <string name="accessibility_menu_description">A Kisegítő lehetőségek menüje megfelelő gyorsparancsokat biztosít Önnek készüléke irányításához.\10\10Kapcsolja be ezt a funkciót, és a menü megnyitásához érintse meg a képernyő alján a Kisegítő lehetőségek gombot.</string>
+    <string name="accessibility_menu_description">A Kisegítő lehetőségek menüje megfelelő gyorsparancsokat biztosít Önnek készüléke irányításához.
+
+Kapcsolja be ezt a funkciót, és a menü megnyitásához érintse meg a képernyő alján a Kisegítő lehetőségek gombot.</string>
     <string name="accessibility_menu_item_settings">Beállítások</string>
     <string name="accessibility_menu_service_name">A Kisegítő lehetőségek menüje</string>
     <string name="accessibility_menu_summary">Irányítsa a készüléket egyszerű gyorsparancsokkal</string>
@@ -132,7 +140,17 @@
     <string name="accessibility_screen_magnification_gestures_title">Nagyítás három koppintással</string>
     <string name="accessibility_screen_magnification_navbar_configuration_warning">A Kisegítő lehetőségek gomb a következőre van állítva: %1$s. Nagyításhoz tartsa lenyomva a Kisegítő lehetőségek gombot, majd válassza a nagyítás lehetőséget.</string>
     <string name="accessibility_screen_magnification_navbar_short_summary">Nagyításhoz koppintson a gombra</string>
-    <string name="accessibility_screen_magnification_navbar_summary">Ha be van kapcsolva a nagyítás funkció, ránagyíthat a képernyő tartalmára.\10\10A nagyításhoz, indítsa el a funkciót, majd koppintson a kívánt területre a képernyőn.\10Görgetéshez húzza legalább két ujját a képernyőn.\10A nagyítás mértékét két vagy több ujjának össze- vagy széthúzásával módosíthatja.\10\10Ideiglenes nagyításhoz indítsa el a funkciót, majd tartsa lenyomva a kívánt területet a képernyőn.\10Ujját lenyomva tartva mozoghat a képernyőn.\10A méret visszaállításához emelje fel ujját a képernyőről.\10\10A billentyűzeten és a navigációs sávon nem lehetséges a nagyítás.</string>
+    <string name="accessibility_screen_magnification_navbar_summary">Ha be van kapcsolva a nagyítás funkció, ránagyíthat a képernyő tartalmára.
+
+"<b>A nagyításhoz</b>", indítsa el a funkciót, majd koppintson a kívánt területre a képernyőn.
+"<ul><li>Görgetéshez húzza legalább két ujját a képernyőn</li>"
+<li>A nagyítás mértékét két vagy több ujjának össze- vagy széthúzásával módosíthatja</li></ul>"
+
+"<b>Ideiglenes nagyításhoz</b>" indítsa el a funkciót, majd tartsa lenyomva a kívánt területet a képernyőn.
+"<ul><li>Ujját lenyomva tartva mozoghat a képernyőn</li>"
+"<li>A méret visszaállításához emelje fel ujját a képernyőről.</li></ul>"
+
+A billentyűzeten és a navigációs sávon nem lehetséges a nagyítás.</string>
     <string name="accessibility_screen_magnification_navbar_title">Nagyítás gyorsparanccsal</string>
     <string name="accessibility_screen_magnification_short_summary">A nagyításhoz koppintson háromszor</string>
     <string name="accessibility_screen_magnification_state_navbar_gesture">Nagyítás gyorsparanccsal és három koppintással</string>
@@ -158,15 +176,23 @@
     <string name="accessibility_settings_title">Kisegítő lehetőségek beállításai</string>
     <string name="accessibility_shortcut_description">A gyorsparancs lehetővé teszi a funkció bekapcsolását a lezárási képernyőről. Néhány másodpercig tartsa lenyomva mindkét hangerőgombot.</string>
     <string name="accessibility_shortcut_edit_dialog_summary_hardware">Tartsa lenyomva mindkét hangerőgombot</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_software">Koppintson a képernyő alján található Kisegítő lehetőségek %s gombra.\10\10A funkciók közötti váltáshoz tartsa lenyomva a Kisegítő lehetőségek gombot.</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_software_gesture">Csúsztasson két ujjával felfelé a képernyő aljáról.\10\10A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről.</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_software_gesture_talkback">Csúsztasson három ujjával felfelé a képernyő aljáról.\10\10A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne emelje fel őket a képernyőről.</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_software">Koppintson a képernyő alján található Kisegítő lehetőségek %s gombra.
+
+A funkciók közötti váltáshoz tartsa lenyomva a Kisegítő lehetőségek gombot.</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_software_gesture">"Csúsztasson két ujjával felfelé a képernyő aljáról.
+
+A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről."</string>
+    <string name="accessibility_shortcut_edit_dialog_summary_software_gesture_talkback">"Csúsztasson három ujjával felfelé a képernyő aljáról.
+
+A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne emelje fel őket a képernyőről."</string>
     <string name="accessibility_shortcut_edit_dialog_summary_triple_tap">Gyorsan koppintson a képernyőre háromszor. Ez a gyorsparancs lelassíthatja az eszközét.</string>
     <string name="accessibility_shortcut_edit_dialog_title_advance">Speciális</string>
     <string name="accessibility_shortcut_edit_dialog_title_hardware">Hangerőgombok nyomva tartása</string>
     <string name="accessibility_shortcut_edit_dialog_title_software">Koppintson a kisegítő lehetőségek gombjára</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_gesture">Felfelé csúsztatás két ujjal</string>
-    <string name="accessibility_shortcut_edit_dialog_title_software_gesture_talkback">Felfelé csúsztatás három ujjal</string>
+    <string name="accessibility_shortcut_edit_dialog_title_software_gesture_talkback">"Felfelé csúsztatás három ujjal
+    
+    A funkciók közötti váltáshoz pöccintsen felfelé 3 ujjal, és tartsa lenyomva."</string>
     <string name="accessibility_shortcut_edit_dialog_title_triple_tap">Háromszori koppintás a képernyőre</string>
     <string name="accessibility_shortcut_edit_summary_software">Kisegítő lehetőségek gomb</string>
     <string name="accessibility_shortcut_hardware_keyword">hangerőgombok nyomva tartása</string>
@@ -205,11 +231,20 @@
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Képernyőnagyítás automatikus frissítése</string>
     <string name="accessibility_touch_vibration_title">Visszajelzés az érintésekről</string>
     <string name="accessibility_tutorial_dialog_button">Értem</string>
-    <string name="accessibility_tutorial_dialog_message_button">A funkció használatához koppintson a képernyő alján megtalálható Kisegítő lehetőségek %s gombra.\10\10A funkciók közti váltáshoz tartsa lenyomva ujját a Kisegítő lehetőségek gombon.</string>
-    <string name="accessibility_tutorial_dialog_message_gesture">A funkció használatához csúsztasson két ujjával felfelé a képernyő aljáról.\10\10A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről.</string>
-    <string name="accessibility_tutorial_dialog_message_gesture_settings">A Kisegítő lehetőségek valamelyik funkciójának használatához csúsztasson két ujjával felfelé a képernyő aljáról.\10\10A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről.</string>
-    <string name="accessibility_tutorial_dialog_message_gesture_settings_talkback">A Kisegítő lehetőségek valamelyik funkciójának használatához csúsztasson három ujjával felfelé a képernyő aljáról.\10\10A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne emelje fel őket a képernyőről.</string>
-    <string name="accessibility_tutorial_dialog_message_gesture_talkback">A funkció használatához csúsztasson három ujjával felfelé a képernyő aljáról.\10\10A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne emelje fel őket a képernyőről.</string>
+    <string name="accessibility_tutorial_dialog_message_button">A funkció használatához koppintson a képernyő alján megtalálható Kisegítő lehetőségek %s gombra.
+
+A funkciók közti váltáshoz tartsa lenyomva ujját a Kisegítő lehetőségek gombon.</string>
+    <string name="accessibility_tutorial_dialog_message_gesture">A funkció használatához csúsztasson két ujjával felfelé a képernyő aljáról.
+    
+A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről.</string>
+    <string name="accessibility_tutorial_dialog_message_gesture_settings">A Kisegítő lehetőségek valamelyik funkciójának használatához csúsztasson két ujjával felfelé a képernyő aljáról.
+    
+A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről.</string>
+    <string name="accessibility_tutorial_dialog_message_gesture_settings_talkback">A Kisegítő lehetőségek valamelyik funkciójának használatához csúsztasson három ujjával felfelé a képernyő aljáról.
+    
+A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne emelje fel őket a képernyőről.</string>
+    <string name="accessibility_tutorial_dialog_message_gesture_talkback">A funkció használatához csúsztasson három ujjával felfelé a képernyő aljáról.
+A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne emelje fel őket a képernyőről.</string>
     <string name="accessibility_tutorial_dialog_message_triple">A nagyítás megkezdéséhez és leállításához koppintson háromszor bárhol a képernyőn.</string>
     <string name="accessibility_tutorial_dialog_message_volume">A funkció használatához tartsa lenyomva mindkét hangerőszabályzó gombot.</string>
     <string name="accessibility_tutorial_dialog_title_button">Megnyitás a kisegítő gombbal</string>
@@ -348,7 +383,9 @@
     <string name="add_new">Új hozzáadása</string>
     <string name="add_rule">Szabály hozzáadása</string>
     <string name="add_virtual_keyboard">Képernyő-billentyűzetek kezelése</string>
-    <string name="adding_profile_owner_warning">A továbblépéssel a felhasználót kezelheti az Ön rendszergazdája, aki a személyes adatok mellett a kapcsolódó adatokat is tárolhatja.\10\10A rendszergazda képes a beállítások, hozzáférések, alkalmazások és a felhasználóhoz kapcsolódó adatok (beleértve a hálózati tevékenységeket és az eszköz helyadatait) figyelésére és kezelésére.</string>
+    <string name="adding_profile_owner_warning">A továbblépéssel a felhasználót kezelheti az Ön rendszergazdája, aki a személyes adatok mellett a kapcsolódó adatokat is tárolhatja.
+    
+A rendszergazda képes a beállítások, hozzáférések, alkalmazások és a felhasználóhoz kapcsolódó adatok (beleértve a hálózati tevékenységeket és az eszköz helyadatait) figyelésére és kezelésére.</string>
     <string name="additional_battery_info">Használati értesítések</string>
     <string name="additional_permissions">További engedélyek</string>
     <string name="additional_permissions_more">%1$d további</string>
@@ -498,8 +535,10 @@
     <string name="app_factory_reset">Frissítések eltávolítása</string>
     <string name="app_factory_reset_dlg_text">Ennek az Android rendszeralkalmazásnak az összes frissítése törlésre kerül.</string>
     <string name="app_factory_reset_dlg_title">Eltávolítja a frissítéseket?</string>
-    <string name="app_floating_window_dlg_disable">A(z) %1$s felugró ablakainak módosítása az alkalmazás újraindítását igényli.\10Módosítja a beállításokat?</string>
-    <string name="app_floating_window_dlg_enable">A(z) %1$s felugró ablakainak módosítása az alkalmazás újraindítását igényli.\10Módosítja a beállításokat?</string>
+    <string name="app_floating_window_dlg_disable">"A(z) %1$s felugró ablakainak módosítása az alkalmazás újraindítását igényli.
+Módosítja a beállításokat?"</string>
+    <string name="app_floating_window_dlg_enable">"A(z) %1$s felugró ablakainak módosítása az alkalmazás újraindítását igényli.
+Módosítja a beállításokat?"</string>
     <string name="app_forward_locked">Az alkalmazás másolásvédett.</string>
     <string name="app_function">Alkalmazás funkció</string>
     <string name="app_info_storage_title">Felhasznált tárhely</string>
@@ -557,6 +596,7 @@
     <string name="app_usage_preference">Alkalmazáshasználati preferenciák</string>
     <string name="app_version">Verzió</string>
     <string name="app_wifi">Wi-Fi</string>
+	<string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>																														
     <string name="application_data">Alkalmazások</string>
     <string name="application_forbid_auto_startup">%s automatikus indításának letiltása</string>
     <string name="application_info_label">Alkalmazásinformáció</string>
@@ -597,6 +637,7 @@
     <string name="assist_flash_summary">A képernyő villogni kezd a széleinél, amikor valamelyik segédalkalmazás hozzáfér a képernyőn vagy a képernyőfelvételen található szöveghez</string>
     <string name="assist_flash_title">Villogás a képernyőn</string>
     <string name="assist_footer">A segédalkalmazások az aktuális képernyőn lévő információk alapján segíthetnek. Egyes alkalmazások egyaránt támogatják az indítási és a hangbeviteli szolgáltatásokat annak érdekében, hogy integrált segítséget nyújthassanak Önnek.</string>
+    <string name="assist_gesture_title">Segítő kézmozdulat</string>
     <string name="assistant_security_warning">A segéd hozzáfér majd a rendszer éppen használatban lévő alkalmazásainak információihoz, beleértve a képernyőn megjelenő vagy az alkalmazásokban elérhető információkat is.</string>
     <string name="assistant_security_warning_agree">Elfogadom</string>
     <string name="assistant_security_warning_disagree">Elutasítom</string>
@@ -620,8 +661,8 @@
     <string name="auto_adjst_effect_summary">Színhőmérséklet automatikus beállítása a környező fényhez</string>
     <string name="auto_adjust_effect_title">Színhőmérséklet automatikus igazítása</string>
     <string name="auto_brightness_default_title">Alapértelmezett</string>
-    <string name="auto_brightness_description">A képernyő fényerőssége automatikusan alkalmazkodik a környezethez és az adott tevékenységhez. A csúszka manuális mozgatásával segít az alkalmazkodó fényerő funkciónak az Ön személyes preferenciáinak megtanulásában.</string>
-    <string name="auto_brightness_disclaimer">A fényerőt a rendelkezésre álló fényhez optimalizálja. Átmenetileg továbbra is módosíthatja a fényerőt, ha be van kapcsolva a funkció.</string>
+	<string name="auto_brightness_description">A képernyő fényerőssége automatikusan alkalmazkodik a környezethez és az adott tevékenységhez. A csúszka manuális mozgatásával segít az alkalmazkodó fényerő funkciónak az Ön személyes preferenciáinak megtanulásában.</string>
+	<string name="auto_brightness_disclaimer">A fényerőt a rendelkezésre álló fényhez optimalizálja. Átmenetileg továbbra is módosíthatja a fényerőt, ha be van kapcsolva a funkció.</string>
     <string name="auto_brightness_high_title">Magas</string>
     <string name="auto_brightness_low_title">Alacsony</string>
     <string name="auto_brightness_off_summary">Ne módosuljon a rendelkezésre álló fény alapján</string>
@@ -641,7 +682,9 @@
     <string name="auto_brightness_very_low_title">Nagyon alacsony</string>
     <string name="auto_caps">Automatikus nagy kezdőbetű</string>
     <string name="auto_caps_summary">Mondatok kezdése nagy kezdőbetűvel</string>
-    <string name="auto_clean_description">A funkcióról\101. Futtassa ezt a funkciót egyszer vagy kétszer, ha úgy gondolja, hogy a hangszórója enyhén porosodott be.\102. Ha a hangszórója erősen poros, futtassa a funkciót 2-5 alkalommal, és közben úgy rázza a készülékét, hogy a hangszóróját lefelé tartja.</string>
+    <string name="auto_clean_description">A funkcióról
+1. Futtassa ezt a funkciót egyszer vagy kétszer, ha úgy gondolja, hogy a hangszórója enyhén porosodott be.
+2. Ha a hangszórója erősen poros, futtassa a funkciót 2-5 alkalommal, és közben úgy rázza a készülékét, hogy a hangszóróját lefelé tartja.</string>
     <string name="auto_clean_summary">Játsszon le egy 30 másodperces audiót a hangszóró megtisztításához</string>
     <string name="auto_clean_title">Hangszórótisztítás</string>
     <string name="auto_connect_disable">Automatikus csatlakozás kikapcsolva</string>
@@ -685,12 +728,14 @@
     <string name="automatic_storage_manager_activation_warning">Tárhelyét mostantól a tárhelykezelő kezeli</string>
     <string name="automatic_storage_manager_days_title">Fotók és videók eltávolítása</string>
     <string name="automatic_storage_manager_deactivation_warning">Kikapcsolja a tárhelykezelőt?</string>
-    <string name="automatic_storage_manager_freed_bytes">Összesen %1$s szabadult fel\10\10Utolsó futás időpontja: %2$s</string>
+    <string name="automatic_storage_manager_freed_bytes">"Összesen %1$s szabadult fel
+    
+Utolsó futás időpontja: %2$s"</string>
     <string name="automatic_storage_manager_master_switch_title">Tárhelykezelő használata</string>
     <string name="automatic_storage_manager_preference_title">Tárhelykezelő</string>
     <string name="automatic_storage_manager_settings">Tárhely kezelése</string>
-    <string name="automatic_storage_manager_text">A tárhelykezelő tárhely felszabadítása érdekében eltávolítja az eszközről azokat a fotókat és videókat, amelyekről már készült biztonsági másolat.</string>
-    <string name="automatic_system_heap_dump_summary">Az Android rendszer memória-pillanatfelvételének automatikus rögzítése, ha a rendszer túl sok memóriát használ</string>
+	<string name="automatic_storage_manager_text">A tárhelykezelő tárhely felszabadítása érdekében eltávolítja az eszközről azokat a fotókat és videókat, amelyekről már készült biztonsági másolat.</string>
+	<string name="automatic_system_heap_dump_summary">Az Android rendszer memória-pillanatfelvételének automatikus rögzítése, ha a rendszer túl sok memóriát használ</string>
     <string name="automatic_system_heap_dump_title">A rendszer memória-pillanatfelvételeinek automatikus rögzítése</string>
     <string name="available_size">%s elérhető</string>
     <string name="available_via_app">Rendelkezésre áll a(z) %1$s alkalmazáson keresztül</string>
@@ -701,6 +746,7 @@
     <string name="average_used">Átlagosan használt (%)</string>
     <string name="avoid_ui">Érintési reakció letiltása</string>
     <string name="awake">Eszköz készenléti ideje</string>
+    <string name="back">Vissza</string>
     <string name="back_button">Vissza</string>
     <string name="back_double_tap">Dupla hátoldali érintés</string>
     <string name="back_key">Vissza</string>
@@ -708,7 +754,9 @@
     <string name="back_sensitivity_dialog_title">A „vissza” kézmozdulat érzékenysége</string>
     <string name="back_tap">Hátoldali érintés</string>
     <string name="back_triple_tap">Tripla hátoldali érintés</string>
-    <string name="background_activity_disabled_dialog_text">Az alkalmazás nem korlátozható, mert nincs beállítva az akkumulátor optimalizálására.\10\10A korlátozáshoz kapcsolja be az akkumulátoroptimalizálást.</string>
+    <string name="background_activity_disabled_dialog_text">Az alkalmazás nem korlátozható, mert nincs beállítva az akkumulátor optimalizálására.
+    
+A korlátozáshoz kapcsolja be az akkumulátoroptimalizálást.</string>
     <string name="background_activity_summary">Az alkalmazás háttérben futásának engedélyezése</string>
     <string name="background_activity_summary_disabled">Az alkalmazás háttérben futása le van tiltva</string>
     <string name="background_activity_summary_whitelisted">A háttérben történő használat nem korlátozható</string>
@@ -732,7 +780,12 @@
     <string name="backup_data_management_title">Biztonsági fiók kezelése</string>
     <string name="backup_data_summary">Alkalmazásadatok, Wi-Fi jelszavak és más beállítások mentése a Google szerverein</string>
     <string name="backup_data_title">Adatok mentése</string>
-    <string name="backup_difference_content">Helyi biztonsági mentések:\10A helyi biztonsági mentések tartalmazhatják az alkalmazásadatokat és általában több elemet foglalnak magukban. A biztonsági fájlok a MIUI-backup-AllBackup mappában vannak tárolva és át kell őket másolni egy számítógépre, amint a biztonsági mentés kész.\10\10Felhő alapú mentések:\10A biztonsági mentések a Xiaomi Cloudban vannak tárolva és vezeték nélkül hozzáférhetők. Ez a módszer gyorsabb és egyszerűbb a helyi biztonsági mentéseknél, az alkalmazásadatokról azonban nem készíthető biztonsági mentés a Xiaomi Cloudba.\10</string>
+    <string name="backup_difference_content">"Helyi biztonsági mentések:
+A helyi biztonsági mentések tartalmazhatják az alkalmazásadatokat és általában több elemet foglalnak magukban. A biztonsági fájlok a MIUI-backup-AllBackup mappában vannak tárolva és át kell őket másolni egy számítógépre, amint a biztonsági mentés kész.
+
+Felhő alapú mentések:
+A biztonsági mentések a Xiaomi Cloudban vannak tárolva és vezeték nélkül hozzáférhetők. Ez a módszer gyorsabb és egyszerűbb a helyi biztonsági mentéseknél, az alkalmazásadatokról azonban nem készíthető biztonsági mentés a Xiaomi Cloudba.
+"</string>
     <string name="backup_difference_title">Miben különböznek a helyi biztonsági mentések a felhő alapú biztonsági mentésektől?</string>
     <string name="backup_disabled">Biztonsági mentés kikapcsolva</string>
     <string name="backup_erase_dialog_message">Wi-Fi jelszavak, könyvjelzők, egyéb beállítások és alkalmazásadatok biztonsági mentésének kikapcsolása, valamint a Google szervereken lévő összes másolat törlése?</string>
@@ -741,7 +794,8 @@
     <string name="backup_more_settings">Beállítások</string>
     <string name="backup_pw_cancel_button_text">Mégse</string>
     <string name="backup_pw_set_button_text">Mentési jelszó beállítása</string>
-    <string name="backup_restore_data_content">Biztonsági mentést a névjegyekről, az üzenetekről (SMS és MMS), a híváselőzményekről, a naptáreseményekről, a képekről, a hangfájlokról, a videókról, a dokumentumokról, az alkalmazásokról, az alkalmazásadatokról és a főképernyő elrendezéséről készíthet.\10</string>
+    <string name="backup_restore_data_content">"Biztonsági mentést a névjegyekről, az üzenetekről (SMS és MMS), a híváselőzményekről, a naptáreseményekről, a képekről, a hangfájlokról, a videókról, a dokumentumokról, az alkalmazásokról, az alkalmazásadatokról és a főképernyő elrendezéséről készíthet.
+"</string>
     <string name="backup_restore_data_title">Milyen elemekről készíthetek biztonsági mentést, illetve állíthatok helyre?</string>
     <string name="backup_section_title">Biztonsági mentés és visszaállítás</string>
     <string name="backup_set_clear_success">A mentésjelszó sikeresen kikapcsolva</string>
@@ -899,9 +953,13 @@
     <string name="battery_suggestion_summary" />
     <string name="battery_suggestion_title">Növelje a telefon akkumulátor-élettartamát</string>
     <string name="battery_summary">Akkumulátorhasználat az utolsó teljes feltöltés óta: %1$s</string>
-    <string name="battery_tip_dialog_message">A telefont többet használta a megszokottnál. A vártnál hamarabb lemerülhet az akkumulátor.\10\10Az akkumulátort leginkább igénybe vevő alkalmazások:</string>
+    <string name="battery_tip_dialog_message">A telefont többet használta a megszokottnál. A vártnál hamarabb lemerülhet az akkumulátor.
+    
+Az akkumulátort leginkább igénybe vevő alkalmazások:</string>
     <string name="battery_tip_dialog_message_footer">Tartalmazza a sok energiát igénylő háttérbeli tevékenységeket</string>
-    <string name="battery_tip_dialog_summary_message">Alkalmazásai akkumulátorhasználata nem tér el az átlagostól. Ha az alkalmazások túlzottan igénybe veszik az akkumulátort, telefonja javaslatot ad a lehetséges intézkedésekre.\10\10Az Akkumulátorkímélő módot bármikor bekapcsolhatja, ha az akkumulátor kezd nagyon lemerülni.</string>
+    <string name="battery_tip_dialog_summary_message">Alkalmazásai akkumulátorhasználata nem tér el az átlagostól. Ha az alkalmazások túlzottan igénybe veszik az akkumulátort, telefonja javaslatot ad a lehetséges intézkedésekre.
+    
+Az Akkumulátorkímélő módot bármikor bekapcsolhatja, ha az akkumulátor kezd nagyon lemerülni.</string>
     <string name="battery_tip_early_heads_up_done_summary">Egyes funkciók korlátozva lehetnek</string>
     <string name="battery_tip_early_heads_up_done_title">Akkumulátorkímélő mód bekapcsolva</string>
     <string name="battery_tip_early_heads_up_summary">Az akkumulátor a szokásosnál hamarabb lemerülhet</string>
@@ -912,8 +970,13 @@
     <string name="battery_tip_low_battery_title">Alacsony akkumulátorkapacitás</string>
     <string name="battery_tip_restrict_app_dialog_message">Az akkumulátor üzemidejének növeléséhez tiltsa le a(z) %1$s számára, hogy a háttérben is használja az akkumulátort. Előfordulhat, hogy az alkalmazás ezután nem működik megfelelően, és késnek az értesítései.</string>
     <string name="battery_tip_restrict_app_dialog_ok">Korlátozás</string>
-    <string name="battery_tip_restrict_apps_less_than_5_dialog_message">Az akkumulátor üzemidejének növeléséhez tiltsa le a következő alkalmazások számára, hogy a háttérben is használják az akkumulátort. Előfordulhat, hogy a korlátozott alkalmazások ezután nem működnek megfelelően, és késnek az értesítéseik.\10\10Alkalmazások:</string>
-    <string name="battery_tip_restrict_apps_more_than_5_dialog_message">Az akkumulátor üzemidejének növeléséhez tiltsa le a következő alkalmazások számára, hogy a háttérben is használják az akkumulátort. Előfordulhat, hogy a korlátozott alkalmazások ezután nem működnek megfelelően, és késnek az értesítéseik.\10\10Alkalmazások:\10%1$s.</string>
+    <string name="battery_tip_restrict_apps_less_than_5_dialog_message">Az akkumulátor üzemidejének növeléséhez tiltsa le a következő alkalmazások számára, hogy a háttérben is használják az akkumulátort. Előfordulhat, hogy a korlátozott alkalmazások ezután nem működnek megfelelően, és késnek az értesítéseik.
+    
+Alkalmazások:</string>
+    <string name="battery_tip_restrict_apps_more_than_5_dialog_message">Az akkumulátor üzemidejének növeléséhez tiltsa le a következő alkalmazások számára, hogy a háttérben is használják az akkumulátort. Előfordulhat, hogy a korlátozott alkalmazások ezután nem működnek megfelelően, és késnek az értesítéseik.
+    
+Alkalmazások:
+%1$s.</string>
     <string name="battery_tip_smart_battery_summary">Kapcsolja be az akkumulátorkezelőt</string>
     <string name="battery_tip_smart_battery_title">Növelje a telefon akkumulátorának üzemidejét</string>
     <string name="battery_tip_summary_summary">Az akkumulátor háttérben történő használata átlagos ezen a telefonon</string>
@@ -1065,6 +1128,9 @@
     <string name="bluetooth_enter_passkey_msg">Gépelje be a párosítókódot, majd nyomja meg az Enter vagy a Return gombot</string>
     <string name="bluetooth_enter_passkey_other_device">Előfordulhat, hogy az azonosító kulcsot a másik eszközön is be kell írnia.</string>
     <string name="bluetooth_enter_pin_other_device">Előfordulhat, hogy a PIN-kódot a másik készüléken is meg kell adnia.</string>
+    <string name="bluetooth_error_title" />
+    <string name="bluetooth_fastConnect_key_device_id">Eszköz azonosító</string>
+    <string name="bluetooth_fastConnect_resource_load">Bluetooth gyorscsatlakozás  erőforrás-terhelés</string>
     <string name="bluetooth_footer_mac_message">A telefon Bluetooth-címe: %1$s</string>
     <string name="bluetooth_headset_profile_summary_connected">Telefonhanghoz csatlakoztatva</string>
     <string name="bluetooth_headset_profile_summary_use_for">Telefonhanghoz használatos</string>
@@ -1077,12 +1143,18 @@
     <string name="bluetooth_hid_profile_summary_connected">Beviteli eszközhöz csatlakoztatva</string>
     <string name="bluetooth_hid_profile_summary_use_for">Bemenetként használatos</string>
     <string name="bluetooth_incoming_pairing_msg">Küldő:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;Párosítja a készüléket?</string>
-    <string name="bluetooth_inform_messgae">Nem lehet csatlakozni a következőhöz: %1$s.\10Lehetséges, hogy ez a baj:\101. A Bluetooth ki van kapcsolva az eszközön vagy hatótávolságon kívül van.\102. Az eszköz nincs észlelhető módban.\103. Az eszköz más eszközökhöz van csatlakozva. Csatlakoztassa le és próbálja újra.</string>
+    <string name="bluetooth_inform_messgae">"Nem lehet csatlakozni a következőhöz:%1$s.
+ Lehetséges, hogy ez a baj:
+ 1. A Bluetooth ki van kapcsolva az eszközön vagy hatótávolságon kívül van.
+ 2. Az eszköz nincs észlelhető módban.
+ 3. Az eszköz más eszközökhöz van csatlakozva. Csatlakoztassa le és próbálja újra."</string>
     <string name="bluetooth_inform_messgae_title">Csatlakozás sikertelen</string>
     <string name="bluetooth_is_disconnect_question">Leválasztja a következőt: %1$s?</string>
     <string name="bluetooth_is_discoverable">Az összes közeli Bluetooth eszköz számára látható (%1$s)</string>
     <string name="bluetooth_is_discoverable_always">Be: a készülék az összes közeli Bluetooth-eszköz számára látható</string>
     <string name="bluetooth_is_visible_message">A(z) %1$s látható a közeli eszközök számára, ha a Bluetooth-beállítások nyitva vannak.</string>
+    <string name="bluetooth_le_audio_profile_summary_connected">Csatlakoztatva a LE_AUDIO eszközhöz</string>
+    <string name="bluetooth_le_audio_profile_summary_use_for">Használható LE_AUDIO</string>
     <string name="bluetooth_left_name">Bal</string>
     <string name="bluetooth_lock_voice_dialing">Hanghívás zárolása</string>
     <string name="bluetooth_lock_voice_dialing_summary">A bluetooth tárcsázó használatának megakadályozása, ha a képernyő le van zárva</string>
@@ -1179,26 +1251,36 @@
     <string name="bluetooth_sap_profile_summary_use_for">SIM-hozzáféréshez használatos</string>
     <string name="bluetooth_sap_request">SIM-hozzáférési kérelem</string>
     <string name="bluetooth_scan_for_devices">Eszközök keresése</string>
-    <string name="bluetooth_scanning_on_info_message">Ha a Bluetooth aktív, az eszköz képes kommunikálni a közelben lévő Bluetooth-eszközökkel.\10\10Az élmény javítása érdekében az alkalmazások és szolgáltatások bármikor kereshetnek közeli eszközöket, még akkor is, ha ki van kapcsolva a Bluetooth. Ez például a helyalapú funkciók és szolgáltatások javítására használható. A funkciót a keresési beállítások alatt módosíthatja.</string>
+    <string name="bluetooth_scanning_on_info_message">"Ha a Bluetooth aktív, az eszköz képes kommunikálni a közelben lévő Bluetooth-eszközökkel.
+    
+Az élmény javítása érdekében az alkalmazások és szolgáltatások bármikor kereshetnek közeli eszközöket, még akkor is, ha ki van kapcsolva a Bluetooth. Ez például a helyalapú funkciók és szolgáltatások javítására használható. A funkciót a keresési beállítások alatt módosíthatja."<annotation id="link">szkennelési beállítások</annotation>.</string>
     <string name="bluetooth_search_for_devices">Frissítés</string>
     <string name="bluetooth_searching_for_devices">Keresés...</string>
     <string name="bluetooth_select_a2dp_codec_aptxadaptive_mode">Bluetooth Audio aptX™ Adaptív mód</string>
-    <string name="bluetooth_select_a2dp_codec_aptxadaptive_mode_dialog_title">Bluetooth Audio-kapcsoló\10aptX Adaptív kodek mód</string>
+    <string name="bluetooth_select_a2dp_codec_aptxadaptive_mode_dialog_title">Bluetooth Audio-kapcsoló
+aptX Adaptív kodek mód</string>
     <string name="bluetooth_select_a2dp_codec_bits_per_sample">Bluetooth hang – bit/minta</string>
-    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Bluetooth hangkodek kiválasztásának\10indítása: bit per minta</string>
+    <string name="bluetooth_select_a2dp_codec_bits_per_sample_dialog_title">Bluetooth hangkodek kiválasztásának
+indítása: bit per minta</string>
     <string name="bluetooth_select_a2dp_codec_channel_mode">Bluetooth hang – csatornamód</string>
-    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Bluetooth hangkodek kiválasztásának\10indítása: csatorna mód</string>
+    <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">Bluetooth hangkodek kiválasztásának
+indítása: csatorna mód</string>
     <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Bluetooth LDAC hangkodek – lejátszási minőség</string>
-    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Bluetooth hangkodek kiválasztásának\10indítása: visszajátszási minőség</string>
-    <string name="bluetooth_select_a2dp_codec_lhdc_latency">Bluetooth LHDC hangkodek: Késleltetés</string>
-    <string name="bluetooth_select_a2dp_codec_lhdc_latency_dialog_title">Bluetooth LHDC hangkodek kiválasztása:\10Késleltetés</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Bluetooth hangkodek kiválasztásának
+indítása: visszajátszási minőség</string>
+    <string name="bluetooth_select_a2dp_codec_lhdc_latency">"Bluetooth LHDC hangkodek: Késleltetés"</string>
+    <string name="bluetooth_select_a2dp_codec_lhdc_latency_dialog_title">"Bluetooth LHDC hangkodek kiválasztása:
+Késleltetés"</string>
     <string name="bluetooth_select_a2dp_codec_lhdc_playback_quality">Bluetooth LHDC hangkodek: Lejátszási minőség</string>
-    <string name="bluetooth_select_a2dp_codec_lhdc_playback_quality_dialog_title">Bluetooth LHDC hangkodek:\10Lejátszási minőség</string>
+    <string name="bluetooth_select_a2dp_codec_lhdc_playback_quality_dialog_title">Bluetooth LHDC hangkodek:
+Lejátszási minőség</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth hang – mintavételezési gyakoriság</string>
-    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Bluetooth hangkodek kiválasztásának\10indítása: mintavétel</string>
+    <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">Bluetooth hangkodek kiválasztásának
+indítása: mintavétel</string>
     <string name="bluetooth_select_a2dp_codec_streaming_label">Streamelés: %1$s</string>
     <string name="bluetooth_select_a2dp_codec_type">Bluetooth hangkodek</string>
-    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth hangkodek kiválasztásának\10indítása</string>
+    <string name="bluetooth_select_a2dp_codec_type_dialog_title">Bluetooth hangkodek kiválasztásának
+indítása</string>
     <string name="bluetooth_select_a2dp_codec_type_help_info">A kiszűrkítés azt jelenti, hogy nem támogatja telefon vagy headset</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">Bluetooth AVRCP-verzió kiválasztása</string>
     <string name="bluetooth_select_avrcp_version_string">Bluetooth AVRCP-verzió</string>
@@ -1280,10 +1362,14 @@
     <string name="bootloader_device_bind_server_token_expired_1">A hitelesítés nem sikerült. Próbálja újra összekapcsolni a fiókját a készülékkel.</string>
     <string name="bootloader_device_bind_server_token_expired_2">A hitelesítés nem sikerült. Jelentkezzen be újra a fiókjába és kezdje elölről.</string>
     <string name="bootloader_device_bind_sim_invalid">Érvénytelen SIM-kártya. Cserélje ki, majd próbálja újra.</string>
-    <string name="bootloader_locked_answer_1">Azért zárjuk le a készülékeket, hogy Önök biztonságban legyenek és személyes adataik ne kerülhessenek harmadik fél birtokába. Ha Fastboot módba akar lépni és flashelni akarja a készülékét, először fel kell oldania az eszközt.</string>
-    <string name="bootloader_locked_answer_1_warning">Ne feledje: Miután a bootloader zárolását feloldotta, hiába lesz bekapcsolva a \"Készülékkeresés\". Ha elveszíti, vagy ellopják, azonnal tudnak más operációs rendszert telepíteni a készülékre.</string>
-    <string name="bootloader_locked_answer_2">1. Győződjön meg róla, van-e SIM-kártya a készülékében.\102. Kapcsolja ki a Wi-Fi-t és engedélyezze a mobiladat-forgalamat. Győződjön meg róla, hogy van mobilinternet-kapcsolata.\103. Érintse meg a \"Fiók hozzáadása\" gombot a készülék és Mi Fiókja összekapcsolásához.\104. Töltse le a bootloadernyitó alkalmazást a weboldalunkról. Felhívjuk a figyelmét, hogy készülékét csak számítógépet használva tudja nyitni. Töltse le innen:</string>
-    <string name="bootloader_locked_answer_2_no_sim">1. Érintse meg a \"Fiók hozzáadása\" gombot a készülék és Mi Fiókja összekapcsolásához.\102. Töltse le a bootloadernyitó alkalmazást a weboldalunkról. Felhívjuk a figyelmét, hogy készülékét csak számítógépet használva tudja nyitni. Töltse le innen:</string>
+    <string name="bootloader_locked_answer_1">"Azért zárjuk le a készülékeket, hogy Önök biztonságban legyenek és személyes adataik ne kerülhessenek harmadik fél birtokába. Ha Fastboot módba akar lépni és flashelni akarja a készülékét, először fel kell oldania az eszközt."</string>
+    <string name="bootloader_locked_answer_1_warning">"Ne feledje: Miután a bootloader zárolását feloldotta, hiába lesz bekapcsolva a \"Készülékkeresés\". Ha elveszíti, vagy ellopják, azonnal tudnak más operációs rendszert telepíteni a készülékre."</string>
+    <string name="bootloader_locked_answer_2">"1. Győződjön meg róla, van-e SIM-kártya a készülékében.
+2. Kapcsolja ki a Wi-Fi-t és engedélyezze a mobiladat-forgalamat. Győződjön meg róla, hogy van mobilinternet-kapcsolata.
+3. Érintse meg a \"Fiók hozzáadása\" gombot a készülék és Mi Fiókja összekapcsolásához.
+4. Töltse le a bootloadernyitó alkalmazást a weboldalunkról. Felhívjuk a figyelmét, hogy készülékét csak számítógépet használva tudja nyitni. Töltse le innen:"</string>
+    <string name="bootloader_locked_answer_2_no_sim">1. Érintse meg a \"Fiók hozzáadása\" gombot a készülék és Mi Fiókja összekapcsolásához.
+2. Töltse le a bootloadernyitó alkalmazást a weboldalunkról. Felhívjuk a figyelmét, hogy készülékét csak számítógépet használva tudja nyitni. Töltse le innen:</string>
     <string name="bootloader_locked_check_status">Fiók és készülék hozzáadása</string>
     <string name="bootloader_locked_question_1">Miért kell a készülék bootloaderének zárva lenni?</string>
     <string name="bootloader_locked_question_2">Megértettem a kockázatot, de ki szeretném nyitni a készülék bootloaderét.</string>
@@ -1300,7 +1386,9 @@
     <string name="bootloader_status_unlocked">Nyitott</string>
     <string name="bootloader_status_unlocked_info">Ennek a készüléknek nyitott a bootloadere</string>
     <string name="bootloader_summary">Készülék flashelése USB-n keresztül</string>
-    <string name="bootloader_tips">%s\10\10Ha a felsoroltak közül bármelyiket megtette már, adja hozzá újra a Mi Fiókját, különben nem lesz képes feloldani a készülék bootloaderét.</string>
+    <string name="bootloader_tips">"%s
+
+Ha a felsoroltak közül bármelyiket megtette már, adja hozzá újra a Mi Fiókját, különben nem lesz képes feloldani a készülék bootloaderét."</string>
     <string name="bootloader_tips_ok">Rendben</string>
     <string name="bootloader_tips_warning">Ne csatlakozzon le a hálózatról, ne jelentkezzen ki a Mi Fiókjából, ne végezzen gyári adatok visszaállítását vagy rendszeradat-formázást.</string>
     <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
@@ -1314,9 +1402,11 @@
     <string name="brightness_auto_adjust_on">A képernyő fényereje hozzáigazításra kerül a környezeti fényhez. De további is végezhet apróbb módosításokat manuálisan.</string>
     <string name="brightness_summary">A képernyő fényerejének beállítása</string>
     <string name="brightness_title">Fényerő</string>
-    <string name="bt_aac_dialog_summary">A készüléke támogatja a Bluetooth AAC-kodeket. Mindemellett lehetséges, hogy kompatibilitási problémák miatt az AAC-kodek nem tudja lejátszani a hangot. Készüléke automatikusan bekapcsolta az SBC-kodeket.\10Ezt a Beállítások menüben módosíthatja.</string>
+    <string name="bt_aac_dialog_summary">A készüléke támogatja a Bluetooth AAC-kodeket. Mindemellett lehetséges, hogy kompatibilitási problémák miatt az AAC-kodek nem tudja lejátszani a hangot. Készüléke automatikusan bekapcsolta az SBC-kodeket.
+Ezt a Beállítások menüben módosíthatja.</string>
     <string name="bt_aac_dialog_title">Bluetooth-kapcsolat</string>
-    <string name="bt_aac_open_dialog_summary">Lehetséges, hogy kompatibilitási problémák miatt a Bluetooth AAC-kodek nem tudja lejátszani a hangot.\10Kikapcsolhatja ezt a funkciót a Beállítások / Bluetooth / Párosított eszközök menüjében.</string>
+    <string name="bt_aac_open_dialog_summary">Lehetséges, hogy kompatibilitási problémák miatt a Bluetooth AAC-kodek nem tudja lejátszani a hangot.
+Kikapcsolhatja ezt a funkciót a Beállítások / Bluetooth / Párosított eszközök menüjében.</string>
     <string name="bt_aac_open_dialog_title">Átkapcsolás AAC-kodekre</string>
     <string name="bt_aac_pre_title">AAC</string>
     <string name="bt_absVolume_open_dialog_summary">Kompatibilitási problémák miatt némelyik Bluetooth-szal rendelkező készülék abnormális hangerőszintekkel rendelkezik, amely úgy oldható meg, ha ez a funkció kikapcsolásra kerül.</string>
@@ -1365,7 +1455,9 @@
     <string name="bubbles_conversation_toggle_title">Beszélgetés buborékba helyezése</string>
     <string name="bubbles_feature_disabled_button_approve">Bekapcsolás</string>
     <string name="bubbles_feature_disabled_button_cancel">Mégse</string>
-    <string name="bubbles_feature_disabled_dialog_text">Ha bekapcsolja a buborékokat ennél az alkalmazásnál, akkor egyúttal az eszközön is bekapcsolja őket.\10\10Ez hatással lehet a többi olyan alkalmazásra vagy beszélgetésre is, amelyek használhatnak buborékokat.</string>
+    <string name="bubbles_feature_disabled_dialog_text">Ha bekapcsolja a buborékokat ennél az alkalmazásnál, akkor egyúttal az eszközön is bekapcsolja őket.
+
+Ez hatással lehet a többi olyan alkalmazásra vagy beszélgetésre is, amelyek használhatnak buborékokat.</string>
     <string name="bubbles_feature_disabled_dialog_title">Bekapcsolja a buborékokat az eszközön?</string>
     <string name="bubbles_feature_education">Egyes értesítések és más tartalmak buborékokként jelenhetnek meg a képernyőn. A megnyitásához koppintson a kívánt buborékra. Az elvetéséhez húzza a képernyő aljára.</string>
     <string name="bug_report_handler_picker_footer_text">Meghatározza, hogy melyik alkalmazás kezeli a Hibajelentés gyorsparancsot az eszközön.</string>
@@ -1392,7 +1484,9 @@
     <string name="button_text_reject">Korlátoz</string>
     <string name="byteShort">B</string>
     <string name="ca_certificate">CA-tanúsítvány</string>
-    <string name="ca_certificate_warning_description">A CA-tanúsítványokat webhelyek, alkalmazások és VPN-ek használják titkosításra. Csak megbízható szervezettől származó CA-tanúsítványt telepítsen. \10\10 Ha CA-tanúsítványt telepít, a tanúsítvány tulajdonosa az Ön által meglátogatott webhelyekről és a használt alkalmazásokból hozzáférhet az Ön adataihoz, mint pl. jelszavak vagy hitelkártyaadatok – akkor is, ha az adat titkosított.</string>
+    <string name="ca_certificate_warning_description">A CA-tanúsítványokat webhelyek, alkalmazások és VPN-ek használják titkosításra. Csak megbízható szervezettől származó CA-tanúsítványt telepítsen.
+
+Ha CA-tanúsítványt telepít, a tanúsítvány tulajdonosa az Ön által meglátogatott webhelyekről és a használt alkalmazásokból hozzáférhet az Ön adataihoz, mint pl. jelszavak vagy hitelkártyaadatok – akkor is, ha az adat titkosított.</string>
     <string name="ca_certificate_warning_title">Adatai nem lesznek privát jellegűek</string>
     <string name="cache_header_label">Gyorsítótár</string>
     <string name="cache_size_label">Gyorsítótár</string>
@@ -1726,8 +1820,12 @@
     <string name="connecting_to_vpn">Csatlakozás VPN-hez</string>
     <string name="connection_and_sharing">Kapcsolat és megosztás</string>
     <string name="contact_data">Névjegyek</string>
-    <string name="contact_discovery_opt_in_dialog_message">A névjegyek telefonszámait időnként megkapja a(z) %1$s.\10\10Ez információt szolgáltat arról, hogy az adott névjegy használhat-e bizonyos funkciókat, például indíthat-e videohívást, vagy kezelhet-e üzenetküldési funkciókat.</string>
-    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined">A névjegyek telefonszámait időnként megkapja az Ön szolgáltatója.\10\10Ez információt szolgáltat arról, hogy az adott névjegy használhat-e bizonyos funkciókat, például indíthat-e videohívást, vagy kezelhet-e üzenetküldési funkciókat.</string>
+    <string name="contact_discovery_opt_in_dialog_message">A névjegyek telefonszámait időnként megkapja a(z) %1$s.
+
+Ez információt szolgáltat arról, hogy az adott névjegy használhat-e bizonyos funkciókat, például indíthat-e videohívást, vagy kezelhet-e üzenetküldési funkciókat.</string>
+    <string name="contact_discovery_opt_in_dialog_message_no_carrier_defined">A névjegyek telefonszámait időnként megkapja az Ön szolgáltatója.
+
+Ez információt szolgáltat arról, hogy az adott névjegy használhat-e bizonyos funkciókat, például indíthat-e videohívást, vagy kezelhet-e üzenetküldési funkciókat.</string>
     <string name="contact_discovery_opt_in_dialog_title">Elküldi a névjegyeket a(z) %1$s szolgáltatónak?</string>
     <string name="contact_discovery_opt_in_dialog_title_no_carrier_defined">Elküldi a névjegyeket a szolgáltatójának?</string>
     <string name="contact_discovery_opt_in_summary">Elküldheti a névjegyek telefonszámait, hogy speciális funkciókhoz jusson</string>
@@ -1752,12 +1850,17 @@
     <string name="controls_subtitle">Az energiafelhasználás beállítása</string>
     <string name="convenience_key_category_title">Rendszerfelügyelet</string>
     <string name="conversation_category_title">Beszélgetés</string>
-    <string name="conversation_onboarding_summary">Amikor elsődlegesként jelöl meg egy beszélgetést, vagy ha bármilyen más módosítást végez a beszélgetéseken, ezek az információk itt jelennek meg. \10\10A beszélgetésbeállítások módosításához tegye a következőket: \10Csúsztassa le ujját a képernyő tetejétől a lehúzható értesítési felület megnyitásához, majd tartsa lenyomva ujját az egyik beszélgetésen.</string>
+    <string name="conversation_onboarding_summary">Amikor elsődlegesként jelöl meg egy beszélgetést, vagy ha bármilyen más módosítást végez a beszélgetéseken, ezek az információk itt jelennek meg.
+
+A beszélgetésbeállítások módosításához tegye a következőket:
+Csúsztassa le ujját a képernyő tetejétől a lehúzható értesítési felület megnyitásához, majd tartsa lenyomva ujját az egyik beszélgetésen.</string>
     <string name="conversation_onboarding_title">Az elsődleges és a módosított beszélgetések itt jelennek meg</string>
     <string name="conversation_section_switch_summary">A beszélgetések szakasz használatának engedélyezése az alkalmazás számára</string>
     <string name="conversation_section_switch_title">Beszélgetések szakasz</string>
     <string name="conversations_category_title">Beszélgetések</string>
-    <string name="convert_to_fbe_warning">Adatpartíció átalakítása fájlalapú titkosításhoz.\10Figyelem: ez MINDEN adatát törölni fogja.\10Ez a funkció még fejlesztés alatt áll, lehet, hogy nem működik hibátlanul.\10Folytatáshoz nyomja meg a \'Törlés és átalakítás…\' gombot.</string>
+    <string name="convert_to_fbe_warning">Adatpartíció átalakítása fájlalapú titkosításhoz.Figyelem: ez MINDEN adatát törölni fogja.
+Ez a funkció még fejlesztés alatt áll, lehet, hogy nem működik hibátlanul.
+    Folytatáshoz nyomja meg a \'Törlés és átalakítás…\' gombot.</string>
     <string name="convert_to_file_encryption">Fájl átalakítása titkosításhoz</string>
     <string name="convert_to_file_encryption_done">A fájlok titkosítva lettek</string>
     <string name="convert_to_file_encryption_enabled">Konvertálás…</string>
@@ -1789,23 +1892,31 @@
     <string name="cross_profile_calendar_summary">Munkaesemények megjelenítése a személyes naptárban</string>
     <string name="cross_profile_calendar_title">Profilokat átfogó naptár</string>
     <string name="crypt_keeper_button_text">Telefon titkosítása</string>
-    <string name="crypt_keeper_conditions">A titkosítás egy óránál többet is igénybe vehet.\10Kezdje feltöltött akkumulátorral és hagyja készülékét töltőre csatlakoztatva a folyamat végéig.\10Ha megszakítja, elveszíti néhány vagy az összes adatát.</string>
+    <string name="crypt_keeper_conditions">A titkosítás egy óránál többet is igénybe vehet.
+Kezdje feltöltött akkumulátorral és hagyja készülékét töltőre csatlakoztatva a folyamat végéig.
+Ha megszakítja, elveszíti néhány vagy az összes adatát.</string>
     <string name="crypt_keeper_conditions_title">A készülék titkosításáról</string>
     <string name="crypt_keeper_confirm_title">Titkosítja?</string>
     <string name="crypt_keeper_content">Titkosíthatja fiókjait, beállításait, a letöltött alkalmazásokat és adatait, zenéit és egyéb fájljait.</string>
     <string name="crypt_keeper_content_title">A készülék titkosítása</string>
-    <string name="crypt_keeper_data_corrupt_summary">A megadott jelszó helyes, adatai azonban sajnos sérültek. \10\10A telefon használatának folytatásához végre kell hajtania a gyári adatok visszaállítását. Amikor ezt követően beállítja a telefont, lehetősége nyílik arra, hogy helyreállítsa mindazokat az adatokat, amelyekről másolat található Google-fiókjában.</string>
+    <string name="crypt_keeper_data_corrupt_summary">A megadott jelszó helyes, adatai azonban sajnos sérültek. 
+
+A telefon használatának folytatásához végre kell hajtania a gyári adatok visszaállítását. Amikor ezt követően beállítja a telefont, lehetősége nyílik arra, hogy helyreállítsa mindazokat az adatokat, amelyekről másolat található Google-fiókjában.</string>
     <string name="crypt_keeper_data_corrupt_title">Titkosítás feloldása sikertelen</string>
     <string name="crypt_keeper_decrypt_methods">A készülék titkosítását követően, ha beállított egy képernyőzárat (minta, PIN-kód vagy jelszó), a titkosítás feloldásához a készülék minden egyes bekapcsolásakor fel kell oldania a képernyőt. Az egyetlen módja a titkosítás végleges feloldásának a Gyári adatok visszaállítása, amely töröl minden adatot.</string>
     <string name="crypt_keeper_decrypt_methods_cannot_decrypt">Ha titkosította készülékét, a titkosítás feloldásához minden újraindítás után be kell írnia jelszavát, PIN-kódját vagy mintáját.</string>
     <string name="crypt_keeper_decrypt_methods_title">A készüléktitkosítás feloldása</string>
-    <string name="crypt_keeper_desc">Titkosíthatja fiókjait, beállításait, letöltött alkalmazásait és azok adatait, illetve média- és egyéb fájljait. Ha telefonja titkosítását követően képernyőzárat állít be (mintával, számjegyekből álló PIN-kóddal vagy jelszóval), minden bekapcsoláskor fel kell oldania a képernyő zárolását a telefon titkosításának feloldásához. A titkosítás feloldásának egyetlen további módja a gyári adatok visszaállítása, amely során valamennyi adat törlődik.\10\10A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral kezdjen neki, és az egész folyamat során tartsa a telefont hálózati áramforráshoz csatlakoztatva. Ha megszakítja a folyamatot, az az adatok részleges vagy teljes elvesztésével járhat.</string>
+    <string name="crypt_keeper_desc">Titkosíthatja fiókjait, beállításait, letöltött alkalmazásait és azok adatait, illetve média- és egyéb fájljait. Ha telefonja titkosítását követően képernyőzárat állít be (mintával, számjegyekből álló PIN-kóddal vagy jelszóval), minden bekapcsoláskor fel kell oldania a képernyő zárolását a telefon titkosításának feloldásához. A titkosítás feloldásának egyetlen további módja a gyári adatok visszaállítása, amely során valamennyi adat törlődik.
+
+A titkosítás legalább egy órát vesz igénybe. Feltöltött akkumulátorral kezdjen neki, és az egész folyamat során tartsa a telefont hálózati áramforráshoz csatlakoztatva. Ha megszakítja a folyamatot, az az adatok részleges vagy teljes elvesztésével járhat.</string>
     <string name="crypt_keeper_dialog_need_password_message">Be kell állítani egy zárolási képernyőhöz tartozó PIN-kódot vagy jelszót a titkosítás megkezdése előtt.</string>
     <string name="crypt_keeper_dialog_need_password_title">Nincs a zárolási képernyőhöz tartozó PIN-kód vagy jelszó</string>
     <string name="crypt_keeper_encrypt_title">Telefon titkosítása</string>
     <string name="crypt_keeper_encrypted_summary">Titkosítva</string>
     <string name="crypt_keeper_enter_password">Írja be a jelszavát</string>
-    <string name="crypt_keeper_failed_summary">A titkosítás megszakadt, és nem lehet befejezni. Ezért a telefonon található adatokhoz nem lehet hozzáférni. \10\10Ahhoz, hogy újra használni tudja telefonját, vissza kell állítani a gyári beállításokat. Amikor a visszaállítás után beállítja telefonját, lehetősége lesz minden adat visszaállítására, amelyet a rendszer eltárolt a Google Fiókjában.</string>
+    <string name="crypt_keeper_failed_summary">A titkosítás megszakadt, és nem lehet befejezni. Ezért a telefonon található adatokhoz nem lehet hozzáférni.
+
+Ahhoz, hogy újra használni tudja telefonját, vissza kell állítani a gyári beállításokat. Amikor a visszaállítás után beállítja telefonját, lehetősége lesz minden adat visszaállítására, amelyet a rendszer eltárolt a Google Fiókjában.</string>
     <string name="crypt_keeper_failed_title">A titkosítás sikertelen</string>
     <string name="crypt_keeper_final_desc">A titkosítási művelet visszafordíthatatlan, ha megszakítja, adatai elvesznek. A titkosítás legalább egy órát vesz igénybe, mialatt a telefon többször újra fog indulni.</string>
     <string name="crypt_keeper_force_power_cycle">A feloldáshoz kapcsolja ki a telefont, majd kapcsolja be újra.</string>
@@ -1921,14 +2032,18 @@
     <string name="data_usage_app_restrict_background">Háttéradatok</string>
     <string name="data_usage_app_restrict_background_summary">Mobiladatok háttérben történő használatának engedélyezése</string>
     <string name="data_usage_app_restrict_background_summary_disabled">Háttéradatok korlátozásához előbb állítson be mobiladatkorlátot.</string>
-    <string name="data_usage_app_restrict_dialog">Lehetséges, hogy e funkció miatt a háttéradatoktól függő alkalmazások nem fognak működni, ha csak mobilhálózatok állnak rendelkezésre.\10\10Az alkalmazásban lévő beállítások között megfelelőbb adathasználati beállításokat találhat.</string>
+    <string name="data_usage_app_restrict_dialog">Lehetséges, hogy e funkció miatt a háttéradatoktól függő alkalmazások nem fognak működni, ha csak mobilhálózatok állnak rendelkezésre.
+
+Az alkalmazásban lévő beállítások között megfelelőbb adathasználati beállításokat találhat.</string>
     <string name="data_usage_app_restrict_dialog_title">Korlátozza a háttéradatokat?</string>
     <string name="data_usage_app_restricted">korlátozott</string>
     <string name="data_usage_app_settings">Alkalmazásbeállítások</string>
     <string name="data_usage_app_summary_title">Mobiladatok és Wi‑Fi</string>
     <string name="data_usage_auto_sync_off_dialog">Ez mérsékelni fogja az adat- és akkumulátorhasználatot, de minden egyes fiókot manuálisan kell majd szinkronizálnia a legfrissebb információk begyűjtéséhez. Továbbá nem fog értesítéseket kapni a frissítésekről.</string>
     <string name="data_usage_auto_sync_off_dialog_title">Kikapcsolja a szinkronizálást?</string>
-    <string name="data_usage_auto_sync_on_dialog">Ha valamelyik fiókján módosítást végez az interneten, akkor a módosítás automatikusan át lesz másolva a telefonjára.\10\10Egyes fiókok a telefonon végrehajtott módosításokat is automatikusan átmásolhatják az internetre. A Google-fiókok is ilyenek.</string>
+    <string name="data_usage_auto_sync_on_dialog">Ha valamelyik fiókján módosítást végez az interneten, akkor a módosítás automatikusan át lesz másolva a telefonjára.
+
+Egyes fiókok a telefonon végrehajtott módosításokat is automatikusan átmásolhatják az internetre. A Google-fiókok is ilyenek.</string>
     <string name="data_usage_auto_sync_on_dialog_title">Bekapcsolja a szinkronizálást?</string>
     <string name="data_usage_background_label">Háttér:</string>
     <string name="data_usage_cellular_data">Mobiladatok</string>
@@ -1954,7 +2069,9 @@
     <string name="data_usage_forground_label">Előtér:</string>
     <string name="data_usage_label_background">Háttér</string>
     <string name="data_usage_label_foreground">Előtér</string>
-    <string name="data_usage_limit_dialog_mobile">Telefonja kikapcsolja a mobiladat-kapcsolatot, amint eléri a beállított korlátot.\10\10Mivel az adatforgalmat a telefon méri, és a szolgáltató mérései ettől eltérhetnek, érdemes lehet szigorúbb korlátot megadnia.</string>
+    <string name="data_usage_limit_dialog_mobile">Telefonja kikapcsolja a mobiladat-kapcsolatot, amint eléri a beállított korlátot.
+
+Mivel az adatforgalmat a telefon méri, és a szolgáltató mérései ettől eltérhetnek, érdemes lehet szigorúbb korlátot megadnia.</string>
     <string name="data_usage_limit_dialog_title">Adatforgalom korlátozása</string>
     <string name="data_usage_limit_editor_title">Adathasználati korlát beállítása</string>
     <string name="data_usage_list_mobile">Mobil</string>
@@ -1983,13 +2100,17 @@
     <string name="data_usage_pick_cycle_day">Az adatforgalmi ciklus visszaállítása a hónap e napján:</string>
     <string name="data_usage_received_sent">%1$s érkezett, %2$s elküldve</string>
     <string name="data_usage_restrict_background">Ha korlátozza a háttérben történő mobiladat-forgalmat, egyes alkalmazások és szolgáltatások nem fognak működni, hacsak nem csatlakozik Wi-Fi-hálózathoz.</string>
-    <string name="data_usage_restrict_background_multiuser">Ha korlátozza a háttérben futó mobiladat-átvitelt, bizonyos alkalmazások és szolgáltatások nem fognak rendesen működni, amíg nem kapcsolódik Wi-Fi-hálózathoz.\10\10Ez a beállítás a készülék összes felhasználójára hatással van.</string>
+    <string name="data_usage_restrict_background_multiuser">Ha korlátozza a háttérben futó mobiladat-átvitelt, bizonyos alkalmazások és szolgáltatások nem fognak rendesen működni, amíg nem kapcsolódik Wi-Fi-hálózathoz.
+
+Ez a beállítás a készülék összes felhasználójára hatással van.</string>
     <string name="data_usage_restrict_background_title">Korlátozza a háttéradatokat?</string>
     <string name="data_usage_restrict_denied_dialog">A háttéradatok korlátozása csak akkor lehetséges, ha beállított mobiladatkorlátot.</string>
     <string name="data_usage_summary_format">Felhasznált adatmennyiség: %1$s</string>
     <string name="data_usage_summary_title">Adathasználat</string>
-    <string name="data_usage_sweep_limit">^1 ^2\10korlát</string>
-    <string name="data_usage_sweep_warning">^1 ^2\10figyelmez-tetés</string>
+    <string name="data_usage_sweep_limit">^1 ^2
+korlát</string>
+    <string name="data_usage_sweep_warning">^1 ^2
+figyelmez-tetés</string>
     <string name="data_usage_tab_3g">2G-3G</string>
     <string name="data_usage_tab_4g">4G</string>
     <string name="data_usage_tab_ethernet">Ethernet</string>
@@ -2009,7 +2130,8 @@
     <string name="data_used_template">%1$s felhasználva</string>
     <string name="data_warning">Adatforgalmi figyelmeztetés</string>
     <string name="data_warning_footnote">Az adatforgalmi figyelmeztetést és korlátozást eszköze méri. Ez eltérhet a szolgáltatói adatoktól.</string>
-    <string name="datasize_decrease_content">A névjegyek, az üzenetek és a rendszeradatok tömörítve vannak a biztonsági mentés ideje alatt, ez pedig kisebb fájlméretet eredményez.\10</string>
+    <string name="datasize_decrease_content">"A névjegyek, az üzenetek és a rendszeradatok tömörítve vannak a biztonsági mentés ideje alatt, ez pedig kisebb fájlméretet eredményez.
+"</string>
     <string name="datasize_decrease_title">Miért kisebb némelyik biztonsági fájl a konkrét elemeknél?</string>
     <string name="date_and_time">Dátum és idő</string>
     <string name="date_and_time_settings_summary">Dátum, idő, időzóna és formátumok beállítása</string>
@@ -2176,13 +2298,17 @@
     <string name="devices_title">Eszközök</string>
     <string name="dial_application_title">Hívás</string>
     <string name="dial_pad_tones_title">A tárcsázó hangjai</string>
-    <string name="dialog_background_check_message">A telefon nem képes az akkumulátor normál kezelésére, mivel a(z) %1$s alkalmazás folyton felébreszti az eszközt.\10\10A probléma megoldásához leállíthatja a(z) %1$s alkalmazást, és megakadályozhatja, hogy fusson a háttérben.</string>
+    <string name="dialog_background_check_message">A telefon nem képes az akkumulátor normál kezelésére, mivel a(z) %1$s alkalmazás folyton felébreszti az eszközt.
+
+A probléma megoldásához leállíthatja a(z) %1$s alkalmazást, és megakadályozhatja, hogy fusson a háttérben.</string>
     <string name="dialog_background_check_ok">Kikapcsolás</string>
     <string name="dialog_background_check_title">Kikapcsolja a háttérben futást, és leállítja az alkalmazást?</string>
     <string name="dialog_backup_title">Frissíti a biztonsági mentéseket a gyári adatok visszaállítása előtt?</string>
     <string name="dialog_chose_item">Válasszon egy megjelenítendő elemet</string>
     <string name="dialog_content_login">Bejelentkezik a Mi Fiókjába a frissítéshez?</string>
-    <string name="dialog_location_message">A telefon nem képes az akkumulátor normál kezelésére, mivel a(z) %1$s alkalmazás gyakran lekéri az Ön tartózkodási helyét, amikor nincs használatban.\10\10A probléma megoldásához kikapcsolhatja az alkalmazás hozzáférését a tartózkodási helyhez.</string>
+    <string name="dialog_location_message">A telefon nem képes az akkumulátor normál kezelésére, mivel a(z) %1$s alkalmazás gyakran lekéri az Ön tartózkodási helyét, amikor nincs használatban.
+
+A probléma megoldásához kikapcsolhatja az alkalmazás hozzáférését a tartózkodási helyhez.</string>
     <string name="dialog_location_ok">Kikapcsolás</string>
     <string name="dialog_location_title">Kikapcsolja a tartózkodási helyet?</string>
     <string name="dialog_no">Nem</string>
@@ -2195,8 +2321,16 @@
     <string name="dialog_speaker_auto_clean_button">Rendben</string>
     <string name="dialog_speaker_auto_clean_content">A tisztítás 30 másodpercet vesz igénybe. Ne hagyja el ezt az oldalt. A legjobb hatás érdekében állítsa maximálisra a hangerőt.</string>
     <string name="dialog_speaker_auto_clean_title">Figyelem</string>
-    <string name="dialog_stop_message">A telefon nem képes az akkumulátor normál kezelésére, mivel a(z) %1$s alkalmazás ébren tartja az eszközt.\10\10A probléma megoldásához leállíthatja az alkalmazást.\10\10Ha a probléma továbbra is fennáll, akkor az akkumulátor teljesítményének javításához lehet, hogy el kell távolítania az alkalmazást.</string>
-    <string name="dialog_stop_message_wakeup_alarm">A telefon nem képes az akkumulátor normál kezelésére, mivel a(z) %1$s alkalmazás folyton felébreszti az eszközt.\10\10A probléma megoldásához leállíthatja a(z) %1$s alkalmazást.\10\10Ha a probléma továbbra is fennáll, akkor az akkumulátor teljesítményének javításához lehet, hogy el kell távolítania az alkalmazást.</string>
+    <string name="dialog_stop_message">A telefon nem képes az akkumulátor normál kezelésére, mivel a(z) %1$s alkalmazás ébren tartja az eszközt.
+
+A probléma megoldásához leállíthatja az alkalmazást.
+
+Ha a probléma továbbra is fennáll, akkor az akkumulátor teljesítményének javításához lehet, hogy el kell távolítania az alkalmazást.</string>
+    <string name="dialog_stop_message_wakeup_alarm">A telefon nem képes az akkumulátor normál kezelésére, mivel a(z) %1$s alkalmazás folyton felébreszti az eszközt.
+
+A probléma megoldásához leállíthatja a(z) %1$s alkalmazást.
+
+Ha a probléma továbbra is fennáll, akkor az akkumulátor teljesítményének javításához lehet, hogy el kell távolítania az alkalmazást.</string>
     <string name="dialog_stop_ok">Alkalmazás leállítása</string>
     <string name="dialog_stop_title">Leállítja az alkalmazást?</string>
     <string name="dialog_title_color_calibration">Színkorrekció előbeállítás</string>
@@ -2390,7 +2524,9 @@
     <string name="dual_wifi_switching_prompt">Hálózatok közti váltás</string>
     <string name="dual_wifi_switching_summary">A kétsávos Wi-Fi sebességgyorsításnak két különböző Wi-Fi-sávot kell használnia. Ha rácsatlakozik egy másik fő hálózatra, a segédkapcsolat elveszik.</string>
     <string name="dump_log">Hibákkal kapcsolatos naplók létrehozása</string>
-    <string name="dump_log_summary">Ez a funkció a 284-es napló létrehozására szolgál a MIUI Béta-verziójában. Óvatosan használja.\10A létrehozott naplókat a Fájlkezelőben tekintheti meg.</string>
+    <string name="dump_log_summary">Ez a funkció a 284-es napló létrehozására szolgál a MIUI Béta-verziójában. Óvatosan használja.
+A létrehozott naplókat a Fájlkezelőben tekintheti meg.</string>
+
     <string name="dump_log_title">A szolgáltatásról</string>
     <string name="easymode_hint">Az Egyszerű mód kikapcsolásához koppintson</string>
     <string name="edge_mode_back">Lépjen vissza</string>
@@ -2472,15 +2608,33 @@
     <string name="encryption_and_credential_settings_title">Titkosítás és hitelesítési adatok</string>
     <string name="encryption_continue_button">Tovább</string>
     <string name="encryption_interstitial_header">Biztonságos indítás</string>
-    <string name="encryption_interstitial_message_password">További védelmet nyújthat az eszköz számára, ha elindítása előtt jelszót kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is). \10\10Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja jelszó kérését az eszköz indítása előtt?</string>
-    <string name="encryption_interstitial_message_password_for_face">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet jelenthet, ha az eszköz jelszó magadásához köti a rendszerindítást. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).\10\10Ez segíti az elvesztett vagy ellopott eszközökön lévő adatok védelmét. Beállítja jelszó kérését az eszköz indítása előtt?</string>
-    <string name="encryption_interstitial_message_password_for_fingerprint">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet nyújthat az eszköznek, ha jelszó magadásához köti a rendszerindítást. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).\10\10Ez segíti az elvesztett vagy ellopott eszközökön lévő adatok védelmét. Beállítja jelszó kérését az eszköz indítása előtt?</string>
-    <string name="encryption_interstitial_message_pattern">További védelmet adhat az eszköznek, ha elindítása előtt mintát kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).\10\10Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja minta kérését az eszköz indítása előtt?</string>
-    <string name="encryption_interstitial_message_pattern_for_face">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet jelenthet, ha az eszköz rendszerindítás előtt mintát kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).\10\10Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja minta kérését az eszköz indítása előtt?</string>
-    <string name="encryption_interstitial_message_pattern_for_fingerprint">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet jelenthet, ha az eszköz rendszerindítás előtt mintát kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).\10\10Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja minta kérését az eszköz indítása előtt?</string>
-    <string name="encryption_interstitial_message_pin">További védelmet adhat az eszköznek, ha elindítása előtt PIN-kódot kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).\10\10Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja PIN-kód kérését az eszköz indítása előtt?</string>
-    <string name="encryption_interstitial_message_pin_for_face">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet jelenthet, ha az eszköz rendszerindítás előtt PIN-kódot kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).\10\10Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja PIN-kód kérését az eszköz indítása előtt?</string>
-    <string name="encryption_interstitial_message_pin_for_fingerprint">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet jelenthet, ha az eszköz rendszerindítás előtt PIN-kódot kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).\10\10Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja PIN-kód kérését az eszköz indítása előtt?</string>
+    <string name="encryption_interstitial_message_password">További védelmet nyújthat az eszköz számára, ha elindítása előtt jelszót kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).
+
+Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja jelszó kérését az eszköz indítása előtt?</string>
+    <string name="encryption_interstitial_message_password_for_face">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet jelenthet, ha az eszköz jelszó magadásához köti a rendszerindítást. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).
+
+Ez segíti az elvesztett vagy ellopott eszközökön lévő adatok védelmét. Beállítja jelszó kérését az eszköz indítása előtt?</string>
+    <string name="encryption_interstitial_message_password_for_fingerprint">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet nyújthat az eszköznek, ha jelszó magadásához köti a rendszerindítást. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).
+
+Ez segíti az elvesztett vagy ellopott eszközökön lévő adatok védelmét. Beállítja jelszó kérését az eszköz indítása előtt?</string>
+    <string name="encryption_interstitial_message_pattern">További védelmet adhat az eszköznek, ha elindítása előtt mintát kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).
+
+Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja minta kérését az eszköz indítása előtt?</string>
+    <string name="encryption_interstitial_message_pattern_for_face">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet jelenthet, ha az eszköz rendszerindítás előtt mintát kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).
+
+Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja minta kérését az eszköz indítása előtt?</string>
+    <string name="encryption_interstitial_message_pattern_for_fingerprint">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet jelenthet, ha az eszköz rendszerindítás előtt mintát kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).
+
+Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja minta kérését az eszköz indítása előtt?</string>
+    <string name="encryption_interstitial_message_pin">További védelmet adhat az eszköznek, ha elindítása előtt PIN-kódot kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).
+
+Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja PIN-kód kérését az eszköz indítása előtt?</string>
+    <string name="encryption_interstitial_message_pin_for_face">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet jelenthet, ha az eszköz rendszerindítás előtt PIN-kódot kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).
+
+Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja PIN-kód kérését az eszköz indítása előtt?</string>
+    <string name="encryption_interstitial_message_pin_for_fingerprint">Amellett, hogy ujjlenyomattal oldja fel eszköze zárolását, további védelmet jelenthet, ha az eszköz rendszerindítás előtt PIN-kódot kér. Amíg az eszköz el nem indul, nem tud hívásokat, üzeneteket és értesítéseket fogadni (beleértve a riasztásokat is).
+
+Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. Beállítja PIN-kód kérését az eszköz indítása előtt?</string>
     <string name="encryption_interstitial_no">Nem</string>
     <string name="encryption_interstitial_yes">Igen</string>
     <string name="encryption_progress_summary">Titkosítás, ne indítsa újra a készüléket.</string>
@@ -2514,7 +2668,9 @@
     <string name="enterprise_privacy_failed_password_wipe_device">Sikertelen jelszómegadási próbálkozások száma az összes eszközadat törlése előtt</string>
     <string name="enterprise_privacy_failed_password_wipe_work">Sikertelen jelszómegadási próbálkozások száma a munkaprofilhoz tartozó adatok törlése előtt</string>
     <string name="enterprise_privacy_global_http_proxy">Globális HTTP proxy beállítva</string>
-    <string name="enterprise_privacy_header">Előfordulhat, hogy szervezete módosítja az Ön beállításait, és szoftvereket telepít eszközére annak érdekében, hogy hozzáférést biztosítson munkahelyi adataihoz. \10\10Ha további információra van szüksége, vegye fel a kapcsolatot a szervezet rendszergazdájával.</string>
+    <string name="enterprise_privacy_header">Előfordulhat, hogy szervezete módosítja az Ön beállításait, és szoftvereket telepít eszközére annak érdekében, hogy hozzáférést biztosítson munkahelyi adataihoz.
+
+Ha további információra van szüksége, vegye fel a kapcsolatot a szervezet rendszergazdájával.</string>
     <string name="enterprise_privacy_input_method">Alapértelmezett billentyűzet</string>
     <string name="enterprise_privacy_input_method_name">Beállítva: %s</string>
     <string name="enterprise_privacy_installed_packages">Az eszköz alkalmazáslistája</string>
@@ -2765,13 +2921,19 @@
     <string name="font_size_make_smaller_desc">Kisebb</string>
     <string name="font_size_medium">Nagy</string>
     <string name="font_size_normal">Kicsi</string>
-    <string name="font_size_preview_text_body">Dorothyt és barátait még a zöld szemüvegen át is lenyűgözte a csodálatos Város tündöklése. Az utcákat gyönyörű házak sora szegélyezte, melyek zöld márványból készültek, ragyogó smaragdokkal kirakva. Az utak ugyanebből a zöld márványból készültek, az utcaköveket pedig sűrűn rakott smaragdsorok választották el, melyek csak úgy sziporkáztak a napfényben. Az ablaktáblák zöld üvegből voltak, az ég zöldes színben tündökölt a Város fölött, és még a napsugarak is zöld színben játszottak. \10\10Rengeteg ember járkált mindenfelé, férfiak, nők, gyerekek, mind zöld ruhákban, zöldes árnyalatú volt a bőrük is. Csodálkozó szemekkel néztek Dorothyra és furcsa kísérőire, és amikor a gyerekek meglátták az Oroszlánt, elszaladtak, és anyjuk mögé bújtak. De senki sem szólt hozzájuk. Az utcán sok bolt állt, és Dorothy észrevette, hogy ezekben is minden zöld. Lehetett kapni zöld cukorkát és zöld pattogatott kukoricát, zöld cipőt, zöld kalapot és mindenféle zöld ruhát. Az egyik helyen egy férfi zöld limonádét árult, és Dorothy látta, hogy a gyerekek zöld pennykkel fizetnek érte. \10\10Nem voltak sehol lovak vagy más állatok; az emberek mindent kis zöld kocsikon hordtak, amelyet maguk előtt toltak. Mindenki boldognak, elégedettnek és jómódúnak tűnt.</string>
+    <string name="font_size_preview_text_body">Dorothyt és barátait még a zöld szemüvegen át is lenyűgözte a csodálatos Város tündöklése. Az utcákat gyönyörű házak sora szegélyezte, melyek zöld márványból készültek, ragyogó smaragdokkal kirakva. Az utak ugyanebből a zöld márványból készültek, az utcaköveket pedig sűrűn rakott smaragdsorok választották el, melyek csak úgy sziporkáztak a napfényben. Az ablaktáblák zöld üvegből voltak, az ég zöldes színben tündökölt a Város fölött, és még a napsugarak is zöld színben játszottak.
+
+Rengeteg ember járkált mindenfelé, férfiak, nők, gyerekek, mind zöld ruhákban, zöldes árnyalatú volt a bőrük is. Csodálkozó szemekkel néztek Dorothyra és furcsa kísérőire, és amikor a gyerekek meglátták az Oroszlánt, elszaladtak, és anyjuk mögé bújtak. De senki sem szólt hozzájuk. Az utcán sok bolt állt, és Dorothy észrevette, hogy ezekben is minden zöld. Lehetett kapni zöld cukorkát és zöld pattogatott kukoricát, zöld cipőt, zöld kalapot és mindenféle zöld ruhát. Az egyik helyen egy férfi zöld limonádét árult, és Dorothy látta, hogy a gyerekek zöld pennykkel fizetnek érte.
+
+Nem voltak sehol lovak vagy más állatok; az emberek mindent kis zöld kocsikon hordtak, amelyet maguk előtt toltak. Mindenki boldognak, elégedettnek és jómódúnak tűnt.</string>
     <string name="font_size_preview_text_headline">Mintaszöveg</string>
     <string name="font_size_preview_text_subtitle">11. fejezet: A csodálatos Smaragdváros</string>
     <string name="font_size_preview_text_title">Óz, a csodák csodája</string>
     <string name="font_size_save">OK</string>
     <string name="font_size_small">Kisebb</string>
-    <string name="font_size_summary">A betűméret megváltoztatása a Kezdőképernyőn, az Értesítési felületen, a tárcsázón és a rendszermenükben.\10\10</string>
+    <string name="font_size_summary">"A betűméret megváltoztatása a Kezdőképernyőn, az Értesítési felületen, a tárcsázón és a rendszermenükben.
+
+"</string>
     <string name="font_size_summary1">Ha még mindig túl kis méretűek a betűk, próbálja ezt: </string>
     <string name="font_size_summary2">Egyszerű üzemmód</string>
     <string name="forbidden_network">(tiltott)</string>
@@ -2845,7 +3007,8 @@
     <string name="freeform_guide_settings">Lebegő ablakok</string>
     <string name="freeform_guide_slide_up_to_close_summary">Csúsztatás felfelé a lebegő ablak műveleti sávjától</string>
     <string name="freeform_guide_slide_up_to_close_title">Lebegő ablakok bezárása</string>
-    <string name="freeform_vedio_description">· Tartsa lenyomva, majd húzzon le egy értesítést a lebegő ablakban való megnyitásához.\10· Alkalmazások kiválasztásához koppintson a „Lebegő ablakok” lehetőségre a Legutóbbiak mappában.</string>
+    <string name="freeform_vedio_description">· Tartsa lenyomva, majd húzzon le egy értesítést a lebegő ablakban való megnyitásához.
+Alkalmazások kiválasztásához koppintson a „Lebegő ablakok” lehetőségre a Legutóbbiak mappában.</string>
     <string name="frequently_fragment_delete">Eltávolítás</string>
     <string name="frequently_fragment_tempty">A leggyakrabban használt elemek itt lesznek láthatóak</string>
     <string name="fsg_mistake_touch_summary">Bizonyos esetekben, például teljes képernyős játékokban és videókban a mozdulatokat kétszer kell megismételni ahhoz, hogy működjenek</string>
@@ -2854,7 +3017,9 @@
     <string name="full_screen_keyboard_optimization">Billentyűzetnövelés</string>
     <string name="full_screen_keyboard_settings">Billentyűzetbeállítások a teljes képernyőhöz</string>
     <string name="full_transparent_smarrcover_title">Átlátszó előlapú tok</string>
-    <string name="fullbackup_data_summary">Eszközadatok (például Wi-Fi-jelszavak és híváslista) és alkalmazásadatok (például az alkalmazások által tárolt beállítások és fájlok) automatikus biztonsági mentése távolról.\10\10Ha bekapcsolja az automatikus biztonsági mentést, akkor a rendszer szabályos időközönként elvégzi eszköz- és alkalmazásadatainak távoli mentését. Alkalmazásadat bármilyen adat lehet, amelyet egy alkalmazás mentett (a fejlesztői beállításoktól függően), beleértve a potenciálisan bizalmas adatokat is (például névjegyek, üzenetek és fotók).</string>
+    <string name="fullbackup_data_summary">Eszközadatok (például Wi-Fi-jelszavak és híváslista) és alkalmazásadatok (például az alkalmazások által tárolt beállítások és fájlok) automatikus biztonsági mentése távolról.
+
+Ha bekapcsolja az automatikus biztonsági mentést, akkor a rendszer szabályos időközönként elvégzi eszköz- és alkalmazásadatainak távoli mentését. Alkalmazásadat bármilyen adat lehet, amelyet egy alkalmazás mentett (a fejlesztői beállításoktól függően), beleértve a potenciálisan bizalmas adatokat is (például névjegyek, üzenetek és fotók).</string>
     <string name="fullbackup_erase_dialog_message">Kikapcsolja az eszközadatok (például Wi-Fi-jelszavak és híváslista) és alkalmazásadatok (például az alkalmazások által tárolt beállítások és fájlok) automatikus biztonsági mentését, és törli azok összes példányát a távoli szerverekről?</string>
     <string name="function_description">Erről a funkcióról</string>
     <string name="gadget_picker_title">Modul kiválasztása</string>
@@ -2999,7 +3164,9 @@
     <string name="high_power_filter_on">Nincs optimalizálva</string>
     <string name="high_power_off">Akkumulátorhasználat optimalizálása</string>
     <string name="high_power_on">Nincs optimalizálva</string>
-    <string name="high_power_prompt_body">Ha engedélyezi, hogy a(z) %1$s mindig fusson a háttérben, csökkenhet az akkumulátor üzemideje.\10\10Ezt később bármikor módosíthatja a Beállítások &gt; Alkalmazások és értesítések menüpontban.</string>
+    <string name="high_power_prompt_body">Ha engedélyezi, hogy a(z) %1$s mindig fusson a háttérben, csökkenhet az akkumulátor üzemideje.
+
+Ezt később bármikor módosíthatja a Beállítások &gt; Alkalmazások és értesítések menüpontban.</string>
     <string name="high_power_prompt_title">Engedélyezi, hogy az alkalmazás mindig fusson a háttérben?</string>
     <string name="high_power_system">Nincs lehetőség akkumulátoroptimalizálásra</string>
     <string name="hint_unadjustable_text">Nem állítható manuálisan. A színhőmérséklet automatikusan kerül kiigazításra.</string>
@@ -3014,11 +3181,36 @@
     <string name="homepage_all_settings">Minden beállítás</string>
     <string name="homepage_condition_footer_content_description">Összecsukás</string>
     <string name="homepage_personal_settings">Javaslatok</string>
-    <string name="how_backup_content">A fájlokról helyileg és a felhőbe is készíthet biztonsági mentést. A helyi mentések tárolhatók a mobilkészülékén, a számítógépén vagy egy USB-meghajtón.\10\10Mobilkészülék\10Mentse el rendszerbeállításait, fiókjait, alkalmazásadatait és az egyéb elemeket egy különálló fájlba a készülékén (MIUI-backup-AllBackup). Figyelem: ha visszaállítja a gyári adatokat, azzal véglegesen törli az ilyen jellegű biztonsági mentéseket. Ne felejtse el átmásolni a biztonsági mentéseket a számítógépére.\10\10Számítógép\10Hozzon létre egy biztonsági mentést ezen a készüléken, majd menjen a MIUI-backup-AllBackup menübe és másolja át a számítógépére egy USB-kábel segítségével.\10\10USB-meghajtó\10Mentse el rendszerbeállításait, fiókjait, alkalmazásadatait és az egyéb elemeket egy USB-meghajtóra.\10\10Xiaomi Cloud\10Szinkronizálja névjegyeit, képeit, videóit, alkalmazáslistáját, rendszerbeállításait és a Kezdőképernyő elrendezését a felhőbe.</string>
+    <string name="how_backup_content">A fájlokról helyileg és a felhőbe is készíthet biztonsági mentést. A helyi mentések tárolhatók a mobilkészülékén, a számítógépén vagy egy USB-meghajtón.
+
+Mobilkészülék
+Mentse el rendszerbeállításait, fiókjait, alkalmazásadatait és az egyéb elemeket egy különálló fájlba a készülékén (MIUI-backup-AllBackup). Figyelem: ha visszaállítja a gyári adatokat, azzal véglegesen törli az ilyen jellegű biztonsági mentéseket. Ne felejtse el átmásolni a biztonsági mentéseket a számítógépére.
+
+Számítógép
+Hozzon létre egy biztonsági mentést ezen a készüléken, majd menjen a MIUI-backup-AllBackup menübe és másolja át a számítógépére egy USB-kábel segítségével.
+
+USB-meghajtó
+Mentse el rendszerbeállításait, fiókjait, alkalmazásadatait és az egyéb elemeket egy USB-meghajtóra.
+
+Xiaomi Cloud
+Szinkronizálja névjegyeit, képeit, videóit, alkalmazáslistáját, rendszerbeállításait és a Kezdőképernyő elrendezését a felhőbe.</string>
     <string name="how_backup_title">Hogyan készíthetek biztonsági mentést az elemekről?</string>
-    <string name="how_encrypt_content">Kizárólag a helyi biztonsági mentéseket titkosíthatja. Íme néhány titkosítási mód, amelyet használhat:\10a) Menjen a helyi biztonsági mentések oldalán a Beállítások &gt; További beállítások oldalra, koppintson a gombra a titkosítás bekapcsolásához és jelentkezzen be Mi Fiókjába. A biztonsági mentések automatikusan titkosításra kerülnek ezután. Ne feledje, hogy a titkosított biztonsági mentésekből való elemek visszaállításához be kell jelentkeznie Mi Fiókjába.\10b) Ha a Mi PC Suite-ot használja az elemek biztonsági mentéséhez, használhatja az ott elérhető titkosítási opciókat-\10\10Figyelem: jegyezze meg a titkosított biztonsági mentésekhez használt jelszót! Ha elfelejti, nem fogja tudni feloldani a biztonsági mentések titkosítását.</string>
+    <string name="how_encrypt_content">Kizárólag a helyi biztonsági mentéseket titkosíthatja. Íme néhány titkosítási mód, amelyet használhat:
+a) Menjen a helyi biztonsági mentések oldalán a Beállítások &gt; További beállítások oldalra, koppintson a gombra a titkosítás bekapcsolásához és jelentkezzen be Mi Fiókjába. A biztonsági mentések automatikusan titkosításra kerülnek ezután. Ne feledje, hogy a titkosított biztonsági mentésekből való elemek visszaállításához be kell jelentkeznie Mi Fiókjába.
+b) Ha a Mi PC Suite-ot használja az elemek biztonsági mentéséhez, használhatja az ott elérhető titkosítási opciókat
+
+Figyelem: jegyezze meg a titkosított biztonsági mentésekhez használt jelszót! Ha elfelejti, nem fogja tudni feloldani a biztonsági mentések titkosítását.</string>
     <string name="how_encrypt_title">Hogyan titkosíthatom a biztonsági mentéseimet?</string>
-    <string name="how_restore_backup_content">Íme, így állíthatja helyre azokat az elemeket, amelyekről eltérő módszerekkel készített biztonsági másolatot:\10\10Mobilkészülék\10Koppintson a „Mobilkészülék” lehetőségre az elemek helyreállításához elérhető opció megkereséséhez és a folytatáshoz válassza a biztonsági mentést.\10\10Számítógép\10Másolja át őket a számítógépéről a MIUI-backup-AllBackup mappába és a folytatáshoz válassza az elemek USB-meghajtóról való helyreállítását.\10\10Xiaomi Cloud\10Nyissa meg a Xiaomi Cloudot és állítsa helyre az elemeket.</string>
+    <string name="how_restore_backup_content">Íme, így állíthatja helyre azokat az elemeket, amelyekről eltérő módszerekkel készített biztonsági másolatot:
+
+Mobilkészülék
+Koppintson a „Mobilkészülék” lehetőségre az elemek helyreállításához elérhető opció megkereséséhez és a folytatáshoz válassza a biztonsági mentést.
+
+Számítógép
+Másolja át őket a számítógépéről a MIUI-backup-AllBackup mappába és a folytatáshoz válassza az elemek USB-meghajtóról való helyreállítását.
+
+Xiaomi Cloud
+Nyissa meg a Xiaomi Cloudot és állítsa helyre az elemeket.</string>
     <string name="how_restore_backup_title">Hogyan állíthatom vissza azokat az elemeket, amelyekről biztonsági mentést készítettem?</string>
     <string name="http_invoke_app">Webalkalmazások</string>
     <string name="http_invoke_app_summary">Alkalmazások gyorsabb megnyitása telepítés nélkül</string>
@@ -3572,7 +3764,9 @@
     <string name="lockpassword_choose_your_password_header_for_face">Az arcalapú feloldáshoz adjon meg jelszót</string>
     <string name="lockpassword_choose_your_password_header_for_fingerprint">Jelszó az ujjlenyomathoz</string>
     <string name="lockpassword_choose_your_password_message">A biztonság érdekében állítson be jelszót</string>
-    <string name="lockpassword_choose_your_password_second_space">PIN beállítása a Második asztalhoz\10Ennek a PIN-kódnak annyi számot kell tartalmaznia,\10mint amennyit az Első asztal PIN-kódja.</string>
+    <string name="lockpassword_choose_your_password_second_space">PIN beállítása a Második asztalhoz
+Ennek a PIN-kódnak annyi számot kell tartalmaznia,
+mint amennyit az Első asztal PIN-kódja.</string>
     <string name="lockpassword_choose_your_pattern_header">Állítson be feloldómintát</string>
     <string name="lockpassword_choose_your_pattern_header_for_face">Az arcalapú feloldáshoz adjon meg mintát</string>
     <string name="lockpassword_choose_your_pattern_header_for_fingerprint">Minta az ujjlenyomathoz</string>
@@ -3580,7 +3774,9 @@
     <string name="lockpassword_choose_your_pin_header">Állítsa be a PIN-kódját</string>
     <string name="lockpassword_choose_your_pin_header_for_face">Az arcalapú feloldáshoz adjon meg PIN-kódot</string>
     <string name="lockpassword_choose_your_pin_header_for_fingerprint">PIN-kód az ujjlenyomathoz</string>
-    <string name="lockpassword_choose_your_pin_header_second_space">PIN beállítása \10 a Második asztalhoz</string>
+    <string name="lockpassword_choose_your_pin_header_second_space">PIN beállítása
+a Második asztalhoz</string>
+
     <string name="lockpassword_choose_your_pin_message">A biztonság érdekében állítson be PIN-kódot</string>
     <string name="lockpassword_choose_your_pin_title">%1$d-%2$d számjegyet írjon be</string>
     <string name="lockpassword_choose_your_screen_lock_header">Képernyőzár beállítása</string>
@@ -3751,27 +3947,45 @@
     <string name="manual">Útmutató</string>
     <string name="manual_mode_disallowed_summary">Nem hozzáférhető, amikor a következőhöz csatlakozik: %1$s</string>
     <string name="manually_add_network">Hálózat hozzáadása</string>
-    <string name="master_clear_accounts">\10\10Jelenleg a következő fiókokba van bejelentkezve:\10</string>
+    <string name="master_clear_accounts">"
+
+Jelenleg a következő fiókokba van bejelentkezve:
+"</string>
     <string name="master_clear_all">Biztos, hogy törli az összes adatot a készülék belső tárhelyéről? A művelet nem visszavonható.</string>
     <string name="master_clear_apply_step_1">A „Gyári adatok visszaállítása” törölni fog minden adatot a készülékről, beleértve a fotókat, zenéket, jegyzeteket és minden egyéb személyes adatot. Ellenőrizze, hogy lementett minden fontos adatot a számítógépére.</string>
     <string name="master_clear_apply_step_2">Győződjön meg róla, hogy az összes fontos adatát lementette a számítógépére. A visszaállítás során minden adat törlésre kerül ezen a készüléken.Nem fogja tudni helyreállítani azon adatait, amikről nem készített mentést.</string>
     <string name="master_clear_apply_title">Figyelem</string>
     <string name="master_clear_button_text">Minden adat törlése</string>
     <string name="master_clear_confirm_title">Törli az összes adatot?</string>
-    <string name="master_clear_desc">Ez minden adatot töröl a telefon belső tárhelyéről, többek között:\10\10az Ön Google-fiókját\10a rendszer- és alkalmazásadatokat és a beállításokat\10a letöltött alkalmazásokat</string>
+    <string name="master_clear_desc">Ez minden adatot töröl a telefon belső tárhelyéről, többek között:
+
+az Ön Google-fiókját
+a rendszer- és alkalmazásadatokat és a beállításokat
+a letöltött alkalmazásokat</string>
     <string name="master_clear_desc_also_erases_esim">eSIM-ek</string>
-    <string name="master_clear_desc_also_erases_external">Zene\10Fotók\10Más felhasználói adatok</string>
-    <string name="master_clear_desc_erase_external_storage">\10\10A zenék, képek és más felhasználói adatok törléséhez az USB-tárat is törölnie kell.</string>
-    <string name="master_clear_desc_no_cancel_mobile_plan">\10\10Ezzel nem szünteti meg mobil-előfizetését.</string>
+    <string name="master_clear_desc_also_erases_external">Zene
+Fotók
+Más felhasználói adatok</string>
+    <string name="master_clear_desc_erase_external_storage">"
+
+A zenék, képek és más felhasználói adatok törléséhez az USB-tárat is törölnie kell."</string>
+    <string name="master_clear_desc_no_cancel_mobile_plan">"
+
+Ezzel nem szünteti meg mobil-előfizetését."</string>
     <string name="master_clear_erase_application_progress">Alkalmazások törlése…</string>
     <string name="master_clear_failed">Nem történt visszaállítás, mert a Rendszertisztítás szolgáltatás nem érhető el.</string>
     <string name="master_clear_final_button_text">Minden törlése</string>
     <string name="master_clear_final_desc">Az összes személyes információt és letöltött alkalmazást törli. Ez a művelet nem vonható vissza.</string>
     <string name="master_clear_final_desc_esim">Az összes személyes adata törlődik (beleértve a letöltött alkalmazásokat és SIM-eket is). Ez a művelet nem vonható vissza.</string>
     <string name="master_clear_not_available">A gyári beállítások visszaállítása nem hajtható végre ennél a felhasználónál</string>
-    <string name="master_clear_other_users_present">\10\10Más felhasználók is vannak ezen az eszközön.\10</string>
-    <string name="master_clear_personal_data">Törli az összes személyes adatot?\10A művelet nem visszavonható.</string>
-    <string name="master_clear_personal_data_application">Biztos, hogy törli a személyes adatokat és a telepített alkalmazásokat?\10A művelet nem visszavonható.</string>
+    <string name="master_clear_other_users_present">"
+
+Más felhasználók is vannak ezen az eszközön.
+"</string>
+    <string name="master_clear_personal_data">Törli az összes személyes adatot?
+A művelet nem visszavonható.</string>
+    <string name="master_clear_personal_data_application">Biztos, hogy törli a személyes adatokat és a telepített alkalmazásokat?
+A művelet nem visszavonható.</string>
     <string name="master_clear_personal_data_sdcard">Biztos, hogy törli az összes személyes adatot és tartalmat? A művelet nem visszavonható.</string>
     <string name="master_clear_progress_text">Kérjük, várjon…</string>
     <string name="master_clear_progress_title">Törlés</string>
@@ -3843,7 +4057,7 @@
     <string name="memory_summary">Átlagosan %2$s/%1$s memória használatban</string>
     <string name="memory_system_rom">Rendszer</string>
     <string name="memory_system_space">Rendszertárhely</string>
-    <string name="memory_title">Elérhető: %1$s\9\9Összesen: %2$s</string>
+    <string name="memory_title">Elérhető: %1$s\u0009\u0009Összesen: %2$s</string>
     <string name="memory_usage">Memóriahasználat</string>
     <string name="memory_usage_apps">Alkalmazások által használt memória</string>
     <string name="memory_use_running_format">%1$s / %2$s</string>
@@ -3895,7 +4109,8 @@
     <string name="miui_allow_vibrate">Rezgés</string>
     <string name="miui_data_usage_menu_metered">Mobil hotspotok</string>
     <string name="miui_experience_optimization">A MIUI-optimalizáció bekapcsolása</string>
-    <string name="miui_face_enroll_success">Arcadatokkal most feloldhatja a készüléket. \10 Menjen be az egyéb beállításokba.</string>
+    <string name="miui_face_enroll_success">Arcadatokkal most feloldhatja a készüléket. 
+Menjen be az egyéb beállításokba.</string>
     <string name="miui_input_method_settings">A beviteli mód beállításai</string>
     <string name="miui_lab_ai_cloud_closed">Az Intelligens előtöltés még nem érhető el.</string>
     <string name="miui_lab_ai_preload_desc">Az Intelligens előtöltés gyorsítja az alkalmazások megnyitását</string>
@@ -4003,9 +4218,13 @@
     <string name="mobile_network_apn_title">Hozzáférési pontok nevei</string>
     <string name="mobile_network_disable_sim_explanation">A SIM letiltásához távolítsa el a kártyát az eszközből</string>
     <string name="mobile_network_erase_sim">SIM törlése</string>
-    <string name="mobile_network_erase_sim_error_dialog_body">Hiba történt, ezért nem sikerült a letöltött SIM törlése.\10\10Indítsa újra az eszközt, majd próbálja újra.</string>
+    <string name="mobile_network_erase_sim_error_dialog_body">Hiba történt, ezért nem sikerült a letöltött SIM törlése.
+
+Indítsa újra az eszközt, majd próbálja újra.</string>
     <string name="mobile_network_erase_sim_error_dialog_title">Nem lehet törölni a SIM-et</string>
-    <string name="mobile_network_esim_swap_confirm_body">Egyszerre csak egy letöltött SIM lehet aktív.\10\10Ha átvált a(z) %1$s szolgáltatóra, nem mondja le a(z) %2$s szolgáltatását.</string>
+    <string name="mobile_network_esim_swap_confirm_body">Egyszerre csak egy letöltött SIM lehet aktív.
+
+Ha átvált a(z) %1$s szolgáltatóra, nem mondja le a(z) %2$s szolgáltatását.</string>
     <string name="mobile_network_esim_swap_confirm_ok">Váltás erre: %1$s</string>
     <string name="mobile_network_esim_swap_confirm_title">Vált a(z) %1$s szolgáltatóra?</string>
     <string name="mobile_network_in_range">Hatókörön belül</string>
@@ -4083,7 +4302,8 @@
     <string name="msd_driver_download_mac_url">Az illesztőprogram a http://www.android.com/filetransfer/ honlapon érhető el</string>
     <string name="msd_driver_download_xp">A telefon USB háttértárként való használatához töltse le a Mi Phone Manager-programot.</string>
     <string name="msd_driver_download_xp_url">Az illesztőprogram a http://zhushou.xiaomi.com/ hivatkozáson keresztül érhető el</string>
-    <string name="msd_help_summary">Számítógépe nem érzékeli készülékét?\10Válassza ki a PC operációs rendszerét:</string>
+    <string name="msd_help_summary">Számítógépe nem érzékeli készülékét?
+Válassza ki a PC operációs rendszerét:</string>
     <string name="msd_help_title">Segítség</string>
     <string name="msd_install">Illesztőprogram telepítése</string>
     <string name="msd_install_download_zhushou">A Mi Phone Manager már letöltésre került</string>
@@ -4245,7 +4465,9 @@
     <string name="nfc_payment_no_apps">Fizessen telefonjával a boltokban</string>
     <string name="nfc_payment_pay_with">Érintéses terminálon a következővel fizethet:</string>
     <string name="nfc_payment_set_default">Érintéses terminálon a következő alkalmazással fizethet: %1$s</string>
-    <string name="nfc_payment_set_default_instead_of">Érintéses terminálon a következő alkalmazással fizethet: %1$s.\10\10Alapértelmezett fizetési alkalmazásként ez lép a(z) %2$s alkalmazás helyébe.</string>
+    <string name="nfc_payment_set_default_instead_of">Érintéses terminálon a következő alkalmazással fizethet: %1$s.
+
+Alapértelmezett fizetési alkalmazásként ez lép a(z) %2$s alkalmazás helyébe.</string>
     <string name="nfc_payment_set_default_label">Alapértelmezett fizetési alkalmazás beállítása</string>
     <string name="nfc_payment_settings_title">Érintéses fizetések</string>
     <string name="nfc_payment_update_default_label">Alapértelmezett fizetési alkalmazás frissítése</string>
@@ -4259,7 +4481,10 @@
     <string name="nfc_repair_btn_reboot_later">Később</string>
     <string name="nfc_repair_btn_retry">Próbálja újra</string>
     <string name="nfc_repair_btn_yes">Igen</string>
-    <string name="nfc_repair_confirm_desc">Tapasztalta valamelyik hibát?\10&lt;xliff:g id=oo refersto=1&gt;%1$d&lt;/xliff:g&gt;. Nem tudott hozzáadni vagy feltölteni egy NFC-kártyát.\10&lt;xliff:g id=so refersto=2&gt;%2$d&lt;/xliff:g&gt;. Az NFC-kártyája nem működött.\10&lt;&lt;xliff:g id=eo refersto=3&gt;%3$d&lt;/xliff:g&gt;. Nem töltenek be az egyéb NFC-funkciók.</string>
+    <string name="nfc_repair_confirm_desc">Tapasztalta valamelyik hibát?
+&lt;xliff:g id=oo refersto=1&gt;%1$d&lt;/xliff:g&gt;. Nem tudott hozzáadni vagy feltölteni egy NFC-kártyát.
+&lt;xliff:g id=so refersto=2&gt;%2$d&lt;/xliff:g&gt;. Az NFC-kártyája nem működött.
+&lt;&lt;xliff:g id=eo refersto=3&gt;%3$d&lt;/xliff:g&gt;. Nem töltenek be az egyéb NFC-funkciók.</string>
     <string name="nfc_repair_fail_desc">Hiba lépett fel, amely megakadályozta az NFC-funkcionalitás helyreállítását. Próbálja újra!</string>
     <string name="nfc_repair_fail_title">Helyreállítás sikertelen</string>
     <string name="nfc_repair_ongoing">Helyreállítás… Ne hagyja el az oldalt</string>
@@ -4366,7 +4591,9 @@
     <string name="notification_animation_style">Speciális hatások</string>
     <string name="notification_app_settings_button">Értesítési beállítások</string>
     <string name="notification_app_switch_label">Az összes %1$s-értesítés</string>
-    <string name="notification_assistant_security_warning_summary">A(z) %1$s elolvashatja az összes értesítést, beleértve a személyes adatokat, például az ismerősök neveit és a fogadott üzeneteket. Ez az alkalmazás továbbá az értesítéseket is elvetheti, illetve használhatja az értesítéseken lévő gombokat (így például felveheti a bejövő hívásokat) \10\10Ezzel az alkalmazás egyúttal képes lesz a „Ne zavarjanak” funkció be- és kikapcsolására, továbbá a kapcsolódó beállítások módosítására is.</string>
+    <string name="notification_assistant_security_warning_summary">A(z) %1$s elolvashatja az összes értesítést, beleértve a személyes adatokat, például az ismerősök neveit és a fogadott üzeneteket. Ez az alkalmazás továbbá az értesítéseket is elvetheti, illetve használhatja az értesítéseken lévő gombokat (így például felveheti a bejövő hívásokat)
+
+Ezzel az alkalmazás egyúttal képes lesz a „Ne zavarjanak” funkció be- és kikapcsolására, továbbá a kapcsolódó beállítások módosítására is.</string>
     <string name="notification_assistant_security_warning_title">Engedélyezi a(z) %1$s számára az értesítésekhez való hozzáférést?</string>
     <string name="notification_assistant_title">Alkalmazkodó értesítések</string>
     <string name="notification_badge_title">Értesítési pötty engedélyezése</string>
@@ -4427,7 +4654,9 @@
     <string name="notification_listener_disable_warning_cancel">Mégse</string>
     <string name="notification_listener_disable_warning_confirm">Kikapcsolás</string>
     <string name="notification_listener_disable_warning_summary">Ha kikapcsolja a(z) %1$s hozzáférését az értesítésekhez, azzal lehet, hogy kikapcsolja a „Ne zavarjanak” módhoz való hozzáférést is.</string>
-    <string name="notification_listener_security_warning_summary">A(z) %1$s elolvashatja az összes értesítést, beleértve a személyes adatokat, például az ismerősök neveit és a fogadott üzeneteket. Ez az alkalmazás továbbá az értesítéseket is elvetheti, illetve használhatja az értesítéseken lévő gombokat (így például felveheti a bejövő hívásokat) \10\10Ezzel az alkalmazás egyúttal képes lesz a „Ne zavarjanak” funkció be- és kikapcsolására, továbbá a kapcsolódó beállítások módosítására is.</string>
+    <string name="notification_listener_security_warning_summary">A(z) %1$s elolvashatja az összes értesítést, beleértve a személyes adatokat, például az ismerősök neveit és a fogadott üzeneteket. Ez az alkalmazás továbbá az értesítéseket is elvetheti, illetve használhatja az értesítéseken lévő gombokat (így például felveheti a bejövő hívásokat)
+
+Ezzel az alkalmazás egyúttal képes lesz a „Ne zavarjanak” funkció be- és kikapcsolására, továbbá a kapcsolódó beállítások módosítására is.</string>
     <string name="notification_listener_security_warning_title">Engedélyezi az értesítések elérését a(z) %1$s számára?</string>
     <string name="notification_log_channel">csatorna</string>
     <string name="notification_log_details_actions">műveletek</string>
@@ -4507,7 +4736,8 @@
     <string name="notifications_title">Értesítések</string>
     <string name="now">Újraindítás most</string>
     <string name="number_of_device_admins_none">Nincsenek aktív alkalmazások</string>
-    <string name="oaid_string">Jelenlegi virtuális azonosító:\10%1s</string>
+    <string name="oaid_string">Jelenlegi virtuális azonosító:
+%1s</string>
     <string name="oem_lock_info_message">Indítsa újra eszközét az eszközvédelmi funkció bekapcsolásához.</string>
     <string name="oem_unlock_enable">OEM feloldás</string>
     <string name="oem_unlock_enable_disabled_summary_bootloader_unlocked">A rendszerbetöltő már fel van oldva</string>
@@ -4560,7 +4790,9 @@
     <string name="otg_closed">Ki</string>
     <string name="otg_opened">Be</string>
     <string name="otg_settings">OTG</string>
-    <string name="otg_tip">Az USB On-The-Go lehetővé teszi az USB-meghajtók és a hordozható billentyűzetek számára a készülékhez csatlakozást és az adatcserét.\10\10Az OTG 10 perc inaktivitás után automatikusan kikapcsol.</string>
+    <string name="otg_tip">Az USB On-The-Go lehetővé teszi az USB-meghajtók és a hordozható billentyűzetek számára a készülékhez csatlakozást és az adatcserét.
+
+Az OTG 10 perc inaktivitás után automatikusan kikapcsol.</string>
     <string name="other">Egyéb</string>
     <string name="other_advanced_settings">További beállítások</string>
     <string name="other_conversations">Egyéb beszélgetések</string>
@@ -4922,7 +5154,8 @@
     <string name="print_failed_state_title_template">Nyomtatási hiba: %1$s</string>
     <string name="print_feature_state_off">Ki</string>
     <string name="print_feature_state_on">Be</string>
-    <string name="print_job_summary">%1$s\10%2$s</string>
+    <string name="print_job_summary">%1$s
+%2$s</string>
     <string name="print_menu_item_add_printer">Nyomtató hozzáadása</string>
     <string name="print_menu_item_add_printers">Nyomtatók hozzáadása</string>
     <string name="print_menu_item_add_service">Szolgáltatás hozzáadása</string>
@@ -5168,14 +5401,24 @@
     <string name="reset_aaid">Hirdetési azonosító alaphelyzetbe állítása</string>
     <string name="reset_app_preferences">Alapbeállítások</string>
     <string name="reset_app_preferences_button">Visszaállítás</string>
-    <string name="reset_app_preferences_desc">Ez visszaállítja a következőkre vonatkozó összes beállítást:\10\10letiltott alkalmazások;\10letiltott alkalmazásértesítések;\10alapértelmezett alkalmazások adott műveletekhez;\10az alkalmazások háttéradataira vonatkozó korlátozások;\10minden engedélykorlátozás.\10\10Az alkalmazásadatok nem vesznek el.</string>
+    <string name="reset_app_preferences_desc">Ez visszaállítja a következőkre vonatkozó összes beállítást:
+
+letiltott alkalmazások;
+letiltott alkalmazásértesítések;
+alapértelmezett alkalmazások adott műveletekhez;
+az alkalmazások háttéradataira vonatkozó korlátozások;
+minden engedélykorlátozás.
+
+Az alkalmazásadatok nem vesznek el.</string>
     <string name="reset_app_preferences_title">Visszaállítja a beállításokat?</string>
     <string name="reset_confirm_directory">Figyelem: az elemek helyreállítása előtt ellenőrizze, hogy a \"MIUI-Backup-AllBackup\" létezik-e a mobilkészülékén. Ha nem, hozza létre.</string>
     <string name="reset_dashboard_summary">Visszaállítható a hálózat, az alkalmazások és az eszköz</string>
     <string name="reset_dashboard_summary_onlyApps">Az Alkalmazások alaphelyzetbe állítható</string>
     <string name="reset_dashboard_title">Beállítások visszaállítása</string>
     <string name="reset_esim_desc">Csere SIM letöltése érdekében forduljon szolgáltatójához. Ezzel nem szűnik meg egyetlen mobil-előfizetési csomag sem.</string>
-    <string name="reset_esim_error_msg">Hiba történt, ezért nem sikerült a letöltött SIM törlése.\10\10Indítsa újra az eszközt, majd próbálja újra.</string>
+    <string name="reset_esim_error_msg">Hiba történt, ezért nem sikerült a letöltött SIM törlése.
+
+Indítsa újra az eszközt, majd próbálja újra.</string>
     <string name="reset_esim_error_title">Nem lehet törölni a SIM-eket</string>
     <string name="reset_esim_title">Letöltött SIM-ek törlése</string>
     <string name="reset_legacy_password_settings_preface_text">Helyre kell állítania a képrenyőzárat.</string>
@@ -5185,7 +5428,11 @@
     <string name="reset_network_complete_toast">A hálózati beállítások vissza lettek állítva.</string>
     <string name="reset_network_confirm_title">Visszaállítja?</string>
     <string name="reset_network_data">Mobiladat-kapcsolat</string>
-    <string name="reset_network_desc">Az összes hálózati beállítást visszaállítja, például a következőket:\10\10Wi‑Fi\10Mobiladat\10Bluetooth</string>
+    <string name="reset_network_desc">Az összes hálózati beállítást visszaállítja, például a következőket:
+
+Wi‑Fi
+Mobiladat
+Bluetooth</string>
     <string name="reset_network_final_button_text">Beállítások visszaállítása</string>
     <string name="reset_network_final_desc">Most állítja vissza az összes hálózati beállítást? Ez eltarthat néhány másodpercig. Később nem vonhatja vissza ezt a műveletet.</string>
     <string name="reset_network_final_desc_esim">Visszaállítja az összes hálózati beállítást, és törli a letöltött SIM-eket? Ez a művelet nem vonható vissza.</string>
@@ -5268,7 +5515,9 @@
     <string name="roaming_reenable_title">Engedélyezi az adatroamingot?</string>
     <string name="roaming_turn_it_on_button">Bekapcsolás</string>
     <string name="roaming_warning">A szolgáltató roamingdíjat számíthat fel.</string>
-    <string name="roaming_warning_multiuser">A szolgáltató roamingdíjat számíthat fel az adatroaming engedélyezésekor.\10\10Ez a beállítás minden felhasználót érint ezen a telefonon.</string>
+    <string name="roaming_warning_multiuser">A szolgáltató roamingdíjat számíthat fel az adatroaming engedélyezésekor.
+
+Ez a beállítás minden felhasználót érint ezen a telefonon.</string>
     <string name="root">Root jogosultság</string>
     <string name="rtt_settings_always_visible" />
     <string name="rtt_settings_no_visible" />
@@ -5347,7 +5596,7 @@
     <string name="screen_enhance_engine_sr_note">Ez a funkció kis mértékben növeli az energiafogyasztást.</string>
     <string name="screen_enhance_engine_sr_pic_summary">A képek és videók felbontásának felskálázása. </string>
     <string name="screen_enhance_engine_sr_pic_summary_video_only">A videók felbontásának felskálázása. </string>
-    <string name="screen_enhance_engine_sr_title">Szuperfelbontás</string>
+    <string name="screen_enhance_engine_sr_title">Szuper felbontás</string>
     <string name="screen_enhance_engine_title">AI képmotor</string>
     <string name="screen_enhance_status_disable">Ki</string>
     <string name="screen_enhance_status_enable">Be</string>
@@ -5408,9 +5657,31 @@
     <string name="screen_paper_mode_update_white_pkg_list_summary">Frissítse az Olvasómódot automatikusan használó alkalmazások listáját</string>
     <string name="screen_paper_mode_update_white_pkg_list_title">Frissítés automatikusan</string>
     <string name="screen_paper_texture">Textúra</string>
-    <string name="screen_pinning_description">Az alkalmazáskitűzés funkcióval az aktuális alkalmazás az előtérben marad egészen addig, amíg meg nem szünteti a kitűzést. Így például biztosíthatja, hogy ha valaki másnak adja át eszközét, az illető csak a kiválasztott alkalmazást használhatja. \10\10A kitűzött alkalmazás megnyithat más alkalmazásokat, és bizonyos személyes adatok hozzáférhetők lehetnek. \10\10Az alkalmazásokat a következőképpen tűzheti ki: \9\101.\9Kapcsolja be az alkalmazáskitűzés beállítást. \9\102.\9Nyissa meg az Áttekintés nézetet. \9\103.\9Koppintson a képernyő tetején található alkalmazásikonra, majd a Kitűzés elemre.</string>
-    <string name="screen_pinning_dialog_message">Az alkalmazás kitűzését követően: \10\10•\9\9Bizonyos személyes adatok hozzáférhetők lehetnek \10\9\9(például a névjegyek és az e-mailek tartalma). \10•\9\9A kitűzött alkalmazás más alkalmazásokat is megnyithat. \10\10Csak olyan személyekkel használja az alkalmazáskitűzést, akikben megbízik.</string>
-    <string name="screen_pinning_guest_user_description">Az alkalmazáskitűzés funkcióval az aktuális alkalmazás az előtérben marad egészen addig, amíg meg nem szünteti a kitűzést. Így például biztosíthatja, hogy ha valaki másnak adja át eszközét, az illető csak a kiválasztott alkalmazást használhatja. \10\10A kitűzött alkalmazás megnyithat más alkalmazásokat, és bizonyos személyes adatok hozzáférhetők lehetnek. \10\10Ha szeretné biztonságosan megosztani eszközét másokkal, próbáljon inkább vendégprofilt használni. \10\10Az alkalmazásokat a következőképpen tűzheti ki: \9\101.\9Kapcsolja be az alkalmazáskitűzés beállítást. \9\102.\9Nyissa meg az Áttekintés nézetet. \9\103.\9Koppintson a képernyő tetején található alkalmazásikonra, majd a Kitűzés elemre.</string>
+    <string name="screen_pinning_description">Az alkalmazáskitűzés funkcióval az aktuális alkalmazás az előtérben marad egészen addig, amíg meg nem szünteti a kitűzést. Így például biztosíthatja, hogy ha valaki másnak adja át eszközét, az illető csak a kiválasztott alkalmazást használhatja.
+
+A kitűzött alkalmazás megnyithat más alkalmazásokat, és bizonyos személyes adatok hozzáférhetők lehetnek.
+
+Az alkalmazásokat a következőképpen tűzheti ki: \u0009
+1.\u0009Kapcsolja be az alkalmazáskitűzés beállítást. \u0009
+2.\u0009Nyissa meg az Áttekintés nézetet. \u0009
+3.\u0009Koppintson a képernyő tetején található alkalmazásikonra, majd a Kitűzés elemre.</string>
+    <string name="screen_pinning_dialog_message">Az alkalmazás kitűzését követően:
+
+•\u0009\u0009Bizonyos személyes adatok hozzáférhetők lehetnek
+•\u0009\u0009(például a névjegyek és az e-mailek tartalma).
+•\u0009\u0009A kitűzött alkalmazás más alkalmazásokat is megnyithat.
+
+Csak olyan személyekkel használja az alkalmazáskitűzést, akikben megbízik.</string>
+    <string name="screen_pinning_guest_user_description">Az alkalmazáskitűzés funkcióval az aktuális alkalmazás az előtérben marad egészen addig, amíg meg nem szünteti a kitűzést. Így például biztosíthatja, hogy ha valaki másnak adja át eszközét, az illető csak a kiválasztott alkalmazást használhatja.
+
+A kitűzött alkalmazás megnyithat más alkalmazásokat, és bizonyos személyes adatok hozzáférhetők lehetnek.
+
+Ha szeretné biztonságosan megosztani eszközét másokkal, próbáljon inkább vendégprofilt használni.
+
+Az alkalmazásokat a következőképpen tűzheti ki: \u0009
+1.\u0009Kapcsolja be az alkalmazáskitűzés beállítást. \u0009
+2.\u0009Nyissa meg az Áttekintés nézetet. \u0009
+3.\u0009Koppintson a képernyő tetején található alkalmazásikonra, majd a Kitűzés elemre.</string>
     <string name="screen_pinning_title">Alkalmazáskitűzés</string>
     <string name="screen_pinning_unlock_none">Eszköz zárolása a rögzítés feloldásakor</string>
     <string name="screen_pinning_unlock_password">Jelszó kérése a rögzítés feloldásához</string>
@@ -5769,7 +6040,9 @@
     <string name="security_settings_face_enroll_error_generic_dialog_message">Az arc rögzítése sikertelen volt.</string>
     <string name="security_settings_face_enroll_error_timeout_dialog_message">Letelt az arcregisztráció időkorlátja. Próbálja újra.</string>
     <string name="security_settings_face_enroll_finish_title">Minden beállítva. Jónak tűnik.</string>
-    <string name="security_settings_face_enroll_improve_face_alert_body">Törölje a jelenlegi arcadatokat az arcalapú feloldás ismételt beállításához.\10\10Az arcadatokat véglegesen és biztonságosan töröljük. Az eltávolítás után PIN-kódra, mintára vagy jelszóra lesz szüksége a telefon feloldásához, az alkalmazásokba való bejelentkezéshez és a fizetések megerősítéséhez.</string>
+    <string name="security_settings_face_enroll_improve_face_alert_body">Törölje a jelenlegi arcadatokat az arcalapú feloldás ismételt beállításához.
+
+Az arcadatokat véglegesen és biztonságosan töröljük. Az eltávolítás után PIN-kódra, mintára vagy jelszóra lesz szüksége a telefon feloldásához, az alkalmazásokba való bejelentkezéshez és a fizetések megerősítéséhez.</string>
     <string name="security_settings_face_enroll_improve_face_alert_title">Az arcalapú feloldás beállítása</string>
     <string name="security_settings_face_enroll_introduction_accessibility">Kisegítő beállítás használata</string>
     <string name="security_settings_face_enroll_introduction_accessibility_diversity" />
@@ -5783,7 +6056,9 @@
     <string name="security_settings_face_enroll_introduction_footer_part_3" />
     <string name="security_settings_face_enroll_introduction_message">Használja arcát telefonja feloldásához, vásárlások engedélyezéséhez és alkalmazásokba való bejelentkezéshez.</string>
     <string name="security_settings_face_enroll_introduction_message_setup">Használja arcát telefonja feloldásához, vásárlások engedélyezéséhez és alkalmazásokba való bejelentkezéshez</string>
-    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">Használja arcát a telefon feloldásához vagy vásárlások engedélyezéséhez.\10\10Megjegyzés: Nem használhatja arcát az eszköz feloldására. Ha további információra van szüksége, forduljon szervezete rendszergazdájához.</string>
+    <string name="security_settings_face_enroll_introduction_message_unlock_disabled">Használja arcát a telefon feloldásához vagy vásárlások engedélyezéséhez.
+
+Megjegyzés: Nem használhatja arcát az eszköz feloldására. Ha további információra van szüksége, forduljon szervezete rendszergazdájához.</string>
     <string name="security_settings_face_enroll_introduction_more">Bővebben</string>
     <string name="security_settings_face_enroll_introduction_no_thanks">Nem, köszönöm</string>
     <string name="security_settings_face_enroll_introduction_title">Feloldás arccal</string>
@@ -5799,8 +6074,22 @@
     <string name="security_settings_face_profile_preference_title">Arcalapú feloldás munkaprofilhoz</string>
     <string name="security_settings_face_settings_context_subtitle">A telefon feloldásához használja az arcalapú feloldást</string>
     <string name="security_settings_face_settings_enroll">Arcalapú feloldás beállítása</string>
-    <string name="security_settings_face_settings_footer">Az arcalapú feloldás segítségével feloldhatja eszköze zárolását, bejelentkezhet alkalmazásokba, illetve megerősíthet fizetéseket.\10\10Ne feledje:\10A telefonjára nézve akkor is feloldhatja az eszközt, ha nem áll szándékában.\10\10Telefonját más is feloldhatja, ha az Ön arca elé tartja.\10\10Előfordulhat, hogy telefonja zárolását egy Önre nagyon hasonlító személy, például egypetéjű ikertestvére is fel tudja oldani.</string>
-    <string name="security_settings_face_settings_footer_attention_not_supported">Az arcalapú feloldás segítségével feloldhatja eszköze zárolását, bejelentkezhet alkalmazásokba, illetve megerősítheti a fizetéseket.\10\10Ne feledje:\10Akaratlanul is feloldhatja a telefont, amikor ránéz.\10\10A telefont mások is feloldhatják, ha az Ön arca elé tartják, még akkor is, ha csukva van a szeme.\10\10Előfordulhat, hogy telefonja zárolását egy Önre nagyon hasonlító személy, például egypetéjű ikertestvére is feloldhatja.</string>
+    <string name="security_settings_face_settings_footer">Az arcalapú feloldás segítségével feloldhatja eszköze zárolását, bejelentkezhet alkalmazásokba, illetve megerősíthet fizetéseket.
+
+Ne feledje:
+A telefonjára nézve akkor is feloldhatja az eszközt, ha nem áll szándékában.
+
+Telefonját más is feloldhatja, ha az Ön arca elé tartja.
+
+Előfordulhat, hogy telefonja zárolását egy Önre nagyon hasonlító személy, például egypetéjű ikertestvére is fel tudja oldani.</string>
+    <string name="security_settings_face_settings_footer_attention_not_supported">Az arcalapú feloldás segítségével feloldhatja eszköze zárolását, bejelentkezhet alkalmazásokba, illetve megerősítheti a fizetéseket.
+
+Ne feledje:
+Akaratlanul is feloldhatja a telefont, amikor ránéz.
+
+A telefont mások is feloldhatják, ha az Ön arca elé tartják, még akkor is, ha csukva van a szeme.
+
+Előfordulhat, hogy telefonja zárolását egy Önre nagyon hasonlító személy, például egypetéjű ikertestvére is feloldhatja.</string>
     <string name="security_settings_face_settings_remove_dialog_details">Az arcalapú feloldáshoz használt arcadatokat véglegesen és biztonságosan töröljük. Az eltávolítás után PIN-kódra, mintára vagy jelszóra lesz szüksége a telefon feloldásához, az alkalmazásokba való bejelentkezéshez és a tranzakciók megerősítéséhez.</string>
     <string name="security_settings_face_settings_remove_dialog_title">Törli az arcadatokat?</string>
     <string name="security_settings_face_settings_remove_face_data">Arcadatok törlése</string>
@@ -5816,7 +6105,9 @@
     <string name="security_settings_fingerprint_enroll_dialog_name_label">Név</string>
     <string name="security_settings_fingerprint_enroll_dialog_ok">OK</string>
     <string name="security_settings_fingerprint_enroll_disclaimer">A telefon feloldásán kívül az ujjlenyomattal a vásárlásokat és az alkalmazások hozzáféréseit is engedélyezheti. További információ</string>
-    <string name="security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled"> A képernyőzár lehetőség le van tiltva. Ha további információra van szüksége, lépjen kapcsolatba a szervezet rendszergazdájával. Részletek\10\10Ujjlenyomatát továbbra is használhatja vásárlások jóváhagyásához alkalmazásokhoz való hozzáféréshez. További információ.</string>
+    <string name="security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled"> A képernyőzár lehetőség le van tiltva. Ha további információra van szüksége, lépjen kapcsolatba a szervezet rendszergazdájával. Részletek
+
+Ujjlenyomatát továbbra is használhatja vásárlások jóváhagyásához alkalmazásokhoz való hozzáféréshez. További információ.</string>
     <string name="security_settings_fingerprint_enroll_done">Kész</string>
     <string name="security_settings_fingerprint_enroll_enrolling_skip">Később</string>
     <string name="security_settings_fingerprint_enroll_error_dialog_title">A rögzítés nincs kész</string>
@@ -5831,9 +6122,15 @@
     <string name="security_settings_fingerprint_enroll_introduction_cancel_setup">Kihagyás</string>
     <string name="security_settings_fingerprint_enroll_introduction_continue">Tovább</string>
     <string name="security_settings_fingerprint_enroll_introduction_continue_setup">Következő</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message">Egyszerűen érintse meg az ujjlenyomat-érzékelőt telefonja feloldásához, a vásárlások engedélyezéséhez vagy az alkalmazásokba való bejelentkezéshez. Akár egyetlen hozzáadott ujjlenyomat képes mindezek végrehajtására, ezért fontolja meg, hogy kinek az ujjlenyomatát adja hozzá.\10\10Megjegyzés: Előfordulhat, hogy az ujjlenyomat kevésbé biztonságos, mint egy bonyolult minta vagy PIN-kód.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_setup">Használja ujjlenyomatát a telefon feloldásához vagy vásárlások engedélyezéséhez.\10\10Megjegyzés: Az ujjlenyomat kevésbé biztonságos, mint az erős minta vagy PIN-kód.</string>
-    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">Használja ujjlenyomatát a telefon feloldásához vagy vásárlások engedélyezéséhez.\10\10Megjegyzés: Nem használhatja ujjlenyomatát azt eszköz feloldására. További információért forduljon szervezete rendszergazdájához.</string>
+    <string name="security_settings_fingerprint_enroll_introduction_message">Egyszerűen érintse meg az ujjlenyomat-érzékelőt telefonja feloldásához, a vásárlások engedélyezéséhez vagy az alkalmazásokba való bejelentkezéshez. Akár egyetlen hozzáadott ujjlenyomat képes mindezek végrehajtására, ezért fontolja meg, hogy kinek az ujjlenyomatát adja hozzá.
+
+Megjegyzés: Előfordulhat, hogy az ujjlenyomat kevésbé biztonságos, mint egy bonyolult minta vagy PIN-kód.</string>
+    <string name="security_settings_fingerprint_enroll_introduction_message_setup">Használja ujjlenyomatát a telefon feloldásához vagy vásárlások engedélyezéséhez.
+
+Megjegyzés: Az ujjlenyomat kevésbé biztonságos, mint az erős minta vagy PIN-kód.</string>
+    <string name="security_settings_fingerprint_enroll_introduction_message_unlock_disabled">Használja ujjlenyomatát a telefon feloldásához vagy vásárlások engedélyezéséhez.
+
+Megjegyzés: Nem használhatja ujjlenyomatát azt eszköz feloldására. További információért forduljon szervezete rendszergazdájához.</string>
     <string name="security_settings_fingerprint_enroll_introduction_title">Feloldás ujjlenyomattal</string>
     <string name="security_settings_fingerprint_enroll_introduction_title_unlock_disabled">Az ujjlenyomat használata</string>
     <string name="security_settings_fingerprint_enroll_lift_touch_again">Emelje fel ujját, majd érintse meg újra az érzékelőt</string>
@@ -6019,7 +6316,8 @@
     <string name="sim_change_data_message">A(z) %2$s szolgáltatót használja a mobiladat-kapcsolathoz. Ha a(z) %1$s szolgáltatóra vált, az eszköz többé nem használja a(z) %2$s szolgáltatót a mobiladat-kapcsolathoz.</string>
     <string name="sim_change_data_ok">%1$s használata</string>
     <string name="sim_change_data_title">A(z) %1$s szolgáltatót használja?</string>
-    <string name="sim_change_failed">Nem lehet megváltoztatni a PIN-kódot.\10Lehet, hogy hibás a PIN-kód.</string>
+    <string name="sim_change_failed">Nem lehet megváltoztatni a PIN-kódot.
+Lehet, hogy hibás a PIN-kód.</string>
     <string name="sim_change_failed_enable_sim_lock">PIN-kód módosítása sikertelen. Kapcsolja be a SIM-kártyazárat most.</string>
     <string name="sim_change_pin">SIM-kártya PIN-kódja</string>
     <string name="sim_change_succeeded">A SIM-kártya PIN-kódja sikeresen módosításra került</string>
@@ -6037,7 +6335,8 @@
     <string name="sim_enter_old">SIM-kártya régi PIN-kódja</string>
     <string name="sim_enter_pin">SIM-kártya PIN-kódja</string>
     <string name="sim_lock_change_not_supported">A PIN-kód módosítása sikertelen. Az Ön SIM-kártyája nem támogatja ezt a műveletet.</string>
-    <string name="sim_lock_failed">Nem lehet megváltoztatni a SIM-kártya zárolási állapotát.\10Lehet, hogy hibás a PIN-kód.</string>
+    <string name="sim_lock_failed">Nem lehet megváltoztatni a SIM-kártya zárolási állapotát.
+Lehet, hogy hibás a PIN-kód.</string>
     <string name="sim_lock_off">PIN-kód kérése a telefon használatához</string>
     <string name="sim_lock_on">PIN-kód kérése a telefon használatához</string>
     <string name="sim_lock_settings">SIM-kártya zárának beállításai</string>
@@ -6075,7 +6374,9 @@
     <string name="sim_status_title_sim_slot">SIM állapota (%1$d. SIM-foglalat)</string>
     <string name="simulate_color_space">Színtéranomália szimulációja</string>
     <string name="single_key_use">Egy gombos mód</string>
-    <string name="single_key_use_summary">Használja a Home gombot a másik két gomb által végrehajtott funkciókhoz.\10A visszalépéshez koppintson a Home gombra.\10Az Előzmények megnyitásához koppintson duplán.</string>
+    <string name="single_key_use_summary">Használja a Home gombot a másik két gomb által végrehajtott funkciókhoz.
+A visszalépéshez koppintson a Home gombra.
+Az Előzmények megnyitásához koppintson duplán.</string>
     <string name="single_press_AI_button">Érintse meg az AI gombot</string>
     <string name="size_byte">B</string>
     <string name="size_giga_byte">GB</string>
@@ -6155,14 +6456,33 @@
     <string name="sort_order_frequent_notification">Leggyakoribb</string>
     <string name="sort_order_recent_notification">Legújabb</string>
     <string name="sort_order_size">Rendezés méret szerint</string>
-    <string name="sos_phone_call_privacy_dialog_message">A vészhelyzet esetén értesítendő személyek és SOS-felvétel rögzítéséhez az alkalmazásnak a következő engedélyekre van szüksége:\10• Hívásindítás\10A vészhelyzet esetén értesítendő személyek felhívása\10• Készülékállapot megfigyelése\10SOS-felvétel rögzítéséhez, amikor a vészhelyzet esetén értesítendő személyek felveszik a telefont\10Ha nem szeretné megadni a szükséges engedélyeket, nem fogja tudni használni az alkalmazás bizonyos funkcióit, az alapvető funkciók azonban továbbra is elérhetőek maradnak. Bármikor kikapcsolhatja ezt a funkciót.</string>
+    <string name="sos_phone_call_privacy_dialog_message">A vészhelyzet esetén értesítendő személyek és SOS-felvétel rögzítéséhez az alkalmazásnak a következő engedélyekre van szüksége:
+• Hívásindítás
+A vészhelyzet esetén értesítendő személyek felhívása
+• Készülékállapot megfigyelése
+SOS-felvétel rögzítéséhez, amikor a vészhelyzet esetén értesítendő személyek felveszik a telefont
+Ha nem szeretné megadni a szükséges engedélyeket, nem fogja tudni használni az alkalmazás bizonyos funkcióit, az alapvető funkciók azonban továbbra is elérhetőek maradnak. Bármikor kikapcsolhatja ezt a funkciót.</string>
     <string name="sos_phone_call_privacy_dialog_message_confirm">Engedélyezés</string>
-    <string name="sos_phone_log_privacy_dialog_message">Az alkalmazásnak engedélyre van szüksége a hívásnaplóhoz való hozzáféréshez, hogy megoszthassa azt a vészhelyzet esetén értesítendő személyekkel.\10Ha nem szeretné megadni a szükséges engedélyeket, nem fogja tudni használni az alkalmazás bizonyos funkcióit, az alapvető funkciók azonban továbbra is elérhetőek maradnak. Bármikor kikapcsolhatja ezt a funkciót.</string>
+    <string name="sos_phone_log_privacy_dialog_message">Az alkalmazásnak engedélyre van szüksége a hívásnaplóhoz való hozzáféréshez, hogy megoszthassa azt a vészhelyzet esetén értesítendő személyekkel.
+Ha nem szeretné megadni a szükséges engedélyeket, nem fogja tudni használni az alkalmazás bizonyos funkcióit, az alapvető funkciók azonban továbbra is elérhetőek maradnak. Bármikor kikapcsolhatja ezt a funkciót.</string>
     <string name="sos_privacy_and_content_policy">Felhasználói Szerződés és Adatvédelmi Irányelvek</string>
     <string name="sos_privacy_dialog_button_cancel">Mégse</string>
     <string name="sos_privacy_dialog_button_ok">Elfogadás</string>
-    <string name="sos_privacy_dialog_message">Mielőtt használná ezt a funkciót, olvassa el és fogadja el a(z) %s szövegét.\10Ez a funkció hozzáférést igényel az Ön helyadataihoz, névjegyeinek olvasásához és a mobiladat-használathoz. Elfogadja?</string>
-    <string name="sos_privacy_dialog_message_new_version">Az Emergency SOS lehetővé teszi, hogy valós időben megossza a hekyzetét és üzenetet küldjön a vészhelyzet esetén értesítendő személynek.\10Megvédjük az Ön személyes adatait a vonatkozó jogszabályokkal, szabályozásokkal és adatvédelmi irányelvekkel összhangban.\10Az alkalmazásnak csatlakoznia kell az internethez és a személyes adatok begyűjtéséhez a következő engedélyekre van szüksége:\10•Tárhelyhez való hozzáféréshez\10A vészhelyzet esetén értesítendő névjegyek mentéséhez\10• Névjegyekhez való hozzáférés\10A névjegyek vészhelyzet esetén értesítendő névjegyeknek való megjelöléséhez\10• SMS küldése\10Szöveges üzenetek küldéséhez a vészhelyzet esetén értesítendő névjegyek számára\10• Tartózkodási helyhez való hozzáférés\10A tartózkodási hely megosztásához a vészhelyzet esetén értesítendő névjegyekkel\10Ha nem szeretné megadni a szükséges engedélyeket, illetve nem szeretné megosztani vagy feltölteni személyes adatait, nem fogja tudni használni az alkalmazást. Ilyen esetben kikapcsolhatja vagy felhagyat az Emergency SOS használatával.\10A szolgáltatásaink használata előtt olvassa el és fogadja el a következőt: %s.</string>
+    <string name="sos_privacy_dialog_message">Mielőtt használná ezt a funkciót, olvassa el és fogadja el a(z) %s szövegét.
+Ez a funkció hozzáférést igényel az Ön helyadataihoz, névjegyeinek olvasásához és a mobiladat-használathoz. Elfogadja?</string>
+    <string name="sos_privacy_dialog_message_new_version">Az Emergency SOS lehetővé teszi, hogy valós időben megossza a hekyzetét és üzenetet küldjön a vészhelyzet esetén értesítendő személynek.
+Megvédjük az Ön személyes adatait a vonatkozó jogszabályokkal, szabályozásokkal és adatvédelmi irányelvekkel összhangban.
+Az alkalmazásnak csatlakoznia kell az internethez és a személyes adatok begyűjtéséhez a következő engedélyekre van szüksége:
+•Tárhelyhez való hozzáféréshez
+vészhelyzet esetén értesítendő névjegyek mentéséhez
+• Névjegyekhez való hozzáférés
+A névjegyek vészhelyzet esetén értesítendő névjegyeknek való megjelöléséhez
+• SMS küldése
+Szöveges üzenetek küldéséhez a vészhelyzet esetén értesítendő névjegyek számára
+• Tartózkodási helyhez való hozzáférés
+A tartózkodási hely megosztásához a vészhelyzet esetén értesítendő névjegyekkel
+Ha nem szeretné megadni a szükséges engedélyeket, illetve nem szeretné megosztani vagy feltölteni személyes adatait, nem fogja tudni használni az alkalmazást. Ilyen esetben kikapcsolhatja vagy felhagyat az Emergency SOS használatával.
+A szolgáltatásaink használata előtt olvassa el és fogadja el a következőt: %s.</string>
     <string name="sos_privacy_dialog_title">Felhasználási feltételek</string>
     <string name="sound_assist_summary">Szabja testre hangbeállításait</string>
     <string name="sound_assist_title">Hangasszisztens</string>
@@ -6201,7 +6521,9 @@
     <string name="spellcheckers_settings_title">Helyesírás-ellenőrző</string>
     <string name="split_screen">Az osztott képernyős mód megnyitása</string>
     <string name="ssl_ca_cert_warning">Lehet, hogy a hálózat felügyelt</string>
-    <string name="ssl_ca_cert_warning_message">Egy harmadik fél képes az Ön hálózati tevékenységének figyelésére, beleértve az e-maileket, az alkalmazásokat és a biztonságos webhelyeket is.\10\10Ezt az Ön eszközére telepített megbízható hitelesítési adatok teszik lehetővé.</string>
+    <string name="ssl_ca_cert_warning_message">Egy harmadik fél képes az Ön hálózati tevékenységének figyelésére, beleértve az e-maileket, az alkalmazásokat és a biztonságos webhelyeket is.
+
+Ezt az Ön eszközére telepített megbízható hitelesítési adatok teszik lehetővé.</string>
     <string name="stable_build">Stabil</string>
     <string name="standard">Néma</string>
     <string name="standard_info">A hívások és az értesítések némításra kerülnek</string>
@@ -6254,17 +6576,27 @@
     <string name="storage_detail_apps">Alkalmazások</string>
     <string name="storage_detail_audio">Hang</string>
     <string name="storage_detail_cached">Gyorsítótárazott adatok</string>
-    <string name="storage_detail_dialog_other">Az Egyéb kategóriába tartoznak az alkalmazások által mentett megosztott fájlok, az internetről, illetve Bluetooth-kapcsolaton keresztül letöltött fájlok, az androidos fájlok stb. \10\10A(z) ^1 látható tartalmainak megtekintéséhez koppintson a Felfedezés lehetőségre.</string>
+    <string name="storage_detail_dialog_other">Az Egyéb kategóriába tartoznak az alkalmazások által mentett megosztott fájlok, az internetről, illetve Bluetooth-kapcsolaton keresztül letöltött fájlok, az androidos fájlok stb.
+
+A(z) ^1 látható tartalmainak megtekintéséhez koppintson a Felfedezés lehetőségre.</string>
     <string name="storage_detail_dialog_system">A rendszer tartalmaz %s verziójú Android futtatásához használt fájlokat</string>
-    <string name="storage_detail_dialog_user">Lehetséges, hogy ^1 felhasználó fotókat, zenét, alkalmazásokat vagy más adatokat mentett, amihez ^2 tárhelyet használt fel.\10\10A részleteket megtekintheti, ha átvált a következő felhasználóra: ^1.</string>
+    <string name="storage_detail_dialog_user">Lehetséges, hogy ^1 felhasználó fotókat, zenét, alkalmazásokat vagy más adatokat mentett, amihez ^2 tárhelyet használt fel.
+
+A részleteket megtekintheti, ha átvált a következő felhasználóra: ^1.</string>
     <string name="storage_detail_explore">^1 felfedezése</string>
     <string name="storage_detail_images">Képek</string>
     <string name="storage_detail_other">Egyéb</string>
     <string name="storage_detail_system">Rendszer</string>
     <string name="storage_detail_videos">Videók</string>
-    <string name="storage_dialog_unmountable">Ez a(z) ^1 sérült. \10\10A(z) ^1 használatához először be kell állítania.</string>
-    <string name="storage_dialog_unmounted">A(z) ^1 biztonságos eltávolítása megtörtént, de még elérhető. \10\10A(z) ^1 használatához először be kell helyeznie azt.</string>
-    <string name="storage_dialog_unsupported">Az eszköz nem támogatja ezt az adathordozót (^1). \10\10Ha használni kívánja a(z) ^1 adathordozót az eszközzel, először be kell állítania.</string>
+    <string name="storage_dialog_unmountable">Ez a(z) ^1 sérült.
+
+A(z) ^1 használatához először be kell állítania.</string>
+    <string name="storage_dialog_unmounted">A(z) ^1 biztonságos eltávolítása megtörtént, de még elérhető.
+
+A(z) ^1 használatához először be kell helyeznie azt.</string>
+    <string name="storage_dialog_unsupported">Az eszköz nem támogatja ezt az adathordozót (^1).
+
+Ha használni kívánja a(z) ^1 adathordozót az eszközzel, először be kell állítania.</string>
     <string name="storage_external_title">Hordozható tárhely</string>
     <string name="storage_files">Fájlok</string>
     <string name="storage_format">Formázás</string>
@@ -6273,10 +6605,26 @@
     <string name="storage_games">Játékok</string>
     <string name="storage_internal_forget_confirm">Az adathordozón (^1) lévő összes alkalmazás, fotó és adat örökre elvész.</string>
     <string name="storage_internal_forget_confirm_title">^1 elfelejtése?</string>
-    <string name="storage_internal_forget_details">Az ezen ^1 által tárolt alkalmazások, fotók vagy adatok használatához helyezze be azt újra az eszközbe. \10\10Ha azonban már nem áll az Ön rendelkezésére, el is felejtheti. \10\10Amennyiben az elfelejtés lehetőséget választja, akkor a rajta tárolt összes adat örökre elveszik. \10\10Az alkalmazásokat később újratelepítheti, de a tárhelyen lévő adataik megsemmisülnek.</string>
-    <string name="storage_internal_format_details">A formázás után ez a(z) ^1 használható más eszközökben. \10\10A(z) ^1 összes adata törölve lesz, ezért előbb gondolja át, hogy kell-e készítenie biztonsági mentést. \10\10Készítsen biztonsági mentést fotóiról és más médiatartalmairól \10Médiafájljait helyezze át az eszközben lévő egyéb tárhelyre, vagy másolja át számítógépére egy USB-kábel segítségével. \10\10Készítsen biztonsági mentést alkalmazásairól \10A(z) ^1 tárterületén lévő összes alkalmazással együtt azok adatai is törlődnek. Ha meg szeretné tartani ezeket az alkalmazásokat, helyezze át őket az eszközben lévő egyéb tárhelyre.</string>
+    <string name="storage_internal_forget_details">Az ezen ^1 által tárolt alkalmazások, fotók vagy adatok használatához helyezze be azt újra az eszközbe.
+
+Ha azonban már nem áll az Ön rendelkezésére, el is felejtheti.
+
+Amennyiben az elfelejtés lehetőséget választja, akkor a rajta tárolt összes adat örökre elveszik.
+
+Az alkalmazásokat később újratelepítheti, de a tárhelyen lévő adataik megsemmisülnek.</string>
+    <string name="storage_internal_format_details">A formázás után ez a(z) ^1 használható más eszközökben.
+
+A(z) ^1 összes adata törölve lesz, ezért előbb gondolja át, hogy kell-e készítenie biztonsági mentést.
+
+Készítsen biztonsági mentést fotóiról és más médiatartalmairól
+Médiafájljait helyezze át az eszközben lévő egyéb tárhelyre, vagy másolja át számítógépére egy USB-kábel segítségével.
+
+Készítsen biztonsági mentést alkalmazásairól
+A(z) ^1 tárterületén lévő összes alkalmazással együtt azok adatai is törlődnek. Ha meg szeretné tartani ezeket az alkalmazásokat, helyezze át őket az eszközben lévő egyéb tárhelyre.</string>
     <string name="storage_internal_title">Nem rendszertárhely</string>
-    <string name="storage_internal_unmount_details">Ezen ^1 kiadásakor a rátelepített alkalmazások működésképtelenné válnak, a rajta tárolt médiafájlok pedig nem lesznek elérhetők egészen addig, amíg Ön vissza nem helyezi a tárolót az eszközbe. \10\10A(z) ^1 úgy van formázva, hogy csak ezen az eszközön működjön, más eszközökön ne.</string>
+    <string name="storage_internal_unmount_details">Ezen ^1 kiadásakor a rátelepített alkalmazások működésképtelenné válnak, a rajta tárolt médiafájlok pedig nem lesznek elérhetők egészen addig, amíg Ön vissza nem helyezi a tárolót az eszközbe.
+
+A(z) ^1 úgy van formázva, hogy csak ezen az eszközön működjön, más eszközökön ne.</string>
     <string name="storage_label">Tárhely</string>
     <string name="storage_low_summary">Néhány rendszerfunkció, mint például a szinkronizálás, nem fog megfelelően működni. Próbáljon meg helyet felszabadítani elemek, például alkalmazások és médiatartalom törlésével vagy feloldásával.</string>
     <string name="storage_low_title">Kevés a szabad terület</string>
@@ -6326,14 +6674,22 @@
     <string name="storage_volume_total">/ %1$s foglalt</string>
     <string name="storage_volume_used">/ %1$s foglalt</string>
     <string name="storage_volume_used_total">/ %1$s foglalt</string>
-    <string name="storage_wizard_format_confirm_body">Ez megköveteli a(z) ^1 biztonságos formázását. \10\10A formázás után ez a(z) ^1 csak ezzel az eszközzel fog működni. \10\10A formázással törlődik a(z) ^1 tárterületén jelenleg megtalálható összes adat. Az adatvesztés elkerülése érdekében fontolja meg biztonsági mentés végrehajtását.</string>
+    <string name="storage_wizard_format_confirm_body">Ez megköveteli a(z) ^1 biztonságos formázását.
+
+A formázás után ez a(z) ^1 csak ezzel az eszközzel fog működni.
+
+A formázással törlődik a(z) ^1 tárterületén jelenleg megtalálható összes adat. Az adatvesztés elkerülése érdekében fontolja meg biztonsági mentés végrehajtását.</string>
     <string name="storage_wizard_format_confirm_next">Törlés és formázás</string>
-    <string name="storage_wizard_format_confirm_public_body">Ehhez a(z) &lt;xliff:g id=\"name\" example=\"SD card\"&gt;^1.&lt;/xliff:g&gt; formázása szükséges.\10&lt;b&gt;A formázás törli a(z) &lt;xliff:g id=\"name\" example=\"SD card\"&gt;^1&lt;/xliff:g&gt; tartalmát.&lt;/b&gt;\10Az adatvesztés elkerülése érdekében fontoljon meg egy biztonsági mentést.</string>
+    <string name="storage_wizard_format_confirm_public_body">Ehhez a(z) &lt;xliff:g id=\"name\" example=\"SD card\"&gt;^1.&lt;/xliff:g&gt; formázása szükséges.
+&lt;b&gt;A formázás törli a(z) &lt;xliff:g id=\"name\" example=\"SD card\"&gt;^1&lt;/xliff:g&gt; tartalmát.&lt;/b&gt;
+Az adatvesztés elkerülése érdekében fontoljon meg egy biztonsági mentést.</string>
     <string name="storage_wizard_format_confirm_public_title">Formázás hordozható tárhelyként</string>
     <string name="storage_wizard_format_confirm_third_body">^1… formázása</string>
     <string name="storage_wizard_format_confirm_title">Formázás belső tárhelyként</string>
     <string name="storage_wizard_format_confirm_v2_action">^1 formázása</string>
-    <string name="storage_wizard_format_confirm_v2_body">Ezt a(z) ^1 SD-kártyát formázni kell az alkalmazások, fájok és média tárolásához.\10\10A formázás törli a tartalmat a(z) ^2SD-kártyáról. A tartalom elvesztésének elkerülése érdekében készítsen róla biztonsági másolatot egy másik ^3 SD-kártyán vagy eszközön.</string>
+    <string name="storage_wizard_format_confirm_v2_body">Ezt a(z) ^1 SD-kártyát formázni kell az alkalmazások, fájok és média tárolásához.
+
+A formázás törli a tartalmat a(z) ^2SD-kártyáról. A tartalom elvesztésének elkerülése érdekében készítsen róla biztonsági másolatot egy másik ^3 SD-kártyán vagy eszközön.</string>
     <string name="storage_wizard_format_confirm_v2_title">Formázza a következőt: ^1?</string>
     <string name="storage_wizard_format_progress_body">Formázás közben ne távolítsa el az eszközt (^1).</string>
     <string name="storage_wizard_format_progress_title">A(z) ^1 formázása folyamatban van…</string>
@@ -6351,17 +6707,23 @@
     <string name="storage_wizard_init_v2_later">Beállítás később</string>
     <string name="storage_wizard_init_v2_or">vagy</string>
     <string name="storage_wizard_init_v2_title">Hogyan használja a következőt: ^1?</string>
-    <string name="storage_wizard_migrate_body">Fényképeket, fájlokat és néhány alkalmazást helyezhet át az új ^1. készülékre.\10Az áthelyezés időtartama körülbelül ^2, amellyel ^3 tárhelyet szabadít fel a belső tárhelyen. Néhány alkalmazás nem fog működni a folyamat alatt.</string>
+    <string name="storage_wizard_migrate_body">Fényképeket, fájlokat és néhány alkalmazást helyezhet át az új ^1. készülékre.
+Az áthelyezés időtartama körülbelül ^2, amellyel ^3 tárhelyet szabadít fel a belső tárhelyen. Néhány alkalmazás nem fog működni a folyamat alatt.</string>
     <string name="storage_wizard_migrate_confirm_body">Az áthelyezés időtartama nagyjából ^1 lesz. ^2 szabadul majd fel a következő tárhelyen: ^3.</string>
     <string name="storage_wizard_migrate_confirm_next">Áthelyezés</string>
     <string name="storage_wizard_migrate_confirm_title">Adatok áthelyezése</string>
-    <string name="storage_wizard_migrate_details">A művelet végrehajtása során: \10• A(z) ^1 nem távolítható el az eszközből. \10• Egyes alkalmazások nem fognak megfelelően működni. \10• Az eszköz legyen töltőn.</string>
+    <string name="storage_wizard_migrate_details">A művelet végrehajtása során:
+• A(z) ^1 nem távolítható el az eszközből.
+• Egyes alkalmazások nem fognak megfelelően működni.
+• Az eszköz legyen töltőn.</string>
     <string name="storage_wizard_migrate_later">Áthelyezés később</string>
     <string name="storage_wizard_migrate_now">Áthelyezés most</string>
     <string name="storage_wizard_migrate_progress_title">Az áthelyezés folyamatban van…</string>
     <string name="storage_wizard_migrate_progress_v2_title">Tartalom áthelyezése…</string>
     <string name="storage_wizard_migrate_title">Áthelyezés az új tárhelyre</string>
-    <string name="storage_wizard_migrate_v2_body">Fájljait, médiatartalmait és bizonyos alkalmazásait áthelyezheti erre az adathordozóra (^1). \10\10Az áthelyezés révén ^2 tárhelyet szabadíthat fel a telefonon, a folyamat becsült időtartama pedig ^3.</string>
+    <string name="storage_wizard_migrate_v2_body">Fájljait, médiatartalmait és bizonyos alkalmazásait áthelyezheti erre az adathordozóra (^1).
+
+Az áthelyezés révén ^2 tárhelyet szabadíthat fel a telefonon, a folyamat becsült időtartama pedig ^3.</string>
     <string name="storage_wizard_migrate_v2_checklist">Az áthelyezés közben:</string>
     <string name="storage_wizard_migrate_v2_checklist_apps">Egyes alkalmazások nem fognak működni.</string>
     <string name="storage_wizard_migrate_v2_checklist_battery">Tartsa töltőn a telefont.</string>
@@ -6369,20 +6731,36 @@
     <string name="storage_wizard_migrate_v2_later">Tartalom áthelyezése később</string>
     <string name="storage_wizard_migrate_v2_now">Tartalom áthelyezése</string>
     <string name="storage_wizard_migrate_v2_title">Áthelyezi a tartalmat ide: ^1?</string>
-    <string name="storage_wizard_move_confirm_body">A(z) ^1 és adatainak a(z) ^2 tárhelyre való áthelyezése mindössze néhány pillanatig fog tartani. Az áthelyezési művelet befejeződéséig nem fogja tudni használni az alkalmazást. \10\10A(z) ^2 nem távolítható el a művelet végrehajtása során.</string>
+    <string name="storage_wizard_move_confirm_body">A(z) ^1 és adatainak a(z) ^2 tárhelyre való áthelyezése mindössze néhány pillanatig fog tartani. Az áthelyezési művelet befejeződéséig nem fogja tudni használni az alkalmazást.
+
+A(z) ^2 nem távolítható el a művelet végrehajtása során.</string>
     <string name="storage_wizard_move_confirm_title">^1 áthelyezése</string>
-    <string name="storage_wizard_move_progress_body">Az áthelyezés végrehajtása során a(z) ^1 nem távolítható el az eszközből. \10\10Az eszközön lévő ^2 alkalmazás a művelet befejeződéséig nem lesz elérhető.</string>
+    <string name="storage_wizard_move_progress_body">Az áthelyezés végrehajtása során a(z) ^1 nem távolítható el az eszközből.
+
+Az eszközön lévő ^2 alkalmazás a művelet befejeződéséig nem lesz elérhető.</string>
     <string name="storage_wizard_move_progress_cancel">Áthelyezés megszakítása</string>
     <string name="storage_wizard_move_progress_title">A(z) ^1 áthelyezése folyamatban van…</string>
     <string name="storage_wizard_move_unlock">Az adatok áthelyezéséhez oldja fel a következő felhasználót: ^1.</string>
     <string name="storage_wizard_ready_external_body">Az SD-kártya beállítása kész a képekkel és más médiákkal való használatra.</string>
-    <string name="storage_wizard_ready_internal_body">Az új ^1 működik. \10\10Ha fotókat, fájlokat és alkalmazásadatokat szeretne áthelyezni erre az eszközre, nyissa meg a Beállítások &gt; Tárhely menüpontot.</string>
+    <string name="storage_wizard_ready_internal_body">Az új ^1 működik.
+
+Ha fotókat, fájlokat és alkalmazásadatokat szeretne áthelyezni erre az eszközre, nyissa meg a Beállítások &gt; Tárhely menüpontot.</string>
     <string name="storage_wizard_ready_title">^1 készen áll</string>
     <string name="storage_wizard_ready_v2_external_body">Áthelyezheti tartalmait a(z) ^1 eszközre</string>
     <string name="storage_wizard_ready_v2_internal_body">Ha tartalmat szeretne áthelyezni a(z) ^1 eszközre, nyissa meg a Beállítások &gt; Tárhely menüt</string>
-    <string name="storage_wizard_ready_v2_internal_moved_body">A tartalom a következő eszközre lett áthelyezve: ^1. \10\10A(z) ^2 kezelését a Beállítások &gt; Tárhely menüben végezheti el.</string>
-    <string name="storage_wizard_slow_body">Ez a(z) ^1 lassúnak tűnik. \10\10Folytathatja a folyamatot, de az erre a helyre áthelyezett alkalmazások akadozhatnak, az adatátviteli műveletek pedig hosszú ideig tarthatnak. \10\10Gyorsabb ^1 használatával javulhat a teljesítmény.</string>
-    <string name="storage_wizard_slow_v2_body">A(z) ^1 továbbra is használható, de előfordulhat, hogy lassú lesz. \10\10A(z) ^2 eszközön lévő alkalmazások esetleg nem fognak megfelelően működni, a tartalmak átvitele pedig sokáig tarthat. \10\10Próbálkozzon gyorsabb ^3 vagy ezen ^4 használatával hordozható tárhelyként.</string>
+    <string name="storage_wizard_ready_v2_internal_moved_body">A tartalom a következő eszközre lett áthelyezve: ^1.
+
+A(z) ^2 kezelését a Beállítások &gt; Tárhely menüben végezheti el.</string>
+    <string name="storage_wizard_slow_body">Ez a(z) ^1 lassúnak tűnik.
+
+Folytathatja a folyamatot, de az erre a helyre áthelyezett alkalmazások akadozhatnak, az adatátviteli műveletek pedig hosszú ideig tarthatnak.
+
+Gyorsabb ^1 használatával javulhat a teljesítmény.</string>
+    <string name="storage_wizard_slow_v2_body">A(z) ^1 továbbra is használható, de előfordulhat, hogy lassú lesz.
+
+A(z) ^2 eszközön lévő alkalmazások esetleg nem fognak megfelelően működni, a tartalmak átvitele pedig sokáig tarthat.
+
+Próbálkozzon gyorsabb ^3 vagy ezen ^4 használatával hordozható tárhelyként.</string>
     <string name="storage_wizard_slow_v2_continue">Tovább</string>
     <string name="storage_wizard_slow_v2_start_over">Újrakezdés</string>
     <string name="storage_wizard_slow_v2_title">Lassú ^1</string>
@@ -6496,8 +6874,10 @@
     <string name="sync_menu_sync_cancel">Szinkronizálás megszakítása</string>
     <string name="sync_menu_sync_now">Szinkronizálás most</string>
     <string name="sync_now">Szinkronizálás</string>
-    <string name="sync_one_time_sync">Koppintson az azonnali szinkronizáláshoz\10%1$s</string>
-    <string name="sync_plug">Üdvözli a Google Sync! \10Az adatok Google-féle szinkronizálása lehetővé teszi, hogy bárhonnan hozzáférjen címtárához, találkozóihoz stb.</string>
+    <string name="sync_one_time_sync">Koppintson az azonnali szinkronizáláshoz
+%1$s</string>
+    <string name="sync_plug">Üdvözli a Google Sync!
+Az adatok Google-féle szinkronizálása lehetővé teszi, hogy bárhonnan hozzáférjen címtárához, találkozóihoz stb.</string>
     <string name="sync_settings">Fiókok és szinkronizálás</string>
     <string name="sync_wifi_label">Wi-Fi</string>
     <string name="sync_wifi_only">Csak Wi-Fi-n</string>
@@ -6748,21 +7128,37 @@
     <string name="unlock_change_lock_pattern_title">Feloldási minta módosítása</string>
     <string name="unlock_change_lock_pin_title">PIN-kód módosítása</string>
     <string name="unlock_disable_frp_warning_content_password">Az eszközvédelmi funkciók nem működnek a jelszó nélkül.</string>
-    <string name="unlock_disable_frp_warning_content_password_fingerprint">Az eszközvédelmi funkciók nem működnek a jelszó nélkül.\10\10A mentett ujjlenyomatokat a rendszer szintén eltávolítja erről az eszközről, és Ön nem tudja majd ujjlenyomat segítségével feloldani a telefon zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
-    <string name="unlock_disable_frp_warning_content_password_fingerprint_profile">A profilvédelmi funkciók nem működnek a jelszó nélkül.\10\10A mentett ujjlenyomatokat a rendszer szintén eltávolítja ebből a profilból, és Ön nem tudja majd ujjlenyomat segítségével feloldani a profil zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint">Az eszközvédelmi funkciók nem működnek a jelszó nélkül.
+
+A mentett ujjlenyomatokat a rendszer szintén eltávolítja erről az eszközről, és Ön nem tudja majd ujjlenyomat segítségével feloldani a telefon zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint_profile">A profilvédelmi funkciók nem működnek a jelszó nélkül.
+
+A mentett ujjlenyomatokat a rendszer szintén eltávolítja ebből a profilból, és Ön nem tudja majd ujjlenyomat segítségével feloldani a profil zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
     <string name="unlock_disable_frp_warning_content_password_profile">A profilvédelmi funkciók nem működnek a jelszó nélkül.</string>
     <string name="unlock_disable_frp_warning_content_pattern">Az eszközvédelmi funkciók nem működnek a minta nélkül.</string>
-    <string name="unlock_disable_frp_warning_content_pattern_fingerprint">Az eszközvédelmi funkciók nem működnek a minta nélkül.\10\10A mentett ujjlenyomatokat a rendszer szintén eltávolítja erről az eszközről, és Ön nem tudja majd ujjlenyomat segítségével feloldani a telefon zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
-    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile">A profilvédelmi funkciók nem működnek a minta nélkül.\10\10A mentett ujjlenyomatokat a rendszer szintén eltávolítja ebből a profilból, és Ön nem tudja majd ujjlenyomat segítségével feloldani a profil zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint">Az eszközvédelmi funkciók nem működnek a minta nélkül.
+
+A mentett ujjlenyomatokat a rendszer szintén eltávolítja erről az eszközről, és Ön nem tudja majd ujjlenyomat segítségével feloldani a telefon zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint_profile">A profilvédelmi funkciók nem működnek a minta nélkül.
+
+A mentett ujjlenyomatokat a rendszer szintén eltávolítja ebből a profilból, és Ön nem tudja majd ujjlenyomat segítségével feloldani a profil zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
     <string name="unlock_disable_frp_warning_content_pattern_profile">A profilvédelmi funkciók nem működnek a minta nélkül.</string>
     <string name="unlock_disable_frp_warning_content_pin">Az eszközvédelmi funkciók nem működnek a PIN-kód nélkül.</string>
-    <string name="unlock_disable_frp_warning_content_pin_fingerprint">Az eszközvédelmi funkciók nem működnek a PIN-kód nélkül.\10\10A mentett ujjlenyomatokat a rendszer szintén eltávolítja erről az eszközről, és Ön nem tudja majd ujjlenyomat segítségével feloldani a telefon zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
-    <string name="unlock_disable_frp_warning_content_pin_fingerprint_profile">A profilvédelmi funkciók nem működnek a PIN-kód nélkül.\10\10A mentett ujjlenyomatokat a rendszer szintén eltávolítja ebből a profilból, és Ön nem tudja majd ujjlenyomat segítségével feloldani a profil zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint">Az eszközvédelmi funkciók nem működnek a PIN-kód nélkül.
+
+A mentett ujjlenyomatokat a rendszer szintén eltávolítja erről az eszközről, és Ön nem tudja majd ujjlenyomat segítségével feloldani a telefon zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint_profile">A profilvédelmi funkciók nem működnek a PIN-kód nélkül.
+
+A mentett ujjlenyomatokat a rendszer szintén eltávolítja ebből a profilból, és Ön nem tudja majd ujjlenyomat segítségével feloldani a profil zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
     <string name="unlock_disable_frp_warning_content_pin_profile">A profilvédelmi funkciók nem működnek a PIN-kód nélkül.</string>
     <string name="unlock_disable_frp_warning_content_profile">A jelszava nélkül a profilvédelmi funkciók nem fognak működni.</string>
     <string name="unlock_disable_frp_warning_content_unknown">Az eszközvédelmi funkciók nem működnek a képernyőzár nélkül.</string>
-    <string name="unlock_disable_frp_warning_content_unknown_fingerprint">Az eszközvédelmi funkciók nem működnek a képernyőzár nélkül.\10\10A mentett ujjlenyomatokat a rendszer szintén eltávolítja erről az eszközről, és Ön nem tudja majd ujjlenyomat segítségével feloldani a telefon zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
-    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile">A profilvédelmi funkciók nem működnek a képernyőzár nélkül.\10\10A mentett ujjlenyomatokat a rendszer szintén eltávolítja ebből a profilból, és Ön nem tudja majd ujjlenyomat segítségével feloldani a profil zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint">Az eszközvédelmi funkciók nem működnek a képernyőzár nélkül.
+
+A mentett ujjlenyomatokat a rendszer szintén eltávolítja erről az eszközről, és Ön nem tudja majd ujjlenyomat segítségével feloldani a telefon zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint_profile">A profilvédelmi funkciók nem működnek a képernyőzár nélkül.
+
+A mentett ujjlenyomatokat a rendszer szintén eltávolítja ebből a profilból, és Ön nem tudja majd ujjlenyomat segítségével feloldani a profil zárolását, engedélyezni a vásárlásokat, illetve bejelentkezni az alkalmazásokba.</string>
     <string name="unlock_disable_frp_warning_content_unknown_profile">A profilvédelmi funkciók nem működnek a képernyőzár nélkül.</string>
     <string name="unlock_disable_frp_warning_ok">Igen, kikapcsolom</string>
     <string name="unlock_disable_frp_warning_title">Kikapcsolja az eszközvédelmet?</string>
@@ -6939,7 +7335,8 @@
     <string name="usb_format">USB-eszköz formázása</string>
     <string name="usb_format_summary">Töröljön minden adatot az USB háttértárról, beleértve a zenéket és a fényképeket</string>
     <string name="usb_headset_not_support_cancel">Rendben</string>
-    <string name="usb_headset_not_support_message">Adapteren keresztül nem lehet lejátszani a hangot. Használjon digitális fejhallgatót\10vagy fülhallgatót 3,5 mm-es dugóval.</string>
+    <string name="usb_headset_not_support_message">Adapteren keresztül nem lehet lejátszani a hangot. Használjon digitális fejhallgatót
+vagy fülhallgatót 3,5 mm-es dugóval.</string>
     <string name="usb_headset_not_support_tile">Nem lehet lejátszani a hangot</string>
     <string name="usb_host_mode_subtext">Játék kontrollerek és egyéb perifériák használata USB-n keresztül, megnövelhetik a fogyasztást</string>
     <string name="usb_host_mode_text">USB host mód</string>
@@ -7021,8 +7418,14 @@
     <string name="user_add_user_item_summary">A felhasználók rendelkeznek saját alkalmazásokkal és tartalmakkal</string>
     <string name="user_add_user_item_title">Felhasználó</string>
     <string name="user_add_user_menu">Felhasználó hozzáadása</string>
-    <string name="user_add_user_message_long">Ezt a készüléket további felhasználókat létrehozva megoszthatja más személyekkel. Minden felhasználó rendelkezik saját térrel, amelyet személyre szabhat saját alkalmazásaival, háttérképével stb. A felhasználók módosíthatják a készülék olyan beállításait is, amelyek mindenkit érintenek, például a Wi-Fi beállításait.\10\10Miután létrehoz egy új felhasználót, az adott személynek el kell végeznie egy telepítési folyamatot.\10\10Minden felhasználó elfogadhatja a frissített alkalmazások engedélyeit az összes többi felhasználó nevében.</string>
-    <string name="user_add_user_message_short">Amikor egy új felhasználót ad hozzá, neki be kell állítania a saját asztalát.\10\10Minden felhasználó frissítheti az alkalmazásokat az összes többi felhasználó számára.</string>
+    <string name="user_add_user_message_long">Ezt a készüléket további felhasználókat létrehozva megoszthatja más személyekkel. Minden felhasználó rendelkezik saját térrel, amelyet személyre szabhat saját alkalmazásaival, háttérképével stb. A felhasználók módosíthatják a készülék olyan beállításait is, amelyek mindenkit érintenek, például a Wi-Fi beállításait.
+
+Miután létrehoz egy új felhasználót, az adott személynek el kell végeznie egy telepítési folyamatot.
+
+Minden felhasználó elfogadhatja a frissített alkalmazások engedélyeit az összes többi felhasználó nevében.</string>
+    <string name="user_add_user_message_short">Amikor egy új felhasználót ad hozzá, neki be kell állítania a saját asztalát.
+
+Minden felhasználó frissítheti az alkalmazásokat az összes többi felhasználó számára.</string>
     <string name="user_add_user_or_profile_menu">Felhasználó vagy profil hozzáadása</string>
     <string name="user_add_user_title">Hozzáad egy új felhasználót?</string>
     <string name="user_add_user_type_title">Hozzáad</string>
@@ -7057,7 +7460,8 @@
     <string name="user_dict_settings_context_menu_delete_title">Törlés</string>
     <string name="user_dict_settings_context_menu_edit_title">Szerkesztés</string>
     <string name="user_dict_settings_edit_dialog_title">Szó szerkesztése</string>
-    <string name="user_dict_settings_empty_text">Nincsenek szavak a felhasználói szótárban.\10Hozzáadáshoz érintse meg a + gombot.</string>
+    <string name="user_dict_settings_empty_text">Nincsenek szavak a felhasználói szótárban.
+Hozzáadáshoz érintse meg a + gombot.</string>
     <string name="user_dict_settings_for_work_title">Munkahelyi személyes szótár</string>
     <string name="user_dict_settings_more_languages">További nyelvek…</string>
     <string name="user_dict_settings_summary" />
@@ -7189,7 +7593,8 @@
     <string name="voice_recognizer_preference_summary">Egyszerű beszédfelismerés</string>
     <string name="voice_search_settings_title">Hangalapú keresés</string>
     <string name="voice_service_preference_section_title">Hangbeviteli szolgáltatások</string>
-    <string name="volte_5G_limited_text">Ez az 5G-kapcsolatot is kikapcsolja.\10Hanghívás során nem használhatja az internetet, és előfordulhat, hogy nem működnek bizonyos alkalmazások.</string>
+    <string name="volte_5G_limited_text">Ez az 5G-kapcsolatot is kikapcsolja.
+Hanghívás során nem használhatja az internetet, és előfordulhat, hogy nem működnek bizonyos alkalmazások.</string>
     <string name="volte_5G_limited_title">Kikapcsolja a következőt: VoLTE?</string>
     <string name="volume_alarm_description">Ébresztő</string>
     <string name="volume_alarm_mute">Riasztások elnémítása</string>
@@ -7297,7 +7702,8 @@
     <string name="wakeup_and_sleep_settings_category_name">Képernyőzár-beállítások</string>
     <string name="wakeup_for_keyguard_notification_title">Az értesítések ébresszék fel a képernyőt</string>
     <string name="wallpaper_attributions">Háttérképek</string>
-    <string name="wallpaper_attributions_values">A műholdképek szolgáltatói:\10©2014 CNES / Astrium, DigitalGlobe, Bluesky</string>
+    <string name="wallpaper_attributions_values">A műholdképek szolgáltatói:
+©2014 CNES / Astrium, DigitalGlobe, Bluesky</string>
     <string name="wallpaper_desktop">Kezdőképernyő</string>
     <string name="wallpaper_live">Élő háttérkép</string>
     <string name="wallpaper_lockscreen">Képernyőzár</string>
@@ -7348,9 +7754,13 @@
     <string name="wellbing_title">Digitális jólét és szülői felügyelet</string>
     <string name="wfc_disclaimer_agree_button_text">TOVÁBB</string>
     <string name="wfc_disclaimer_disagree_text">KÖSZÖNÖM, NEM</string>
-    <string name="wfc_disclaimer_emergency_limitation_desc_text">A szolgáltatója nem támogatja a Wi‑Fi-híváson keresztüli segélyhívásokat.\10Az eszköz automatikusan mobilhálózatra vált a segélyhívás indításához.\10Segélyhívások indítása csak mobilhálózati lefedettséggel rendelkező területen lehetséges.</string>
+    <string name="wfc_disclaimer_emergency_limitation_desc_text">A szolgáltatója nem támogatja a Wi‑Fi-híváson keresztüli segélyhívásokat
+Az eszköz automatikusan mobilhálózatra vált a segélyhívás indításához.
+Segélyhívások indítása csak mobilhálózati lefedettséggel rendelkező területen lehetséges.</string>
     <string name="wfc_disclaimer_emergency_limitation_title_text">Segélyhívások</string>
-    <string name="wfc_disclaimer_location_desc_text">A szolgáltatás biztosítása érdekében szolgáltatója gyűjtheti a helyadatokat.\10\10Tekintse meg szolgáltatója adatvédelmi irányelveit.</string>
+    <string name="wfc_disclaimer_location_desc_text">A szolgáltatás biztosítása érdekében szolgáltatója gyűjtheti a helyadatokat.
+
+Tekintse meg szolgáltatója adatvédelmi irányelveit.</string>
     <string name="wfc_disclaimer_location_title_text">Hely</string>
     <string name="wfc_disclaimer_title_text">Fontos információ</string>
     <string name="wfd_available_devices">Elérhető készülékek</string>
@@ -7417,7 +7827,9 @@
     <string name="wifi_assistant_confirm_connection_title">Legjobb hálózatok automatikus kiválasztása</string>
     <string name="wifi_assistant_data_prompt">Figyelem</string>
     <string name="wifi_assistant_data_prompt_summary">Adathasználati figyelmeztetés megjelenítése mobiladat-kapcsolatra váltáskor</string>
-    <string name="wifi_assistant_description">Így működik ez a funkció:\101.Ha a Wi-Fi-kapcsolat gyenge, a készülék megpróbál automatikusan csatlakozni más rendelkezésre álló Wi-Fi-hálózatra.\102. Ha kiderül, hogy az összes elérhető Wi-Fi-kapcsolat gyenge és a mobiladat-kapcsolat engedélyezve van, a rendszer intelligensen kiválasztja a legjobb hálózati kapcsolatot.</string>
+    <string name="wifi_assistant_description">Így működik ez a funkció:
+1.Ha a Wi-Fi-kapcsolat gyenge, a készülék megpróbál automatikusan csatlakozni más rendelkezésre álló Wi-Fi-hálózatra.
+2. Ha kiderül, hogy az összes elérhető Wi-Fi-kapcsolat gyenge és a mobiladat-kapcsolat engedélyezve van, a rendszer intelligensen kiválasztja a legjobb hálózati kapcsolatot.</string>
     <string name="wifi_assistant_disconnect">Leválasztás</string>
     <string name="wifi_assistant_explicitly_confirm_data_message">Most nem tud csatlakozni az internethez Wi-Fi-n keresztül. Átvált mobiladat-forgalomra?</string>
     <string name="wifi_assistant_explicitly_confirm_disconnect">Nem tud csatlakozni az internethez Wi-Fi-n keresztül. Lecsatlakozik?</string>
@@ -7598,7 +8010,11 @@
     <string name="wifi_generation_title">Technológia</string>
     <string name="wifi_hand_sel_wapi_cert">WAPI-tanúsítvány</string>
     <string name="wifi_hidden_network">Rejtett hálózat</string>
-    <string name="wifi_hidden_network_warning">Ha routere nem sugároz hálózatazonosítót, de csatlakozni szeretne hozzá a jövőben, beállíthatja a hálózatot rejtettként.\10\10Ez biztonsági kockázatot jelenthet, mert a telefon rendszeresen jelet sugároz a hálózat kereséséhez.\10\10A hálózat rejtettként való beállítása nem módosítja a router beállításait.</string>
+    <string name="wifi_hidden_network_warning">Ha routere nem sugároz hálózatazonosítót, de csatlakozni szeretne hozzá a jövőben, beállíthatja a hálózatot rejtettként.
+
+Ez biztonsági kockázatot jelenthet, mert a telefon rendszeresen jelet sugároz a hálózat kereséséhez.
+
+A hálózat rejtettként való beállítása nem módosítja a router beállításait.</string>
     <string name="wifi_hide_password">A Jelszó elrejtése</string>
     <string name="wifi_hotspot_ap_band_title">AP-sáv</string>
     <string name="wifi_hotspot_auto_off_summary">Amikor nincsenek csatlakoztatva eszközök</string>
@@ -7726,9 +8142,13 @@
     <string name="wifi_scan_always_available_summary">A Google helyszolgáltatása és más alkalmazások akkor is kereshetnek hálózatokat, ha a Wi-Fi ki van kapcsolva</string>
     <string name="wifi_scan_always_confirm_allow">Engedélyezés</string>
     <string name="wifi_scan_always_confirm_deny">Elutasítás</string>
-    <string name="wifi_scan_always_turn_on_message_unknown">A helymeghatározás javítása és egyebek érdekében egy ismeretlen alkalmazás engedélyezni akarja a hálózatkeresést kikapcsolt Wi-Fi mellett is.\10\10Engedélyezi minden alkalmazásnál, amely keresni szeretne?</string>
+    <string name="wifi_scan_always_turn_on_message_unknown">A helymeghatározás javítása és egyebek érdekében egy ismeretlen alkalmazás engedélyezni akarja a hálózatkeresést kikapcsolt Wi-Fi mellett is.
+
+Engedélyezi minden alkalmazásnál, amely keresni szeretne?</string>
     <string name="wifi_scan_always_turnoff_message">A kikapcsoláshoz menjen a további elemeket tartalmazó menü Speciális pontjához.</string>
-    <string name="wifi_scan_always_turnon_message">A helymeghatározás pontosságának javítása és egyéb célok érdekében a(z) %1$s szeretné engedélyezni a hálózatkeresést még kikapcsolt Wi-Fi mellett is.\10\10Engedélyezi ezt az összes olyan alkalmazásnál, amely keresést akar végezni?</string>
+    <string name="wifi_scan_always_turnon_message">A helymeghatározás pontosságának javítása és egyéb célok érdekében a(z) %1$s szeretné engedélyezni a hálózatkeresést még kikapcsolt Wi-Fi mellett is.
+
+Engedélyezi ezt az összes olyan alkalmazásnál, amely keresést akar végezni?</string>
     <string name="wifi_scan_notify_remember_choice">Ne jelenjen meg többé</string>
     <string name="wifi_scan_notify_text">A pontosabb helyadatok érdekében az alkalmazások és a szolgáltatások továbbra is kereshetnek Wi-Fi-hálózatokat még akkor is, ha a Wi-Fi ki van kapcsolva. Ez például a helyalapú funkciók és szolgáltatások javítására használható. Ezt a LINK_BEGINkeresési beállításoknálLINK_END módosíthatja.</string>
     <string name="wifi_scan_notify_text_scanning_off">Pontosabb helyadatok érdekében kapcsolja be a Wi-Fi-keresést a LINK_BEGINkeresési beállításokbanLINK_END.</string>
@@ -7763,7 +8183,9 @@
     <string name="wifi_settings_summary">Vezeték nélküli hozzáférési pontok beállítása és kezelése</string>
     <string name="wifi_settings_title">Wi-Fi</string>
     <string name="wifi_setup_cancel">Mégse</string>
-    <string name="wifi_setup_description_connected">Érintse meg a Tovább lehetőséget a beállítás folytatásához.\10\10Érintse meg a Vissza lehetőséget egy másik Wi-Fi-hálózathoz való csatlakozáshoz.</string>
+    <string name="wifi_setup_description_connected">Érintse meg a Tovább lehetőséget a beállítás folytatásához.
+
+Érintse meg a Vissza lehetőséget egy másik Wi-Fi-hálózathoz való csatlakozáshoz.</string>
     <string name="wifi_setup_detail">Hálózati információk</string>
     <string name="wifi_setup_eap_not_supported">A beállítás közben nem konfigurálhatja az EAP Wi-Fi-összeköttetést. Ezt a beállítás után a Beállítások &gt; Vezeték nélküli hálózatok menüpontban teheti meg.</string>
     <string name="wifi_setup_title">Wi-Fi beállítás</string>
@@ -7777,7 +8199,8 @@
     <string name="wifi_share_action_turn_on">Wi-Fi megosztás</string>
     <string name="wifi_share_action_turn_on_summary">A megosztáshoz jelentkezzen be a Mi Fiókjába</string>
     <string name="wifi_share_add">Nyílt Wi-Fi-hálózataim megosztása</string>
-    <string name="wifi_share_add_summary">Amikor Ön megosztja a nyílt hálózatait,\10Ön is használhatja mások hálózatát.</string>
+    <string name="wifi_share_add_summary">Amikor Ön megosztja a nyílt hálózatait,
+Ön is használhatja mások hálózatát.</string>
     <string name="wifi_share_connect">Csatlakozás</string>
     <string name="wifi_share_connected_summary">Csatlakozott egy nyílt Wi-Fi-hálózathoz, melyet egy másik felhasználó osztott meg.</string>
     <string name="wifi_share_connected_title">MIUI által megosztott Wi-Fi</string>
@@ -7885,8 +8308,10 @@
     <string name="wifi_wapi_cert_uninstall">WAPI tanúsítvány eltávolítása</string>
     <string name="wifi_wapi_cert_uninstall_button">Eltávolítás</string>
     <string name="wifi_wapi_certification_dont_exist">A beírt hálózati jelszó hibás.</string>
-    <string name="wifi_wapi_fail_to_auth">A WAPI hitelesítés nem végezhető el.\10Győződjön meg róla, hogy a tanúsítvány valódi.</string>
-    <string name="wifi_wapi_fail_to_init">A WAPI-tanúsítványokat nem lehet megnyitni.\10Úgy tűnik, nincs engedélyezve a hitelesítőtároló.</string>
+    <string name="wifi_wapi_fail_to_auth">A WAPI hitelesítés nem végezhető el.
+Győződjön meg róla, hogy a tanúsítvány valódi.</string>
+    <string name="wifi_wapi_fail_to_init">A WAPI-tanúsítványokat nem lehet megnyitni.
+Úgy tűnik, nincs engedélyezve a hitelesítőtároló.</string>
     <string name="wifi_wapi_psk_type">Jelszótípus</string>
     <string name="wifi_wapi_user_cert">Felhasználói tanúsítvány</string>
     <string name="wifi_wapi_user_certificate">Felhasználói tanúsítvány</string>
@@ -8132,7 +8557,9 @@
     <string name="zen_mode_restrict_notifications_disable_custom">Egyéni beállítás törlése</string>
     <string name="zen_mode_restrict_notifications_enable_custom">Egyéni beállítás engedélyezése</string>
     <string name="zen_mode_restrict_notifications_hide">Nincs hang vagy vizuális jelzés az értesítéseknél</string>
-    <string name="zen_mode_restrict_notifications_hide_footer">A telefonja nem jelenít meg új vagy meglévő értesítéseket, és nem csörög vagy rezeg az értesítéseknél. A telefon funkcióival és állapotával kapcsolatos fontos értesítések azonban így is megjelennek.\10\10Amikor kikapcsolja a Ne zavarjanak módot, a nem fogadott értesítéseket úgy tekintheti meg, hogy ujját lefelé csúsztatja a képernyő tetejéről.</string>
+    <string name="zen_mode_restrict_notifications_hide_footer">A telefonja nem jelenít meg új vagy meglévő értesítéseket, és nem csörög vagy rezeg az értesítéseknél. A telefon funkcióival és állapotával kapcsolatos fontos értesítések azonban így is megjelennek.
+
+Amikor kikapcsolja a Ne zavarjanak módot, a nem fogadott értesítéseket úgy tekintheti meg, hogy ujját lefelé csúsztatja a képernyő tetejéről.</string>
     <string name="zen_mode_restrict_notifications_hide_summary">Nem fog értesítéseket látni vagy hallani</string>
     <string name="zen_mode_restrict_notifications_mute">Nincs hang az értesítéseknél</string>
     <string name="zen_mode_restrict_notifications_mute_footer">Amikor értesítés érkezik, a telefon nem ad ki hangot, és nem rezeg.</string>
@@ -8149,7 +8576,8 @@
     <string name="zen_mode_rule_not_found_text">Szabály nem található</string>
     <string name="zen_mode_rule_rename_button">Átnevezés</string>
     <string name="zen_mode_rule_summary_enabled_combination">Bekapcsolva / %1$s</string>
-    <string name="zen_mode_rule_summary_provider_combination">%1$s\10%2$s</string>
+    <string name="zen_mode_rule_summary_provider_combination">%1$s
+%2$s</string>
     <string name="zen_mode_rule_type_unknown">Ismeretlen</string>
     <string name="zen_mode_schedule_alarm_summary">Az ütemezés kikapcsol az ébresztés jelzésekor</string>
     <string name="zen_mode_schedule_alarm_title">Az ébresztés felülbírálhatja a befejezési időt</string>

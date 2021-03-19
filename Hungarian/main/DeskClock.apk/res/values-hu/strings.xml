@@ -59,7 +59,7 @@
     <string name="alert_ringtone">Riasztási csengőhang</string>
     <string name="alert_vibrate_enable_summary">Rezgés az ébresztőhang alatt</string>
     <string name="alert_volume">Csengőhang hangereje</string>
-    <string name="alert_volume_summary">Csengóhang hangerejének beállítása a riasztásokhoz és időzítőkhöz</string>
+    <string name="alert_volume_summary">Csengőhang hangerejének beállítása a riasztásokhoz és időzítőkhöz</string>
     <string name="already_exist">Ez az időzítés már létezik</string>
     <string name="am">de.</string>
     <string name="analog_gadget">Analóg óra</string>
@@ -141,7 +141,7 @@
     <string name="dialog_message_for_contact_permission">Annak érdekében, hogy a születésnapi ébresztések elérhetőek legyenek, az Óra számára hozzáférés szükséges a névjegyekhez. Elfogadja?</string>
     <string name="dialog_message_negative">Elutasítás</string>
     <string name="dialog_message_not_remind">Ne jelenjen meg újra</string>
-    <string name="dialog_net_permission_in_repeat_type">&lt;Data&gt;A funkció normál működéséhez csatalkoznia kell az internethez. A funkció használata előtt el kell fogadnia a &lt;a href=\"%1$s\"&gt;Felhasználói szerződést&lt;/a&gt; és az &lt;a href=\"%2$s\"&gt;Adatvédelmi szabályzatot&lt;/a&gt;. Elfogadja?&lt;/Data&gt;</string>
+    <string name="dialog_net_permission_in_repeat_type">&lt;Data&gt;A funkció normál működéséhez csatlakoznia kell az internethez. A funkció használata előtt el kell fogadnia a &lt;a href=\"%1$s\"&gt;Felhasználói szerződést&lt;/a&gt; és az &lt;a href=\"%2$s\"&gt;Adatvédelmi szabályzatot&lt;/a&gt;. Elfogadja?&lt;/Data&gt;</string>
     <string name="dialog_privacy_content">Annak érdekében, hogy Ön releváns információkat kapjon a helyi állami ünnepekkel kapcsolatban, beállíthassa az ébresztőket és és személyre szabott szolgáltatásban részesüljön, a Clocknak kapcsolódnia kell az internethez. A Clock használata előtt el kell olvasnia és el kell fogadnia a következőkkel: %1$s és %2$s. Elfogadja?</string>
     <string name="dialog_privacy_content_global">A személyre szabott szolgáltatások biztosítása érdekében az Óra alkalmazásnak kapcsolódnia kell az internethez. Az Óra használata előtt Önnek el kell olvasnia és fogadnia a következő két dokumentumot: %1$s és %2$s. Egyetért?</string>
     <string name="dialog_privacy_content_news">A személyre szabott szolgáltatások biztosítása és a reggeli hírek riasztásokba való foglalása érdekében a Clock-nak az internethez kell kapcsolódnia. A Clock használata előtt el kell olvasnia és egyet kell érteni a következőkkel: %1$s és %2$s. Egyetért?</string>
@@ -275,7 +275,7 @@
     <string name="module_unzipping">Hang kicsomagolása…</string>
     <string name="module_update_success">A frissített audió sikeresen letöltésre került a MIUI intelligens riasztásokhoz. A MIUI intelligens riasztásokat az óra beállításaiban állíthatja be.</string>
     <string name="module_update_success_control">Rendben</string>
-    <string name="module_weather_ringtone_download_data">Az időjárási riasztás egy különböző csengóhangot fog használni a jelenlegi időjárás alapján. Ennek a működéséhez ≈30MB letöltés szükséges. Letölti most?</string>
+    <string name="module_weather_ringtone_download_data">Az időjárási riasztás egy különböző csengőhangot fog használni a jelenlegi időjárás alapján. Ennek a működéséhez ≈30MB letöltés szükséges. Letölti most?</string>
     <string name="module_weather_ringtone_download_data_privacy">&lt;Data&gt;Az időjárás-értesítő különböző csengőhangokat használ az aktuális időjárás alapján. Az Órának kapcsolódnia kell az internethez a kb. 30MB audió letöltéséhez. Az Óra használata előtt olvassa el és fogadja el a &lt;a href=\"%1$s\"&gt;Felhasználás feltételeit&lt;/a&gt; és az &lt;a href=\"%2$s\"&gt;Adatvédelmi szabályzatot&lt;/a&gt;. Elfogadja?&lt;/Data&gt;</string>
     <string name="module_weather_ringtone_download_wifi">Az időjárási riasztás egy különböző csengőhangot fog használni a jelenlegi időjárás alapján. Az Órának ehhez hangfájlokat kell letöltenie. Letölti most?</string>
     <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data&gt;Az időjárás-értesítő különböző csengőhangokat használ az aktuális időjárás alapján. Az Órának kapcsolódnia kell az internethez az audió letöltéséhez. Az Óra használata előtt olvassa el és fogadja el a &lt;a href=\"%1$s\"&gt;Felhasználás feltételeit&lt;/a&gt; és az &lt;a href=\"%2$s\"&gt;Adatvédelmi szabályzatot&lt;/a&gt;. Elfogadja?&lt;/Data&gt;</string>

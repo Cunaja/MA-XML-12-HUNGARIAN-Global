@@ -191,8 +191,12 @@
     <string name="usage_home_permission_phone_summary">Készülékének azonosításához VAID használatával</string>
     <string name="usage_home_permission_phone_title">Eszközinformációhoz való hozzáférés</string>
     <string name="usage_home_premission_main_summary">Üdvözli Önt a Képernyőidő! Az alkalmazásban beállíthatja, hogy mennyit szeretne a képernyő előtt tölteni, megtekintheti a statisztikákat és átválthat Fókusz módra. A normális működéshez az alkalmazásnak be kell gyűjtenie a képernyőidővel kapcsolatos adatokat (pl. azt, hányszor oldotta fel a képernyőt és kapcsolta be a képernyőt, valamint hogy mennyi ideig használja az alkalmazásokat).</string>
-    <string name="usage_home_premission_main_summary_new">Üdvözöljük, ez a Képernyőidő!\10A normál működéshez az alkalmazásnak be kell gyűjtenie a képernyőidő adatokat: a telefonfeloldások számát, az alkalmazások neveit, valamint az alkalmazások használati idejére is szükség van a képernyőidő statisztikák generálásához; a Fókusz mód beállításai pedig a Fókusz mód statisztikáinak létrehozásához szükségesek.\10Az alkalmazásnak csatlakoznia kell az internethez és a következő engedélyekre van szüksége a személyes adatok begyűjtéséhez:</string>
-    <string name="usage_home_premission_main_summary_new_o">Üdvözöljük, ez a Képernyőidő!\10A normál működéshez az alkalmazásnak be kell gyűjtenie a képernyőidő adatokat: a telefonfeloldások számát, az alkalmazások neveit, valamint az alkalmazások használati idejére is szükség van a képernyőidő statisztikák generálásához.\10Az alkalmazásnak csatlakoznia kell az internethez és a következő engedélyekre van szüksége a személyes adatok begyűjtéséhez:</string>
+    <string name="usage_home_premission_main_summary_new">Üdvözöljük, ez a Képernyőidő!
+A normál működéshez az alkalmazásnak be kell gyűjtenie a képernyőidő adatokat: a telefonfeloldások számát, az alkalmazások neveit, valamint az alkalmazások használati idejére is szükség van a képernyőidő statisztikák generálásához; a Fókusz mód beállításai pedig a Fókusz mód statisztikáinak létrehozásához szükségesek.
+Az alkalmazásnak csatlakoznia kell az internethez és a következő engedélyekre van szüksége a személyes adatok begyűjtéséhez:</string>
+    <string name="usage_home_premission_main_summary_new_o">Üdvözöljük, ez a Képernyőidő!
+A normál működéshez az alkalmazásnak be kell gyűjtenie a képernyőidő adatokat: a telefonfeloldások számát, az alkalmazások neveit, valamint az alkalmazások használati idejére is szükség van a képernyőidő statisztikák generálásához.
+Az alkalmazásnak csatlakoznia kell az internethez és a következő engedélyekre van szüksége a személyes adatok begyűjtéséhez:</string>
     <string name="usage_home_premission_second_summary">A normális működéshez az alkalmazásnak be kell gyűjtenie az Ön személyes adatait. Megvédjük az Ön személyes adatait a vonatkozó jogszabályokkal, szabályozásokkal és adatvédelmi irányelvekkel összhangban.</string>
     <string name="usage_home_premission_second_summary_double_link_prefix">Megvédjük az Ön személyes adatait a vonatkozó jogszabályokkal, szabályozásokkal és adatvédelmi irányelvekkel összhangban. Ha nem szeretné megadni ezeket az engedélyeket vagy megosztani, illetve feltölteni személyes adatait, nem fogja tudni használni az alkalmazást. A Képernyőidő &gt; Beállítások &gt; Képernyőidő kikapcsolása menüben visszavonhatja az engedélyt.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix">&lt;Data&gt;Az alkalmazás használata előtt olvassa el és fogadaj el a &lt;a href=\'%1s\'&gt;Felhasználói szerződést&lt;/a&gt; és az &lt;a href=\'%2s\'&gt;Adatvédelmi irányelvet&lt;/a&gt;.&lt;/Data&gt;</string>
@@ -231,13 +235,14 @@
     <string name="usage_new_home_week_unlock_equals_text">Ugyanaz, mint az előző héten</string>
     <string name="usage_new_home_week_usage_title">Egyéni alkalmazások</string>
     <string name="usage_new_home_which_week">%d hét</string>
-    <string name="usage_no_net_summary">Ellenőrizze a hálózati beállításoka és próbálja újra</string>
+    <string name="usage_no_net_summary">Ellenőrizze a hálózati beállításokat és próbálja újra</string>
     <string name="usage_optional_summary">Ezeket az engedélyeket akkor kell megadni, ha egyéb funkciókat használ.</string>
     <string name="usage_optional_title">Opcionális engedélyek</string>
     <string name="usage_permisison_agree_desc_o">A Képernyőidő statisztikáinak megjelenítéséhez az alkalmazásnak a következő adatokat kell begyűjtenie: a készülék feloldásának számát, az alkalmazások listáját azok használati idejével együtt.</string>
     <string name="usage_permisison_agree_desc_p">A Képernyőidő és a Fókusz mód statisztikáinak megjelenítéséhez az alkalmazásnak a következő adatokat kell begyűjtenie: a készülék feloldásának számát, az alkalmazások listáját azok használati idejével együtt, a képernyő felvillanásának számát és a Fókusz mód beállításokat.</string>
-    <string name="usage_permission_double_link">&lt;Data&gt;Az alkalmazásnak a normál múködés érdekében csatlakoznia kell az internethez és be kell gyűjtenie a szükséges személyes adatokat. Felhasználóként az Ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa és fogadja el &lt;a href=\'%1s\'&gt;Felhasználási feltételeinket&lt;/a&gt; és &lt;a href=\'%2s\'&gt;Adatvédelmi szabályzatunkat&lt;/a&gt;.&lt;/Data&gt;</string>
-    <string name="usage_permission_main_desc">Üdvözöljük, ez a Képernyőidő!\10Az alkalmazásnak a normális működés érdekében csatlakoznia kell az internethet és a következő engedélyekre van szüksége:</string>
+    <string name="usage_permission_double_link">&lt;Data&gt;Az alkalmazásnak a normál működés érdekében csatlakoznia kell az internethez és be kell gyűjtenie a szükséges személyes adatokat. Felhasználóként az Ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa és fogadja el &lt;a href=\'%1s\'&gt;Felhasználási feltételeinket&lt;/a&gt; és &lt;a href=\'%2s\'&gt;Adatvédelmi szabályzatunkat&lt;/a&gt;.&lt;/Data&gt;</string>
+    <string name="usage_permission_main_desc">Üdvözöljük, ez a Képernyőidő!
+Az alkalmazásnak a normális működés érdekében csatlakoznia kell az internethez és a következő engedélyekre van szüksége:</string>
     <string name="usage_permission_title">Figyelem</string>
     <string name="usage_reach_device_limit">Lejárt az idő! Ön elérte a limitet.</string>
     <string name="usage_reach_device_limit_warning_text">Ön már elérte a képernyőidő mai napra megadott felső határát</string>
@@ -271,7 +276,7 @@
     <string name="usage_state_channel_mouth">Az elmúlt 30 napban</string>
     <string name="usage_state_channel_week">Az elmúlt 7 napban</string>
     <string name="usage_state_device_limit_summary">Napi képernyőidő-limitek beállítása a készülékre</string>
-    <string name="usage_state_device_limit_title">Készülék képernyidő-limitjei</string>
+    <string name="usage_state_device_limit_title">Készülék képernyőidő-limitjei</string>
     <string name="usage_state_device_noti_today_tip_title">Értesítések %1$d:00 és %2$d:00 között</string>
     <string name="usage_state_device_unlock_today_tip_title">A készülék feloldva %1$d:00 és %2$d:00 között</string>
     <string name="usage_state_download">Mentés a Galériába</string>

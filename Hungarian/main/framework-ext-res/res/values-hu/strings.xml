@@ -61,7 +61,8 @@
     <string name="file_cannot_print">Ez az elem nem nyomtatható.</string>
     <string name="file_cannot_screen_throw">Ez az elem nem vetíthető ki.</string>
     <string name="file_sending">Fájláthelyezés…</string>
-    <string name="first_back_long_press_message">Engedélyezi, hogy a vissza gomb hosszan nyomva bezárja az aktuális folyamatot?\10Engedélyezés a Beállítások &gt; További beállítások &gt; Gombok menüpontban</string>
+    <string name="first_back_long_press_message">Engedélyezi, hogy a vissza gomb hosszan nyomva bezárja az aktuális folyamatot?
+Engedélyezés a Beállítások &gt; További beállítások &gt; Gombok menüpontban</string>
     <string name="flip_screen_camera_tip">Fordítsa meg a készüléket a kamera használatához</string>
     <string name="fm_record_smaple_prefix_miui">Rádióadás rögzítés</string>
     <string name="force_exit_message">%1$s bezárva</string>

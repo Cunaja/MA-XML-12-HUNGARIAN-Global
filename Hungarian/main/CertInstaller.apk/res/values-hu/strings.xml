@@ -50,7 +50,12 @@
     <string name="wifi_cancel_label">Mégse</string>
     <string name="wifi_cert_is_added">Wi‑Fi-tanúsítvány telepítve</string>
     <string name="wifi_certificate">Wi‑Fi-tanúsítvány</string>
-    <string name="wifi_config_text">Név: %1$s\10FQDN: %2$s\10Barangolási konzorciumok: %3$s\10Tartomány: %4$s\10Hitelesítési mód: EAP-%5$s\10</string>
+    <string name="wifi_config_text">"Név: %1$s
+FQDN: %2$s
+Barangolási konzorciumok: %3$s
+Tartomány: %4$s
+Hitelesítési mód: EAP-%5$s
+"</string>
     <string name="wifi_detail_label">Részletek</string>
     <string name="wifi_detail_title">%s részletei</string>
     <string name="wifi_dismiss_label">Elvetés</string>
@@ -63,9 +68,16 @@
     <string name="wifi_installer_fail_title">Nem lehet telepíteni</string>
     <string name="wifi_installing_label">Telepítés folyamatban</string>
     <string name="wifi_no_config">Nincs</string>
-    <string name="wifi_sim_config_text">SIM kártya: %s\10</string>
+    <string name="wifi_sim_config_text">"SIM : %s
+"</string>
     <string name="wifi_title">Wi-Fi-profil</string>
-    <string name="wifi_tls_config_text">Ügyféltanúsítvány:\10%1$s\10Kulcs: %2$s\10</string>
-    <string name="wifi_trust_config_text">Megbízható tanúsítvány:\10%s\10</string>
-    <string name="wifi_ttls_config_text">Felhasználónév: %s\10</string>
+    <string name="wifi_tls_config_text">"Ügyféltanúsítvány:
+%1$s
+Kulcs: %2$s
+"</string>
+    <string name="wifi_trust_config_text">"Megbízható tanúsítvány:
+%s
+"</string>
+    <string name="wifi_ttls_config_text">"Felhasználónév: %s
+"</string>
 </resources>

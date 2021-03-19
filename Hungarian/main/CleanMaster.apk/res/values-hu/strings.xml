@@ -170,7 +170,7 @@
     <string name="empty_title_garbage_cache">Nincs tisztítandó fájl</string>
     <string name="empty_title_garbage_white_list">Nincs kivétel.</string>
     <string name="empty_title_installed_apps">Nincs alkalmazás</string>
-    <string name="empty_title_large_files">Nem található nagyméretű fájl</string>
+    <string name="empty_title_large_files">Nem található nagy méretű fájl</string>
     <string name="empty_title_photos">Nem található fénykép</string>
     <string name="empty_title_residual">Nincs maradványfájl</string>
     <string name="empty_title_video">Nincs videófájl​</string>
