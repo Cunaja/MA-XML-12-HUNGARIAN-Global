@@ -23,7 +23,7 @@
     <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
     <string name="abc_slice_error">Nem sikerült kapcsolódni</string>
     <string name="abc_slice_more">Több</string>
-	<string name="abc_slice_more_content">+ %1$d</string>													 
+    <string name="abc_slice_more_content">+ %1$d</string>
     <string name="abc_slice_permission_allow">Engedélyezés</string>
     <string name="abc_slice_permission_checkbox">Engedélyezi a(z) %1$s alkalmazásnak, hogy bármely alkalmazásból részletet jelenítsen meg</string>
     <string name="abc_slice_permission_deny">Elutasítás</string>
@@ -36,7 +36,7 @@
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
     <string name="about_ad_service_instructions">A hirdetési szolgáltatásokról és az adatvédelemről</string>
     <string name="about_phone_device_name_warning">Az eszköz nevét a telefonon lévő alkalmazások láthatják. Más emberek is láthatják, amikor csatlakozik Bluetooth-eszközökhöz vagy beállít egy Wi-Fi hotspotot.</string>
-	<string name="about_phone_enter_xiaomi_net">Bővebb információ</string>
+    <string name="about_phone_enter_xiaomi_net">Bővebb információ</string>
     <string name="about_settings">A telefonról</string>
     <string name="about_settings_summary">Jogi információk, állapot, szoftververzió megtekintése</string>
     <string name="ac_enable_summary">Egyes alkalmazásokhoz állítson be jelszót</string>
@@ -70,15 +70,15 @@
     <string name="accessibility_autoclick_short_summary">0,2 másodperc</string>
     <string name="accessibility_autoclick_short_title">Rövid</string>
     <string name="accessibility_autoclick_shorter_desc">Rövidebb</string>
-    <string name="accessibility_back">Vissza</string>											   
+    <string name="accessibility_back">Vissza</string>
     <string name="accessibility_caption_master_switch_summary">Csak támogatott alkalmazásnál</string>
     <string name="accessibility_caption_master_switch_title">Felirat megjelenítése</string>
     <string name="accessibility_caption_preference_summary">Nem minden alkalmazás támogatja ezeket a feliratozási beállításokat.</string>
     <string name="accessibility_captioning_title">Feliratbeállítások</string>
     <string name="accessibility_category_personal">„Személyes profil” fiókok</string>
     <string name="accessibility_category_work">„Munkaprofil” fiókok – %s</string>
-    <string name="accessibility_clear">Clear</string>
-    <string name="accessibility_close_tab">Close current tab</string>
+    <string name="accessibility_clear">Törlés</string>
+    <string name="accessibility_close_tab">Az aktuális fül bezárása</string>
     <string name="accessibility_control_timeout_preference_summary">"Válassza ki, hogy mennyi ideig legyenek láthatók azok az üzenetek, amelyek művelet elvégzését kérik, de csak ideiglenesen láthatók a képernyőn.
 
 Nem minden alkalmazás támogatja ezt a beállítást."</string>
@@ -120,9 +120,9 @@ Nem minden alkalmazás támogatja ezt a beállítást."</string>
     <string name="accessibility_magnification_service_settings_title">Nagyítási beállítások</string>
     <string name="accessibility_manual_zen_less_time">Kevesebb idő.</string>
     <string name="accessibility_manual_zen_more_time">Több idő.</string>
-    <string name="accessibility_menu_description">A Kisegítő lehetőségek menüje megfelelő gyorsparancsokat biztosít Önnek készüléke irányításához.
+    <string name="accessibility_menu_description">"A Kisegítő lehetőségek menüje megfelelő gyorsparancsokat biztosít Önnek készüléke irányításához.
 
-Kapcsolja be ezt a funkciót, és a menü megnyitásához érintse meg a képernyő alján a Kisegítő lehetőségek gombot.</string>
+Kapcsolja be ezt a funkciót, és a menü megnyitásához érintse meg a képernyő alján a Kisegítő lehetőségek gombot."</string>
     <string name="accessibility_menu_item_settings">Beállítások</string>
     <string name="accessibility_menu_service_name">A Kisegítő lehetőségek menüje</string>
     <string name="accessibility_menu_summary">Irányítsa a készüléket egyszerű gyorsparancsokkal</string>
@@ -176,9 +176,9 @@ A billentyűzeten és a navigációs sávon nem lehetséges a nagyítás.</strin
     <string name="accessibility_settings_title">Kisegítő lehetőségek beállításai</string>
     <string name="accessibility_shortcut_description">A gyorsparancs lehetővé teszi a funkció bekapcsolását a lezárási képernyőről. Néhány másodpercig tartsa lenyomva mindkét hangerőgombot.</string>
     <string name="accessibility_shortcut_edit_dialog_summary_hardware">Tartsa lenyomva mindkét hangerőgombot</string>
-    <string name="accessibility_shortcut_edit_dialog_summary_software">Koppintson a képernyő alján található Kisegítő lehetőségek %s gombra.
+    <string name="accessibility_shortcut_edit_dialog_summary_software">"Koppintson a képernyő alján található Kisegítő lehetőségek %s gombra.
 
-A funkciók közötti váltáshoz tartsa lenyomva a Kisegítő lehetőségek gombot.</string>
+A funkciók közötti váltáshoz tartsa lenyomva a Kisegítő lehetőségek gombot."</string>
     <string name="accessibility_shortcut_edit_dialog_summary_software_gesture">"Csúsztasson két ujjával felfelé a képernyő aljáról.
 
 A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről."</string>
@@ -190,9 +190,7 @@ A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne 
     <string name="accessibility_shortcut_edit_dialog_title_hardware">Hangerőgombok nyomva tartása</string>
     <string name="accessibility_shortcut_edit_dialog_title_software">Koppintson a kisegítő lehetőségek gombjára</string>
     <string name="accessibility_shortcut_edit_dialog_title_software_gesture">Felfelé csúsztatás két ujjal</string>
-    <string name="accessibility_shortcut_edit_dialog_title_software_gesture_talkback">"Felfelé csúsztatás három ujjal
-    
-    A funkciók közötti váltáshoz pöccintsen felfelé 3 ujjal, és tartsa lenyomva."</string>
+    <string name="accessibility_shortcut_edit_dialog_title_software_gesture_talkback">"Felfelé csúsztatás három ujjal."</string>
     <string name="accessibility_shortcut_edit_dialog_title_triple_tap">Háromszori koppintás a képernyőre</string>
     <string name="accessibility_shortcut_edit_summary_software">Kisegítő lehetőségek gomb</string>
     <string name="accessibility_shortcut_hardware_keyword">hangerőgombok nyomva tartása</string>
@@ -205,6 +203,7 @@ A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne 
     <string name="accessibility_shortcut_type_software">Kisegítő lehetőségek gomb</string>
     <string name="accessibility_shortcut_type_software_gesture">Két ujjal csúsztatás felfelé</string>
     <string name="accessibility_shortcut_type_triple_tap">Három koppintás a képernyőre</string>
+    <string name="accessibility_summary_default_combination">%1$s / %2$s</string>
     <string name="accessibility_summary_shortcut_disabled">Ki</string>
     <string name="accessibility_summary_shortcut_enabled">Gyorsparancs bekapcsolva</string>
     <string name="accessibility_summary_source">%s jóvoltából</string>
@@ -231,20 +230,21 @@ A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne 
     <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Képernyőnagyítás automatikus frissítése</string>
     <string name="accessibility_touch_vibration_title">Visszajelzés az érintésekről</string>
     <string name="accessibility_tutorial_dialog_button">Értem</string>
-    <string name="accessibility_tutorial_dialog_message_button">A funkció használatához koppintson a képernyő alján megtalálható Kisegítő lehetőségek %s gombra.
+    <string name="accessibility_tutorial_dialog_message_button">"A funkció használatához koppintson a képernyő alján megtalálható Kisegítő lehetőségek %s gombra.
 
-A funkciók közti váltáshoz tartsa lenyomva ujját a Kisegítő lehetőségek gombon.</string>
-    <string name="accessibility_tutorial_dialog_message_gesture">A funkció használatához csúsztasson két ujjával felfelé a képernyő aljáról.
-    
-A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről.</string>
-    <string name="accessibility_tutorial_dialog_message_gesture_settings">A Kisegítő lehetőségek valamelyik funkciójának használatához csúsztasson két ujjával felfelé a képernyő aljáról.
-    
-A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről.</string>
-    <string name="accessibility_tutorial_dialog_message_gesture_settings_talkback">A Kisegítő lehetőségek valamelyik funkciójának használatához csúsztasson három ujjával felfelé a képernyő aljáról.
-    
-A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne emelje fel őket a képernyőről.</string>
-    <string name="accessibility_tutorial_dialog_message_gesture_talkback">A funkció használatához csúsztasson három ujjával felfelé a képernyő aljáról.
-A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne emelje fel őket a képernyőről.</string>
+A funkciók közti váltáshoz tartsa lenyomva ujját a Kisegítő lehetőségek gombon."</string>
+    <string name="accessibility_tutorial_dialog_message_gesture">"A funkció használatához csúsztasson két ujjával felfelé a képernyő aljáról.
+
+A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről."</string>
+    <string name="accessibility_tutorial_dialog_message_gesture_settings">"A Kisegítő lehetőségek valamelyik funkciójának használatához csúsztasson két ujjával felfelé a képernyő aljáról.
+
+A funkciók közötti váltáshoz csúsztasson felfelé két ujjával, és ne emelje fel őket a képernyőről."</string>
+    <string name="accessibility_tutorial_dialog_message_gesture_settings_talkback">"A Kisegítő lehetőségek valamelyik funkciójának használatához csúsztasson három ujjával felfelé a képernyő aljáról.
+
+A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne emelje fel őket a képernyőről."</string>
+    <string name="accessibility_tutorial_dialog_message_gesture_talkback">"A funkció használatához csúsztasson három ujjával felfelé a képernyő aljáról
+
+A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne emelje fel őket a képernyőről."</string>
     <string name="accessibility_tutorial_dialog_message_triple">A nagyítás megkezdéséhez és leállításához koppintson háromszor bárhol a képernyőn.</string>
     <string name="accessibility_tutorial_dialog_message_volume">A funkció használatához tartsa lenyomva mindkét hangerőszabályzó gombot.</string>
     <string name="accessibility_tutorial_dialog_title_button">Megnyitás a kisegítő gombbal</string>
@@ -264,6 +264,7 @@ A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne 
     <string name="accessibility_vibration_summary_low">Csengetés és értesítés gyengére állítva</string>
     <string name="accessibility_vibration_summary_medium">Csengetés és értesítés közepesre állítva</string>
     <string name="accessibility_vibration_summary_off">Csengetés és értesítés kikapcsolva</string>
+    <string name="accessibility_voice_access_title">Hangvezérlés</string>
     <string name="accessibility_vpn_settings_info">VPN-beállítás</string>
     <string name="accessibility_wifi_off">Wi-Fi kikapcsolva.</string>
     <string name="accessibility_wifi_one_bar">Wi-Fi-jelerősség egy csík.</string>
@@ -303,6 +304,7 @@ A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne 
     <string name="activating">Aktiválás…</string>
     <string name="active_device_admin_msg">Eszközrendszergazdai alkalmazás</string>
     <string name="active_input_method_subtypes">Aktív beviteli módok</string>
+    
     <string name="activity_check_context">"A készülék most próbál csatlakozni az internethez. Ez a folyamat a vártnál tovább tarthat, ha mobiladatokat használ. Ehelyett visszatérhet a wi-fi hálózathoz, vagy megvárhatja a mobil adatkapcsolat létrejöttét."</string>
     <string name="activity_check_title">Csatlakozás az internethez</string>
     <string name="activity_not_found">Az alkalmazás nincs telepítve a telefonra.</string>
@@ -4090,6 +4092,7 @@ A művelet nem visszavonható.</string>
     <string name="mi_pay">Mi Pénztárca</string>
     <string name="mi_pay_indonesia">Mi Pay Fiók</string>
     <string name="mi_pay_summary">Kártya/Mi Pay/kulcskártya áthelyezése</string>
+    <string name="mi_pay_summary_without_nfc">Mi Pay</string>
     <string name="mi_service">Mi szolgáltatás</string>
     <string name="mi_service_app_detail">Adatforgalmi részletek</string>
     <string name="mi_shopping_mall">Mi Áruház</string>
