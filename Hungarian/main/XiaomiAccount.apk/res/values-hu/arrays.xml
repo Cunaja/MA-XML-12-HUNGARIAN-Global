@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="account_user_gender_name">
+    <string-array name="account_user_gender_name">
         <item>Férfi</item>
         <item>Nő</item>
-    </array>
+    </string-array>
+    <string-array name="settings_search_account_and_authority_global">
+        <item>Fiókok</item>
+        <item>Harmadik fél fiókjainak hozzáadása és kezelése</item>
+        <item>Authorization;Account;Mi Account;Add;Pair;Xiaomi;View;SNS;Facebook;Google</item>
+    </string-array>
+    <string-array name="settings_search_account_and_authority_non_global">
+        <item>Fiókok</item>
+        <item>Harmadik fél fiókjainak hozzáadása és kezelése</item>
+        <item>Authorization;Account;Mi Account;Add;Pair;Xiaomi;View;SNS;WeChat;QQ;Weibo</item>
+    </string-array>
+    <string-array name="settings_search_change_password">
+        <item>Jelszó módosítása</item>
+        <item>Mi-fiók jelszavának módosítása</item>
+        <item>Change password;Update password;Mi Account;Account</item>
+    </string-array>
+    <string-array name="settings_search_help_center">
+        <item>Súgó</item>
+        <item>Segítség és támogatás a Mi-fiókhoz</item>
+        <item>Mi Account;Account;Account help;Help center</item>
+    </string-array>
+    <string-array name="settings_search_login_2_step_verify">
+        <item>Kétlépcsős azonosítás</item>
+        <item>Kétlépcsős azonosítás beállítása Mi-fiókjához</item>
+        <item>Sign in;Log in;2-step;verification;Xiaomi;Account;Mi Account;Account</item>
+    </string-array>
+    <string-array name="settings_search_login_and_security">
+        <item>Fiókbiztonság</item>
+        <item>Helyreállítási telefon és e-mail, jelszókezelés</item>
+        <item>Account security;Signing in;Recovery phone;Recovery email;Account protection;Phone number;Email;Change password;Add phone number;Add email;Mi Account;Account</item>
+    </string-array>
+    <string-array name="settings_search_manage_device">
+        <item>Eszközök</item>
+        <item>A Mi-fiókjához társított eszközök kezelése</item>
+        <item>Manage devices;My devices;Devices;Device list;Mi Account;Account</item>
+    </string-array>
+    <string-array name="settings_search_payment_information">
+        <item>Fizetési információk</item>
+        <item>Fizetési adatok megtekintése és kezelése</item>
+        <item>Pay;Payment;Payment method;Mi Account;Account</item>
+    </string-array>
+    <string-array name="settings_search_privacy_policy">
+        <item>Adatvédelem</item>
+        <item>Mi-fiók adatvédelmi szabályzatának megtekintése</item>
+        <item>View Mi Account Privacy Policy</item>
+    </string-array>
+    <string-array name="settings_search_security_email_address">
+        <item>Helyreállítási e-mail</item>
+        <item>Helyreállítási e-mail hozzáadása</item>
+        <item>Recovery email;Email;Add email;Mi Account;Account</item>
+    </string-array>
+    <string-array name="settings_search_security_phone_number">
+        <item>Helyreállítási telefonszám</item>
+        <item>Helyreállítási telefon hozzáadása</item>
+        <item>Recovery phone;Add phone;Mi Account;Account</item>
+    </string-array>
+    <string-array name="settings_search_system_ad">
+        <item>Hirdetések</item>
+        <item>Rendszerhirdetések kezelése</item>
+        <item>Ads;Mi Account;Account</item>
+    </string-array>
+    <string-array name="settings_search_user_information">
+        <item>Fiókadatok</item>
+        <item>Profilkép megtekintése és fiókadatok kezelése</item>
+        <item>Personal info;profile photo;nickname;account info;Mi ID;ID;Mi Account;Account</item>
+    </string-array>
+    <string-array name="settings_search_user_protocol">
+        <item>Felhasználói szerződés</item>
+        <item>Felhasználói szerződés</item>
+        <item>Mi Account;Account;User Agreement;EULA</item>
+    </string-array>
 </resources>

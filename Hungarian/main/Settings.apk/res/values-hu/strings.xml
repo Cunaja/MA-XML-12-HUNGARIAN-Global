@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <resources>
-    <string name="Accounts_settings_title">Fiókok</string>
+  <string name="Accounts_settings_title">Fiókók</string>
     <string name="a11y_settings_label">A Kisegítő lehetőségek beállításai</string>
     <string name="abc_action_bar_home_description">Ugrás a főoldalra</string>
     <string name="abc_action_bar_up_description">Fel</string>
@@ -57,8 +57,10 @@
     <string name="access_control_recording_intro_header">Rajzoljon egy feloldómintát</string>
     <string name="access_control_reset_by_account">A jelszó alaphelyzetbe állításához jelentkezzen be a Mi Fiókjába</string>
     <string name="access_point_names">Hozzáférési pontok nevei</string>
+    <string name="accessibility_assist_gesture_complete_or_keep_adjusting">Az Active Edge be van állítva. Ugrás a következő képernyőre, vagy folytassa a szerkesztést.</string>
     <string name="accessibility_autoclick_custom_title">Egyéni</string>
     <string name="accessibility_autoclick_default_title">Ki</string>
+    <string name="accessibility_autoclick_delay_preference_title">Késleltetés kattintás előtt</string>
     <string name="accessibility_autoclick_description">Az automatikus kattintás csatlakoztatott egérrel működik. Beállíthatja, hogy az egérkurzor automatikusan kattintási műveletet hajtson végre, amikor egy adott ideig nem mozdul..</string>
     <string name="accessibility_autoclick_long_summary">1 másodperc</string>
     <string name="accessibility_autoclick_long_title">Hosszú</string>
@@ -100,6 +102,7 @@ Nem minden alkalmazás támogatja ezt a beállítást."</string>
     <string name="accessibility_feature_state_off">Ki</string>
     <string name="accessibility_feature_state_on">be</string>
     <string name="accessibility_global_gesture_preference_title">Gyorsparancs a hangerőgombokkal</string>
+	<string name="accessibility_haptic">Hozzáférhetőség</string>
     <string name="accessibility_hearingaid_active_device_summary">%1$s: aktív</string>
     <string name="accessibility_hearingaid_adding_summary">Hallókészülékek hozzáadása</string>
     <string name="accessibility_hearingaid_instruction_continue_button">Tovább</string>
@@ -1673,6 +1676,9 @@ Ha CA-tanúsítványt telepít, a tanúsítvány tulajdonosa az Ön által megl�
     <string name="cmcc_hardware_version">Hardververzió</string>
     <string name="codec_low_latency_summary">Késleltetés minimalizálása a játékhang- és a videoszinkronizálás során</string>
     <string name="codec_low_latency_title">Rövid késleltetés</string>
+	<string name="codec_low_latency_video_summary">Alacsony késleltetésű hangélményt biztosít a játékok és videók számára, természetesebbé téve a hang és a kép szinkronizálását.</string>
+    <string name="codec_low_latency_zmi_summary">Csökkenti az audio késleltetését és javítja a játékok hanghatásait automatikusan</string>
+    <string name="codec_low_latency_zmi_title">Alacsony késleltetés a játékokhoz</string>
     <string name="color_black">Fekete</string>
     <string name="color_blue">Kék</string>
     <string name="color_calibration_none">Ez a készülék</string>
@@ -3053,7 +3059,7 @@ Ha bekapcsolja az automatikus biztonsági mentést, akkor a rendszer szabályos 
     <string name="gesture_setting_on">Bekapcsolva</string>
     <string name="gesture_settings_activity_title">Kézmozdulatok beállításai</string>
     <string name="gesture_settings_title">Kézmozdulat parancsikonok</string>
-    <string name="gesture_wakeup_summary">Ha az Alapértelmezet vagy a Klasszikus téma van telepítve, dupla koppintással kikapcsolhatja a képernyőt</string>
+    <string name="gesture_wakeup_summary">Ha az Alapértelmezett vagy a Klasszikus téma van telepítve, dupla koppintással kikapcsolhatja a képernyőt</string>
     <string name="gesture_wakeup_title">Duplakoppintásos ébresztés vagy képernyőkikapcsolás</string>
     <string name="giga_hertz">GHz</string>
     <string name="gigabyteShort">GB</string>
@@ -3961,13 +3967,13 @@ Jelenleg a következő fiókokba van bejelentkezve:
     <string name="master_clear_confirm_title">Törli az összes adatot?</string>
     <string name="master_clear_desc">Ez minden adatot töröl a telefon belső tárhelyéről, többek között:
 
-az Ön Google-fiókját
-a rendszer- és alkalmazásadatokat és a beállításokat
-a letöltött alkalmazásokat</string>
+"<li>az Ön Google-fiókját</li>"
+"<li>a rendszer- és alkalmazásadatokat és a beállításokat</li>"
+"<li>a letöltött alkalmazásokat</li></string>
     <string name="master_clear_desc_also_erases_esim">eSIM-ek</string>
     <string name="master_clear_desc_also_erases_external">Zene
-Fotók
-Más felhasználói adatok</string>
+"<li>Fotók</li>"
+"<li>Más felhasználói adatok</li></string>
     <string name="master_clear_desc_erase_external_storage">"
 
 A zenék, képek és más felhasználói adatok törléséhez az USB-tárat is törölnie kell."</string>
@@ -4345,6 +4351,7 @@ Válassza ki a PC operációs rendszerét:</string>
     <string name="music_equalizer">Hangszínszabályzó</string>
     <string name="musicfx_title">Zenei hatások</string>
     <string name="mute">Néma mód</string>
+	<string name="mute_media_sound_summary">Játékok, zenék, videók, és egyéb alkalmazások</string>
     <string name="mute_media_sound_title">Média elnémítása Csendes módban</string>
     <string name="mute_music_stream">Médiahang elnémítása</string>
     <string name="mute_voiceassist_stream">Hangasszisztens-némítás</string>
@@ -5406,11 +5413,11 @@ Az OTG 10 perc inaktivitás után automatikusan kikapcsol.</string>
     <string name="reset_app_preferences_button">Visszaállítás</string>
     <string name="reset_app_preferences_desc">Ez visszaállítja a következőkre vonatkozó összes beállítást:
 
-letiltott alkalmazások;
-letiltott alkalmazásértesítések;
-alapértelmezett alkalmazások adott műveletekhez;
-az alkalmazások háttéradataira vonatkozó korlátozások;
-minden engedélykorlátozás.
+"<li>letiltott alkalmazások;</li>"
+"<li>letiltott alkalmazásértesítések;</li>"
+"<li>alapértelmezett alkalmazások adott műveletekhez;</li>"
+"<li>az alkalmazások háttéradataira vonatkozó korlátozások;</li>"
+"<li>minden engedélykorlátozás.</li>"
 
 Az alkalmazásadatok nem vesznek el.</string>
     <string name="reset_app_preferences_title">Visszaállítja a beállításokat?</string>
@@ -5433,9 +5440,9 @@ Indítsa újra az eszközt, majd próbálja újra.</string>
     <string name="reset_network_data">Mobiladat-kapcsolat</string>
     <string name="reset_network_desc">Az összes hálózati beállítást visszaállítja, például a következőket:
 
-Wi‑Fi
-Mobiladat
-Bluetooth</string>
+"<li>Wi‑Fi</li>"
+"<li>Mobiladat</li>"
+"<li>Bluetooth</li></string>
     <string name="reset_network_final_button_text">Beállítások visszaállítása</string>
     <string name="reset_network_final_desc">Most állítja vissza az összes hálózati beállítást? Ez eltarthat néhány másodpercig. Később nem vonhatja vissza ezt a műveletet.</string>
     <string name="reset_network_final_desc_esim">Visszaállítja az összes hálózati beállítást, és törli a letöltött SIM-eket? Ez a művelet nem vonható vissza.</string>
@@ -6256,6 +6263,8 @@ Megjegyzés: Nem használhatja ujjlenyomatát azt eszköz feloldására. Tovább
     <string name="show_background_processes">Tárolt folyamatok</string>
     <string name="show_badge_notifications_short">Jelvények</string>
     <string name="show_carrier_under_keyguard_title">Szolgáltató megjelenítése, ha a telefon zárolva van</string>
+	<string name="show_charging_in_non_lockscreen_animation">Töltésanimáció megjelenítése az eszköz feloldása után</string>
+    <string name="show_charging_in_non_lockscreen_animation_summary">A töltés animációjának megjelenítését a készülék feloldása után továbbra is elrejtheti, csak videólejátszáshoz és más hasonló teljes képernyős jelenetekhez</string>
     <string name="show_connected_devices_summary">A csatlakoztatott készülékek megtekintése</string>
     <string name="show_connected_devices_title">Csatlakoztatott készülékek</string>
     <string name="show_dev_already">Nincs rá szükség, Ön már fejlesztő.</string>
@@ -8280,6 +8289,8 @@ Engedélyezi ezt az összes olyan alkalmazásnál, amely keresést akar végezni
     <string name="wifi_type_approval_title">Típus jóváhagyása</string>
     <string name="wifi_unchanged">(nem változott)</string>
     <string name="wifi_unmetered_label">Nem mért</string>
+	<string name="wifi_unsaved_network_linking">SSID áthidalás ‑ Automatikus csatlakozás</string>
+    <string name="wifi_unsaved_network_linking_summary">Automatikus csatlakozási kísérletek engedélyezése új WPA/WPA2‑PSK 5GHz SSID a jelenlegi csatlakoztatott WPA/WPA2‑PSK 2GHz SSID hitelesítő adatok az SSID és a BSSID részleges egyezéséhez</string>
     <string name="wifi_unspecified">Kérjük, válasszon</string>
     <string name="wifi_use_system_certs">Rendszertanúsítvány használata</string>
     <string name="wifi_venue_website_button_text">Webhely megnyitása</string>
@@ -8318,6 +8329,8 @@ Győződjön meg róla, hogy a tanúsítvány valódi.</string>
     <string name="wifi_wapi_psk_type">Jelszótípus</string>
     <string name="wifi_wapi_user_cert">Felhasználói tanúsítvány</string>
     <string name="wifi_wapi_user_certificate">Felhasználói tanúsítvány</string>
+	<string name="wifi_whitelist_roaming">SSID áthidalás ‑ Gyors átadás</string>
+    <string name="wifi_whitelist_roaming_summary">Engedélyezi a különféle SSID-k közötti barangolást WPA/WPA2‑PSK APs azonos átjáró MAC-címmel</string>
     <string name="wifi_wps_available_first_item">WPS elérhető</string>
     <string name="wifi_wps_available_second_item"> (WPS elérhető)</string>
     <string name="wifi_wps_connected">%s Wi-Fi-hálózathoz csatlakoztatva</string>
