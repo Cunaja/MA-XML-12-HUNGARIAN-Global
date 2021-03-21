@@ -224,8 +224,8 @@ Figyelem: Az Ön által telepített alkalmazások adatai nem kerülnek Xiaomi Cl
     <string name="month_december_short">Dec</string>
     <string name="month_december_shortest">Dec</string>
     <string name="month_february">Február</string>
-    <string name="month_february_short">Feb</string>
-    <string name="month_february_shortest">Feb</string>
+    <string name="month_february_short">Febr</string>
+    <string name="month_february_shortest">Febr</string>
     <string name="month_january">Január</string>
     <string name="month_january_short">Jan</string>
     <string name="month_january_shortest">Jan</string>
@@ -248,8 +248,8 @@ Figyelem: Az Ön által telepített alkalmazások adatai nem kerülnek Xiaomi Cl
     <string name="month_october_short">Oct</string>
     <string name="month_october_shortest">Oct</string>
     <string name="month_september">Szeptember</string>
-    <string name="month_september_short">Szep</string>
-    <string name="month_september_shortest">Szep</string>
+    <string name="month_september_short">Szept</string>
+    <string name="month_september_shortest">Szept</string>
     <string name="more">Több</string>
     <string name="morning">Reggel</string>
     <string name="msg_alert_cancel_restore">Elemek visszaállítása folyamatban. Megállítja most?</string>
