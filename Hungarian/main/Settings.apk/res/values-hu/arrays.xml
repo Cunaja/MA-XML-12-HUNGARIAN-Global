@@ -560,7 +560,7 @@
         <item>Puerto Rico</item>
         <item>Santo Domingo</item>
         <item>São Paulo</item>
-        <item>St. John&apos;s</item>
+        <item>St. Johns</item>
         <item>St. Kitts és Nevis</item>
         <item>St. Lucia</item>
         <item>St. Thomas</item>
@@ -1152,7 +1152,7 @@ Figyelmeztetés: Csak Ubuntu 8.04-en!</item>
         <item>Közepes</item>
         <item>Alacsony</item>
         <item>Kritikus</item>
-        <item>?</item>
+        <item>\?</item>
     </array>
     <array name="screen_button_style">
         <item>Balkezes mód</item>
@@ -1467,7 +1467,7 @@ Figyelmeztetés: Csak Ubuntu 8.04-en!</item>
         <item>GTC</item>
         <item>SIM</item>
         <item>AKA</item>
-        <item>AKA&apos;</item>
+        <item>"AKA'"</item>
     </array>
     <array name="wifi_privacy_entries">
         <item>Véletlenszerű MAC használata</item>

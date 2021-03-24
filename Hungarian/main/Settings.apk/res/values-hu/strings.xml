@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="Accounts_settings_title">Fiókók</string>
+  <string name="Accounts_settings_title">Fiókok</string>
     <string name="a11y_settings_label">A Kisegítő lehetőségek beállításai</string>
     <string name="abc_action_bar_home_description">Ugrás a főoldalra</string>
     <string name="abc_action_bar_up_description">Fel</string>
@@ -86,7 +86,6 @@
 Nem minden alkalmazás támogatja ezt a beállítást."</string>
     <string name="accessibility_control_timeout_preference_title">Művelet elvégzésére szánt idő</string>
     <string name="accessibility_daltonizer_master_switch_title">Színkorrekció használata</string>
-    <string name="accessibility_caption_preference_summary">Nem minden alkalmazás támogatja ezeket a feliratbeállításokat</string>
     <string name="accessibility_description_state_stopped">Ez a szolgáltatás nem működik megfelelően.</string>
     <string name="accessibility_dialog_button_allow">Engedélyezés</string>
     <string name="accessibility_dialog_button_cancel">Mégse</string>
@@ -311,7 +310,6 @@ A funkciók közötti váltáshoz csúsztasson felfelé három ujjával, és ne 
     <string name="activity_check_context">"A készülék most próbál csatlakozni az internethez. Ez a folyamat a vártnál tovább tarthat, ha mobiladatokat használ. Ehelyett visszatérhet a wi-fi hálózathoz, vagy megvárhatja a mobil adatkapcsolat létrejöttét."</string>
     <string name="activity_check_title">Csatlakozás az internethez</string>
     <string name="activity_not_found">Az alkalmazás nincs telepítve a telefonra.</string>
-    <string name="activity_not_found">Az alkalmazás már nincs telepítve a telefonján.</string>
     <string name="activity_picker_label">Válassza ki a tevékenységet</string>
     <string name="activity_title_power_manager">Akkumulátorkímélő;Akku kímélése</string>
     <string name="ad_service">Hirdetési szolgáltatások</string>
@@ -4900,7 +4898,7 @@ Az OTG 10 perc inaktivitás után automatikusan kikapcsol.</string>
     <string name="paper_mode_reset">Alapbeállítások visszaállítása</string>
     <string name="paper_mode_side_effect_hint">A magasabb intenzitás hatással lehet a tartalom megjelenítésének módjára</string>
     <string name="paper_mode_start_time_title">Kezdés</string>
-    <string name="paper_mode_summary">Vàltson melegebb színekre és adjon hozzá papírtextúrát a hátterekhez a szemfáradtság csökkentése érdekében</string>
+    <string name="paper_mode_summary">Váltson melegebb színekre és adjon hozzá papírtextúrát a hátterekhez a szemfáradtság csökkentése érdekében</string>
     <string name="paper_mode_title">Papír</string>
     <string name="papger_effect_category">Mód</string>
     <string name="partial_connectivity_text">Egyes alkalmazások és szolgáltatások esetleg nem működnek a korlátozott kapcsolat miatt. Használja?</string>
@@ -5459,9 +5457,9 @@ Indítsa újra az eszközt, majd próbálja újra.</string>
     <string name="resetting_second_space_passwd">A Második asztal jelszavának visszaállítása</string>
     <string name="resident_timezone_summary">A második óra</string>
     <string name="resolution_fhd">FHD+</string>
-    <string name="resolution_fhd_summary">%d×%d (kíméli az akkumulátort)</string>
+    <string name="resolution_fhd_summary" formatted="false">%d×%d (kíméli az akkumulátort)</string>
     <string name="resolution_qhd">WQHD+</string>
-    <string name="resolution_qhd_summary">%d×%d (tisztább megjelenés)</string>
+    <string name="resolution_qhd_summary" formatted="false">%d×%d (tisztább megjelenés)</string>
     <string name="resolver_settings_label">Rendezés</string>
     <string name="restore_default_apn">Alapértelmezett APN-beállítások visszaállítása.</string>
     <string name="restore_default_apn_completed">Az alapértelmezett APN-beállítások visszaállítása befejeződött.</string>
