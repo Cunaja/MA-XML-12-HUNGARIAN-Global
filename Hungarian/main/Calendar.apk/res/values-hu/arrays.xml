@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="aquarius_info">
+    <string-array name="aquarius_info">
         <item>vízöntő</item>
         <item>Vízöntő</item>
         <item>1.20 - 2.18</item>
-    </array>
-    <array name="aries_info">
+    </string-array>
+    <string-array name="aries_info">
         <item>kos</item>
         <item>Kos</item>
         <item>3.21 - 4.19</item>
-    </array>
-    <array name="cancer_info">
+    </string-array>
+    <string-array name="cancer_info">
         <item>rák</item>
         <item>Rák</item>
         <item>6.22 - 7.22</item>
-    </array>
-    <array name="capricorn_info">
+    </string-array>
+    <string-array name="capricorn_info">
         <item>bak</item>
         <item>Bak</item>
         <item>12.22 - 1.19</item>
-    </array>
-    <array name="change_response_labels">
+    </string-array>
+    <string-array name="change_response_labels">
         <item>Csak ezt az eseményt</item>
         <item>Minden eseményt a sorozatban</item>
-    </array>
-    <array name="close_alarm_repeating_labels">
+    </string-array>
+    <string-array name="close_alarm_repeating_labels">
         <item>Csak erre az időpontra</item>
         <item>Ismétlődő emlékeztető kikapcsolása</item>
-    </array>
-    <array name="date_calculate_spinner">
+    </string-array>
+    <string-array name="date_calculate_spinner">
         <item>Utána</item>
         <item>Előtte</item>
-    </array>
-    <array name="default_reminder_labels">
+    </string-array>
+    <string-array name="default_reminder_labels">
         <item>Esemény idejében</item>
         <item>5 perccel előtte</item>
         <item>10 perccel előtte</item>
@@ -42,60 +42,60 @@
         <item>1 nappal előtte</item>
         <item>2 nappal előtte</item>
         <item>1 héttel előtte</item>
-    </array>
-    <array name="default_reminder_later_time_labels">
+    </string-array>
+    <string-array name="default_reminder_later_time_labels">
         <item>5 perc</item>
         <item>10 perc</item>
         <item>15 perc</item>
         <item>30 perc</item>
         <item>1 óra</item>
-    </array>
-    <array name="delete_repeating_labels">
+    </string-array>
+    <string-array name="delete_repeating_labels">
         <item>Csak ezt az eseményt</item>
         <item>Ezt és a jövőbeli eseményeket</item>
         <item>Minden eseményt</item>
-    </array>
-    <array name="gemini_info">
+    </string-array>
+    <string-array name="gemini_info">
         <item>ikrek</item>
         <item>Ikrek</item>
         <item>5.21 - 6.21</item>
-    </array>
-    <array name="leo_info">
+    </string-array>
+    <string-array name="leo_info">
         <item>oroszlán</item>
         <item>Oroszlán</item>
         <item>7.23 - 8.22</item>
-    </array>
-    <array name="libra_info">
+    </string-array>
+    <string-array name="libra_info">
         <item>mérleg</item>
         <item>Mérleg</item>
         <item>9.23 - 10.23</item>
-    </array>
-    <array name="open_alarm_repeating_labels">
+    </string-array>
+    <string-array name="open_alarm_repeating_labels">
         <item>Csak erre az időpontra</item>
         <item>Ismétlődő emlékeztető beállítása</item>
-    </array>
-    <array name="pisces_info">
+    </string-array>
+    <string-array name="pisces_info">
         <item>halak</item>
         <item>Halak</item>
         <item>2.19 - 3.20</item>
-    </array>
-    <array name="prefEntries_alerts_popup_new">
+    </string-array>
+    <string-array name="prefEntries_alerts_popup_new">
         <item>Ki</item>
         <item>Az összes eseményre</item>
         <item>Az időérzékeny eseményekre</item>
-    </array>
-    <array name="prefEntries_alerts_vibrateWhen">
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
         <item>Mindig</item>
         <item>Ha a csengetés némítva van</item>
         <item>Soha</item>
-    </array>
-    <array name="preferences_week_start_day_labels">
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
         <item>Régió alapértelmezése szerint</item>
         <item>Szombat</item>
         <item>Vasárnap</item>
         <item>Hétfő</item>
-    </array>
-    <array name="repeat_choose_day">
+    </string-array>
+    <string-array name="repeat_choose_day">
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -127,13 +127,13 @@
         <item>29</item>
         <item>30</item>
         <item>31</item>
-    </array>
-    <array name="repeat_choose_end">
+    </string-array>
+    <string-array name="repeat_choose_end">
         <item>Soha</item>
         <item>Idő</item>
         <item>Ismétlések száma</item>
-    </array>
-    <array name="repeat_choose_month">
+    </string-array>
+    <string-array name="repeat_choose_month">
         <item>Jan</item>
         <item>Febr</item>
         <item>Márc</item>
@@ -146,20 +146,20 @@
         <item>Okt</item>
         <item>Nov</item>
         <item>Dec</item>
-    </array>
-    <array name="repeat_choose_week_left">
+    </string-array>
+    <string-array name="repeat_choose_week_left">
         <item>első</item>
         <item>második</item>
         <item>harmadik</item>
         <item>negyedik</item>
         <item>utolsó</item>
-    </array>
-    <array name="repeat_choose_week_right">
+    </string-array>
+    <string-array name="repeat_choose_week_right">
         <item>Hétfőtől-Péntekig</item>
         <item>Hétvégén</item>
         <item>Egész héten</item>
-    </array>
-    <array name="repeat_choose_weekday">
+    </string-array>
+    <string-array name="repeat_choose_weekday">
         <item>H</item>
         <item>K</item>
         <item>Sze</item>
@@ -167,19 +167,19 @@
         <item>P</item>
         <item>Szo</item>
         <item>V</item>
-    </array>
-    <array name="repeat_countdown">
+    </string-array>
+    <string-array name="repeat_countdown">
         <item>Soha</item>
         <item>Havonta</item>
         <item>Évente</item>
-    </array>
-    <array name="repeat_frequency_spinner">
+    </string-array>
+    <string-array name="repeat_frequency_spinner">
         <item>nap</item>
         <item>hét</item>
         <item>hónap</item>
         <item>év</item>
-    </array>
-    <array name="repeat_monthly_on_day_count_values">
+    </string-array>
+    <string-array name="repeat_monthly_on_day_count_values">
         <item>első hétfő</item>
         <item>első kedd</item>
         <item>első szerda</item>
@@ -215,35 +215,35 @@
         <item>múlt péntek</item>
         <item>múlt szombat</item>
         <item>múlt vasárnap</item>
-    </array>
-    <array name="response_labels1">
+    </string-array>
+    <string-array name="response_labels1">
         <item>Nincs válasz</item>
         <item>Igen</item>
         <item>Talán</item>
         <item>Nem</item>
-    </array>
-    <array name="response_labels2">
+    </string-array>
+    <string-array name="response_labels2">
         <item>Nem válaszolok</item>
         <item>Elfogadom</item>
         <item>Később döntök</item>
         <item>Elutasítás</item>
-    </array>
-    <array name="sagittarius_info">
+    </string-array>
+    <string-array name="sagittarius_info">
         <item>nyilas</item>
         <item>Nyilas</item>
         <item>11.23 - 12.21</item>
-    </array>
-    <array name="scorpio_info">
+    </string-array>
+    <string-array name="scorpio_info">
         <item>skorpió</item>
         <item>Skorpió</item>
         <item>10.24 - 11.22</item>
-    </array>
-    <array name="taurus_info">
+    </string-array>
+    <string-array name="taurus_info">
         <item>bika</item>
         <item>Bika</item>
         <item>4.20 - 5.20</item>
-    </array>
-    <array name="timezone_labels_v3">
+    </string-array>
+    <string-array name="timezone_labels_v3">
         <item>Marshall Islands</item>
         <item>Midway Island</item>
         <item>Hawaii</item>
@@ -302,7 +302,7 @@
         <item>Dubai</item>
         <item>Kabul</item>
         <item>Karachi</item>
-        <item>Ural&apos;sk</item>
+        <item>"Ural'sk"</item>
         <item>Yekaterinburg</item>
         <item>Kolkata</item>
         <item>Sri Lanka</item>
@@ -335,20 +335,20 @@
         <item>Auckland</item>
         <item>Fiji</item>
         <item>Tonga</item>
-    </array>
-    <array name="travel_reminder_minutes_labels">
+    </string-array>
+    <string-array name="travel_reminder_minutes_labels">
         <item>3 órával előtte</item>
         <item>4 órával előtte</item>
         <item>5 órával előtte</item>
         <item>6 órával előtte</item>
         <item>1 nappal előtte</item>
-    </array>
-    <array name="virgo_info">
+    </string-array>
+    <string-array name="virgo_info">
         <item>szűz</item>
         <item>Szűz</item>
         <item>8.23 - 9.22</item>
-    </array>
-    <array name="week_header_name">
+    </string-array>
+    <string-array name="week_header_name">
         <item>V</item>
         <item>H</item>
         <item>K</item>
@@ -356,12 +356,12 @@
         <item>CS</item>
         <item>P</item>
         <item>SZO</item>
-    </array>
-    <array name="widget_style_list">
+    </string-array>
+    <string-array name="widget_style_list">
         <item>Átlátszó</item>
         <item>Fehér háttér</item>
-    </array>
-    <array name="year_view_week_header_name">
+    </string-array>
+    <string-array name="year_view_week_header_name">
         <item>v.</item>
         <item>h.</item>
         <item>k.</item>
@@ -369,5 +369,5 @@
         <item>cs.</item>
         <item>p.</item>
         <item>szo.</item>
-    </array>
+    </string-array>
 </resources>

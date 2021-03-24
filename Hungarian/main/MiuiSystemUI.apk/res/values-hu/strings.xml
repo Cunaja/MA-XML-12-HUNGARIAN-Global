@@ -256,8 +256,8 @@
     <string name="available_via_carrier">%1$s igénybevételével elérhető</string>
     <string name="available_via_passpoint">%1$s igénybevételével elérhető</string>
     <string name="back">Vissza</string>
-    <string name="band_24G"> (2,4 GHz-es frekvenciasáv)</string>
-    <string name="band_5G"> (5 GHz-es frekvenciasáv)</string>
+    <string name="band_24G">" (2,4 GHz-es frekvenciasáv)"</string>
+    <string name="band_5G">" (5 GHz-es frekvenciasáv)"</string>
     <string name="battery">Akkumulátor</string>
     <string name="battery_detail_charging_summary">Az akkumulátorkímélő nem érhető el töltés közben</string>
     <string name="battery_detail_switch_summary">Korlátozza a teljesítményt és a háttéradatokat</string>
@@ -340,6 +340,8 @@
     <string name="bluetooth_select_a2dp_codec_type">Bluetooth hangkodek</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">Bluetooth AVRCP-verzió kiválasztása</string>
     <string name="bluetooth_select_avrcp_version_string">Bluetooth AVRCP-verzió</string>
+    <string name="bluetooth_select_map_version_dialog_title">Bluetooth MAP verzió kiválasztása</string>
+    <string name="bluetooth_select_map_version_string">Bluetooth MAP Verzió</string>
     <string name="bluetooth_show_devices_without_names">Névtelen Bluetooth-eszközök megjelenítése</string>
     <string name="bluetooth_show_devices_without_names_summary">A névtelen Bluetooth-eszközök (csak MAC-címek) kerülnek megjelenítésre</string>
     <string name="bluetooth_talkback_computer">Számítógép</string>
@@ -389,7 +391,7 @@
     <string name="connected_via_network_scorer_default">Automatikusan csatlakozva halózatminősítő szolgáltatóval</string>
     <string name="connected_via_passpoint">Csatlakozva %1$s segítségével</string>
     <string name="content_description_menu_button">Menü</string>
-	<string name="control_center_notification_switch_guide">Pöccintéssel válthat a Vezérlőközpont és az Értesítés árnyék között</string>
+    <string name="control_center_notification_switch_guide">Pöccintéssel válthat a Vezérlőközpont és az Értesítés árnyék között</string>
     <string name="convert_to_file_encryption">Fájl átalakítása titkosításhoz</string>
     <string name="convert_to_file_encryption_done">A fájlok titkosítva lettek</string>
     <string name="convert_to_file_encryption_enabled">Konvertálás…</string>
@@ -402,9 +404,9 @@
     <string name="daltonizer_type_overridden">Felülírva %1$s által</string>
     <string name="data_connection_no_internet">Nem csatlakozott az internethez</string>
     <string name="data_saver">Adatforgalom-csökkentő</string>
-    <string name="data_usage_disabled_dialog">Ön elérte a beállított adatforgalmi korlátot. Nem használhat mobiladat-forgalmat.
-	
-Ha újraindítja, akkor szolgáltatója költségeket számíthat fel az adatforgalomért.</string>
+    <string name="data_usage_disabled_dialog">"Ön elérte a beállított adatforgalmi korlátot. Nem használhat mobiladat-forgalmat.
+
+Ha újraindítja, akkor szolgáltatója költségeket számíthat fel az adatforgalomért."</string>
     <string name="data_usage_disabled_dialog_3g_title">2G-3G adatok szüneteltetve</string>
     <string name="data_usage_disabled_dialog_4g_title">4G adatok szüneteltetve</string>
     <string name="data_usage_disabled_dialog_enable">Folytatás</string>
@@ -444,7 +446,7 @@ Ha újraindítja, akkor szolgáltatója költségeket számíthat fel az adatfor
     <string name="disabled_by_admin_summary_text">Rendszergazda által felügyelve</string>
     <string name="disconnect_vpn">VPN kapcsolat bontása</string>
     <string name="dnd_is_off">Ne zavarjanak (DND) kikapcsolva</string>
-    <string name="dnd_notification_warnings_title">A \'Ne zavarjanak\' be van kapcsolva. A hanghívások és az értesítések némításra kerülnek.</string>
+    <string name="dnd_notification_warnings_title">"A 'Ne zavarjanak' be van kapcsolva. A hanghívások és az értesítések némításra kerülnek.</string>
     <string name="do_disclosure_generic">Ezt a készüléket az Ön cége kezeli</string>
     <string name="do_disclosure_with_name">Ezt a készüléket a(z) %s kezeli</string>
     <string name="do_not_silence">Ne némítsa le</string>
@@ -514,7 +516,7 @@ Ha újraindítja, akkor szolgáltatója költségeket számíthat fel az adatfor
     <string name="fs_gesture_back_ready_title">Visszalépés</string>
     <string name="fs_gesture_final_over">Készen állok</string>
     <string name="fs_gesture_final_restart">Még egyszer</string>
-    <string name="fs_gesture_final_summary">A Beállítások &gt; Képernyővezérlési mód menüpontban vissza tud térni a Gombok használatához</string>
+    <string name="fs_gesture_final_summary">A Beállítások > Képernyővezérlési mód menüpontban vissza tud térni a Gombok használatához</string>
     <string name="fs_gesture_final_title">Készen áll a használatra!</string>
     <string name="fs_gesture_finish">Szép!</string>
     <string name="fs_gesture_left_back_ready_summary">Csúsztasson jobbra a képernyő széléről</string>
@@ -555,9 +557,9 @@ Ha újraindítja, akkor szolgáltatója költségeket számíthat fel az adatfor
     <string name="hidden_notifications_setup">Beállítás</string>
     <string name="hidden_notifications_text">Feloldás nélkül láthatja őket</string>
     <string name="hidden_notifications_title">Gyorsabban érheti el az értesítéseit</string>
-    <string name="high_temp_dialog_message">Telefonja megkísérel automatikusan lehűlni. Használhatja a telefont, de a készüléke lassabb lehet.
+    <string name="high_temp_dialog_message">"Telefonja megkísérel automatikusan lehűlni. Használhatja a telefont, de a készüléke lassabb lehet.
 
-Miután a telefon lehűlt, normálisan fog működni.</string>
+Miután a telefon lehűlt, normálisan fog működni."</string>
     <string name="high_temp_notif_message">Néhány funkció korlátozásra került, míg a készülék egy kicsit lehűl</string>
     <string name="high_temp_title">A telefon egyre melegebb</string>
     <string name="home">A kezdőképernyő beállításai</string>
@@ -575,7 +577,7 @@ Miután a telefon lehűlt, normálisan fog működni.</string>
     <string name="ims_reg_status_not_registered">Nem bejegyzett</string>
     <string name="ims_reg_status_registered">Bejegyzett</string>
     <string name="ims_reg_title">IMS-regisztrációállapot</string>
-    <string name="imsi_protection_warning">Ez a hálózat egyedi azonosítót kap, amely felhasználható az eszköz helyadatainak követésére. További információ.</string>
+    <string name="imsi_protection_warning">Ez a hálózat egyedi azonosítót kap, amely felhasználható az eszköz helyadatainak követésére. <annotation id="url">További információ</annotation>.</string>
     <string name="inactive_app_active_summary">Aktív. Érintse meg a váltáshoz.</string>
     <string name="inactive_app_inactive_summary">Inaktív. Érintse meg a váltáshoz.</string>
     <string name="inactive_apps_title">Készenléti alkalmazások</string>
@@ -595,17 +597,17 @@ Miután a telefon lehűlt, normálisan fog működni.</string>
     <string name="instant_apps">Azonnali alkalmazások</string>
     <string name="instant_apps_message">Az Azonnali alkalmazások nem igényelnek telepítést.</string>
     <string name="interruption_level_alarms">Csak az ébresztések</string>
-    <string name="interruption_level_alarms_twoline">Csak az
-ébresztések</string>
+    <string name="interruption_level_alarms_twoline">"Csak az
+ébresztések"</string>
     <string name="interruption_level_none">Teljes némítás</string>
     <string name="interruption_level_none_twoline">Teljes
 némítás</string>
     <string name="interruption_level_none_with_warning">Teljes némítás. Ez a képernyő-felolvasó alkalmazásokat is lenémítja.</string>
     <string name="interruption_level_priority">Csak a fontosak</string>
-    <string name="interruption_level_priority_twoline">Csak a
-fontosak</string>
-    <string name="invalid_charger">USB töltés nem támogatott.
-Használja a mellékelt töltőt.</string>
+    <string name="interruption_level_priority_twoline">"Csak a
+fontosak"</string>
+    <string name="invalid_charger">"USB töltés nem támogatott.
+Használja a mellékelt töltőt."</string>
     <string name="invalid_charger_text">Használja a mellékelt töltőt.</string>
     <string name="invalid_charger_title">USB töltés nem támogatott.</string>
     <string name="invalid_confirm_pin_hint">A PIN-kódok nem egyeznek</string>
@@ -679,10 +681,10 @@ Használja a mellékelt töltőt.</string>
     <string name="keyguard_password_enter_pin_prompt">Új SIM PIN-kód</string>
     <string name="keyguard_password_enter_puk_code">Adja meg a SIM PUK-kódját és az új PIN-kódot</string>
     <string name="keyguard_password_enter_puk_prompt">SIM PUK-kód</string>
-    <string name="keyguard_password_entry_touch_hint">Érintse meg a jelszó megadásához</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Érintse meg a jelszó megadásához</font></string>
     <string name="keyguard_password_wrong_pin_code">A PIN-kód hibás.</string>
-    <string name="keyguard_permanent_disabled_sim_instructions">A SIM-kártyája véglegesen le lett tiltva.
-Forduljon a vezeték nélküli szolgáltatójához másik SIM-kártyáért.</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"A SIM-kártyája véglegesen le lett tiltva.
+Forduljon a vezeték nélküli szolgáltatójához másik SIM-kártyáért."</string>
     <string name="keyguard_permanent_disabled_sim_message_short">Használhatatlan SIM-kártya.</string>
     <string name="keyguard_plugged_in">Töltés</string>
     <string name="keyguard_plugged_in_charging_fast">Gyorstöltés</string>
@@ -696,9 +698,9 @@ Forduljon a vezeték nélküli szolgáltatójához másik SIM-kártyáért.</str
     <string name="kg_enter_confirm_pin_hint">Erősítse meg az új PIN-kódot</string>
     <string name="kg_failed_attempts_almost_at_erase_profile">%1$d alkalommal próbálta meg helytelenül feloldani a telefont. %2$d további sikertelen kísérlet után, ez a munkaprofil törlésre kerül, s vele együtt az összes hozzá tartozó profiladat is.</string>
     <string name="kg_failed_attempts_almost_at_erase_user">%1$d alkalommal próbálta meg helytelenül feloldani a telefont. %2$d további sikertelen kísérlet után ez a felhasználó törlésre kerül, s vele együtt az összes hozzá tartozó adat is.</string>
-    <string name="kg_failed_attempts_almost_at_login">Hibásan rajzolta le a feloldómintáját %1$d alkalommal. További %2$d sikertelen kísérlet után kérheti a telefon feloldását egy e-mailfiók segítségével.
+    <string name="kg_failed_attempts_almost_at_login">"Hibásan rajzolta le a feloldómintáját %1$d alkalommal. További %2$d sikertelen kísérlet után kérheti a telefon feloldását egy e-mailfiók segítségével.
 
-Próbálkozzon újra %3$d másodperc múlva.</string>
+Próbálkozzon újra %3$d másodperc múlva."</string>
     <string name="kg_failed_attempts_almost_at_wipe">%1$d sikertelen feloldási kísérlet. További %2$d sikertelen kísérlet után a telefon visszaáll a gyári adatokra és minden felhasználói adat törlődik.</string>
     <string name="kg_failed_attempts_now_erasing_profile">%d alkalommal próbálta meg helytelenül feloldani a telefont. Ez a munkaprofil törlésre kerül, s vele együtt az összes hozzá tartozó profiladat is.</string>
     <string name="kg_failed_attempts_now_erasing_user">%d alkalommal próbálta meg helytelenül feloldani a telefont. Ez a felhasználó törlésre kerül, s vele együtt az összes hozzá tartozó adat is.</string>
@@ -734,16 +736,15 @@ Próbálkozzon újra %3$d másodperc múlva.</string>
     <string name="kg_sim_pin_instructions">Adja meg a SIM-kártya PIN-kódját</string>
     <string name="kg_sim_pin_instructions_multi">Adja meg a(z) %1$s SIM-kártya PIN-kódját</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM-kártya feloldása…</string>
-    <string name="kg_too_many_failed_password_attempts_dialog_message">%1$d alkalommal hibásan adta meg a jelszavát.
+    <string name="kg_too_many_failed_password_attempts_dialog_message">"%1$d alkalommal hibásan adta meg a jelszavát.
 
+Próbálja újra %2$d másodperc múlva."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">"%1$d alkalommal hibásan rajzolta le a feloldómintáját.
 
-Próbálja újra %2$d másodperc múlva.</string>
-    <string name="kg_too_many_failed_pattern_attempts_dialog_message">%1$d alkalommal hibásan rajzolta le a feloldómintáját.
+Próbálja újra %2$d másodperc múlva."</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"%1$d alkalommal hibásan adta meg a PIN-kódját.
 
-Próbálja újra %2$d másodperc múlva.</string>
-    <string name="kg_too_many_failed_pin_attempts_dialog_message">%1$d alkalommal hibásan adta meg a PIN-kódját.
-
-Próbálja újra %2$d másodperc múlva.</string>
+Próbálja újra %2$d másodperc múlva."</string>
     <string name="kg_wrong_password">Hibás jelszó</string>
     <string name="kg_wrong_pattern">Hibás minta</string>
     <string name="kg_wrong_pin">Hibás PIN-kód</string>
@@ -763,10 +764,10 @@ Próbálja újra %2$d másodperc múlva.</string>
     <string name="lock_screen_carrier_airplane_mode_on">Repülőgépmód</string>
     <string name="lock_screen_date">MMMM d., EEEE</string>
     <string name="lock_screen_date_12">MMMM d., EEEE</string>
-    <string name="lock_screen_date_two_lines">MMMM d.
-EEEE</string>
-    <string name="lock_screen_date_two_lines_12">MMMM d.
-EEEE</string>
+    <string name="lock_screen_date_two_lines">"MMMM d.
+EEEE"</string>
+    <string name="lock_screen_date_two_lines_12">"MMMM d.
+EEEE"</string>
     <string name="lock_screen_magazine_default_content">A friss képek napi beosztása</string>
     <string name="lock_screen_magazine_default_title">Váltakozó háttérképek</string>
     <string name="lock_screen_magazine_global_button_text">Továbbiak</string>
@@ -811,11 +812,11 @@ EEEE</string>
     <string name="mock_location_app_not_set">Nincs kiválasztott helyimitáló alkalmazás</string>
     <string name="mock_location_app_set">Helyimitáló alkalmazás: %1$s</string>
     <string name="monitoring_button_view_policies">Irányelvek megtekintése</string>
-    <string name="monitoring_description_app">Ön %1$s alkalmazással csatlakozott, ami ellenőrizheti az Ön hálózati aktivitásait, beleértve az e-mail, alkalmazás és internetes tevékenységeit.</string>
-    <string name="monitoring_description_app_personal">Ön csatlakozott a következőhöz: %1$s, amely képes megfigyelni az Ön személyes hálózati tevékenységét, beleértve az e-maileket, alkalmazásokat és weboldalakat.</string>
-    <string name="monitoring_description_app_personal_work">Az Ön munkahelyi profilja %1$s kezelésében áll. A profil a következőhöz csatlakozik: %2$s, amely képes megfigyelni az Ön munkahelyi hálózati tevékenységét, beleértve az e-maileket, alkalmazásokat és weboldalakat.
+    <string name="monitoring_description_app">"Ön %1$s alkalmazással csatlakozott, ami ellenőrizheti az Ön hálózati aktivitásait, beleértve az e-mail, alkalmazás és internetes tevékenységeit."</string>
+    <string name="monitoring_description_app_personal">"Ön csatlakozott a következőhöz: %1$s, amely képes megfigyelni az Ön személyes hálózati tevékenységét, beleértve az e-maileket, alkalmazásokat és weboldalakat."</string>
+    <string name="monitoring_description_app_personal_work">"Az Ön munkahelyi profilja %1$s kezelésében áll. A profil a következőhöz csatlakozik: %2$s, amely képes megfigyelni az Ön munkahelyi hálózati tevékenységét, beleértve az e-maileket, alkalmazásokat és weboldalakat.
 
-Ön szintén csatlakozik a következőhöz is: %3$s, amely képes megfigyelni az Ön személyes hálózati tevékenységét.</string>
+Ön szintén csatlakozik a következőhöz is: %3$s, amely képes megfigyelni az Ön személyes hálózati tevékenységét."</string>
     <string name="monitoring_description_app_work">Az Ön munkahelyi profilja %1$s kezelésében áll. A profil a következőhöz csatlakozik: %2$s, amely képes megfigyelni az Ön munkahelyi hálózati tevékenységét, beleértve az e-maileket, alkalmazásokat és weboldalakat.
 
 További információért forduljon a rendszergazdájához.</string>
@@ -828,34 +829,34 @@ További információért forduljon a rendszergazdájához.</string>
     <string name="monitoring_description_do_learn_more">További információ</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Az Ön cége tanúsítványjogosultságot telepített az Ön munkaprofiljába. A biztonságos hálózati forgalma figyelemmel kísérhető vagy módosítható.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Munkahelyi profilja %1$s-re csatlakoztatva, ez ellenőrizheti az Ön hálózati aktivitásait, beleértve az e-mail, alkalmazás és internetes tevékenységeit.</string>
-    <string name="monitoring_description_management">Az Ön készülékét a cége kezeli.
-	
+    <string name="monitoring_description_management">"Az Ön készülékét a cége kezeli.
+
 A rendszergazda tudja ellenőrizni és módosítani a beállításokat, a vállalati hozzáférést, az alkalmazásokat, a készülékhez társított adatokat és a készülék helyinformációit.
 
-További információkért keresse fel rendszergazdáját.</string>
+További információkért keresse fel rendszergazdáját."</string>
     <string name="monitoring_description_management_ca_certificate">Az Ön cége tanúsítványjogosultságot telepített az Ön készülékére. A biztonságos hálózati forgalma figyelemmel kísérhető vagy módosítható.</string>
     <string name="monitoring_description_management_network_logging">Rendszergazdája bekapcsolta a hálózatnaplózást, ami ellenőrzi a forgalmat a készülékén.</string>
-    <string name="monitoring_description_named_management">Az Ön készülékét a %1$s kezeli.
-	
+    <string name="monitoring_description_named_management">"Az Ön készülékét a %1$s kezeli.
+
 A rendszergazda tudja ellenőrizni és módosítani a beállításokat, a vállalati hozzáférést, az alkalmazásokat, a készülékhez társított adatokat és a készülék helyinformációit.
 
-További információkért keresse fel rendszergazdáját.</string>
-    <string name="monitoring_description_named_vpn">Ön %1$s-re csatlakozott, ez ellenőrizheti az Ön hálózati aktivitásait, beleértve az e-mail, alkalmazás és internetes tevékenységeit.</string>
-    <string name="monitoring_description_network_logging">Az Ön rendszergazdája bekapcsolta a hálózati naplózást, ami ellenőrzi a készüléke forgalmát.
-	
-További információért forduljon a rendszergazdájához.</string>
-    <string name="monitoring_description_personal_profile_named_vpn">Az Ön személyes profilja %1$s-re csatlakoztatva, ez ellenőrizheti az Ön hálózati aktivitásait, beleértve az e-mail, alkalmazás és internetes tevékenységeit.</string>
-    <string name="monitoring_description_two_named_vpns">Ön %1$s-re és %2$s-re csatlakozott, ezek ellenőrizhetik az Ön hálózati aktivitásait, beleértve az e-mail, alkalmazás és internetes tevékenységeit.</string>
-    <string name="monitoring_description_vpn">Ön engedélyt adott egy alkalmazásnak egy VPN-kapcsolat beállítására.
-	
-Ez az alkalmazás képes figyelemmel kísérni az Ön készülékét és a hálózati tevékenységét, beleértve az e-maileket, alkalmazásokat és weboldalakat.</string>
-    <string name="monitoring_description_vpn_profile_owned">Az Ön munkaprofilját %1$s kezeli.
+További információkért keresse fel rendszergazdáját."</string>
+    <string name="monitoring_description_named_vpn">"Ön %1$s-re csatlakozott, ez ellenőrizheti az Ön hálózati aktivitásait, beleértve az e-mail, alkalmazás és internetes tevékenységeit."</string>
+    <string name="monitoring_description_network_logging">"Az Ön rendszergazdája bekapcsolta a hálózati naplózást, ami ellenőrzi a készüléke forgalmát.
+
+További információért forduljon a rendszergazdájához."</string>
+    <string name="monitoring_description_personal_profile_named_vpn">Az Ön személyes profilja %1$s-re csatlakoztatva, ez ellenőrizheti az Ön hálózati aktivitásait, beleértve az e-mail, alkalmazás és internetes tevékenységeit."</string>
+    <string name="monitoring_description_two_named_vpns">"Ön %1$s-re és %2$s-re csatlakozott, ezek ellenőrizhetik az Ön hálózati aktivitásait, beleértve az e-mail, alkalmazás és internetes tevékenységeit.</string>
+    <string name="monitoring_description_vpn">"Ön engedélyt adott egy alkalmazásnak egy VPN-kapcsolat beállítására.
+
+Ez az alkalmazás képes figyelemmel kísérni az Ön készülékét és a hálózati tevékenységét, beleértve az e-maileket, alkalmazásokat és weboldalakat."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Az Ön munkaprofilját %1$s kezeli.
 
 A rendszergazda képes felügyelni az Ön hálózati tevékenységét, beleértve az e-maileket, alkalmazásokat és weboldalakat.
 
 További információért forduljon a rendszergazdájához.
 
-Szintén csatlakozik egy VPN-hez is, amely képes megfigyelni a hálózati tevékenységét.</string>
+Szintén csatlakozik egy VPN-hez is, amely képes megfigyelni a hálózati tevékenységét."</string>
     <string name="monitoring_description_vpn_settings">VPN-beállítások megnyitása</string>
     <string name="monitoring_subtitle_ca_certificate">CA Tanúsítványok</string>
     <string name="monitoring_subtitle_network_logging">Hálózatnaplózás</string>
@@ -928,11 +929,11 @@ Szintén csatlakozik egy VPN-hez is, amely képes megfigyelni a hálózati tevé
     <string name="phone_locked_foget_password">Elfelejtette a jelszavát?</string>
     <string name="phone_locked_foget_password_mehod_back">Vissza</string>
     <string name="phone_locked_foget_password_method">Elfelejtette a jelszavát?</string>
-    <string name="phone_locked_foget_password_method_content">&lt;Data&gt;Törölnie kell &lt;font color=#a5220e&gt;a készüléken lévő összes adatot&lt;/font&gt;, beleértve a fényképeket és a névjegyeket is, majd be kell állítania egy új Képernyőzárjelszót.&lt;/Data&gt;</string>
+    <string name="phone_locked_foget_password_method_content"><Data>Törölnie kell &lt;font color=#a5220e>a készüléken lévő összes adatot &lt;/font>beleértve a fényképeket és a névjegyeket is, majd be kell állítania egy új Képernyőzárjelszót.</Data></string>
     <string name="phone_locked_foget_password_method_next">Tovább</string>
     <string name="phone_locked_foget_password_ok">Rendben</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Kapcsolja ki a készüléket, majd nyomja meg a &lt;font color=#a5220e&gt;Hangerő fel&lt;/font&gt; és a &lt;font color=#a5220e&gt;Bekapcsoló&lt;/font&gt; gombokat egyszerre és tartsa nyomva, míg a MI logó meg nem jelenik.&lt;/Data&gt;</string>
-    <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Válassza a &lt;font color=#a5220e&gt;\"Wipe &amp;amp; Reset\"&lt;/font&gt; lehetőséget és várja meg, míg a készülék újraindul.;&lt;/Data&gt;</string>
+    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Kapcsolja ki a készüléket, majd nyomja meg a &lt;font color=#a5220e>Hangerő fel&lt;/font> és a &lt;font color=#a5220e>Bekapcsoló&lt;/font&gt; gombokat egyszerre és tartsa nyomva,&lt;/font> míg a MI logó meg nem jelenik.</Data></string>
+    <string name="phone_locked_forget_password_suggesstion_two_content"><Data>Válassza a &lt;font color=#a5220e>\"Wipe &amp;amp; Reset\"&lt;/font> lehetőséget és várja meg, míg a készülék újraindul.</Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Hogyan törölheti az adatokat?</string>
     <string name="phone_locked_string">A telefon zárolva van</string>
     <string name="picture_color_mode">A képek színmódja</string>
@@ -958,33 +959,33 @@ Szintén csatlakozik egy VPN-hez is, amely képes megfigyelni a hálózati tevé
     <string name="power_discharge_by_only">Legfeljebb %1$s-ig bírja az akkumulátor</string>
     <string name="power_discharge_by_only_enhanced">A használati szokásai alapján nagyjából még %1$s akkumulátoridő</string>
     <string name="power_discharge_by_only_short">%1$s-ig</string>
-    <string name="power_notification_controls_description">A haladó értesítéskezeléssel 0 és 5 közötti fontossági szintet állíthat be az alkalmazások értesítései számára.
+    <string name="power_notification_controls_description">"A haladó értesítéskezeléssel 0 és 5 közötti fontossági szintet állíthat be az alkalmazások értesítései számára.
 
-5. szint
+"<b>5. szint</b>"
 - Az értesítési lista tetején jelenjen meg
 - Teljes képernyős mód megszakítása engedélyezve
 - Lebegő értesítések bekapcsolva
 
-4. szint
+"<b>4. szint</b>"
 - Teljes képernyős mód megszakítása letiltva
 - Lebegő értesítések bekapcsolva
 
-3. szint
+"<b>3. szint</b>"
 - Teljes képernyős mód megszakítása letiltva
 - Lebegő értesítések kikapcsolva
-2. szint
+"<b>2. szint</b>"
 - Teljes képernyős mód megszakítása letiltva
 - Lebegő értesítések kikapcsolva
 - Hangjelzés és rezgés kikapcsolva
 
-1. szint
+"<b>1. szint</b>"
 - Teljes képernyős mód megszakítása letiltva
 - Lebegő értesítések kikapcsolva
 - Hangjelzés és rezgés kikapcsolva
 - Elrejtés a képernyőzárról és az állapotsorról
 - Az értesítési lista alján jelenjen meg
-0. szint
-- Az alkalmazás összes értesítésének letiltása </string>
+"<b>0. szint</b>"
+- Az alkalmazás összes értesítésének letiltása"</string>
     <string name="power_remaining_charging_duration_only">%1$s van hátra a teljes töltöttségig</string>
     <string name="power_remaining_duration_only">Körülbelül %1$s maradt</string>
     <string name="power_remaining_duration_only_enhanced">Körülbelül %1$s van hátra az Ön használati szokásaival</string>
@@ -1046,6 +1047,7 @@ Szintén csatlakozik egy VPN-hez is, amely képes megfigyelni a hálózati tevé
     <string name="quick_settings_cellular_detail_over_limit">Limittúllépés</string>
     <string name="quick_settings_cellular_detail_remaining_data">Még felhasználható adat</string>
     <string name="quick_settings_cellular_detail_title">Mobiladat</string>
+    <string name="quick_settings_cellular_detail_unable_change">Hívás alatt nem lehet beállítani</string>
     <string name="quick_settings_color_space_label">Színkorrekció módja</string>
     <string name="quick_settings_connected">Csatlakozva</string>
     <string name="quick_settings_connecting">Csatlakozás</string>
@@ -1256,7 +1258,7 @@ E</string>
     <string name="tethering_hardware_offload">A megosztás hardveres gyorsítása</string>
     <string name="tethering_hardware_offload_summary">Ha elérhető, akkor használja a megosztás hardveres gyorsítását</string>
     <string name="thermal_shutdown_dialog_message">A telefonja túl forró volt, ezért kikapcsolódott, hogy lehűlhessen. Készüléke most normálisan működik.
-	
+
 Készüléke a következőktől lehet forró:
 \u0009• Erőforrásigényes alkalmazást használ (játékok, videók, navigációk)
 \u0009• Nagyméretű fájlok le- vagy feltöltése
@@ -1342,7 +1344,7 @@ Készüléke a következőktől lehet forró:
     <string name="user_add_user">Felhasználó hozzáadása</string>
     <string name="user_add_user_item_title">Felhasználó</string>
     <string name="user_add_user_message_short">Amikor egy új felhasználót ad hozzá, neki be kell állítania a saját asztalát.
-	
+
 Minden felhasználó frissítheti az alkalmazásokat az összes többi felhasználó számára.</string>
     <string name="user_add_user_title">Hozzáad egy új felhasználót?</string>
     <string name="user_add_user_type_title">Hozzáad</string>

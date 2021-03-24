@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="motion_behavior_entries">
+    <string-array name="motion_behavior_entries">
         <item>Csúsztatás</item>
         <item>Érintés</item>
-    </array>
+    </string-array>
 </resources>

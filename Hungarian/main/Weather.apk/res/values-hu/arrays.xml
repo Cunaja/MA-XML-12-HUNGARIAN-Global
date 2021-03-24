@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="aqi_detail_title">
+    <string-array name="aqi_detail_title">
         <item>Jó</item>
         <item>Közepes</item>
         <item>Érzékenyek számára egészségtelen csoport</item>
         <item>Egészségtelen</item>
         <item>Nagyon egészségtelen</item>
         <item>Kockázatos</item>
-    </array>
-    <array name="aqi_value">
+    </string-array>
+    <string-array name="aqi_value">
         <item>Jó</item>
         <item>Kielégítő</item>
         <item>Mérsékelten szennyezett</item>
@@ -16,8 +16,8 @@
         <item>Nagyon rossz</item>
         <item>Súlyos</item>
         <item>Határérték-túllépési mutató</item>
-    </array>
-    <array name="hot_city">
+    </string-array>
+    <string-array name="hot_city">
         <item>Budapest</item>
         <item>Debrecen</item>
         <item>Szeged</item>
@@ -40,13 +40,13 @@
         <item>Bangkok</item>
         <item>Szöul</item>
         <item>Kuala Lumpur</item>
-    </array>
-    <array name="minute_rain_array">
+    </string-array>
+    <string-array name="minute_rain_array">
         <item>Kiadós</item>
         <item>Közepes</item>
         <item>Enyhe</item>
-    </array>
-    <array name="weather_type">
+    </string-array>
+    <string-array name="weather_type">
         <item>Tiszta</item>
         <item>Felhős</item>
         <item>Borult</item>
@@ -74,8 +74,8 @@
         <item>Pára</item>
         <item>Ónos eső</item>
         <item />
-    </array>
-    <array name="wind_direction">
+    </string-array>
+    <string-array name="wind_direction">
         <item>Északi</item>
         <item>Északkeleti</item>
         <item>Keleti</item>
@@ -84,8 +84,8 @@
         <item>Délnyugati</item>
         <item>Nyugati</item>
         <item>Északnyugati</item>
-    </array>
-    <array name="wind_direction_simple">
+    </string-array>
+    <string-array name="wind_direction_simple">
         <item>É</item>
         <item>ÉK</item>
         <item>K</item>
@@ -94,8 +94,8 @@
         <item>DNy</item>
         <item>Ny</item>
         <item>ÉNy</item>
-    </array>
-    <array name="wind_power">
+    </string-array>
+    <string-array name="wind_power">
         <item>@null</item>
         <item>1</item>
         <item>2</item>
@@ -109,19 +109,19 @@
         <item>10</item>
         <item>11</item>
         <item>12</item>
-    </array>
-    <array name="wind_unit_detail">
+    </string-array>
+    <string-array name="wind_unit_detail">
         <item>Beaufort-skála</item>
         <item>Kilométer per óra (km/h)</item>
         <item>Méter per szekundum (m/s)</item>
         <item>Mérföld per óra (mph)</item>
         <item>Csomó (kn)</item>
-    </array>
-    <array name="wind_unit_replace">
+    </string-array>
+    <string-array name="wind_unit_replace">
         <item>%1$s kényszerítése</item>
         <item>%1$s km/h</item>
         <item>%1$s m/s</item>
         <item>%1$s mph</item>
         <item>%1$s kn</item>
-    </array>
+    </string-array>
 </resources>

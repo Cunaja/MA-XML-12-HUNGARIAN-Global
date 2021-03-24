@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Letöltések</string>
-	<string name="auto_restart_under_wifi">A Wi-Fi-n automatikusan letölti ezt a fájlt</string>
+    <string name="auto_restart_under_wifi">A Wi-Fi-n automatikusan letölti ezt a fájlt</string>
     <string name="button_cancel_download">Mégse</string>
-	<string name="button_download_now">Letöltés most</string>
+    <string name="button_download_now">Letöltés most</string>
     <string name="button_queue_for_wifi">Sorba állítás</string>
     <string name="button_start_now">Indítás most</string>
-	<string name="button_wait_for_wifi">Várjon</string>
-	<string name="channel_active">Aktív letöltés</string>
+    <string name="button_wait_for_wifi">Várjon</string>
+    <string name="channel_active">Aktív letöltés</string>
     <string name="channel_complete">A letöltés kész</string>
     <string name="channel_insufficient_space">Nincs elég hely</string>
     <string name="channel_waiting">Várakozás letöltése</string>
-	<string name="dialog_button_cancel">Mégsem</string>
+    <string name="dialog_button_cancel">Mégsem</string>
     <string name="dialog_button_ok">OK</string>
+    <string name="dialog_content_limit0">Letöltések korlátozása</string>
+    <string name="dialog_content_limit_max">Korlátlan</string>
+    <string name="dialog_data_limit_button1">Várakozás Wi-Fi-re</string>
+    <string name="dialog_data_limit_button2">Letöltés</string>
     <string name="dialog_content_limit0">Letöltések korlátozása</string>
     <string name="dialog_content_limit_max">Korlátlan</string>
     <string name="dialog_data_limit_button1">Várakozás a Wi-Fi -hálózatra</string>
@@ -26,7 +30,7 @@
     <string name="dialog_tip_limit">Figyelmeztetés, ha a fájl nagyobb, mint %s</string>
     <string name="dialog_tip_limit0">Minden alkalommal figyelmeztetni</string>
     <string name="dialog_tip_no_limit">"Ne figyelmeztessen"</string>
-	<string name="download_apk_desktop_installing">Telepítés</string>
+    <string name="download_apk_desktop_installing">Telepítés</string>
     <string name="download_apk_desktop_pause">Szüneteltetve</string>
     <string name="download_apk_desktop_pending">Függőben levő</string>
     <string name="download_apk_desktop_running">Letöltés</string>
@@ -35,8 +39,8 @@
     <string name="download_queued">Várakozik</string>
     <string name="download_remaining">%s van hátra</string>
     <string name="download_running">Letöltés</string>
-    <string name="download_unknown_title">&lt;Névtelen&gt;</string>
-	<string name="enter_garbage_clean">Tisztítsa meg a belső tárolót.</string>
+    <string name="download_unknown_title">&lt;Névtelen</string>
+    <string name="enter_garbage_clean">Tisztítsa meg a belső tárolót.</string>
     <string name="insufficient_space">"Nincs elég hely az eszköz belső tárhelyén"</string>
     <string name="mobile_recommended_title">Mobil adatforgalom</string>
     <string name="notif_text_engine_off">A Xunlei gyorsító ki van kapcsolva.</string>
@@ -45,9 +49,10 @@
     <string name="notif_title_single_downloading">%1$s letöltése</string>
     <string name="notification_download_complete">Sikeresen letöltve.</string>
     <string name="notification_download_failed">Nem sikerült az elemek letöltése.</string>
+    <string name="notification_download_success_more">%1$d letöltve</string>
     <string name="notification_need_wifi_for_size">A letöltéshez Wi-Fi szükséges.</string>
     <string name="notification_paused_in_background">A háttérben megállítva.</string>
-	<string name="notify_disabled_net_by_app">A Biztonsági alkalmazás által korlátozott internetkapcsolat</string>
+    <string name="notify_disabled_net_by_app">A Biztonsági alkalmazás által korlátozott internetkapcsolat</string>
     <string name="notify_install_guide_forward_text">Megnyitás</string>
     <string name="notify_install_guide_msg">Sikeresen telepítve</string>
     <string name="notify_install_guide_title">A %s sikeresen telepítve</string>
@@ -67,7 +72,7 @@
     <string name="permlab_downloadManagerAdvanced">Letöltések haladó funkciói.</string>
     <string name="permlab_downloadWithoutNotification">Fájlok letöltése értesítés nélkül</string>
     <string name="permlab_seeAllExternal">Az összes letöltés megjelenítése az USB háttértáron</string>
-	<string name="privacy_notif_content">Koppintson a részletek megtekintéséhez.</string>
+    <string name="privacy_notif_content">Koppintson a részletek megtekintéséhez.</string>
     <string name="privacy_notif_title">A Xunlei letöltési gyorsító be van kapcsolva</string>
     <string name="privacy_tip_cancel">Mégsem</string>
     <string name="privacy_tip_content">"Használja a Xunlei Accelerator programot a letöltések felgyorsításához? The URL of the download's host will uploaded to Xunlei's servers. Your Mi Account details will also be uploaded to check if you have any active subscriptions to this service."</string>
@@ -76,20 +81,20 @@
     <string name="recommended_file_size_download_in_mobile">A %s fájl letöltéséhez használja a mobiladatokat?</string>
     <string name="recommended_no_file_size_download_in_mobile">Használja a mobil adatkapcsolatot a fájl letöltéséhez?</string>
     <string name="root_downloads">Letöltések</string>
-	<string name="task_already_exist">A feladat már létezik</string>
+    <string name="task_already_exist">A feladat már létezik</string>
     <string name="warning_tip_cancel">Letöltés</string>
     <string name="warning_tip_content">"Már nem csatlakozik a Wi-Fi-hálózathoz. A letöltés befejezéséhez mobil adatkapcsolatának használata növeli az adatfelhasználást. Ha túllépi a terv adatkorlátját, szolgáltatója további díjakat számíthat fel Önnek."</string>
     <string name="warning_tip_ok">Szünet</string>
     <string name="warning_tip_title">Adathasználati figyelmeztetés</string>
-    <string name="wifi_recommended_body">Ekkora fájl (%1$s ) letöltése lerövidíti az akkumulátor élettartamát és/vagy a mobiladat-kapcsolat túlzott használatához vezet, ami az Ön tervezett adatfogalmától függően újabb költségeket okozhat mobilszámláján.
-	
-Érintse meg itt %2$s, hogy akkor kezdődjön a letöltés, amikor legközelebb Wi-Fi-kapcsolata lesz.</string>
+    <string name="wifi_recommended_body">"Ekkora fájl (%1$s ) letöltése lerövidíti az akkumulátor élettartamát és/vagy a mobiladat-kapcsolat túlzott használatához vezet, ami az Ön tervezett adatfogalmától függően újabb költségeket okozhat mobilszámláján.
+
+Érintse meg itt %2$s, hogy akkor kezdődjön a letöltés, amikor legközelebb Wi-Fi-kapcsolata lesz."</string>
     <string name="wifi_recommended_title">Várólistához adja és letölti később?</string>
     <string name="wifi_required_body">Kapcsolódjon Wi-Fi-re eme %1$s letöltéshez.
 
 Érintse meg a %2$s-t, hogy a letöltés akkor kezdődjön el, amikor legközelebb csatlakozik Wi-Fi-hálózathoz.</string>
     <string name="wifi_required_title">A fájl túl nagy a mobiladat-kapcsolaton való letöltéshez</string>
-	<string name="xl_speedup_experience_notify_context">"Xunlei tagként minden letöltésnél növeli a sebességet"</string>
+<string name="xl_speedup_experience_notify_context">"Xunlei tagként minden letöltésnél növeli a sebességet"</string>
     <string name="xl_speedup_experience_notify_title">Xunlei tagság</string>
     <string name="xl_speedup_notify_button_experience">Próbálja ki ingyen</string>
     <string name="xl_speedup_notify_button_member">Legyen tag</string>

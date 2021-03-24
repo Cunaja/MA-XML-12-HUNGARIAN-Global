@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="cell_layout_size_entries">
+    <string-array name="cell_layout_size_entries">
         <item>4x4</item>
         <item>4x5</item>
-    </array>
-    <array name="editing_mode_entries">
+    </string-array>
+    <string-array name="editing_mode_entries">
         <item>Háttérkép</item>
         <item>Widgetek</item>
         <item>Beállítások</item>
-    </array>
-    <array name="gadget_weather_image">
+    </string-array>
+    <string-array name="gadget_weather_image">
         <item>Tiszta</item>
         <item>Felhős</item>
         <item>Párás</item>
@@ -35,12 +35,12 @@
         <item>Jégeső</item>
         <item>Szálló por</item>
         <item>Pára</item>
-    </array>
-    <array name="gadget_weather_theme_type_entries">
+    </string-array>
+    <string-array name="gadget_weather_theme_type_entries">
         <item>Alapértelmezett</item>
         <item>Klasszikus</item>
-    </array>
-    <array name="transformation_entries">
+    </string-array>
+    <string-array name="transformation_entries">
         <item>Csúsztatás</item>
         <item>Átfedés</item>
         <item>Beforgatás</item>
@@ -48,11 +48,11 @@
         <item>Kártyás</item>
         <item>Forgatás</item>
         <item>3D kocka</item>
-    </array>
-    <array name="wallpaper_scroll_entries">
+    </string-array>
+    <string-array name="wallpaper_scroll_entries">
         <item>Alapértelmezett téma</item>
         <item>Közép</item>
         <item>Bal</item>
         <item>Jobb</item>
-    </array>
+    </string-array>
 </resources>

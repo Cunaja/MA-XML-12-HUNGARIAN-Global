@@ -114,7 +114,6 @@ Figyelem: Az Ön által telepített alkalmazások adatai nem kerülnek Xiaomi Cl
     <string name="cloud_back_up_subscribe_vip_title">A Mi Fiók bővítése</string>
     <string name="cloud_back_up_task">Mentés…</string>
     <string name="cloud_backup">Xiaomi Cloud mentések</string>
-    <string name="clearable_edittext_clear_description">Clear</string>
     <string name="cloud_backup_derail_size_summary">Méret: %s</string>
     <string name="cloud_backup_detail_frequence">Mentés ütemezése</string>
     <string name="cloud_backup_detail_manage">Mentések kezelése</string>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="attachment_chooser">
+    <string-array name="attachment_chooser">
         <item>Kamera</item>
         <item>Galéria</item>
-    </array>
-    <array name="contact_entries">
+    </string-array>
+    <string-array name="contact_entries">
         <item>Név</item>
         <item>Becenév</item>
         <item>Telefon</item>
@@ -16,8 +16,8 @@
         <item>Honlap</item>
         <item>Cím</item>
         <item>Jegyzet</item>
-    </array>
-    <array name="first_guide_contents">
+    </string-array>
+    <string-array name="first_guide_contents">
         <item>Üdvözöljük a Jegyzetekben!</item>
         <item>Jegyzetek készítése</item>
         <item>Jegyzeteiben használhat szöveget, képeket és hangfelvételt. A stílusok és betűtípusok gazdag tárháza az egyszerű firkákat is lenyűgözővé változtatja.</item>
@@ -26,27 +26,27 @@
         <item>Görgethető képernyőképeket hozhat létre a Jegyzetek alkalmazásban automatikusan, és megoszthatja azokat barátaival.</item>
         <item>Mappák készítése és váltás közöttük</item>
         <item>Az alábbi nyíl megnyomásával új mappát hozhat létre vagy váltogathat a meglévők között.</item>
-    </array>
-    <array name="folder_operations">
+    </string-array>
+    <string-array name="folder_operations">
         <item>Átnevezés</item>
         <item>Törlés</item>
-    </array>
-    <array name="font_size_names">
+    </string-array>
+    <string-array name="font_size_names">
         <item>Kicsi</item>
         <item>Közepes</item>
         <item>Nagy</item>
         <item>Óriási</item>
-    </array>
-    <array name="note_sort_way">
+    </string-array>
+    <string-array name="note_sort_way">
         <item>Létrehozási dátum szerint</item>
         <item>Módosítási dátum szerint</item>
-    </array>
-    <array name="second_guide_contents">
+    </string-array>
+    <string-array name="second_guide_contents">
         <item>Hangjegyzetek</item>
         <item>Létrehozhat jegyzeteket a beépített beszédről-szövegre motorral, amely hangjának eredeti hangfelvételeit rögzíti a jegyzetekre.</item>
-    </array>
-    <array name="second_guide_contents_pad_or_inter">
+    </string-array>
+    <string-array name="second_guide_contents_pad_or_inter">
         <item>Hangjegyzetek</item>
         <item>Hangjegyzeteket hozhat létre most. Koppintson az ikonra, rögzítse hangját, és mentse el a felvételt egy jegyzetbe.</item>
-    </array>
+    </string-array>
 </resources>
