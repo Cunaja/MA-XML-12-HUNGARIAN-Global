@@ -219,7 +219,7 @@
     <string name="app_behavior_location_bg">%1s hozzáfért a tartózkodási helyéhez a háttérben</string>
     <string name="app_behavior_location_bg_single">Az app hozzáfért a tartózkodási helyéhez a háttérben</string>
     <string name="app_behavior_location_single">Az app hozzáfért a tartózkodási helyéhez</string>
-    <string name="app_behavior_menu_about">Az alkalmazés magatartás nyilvántartásokról</string>
+    <string name="app_behavior_menu_about">Az alkalmazás magatartás nyilvántartásokról</string>
     <string name="app_behavior_monitor_off">Értesítések kikapcsolása</string>
     <string name="app_behavior_monitor_off_content">Nem fog tudni értesítéseket fogadni az alkalmazás által végrehajtott érzékeny műveletekről. Biztosan kikapcsolja az értesítéseket?</string>
     <string name="app_behavior_monitor_off_positive">Kikapcsolás</string>
@@ -229,11 +229,11 @@
     <string name="app_behavior_monitor_tips_summary">Fogadhat értesítéseket, ha az alkalmazások hangot rögzítenek, hozzáférnek az Ön tartózkodási helyéhez vagy egyéb érzékeny műveleteket hajtanak végre a háttérben.</string>
     <string name="app_behavior_no_recorder">Nincs találat</string>
     <string name="app_behavior_notification_audio_now_one">A(z) %1s hangot rögzít</string>
-    <string name="app_behavior_notification_audio_now_two">A(z) %1s és a(z) %2s alkalmazások hangot rögzítenek</string>
+    <string name="app_behavior_notification_audio_now_two" formatted="false">A(z) %1s és a(z) %2s alkalmazások hangot rögzítenek</string>
     <string name="app_behavior_notification_camera_one">A(z) %1s képet készít</string>
-    <string name="app_behavior_notification_camera_two">A(z) %1s és a(z) %2s alkalmazások képet készítenek</string>
+    <string name="app_behavior_notification_camera_two" formatted="false">A(z) %1s és a(z) %2s alkalmazások képet készítenek</string>
     <string name="app_behavior_notification_location_one">A(z) %1s hozzáfér az Ön tartózkodási helyéhez</string>
-    <string name="app_behavior_notification_location_two">A(z) %1s és a(z) %2s alkalmazások hozzáférnek az Ön tartózkodási helyéhez</string>
+    <string name="app_behavior_notification_location_two" formatted="false">A(z) %1s és a(z) %2s alkalmazások hozzáférnek az Ön tartózkodási helyéhez</string>
     <string name="app_behavior_notification_title_calllog_read">A(z) %1s hozzáfért az Ön híváselőzményeihez a háttérben</string>
     <string name="app_behavior_notification_title_calllog_write">%1s szerkesztette a híváselőzményeit a háttérben</string>
     <string name="app_behavior_notification_title_clipboard_read">A(z) %1s hozzáfért a vágólaphoz a háttérben</string>
@@ -273,7 +273,7 @@
     <string name="app_behavior_sms_read_single">Az app SMS-t olvasott</string>
     <string name="app_behavior_sms_send">%1s SMS-t küldött</string>
     <string name="app_behavior_sms_send_single">Az app SMS-t küldött</string>
-    <string name="app_behavior_start_from_app">%2s a következő appot indította el: %1s </string>
+    <string name="app_behavior_start_from_app" formatted="false">%2s a következő appot indította el: %1s </string>
     <string name="app_behavior_start_from_app_single">Az alkalmazást a(z) %1s alkalmazás indította el</string>
     <string name="app_behavior_start_from_launcher">A(z) %1s alkalmazás a Kezdőképernyőről került elindításra</string>
     <string name="app_behavior_start_from_launcher_single">Az alkalmazás a Kezdőképernyőről került elindításra</string>
@@ -290,7 +290,7 @@
     <string name="app_behavior_this_run">Egyszer</string>
     <string name="app_behavior_time_today">Ma</string>
     <string name="app_behavior_time_yesterday">Tegnap</string>
-    <string name="app_behavior_wakepath">%1s elindította a következőt: %2s</string>
+    <string name="app_behavior_wakepath" formatted="false">%1s elindította a következőt: %2s</string>
     <string name="app_behavior_wakepath_single">Az app elindította a következőt: %2s</string>
     <string name="app_behavior_warning_audio_title">A(z) %1s hangot rögzít a háttérben</string>
     <string name="app_behavior_warning_content">Ha nem engedélyezte, vessen véget a folyamatnak</string>
@@ -1454,7 +1454,7 @@ A videók a Játékgyorsító &gt; Fontos pillanatok menübe kerülnek elmentés
     <string name="gtb_exit_game_to_gtb">Játékbox megnyitása</string>
     <string name="gtb_exit_game_to_home">Vissza a Kezdőlapra</string>
     <string name="gtb_setting_item_summary_smart_5g">Ha a Játékgyorsító 5G hálózatot észlel, a hálózati késés csökkentése érdekében csatlakoztathatja az elérhető legjobb hálózathoz</string>
-    <string name="gtb_setting_item_summary_smart_wlan_speed">Növelje a csatlakozási sebességet 10-20%-kal, ha a Mi/Redmi routerhez csatlakozik</string>
+    <string name="gtb_setting_item_summary_smart_wlan_speed" formatted="false">Növelje a csatlakozási sebességet 10-20%-kal, ha a Mi/Redmi routerhez csatlakozik</string>
     <string name="gtb_setting_item_title_smart_5g">5G hálózatoptimalizáció</string>
     <string name="gtb_setting_item_title_smart_wlan_speed">Mi Wi-Fi sebesség gyorsítás</string>
     <string name="gtb_wlan_speed_tips">Mi WiFi használata…</string>
@@ -1547,7 +1547,7 @@ A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat ha
     <string name="list_empty_text">Üres</string>
     <string name="load_only_under_wlan">Betöltés csak Wi-Fi használatával</string>
     <string name="loading">Egy pillanat…</string>
-    <string name="loading_text_format">Személyes adatok eltávolítása a képekről (%d/%d)…</string>
+    <string name="loading_text_format" formatted="false">Személyes adatok eltávolítása a képekről (%d/%d)…</string>
     <string name="local_ip_exception_summary">Nem kérhető le a helyi IP-cím. A hibajelentéséhez lépjen be a Visszajelzés alkalmazásba és küldje el a hibanaplót.</string>
     <string name="lock_all_title">Összes alkalmazás zárolása</string>
     <string name="lock_mode_title">Zárolási beállítások</string>
@@ -1675,7 +1675,7 @@ hogy válaszoljon</string>
     <string name="memory_check_content">%s felszabadítva</string>
     <string name="memory_clean_memory_size_tip">Gyorsítótár</string>
     <string name="memory_clean_no_need_clean">Minden rendben van</string>
-    <string name="memory_clean_no_need_clean_1">%s felszabadítva. Készüléke ennyivel gyorsabb: %d%%.</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">%s felszabadítva. Készüléke ennyivel gyorsabb: %d%%.</string>
     <string name="memory_clear_unused">Gyorsítótártörlés (%s)</string>
     <string name="memory_title">Elérhető: %1$s\9\9Összesen: %2$s</string>
     <string name="menu_add">Hozzáadás</string>
@@ -2539,7 +2539,7 @@ Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató el�
     <string name="reset_data_dialog_message">A készülék nincs a Mi Fiókjához társítva. Nem lehet visszaállítani vagy törölni a jelszót. Mentse az összes fontos adatot és állítsa vissza a telefont gyári adatokra. Minden adat végérvényesen törlődik és az SD-kártyája formázásra kerül a gyári adatok visszaállítása során.</string>
     <string name="reset_data_dialog_ok">Gyári adatok visszaállítása</string>
     <string name="reset_data_title">A jelszó visszaállítása sikertelen</string>
-    <string name="result_autoscan_header">Fizetésellenőrzés</string>
+    <string name="result_autoscan_header">Fizetés-ellenőrzés</string>
     <string name="result_autoscan_info">Rendszerkörnyezet automatikus ellenőrzése fizetési alkalmazások indításakor</string>
     <string name="result_sms_header">Üzenetkezelési kockázatok észlelve</string>
     <string name="result_sms_info_antispam">Kapcsolja be a Tiltólistát a rosszindulatú webhelyektől való védelemhez</string>
@@ -3081,7 +3081,7 @@ A formázás eltávolítja a tartalmakat a(z) ^2 SD-kártyáról. A tartalmak el
     <string name="system_permission_declare_analytics_declare">Örömmel vennénk, ha csatlakozna a Felhasználó Élményprogramunkhoz. Az alkalmazásnak csatlakoznia kell az internethez és a következő engedélyeket vagy funkciókat kell használnia a statisztikák begyűjtéséhez annak érdekében, hogy a szolgáltatásainkat javítani tudjuk. Kizárólag statisztikai célokból gyűjtünk adatokat és önt személyesen nem tudjuk beazonosítani a gyűjtött adatok alapján.</string>
     <string name="system_permission_declare_disagree">Elutasítás</string>
     <string name="system_permission_declare_double_link">&lt;Data&gt;Felhasználóként az ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa el és fogadja el a következőket: &lt;a href=\"%1$s\"&gt;Felhasználási feltételek&lt;/a&gt; és &lt;a href=\"%2$s\"&gt;Adatvédelmi szabályzat&lt;/a&gt;.&lt;/Data&gt;</string>
-    <string name="system_permission_declare_main_purpose">Üdvözli Önt a következő: %1s! Ezzel az alkalmazással a következő funkciót használhatja: %2s.</string>
+    <string name="system_permission_declare_main_purpose" formatted="false">Üdvözli Önt a következő: %1s! Ezzel az alkalmazással a következő funkciót használhatja: %2s.</string>
     <string name="system_permission_declare_meanwhile_double_link">&lt;Data&gt;Ugyanakkor, felhasználóként az ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa el és fogadja el a következőket: &lt;a href=\"%1$s\"&gt;Felhasználási feltételek&lt;/a&gt; and &lt;a href=\"%2$s\"&gt;Adatvédelmi szabályzat&lt;/a&gt;.&lt;/Data&gt;</string>
     <string name="system_permission_declare_meanwhile_privacy_policy">&lt;Data&gt;Ugyanakkor, felhasználóként az ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa el és fogadja el a következőt: &lt;a href=\"%1$s\"&gt;Adatvédelmi szabályzat&lt;/a&gt;.&lt;/Data&gt;</string>
     <string name="system_permission_declare_meanwhile_user_agreement">&lt;Data&gt;Ugyanakkor, felhasználóként az ön jogainak, valamint annak a teljes megértéséhez, hogy miként használjuk az adatait, olvassa el és fogadja el a következőt: &lt;a href=\"%1$s\"&gt;Felhasználási feltételek&lt;/a&gt;.&lt;/Data&gt;</string>

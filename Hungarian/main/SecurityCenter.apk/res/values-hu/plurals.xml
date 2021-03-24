@@ -277,8 +277,8 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
         <item quantity="one">A Hálózati sebesség gyorsítás időszakából %d nap van hátra. Újítsa meg a hálózat sebességproblémáinak elkerüléséért.</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">A hálózat elérése &lt;font color=&apos;#ff0000&apos;&gt;%d&lt;/font&gt; alkalmazás részére korlátozva van</item>
-        <item quantity="one">A hálózat elérése &lt;font color=&apos;#ff0000&apos;&gt;%d&lt;/font&gt; alkalmazás részére korlátozva van</item>
+        <item quantity="other">"A hálózat elérése &lt;font color='#ff0000'>%d&lt;/font> az alkalmazás részére korlátozva van"</item>
+        <item quantity="one">"A hálózat elérése &lt;font color='#ff0000'>%d&lt;/font> az alkalmazás részére korlátozva van"</item>
     </plurals>
     <plurals name="notification_battery_consume_abnormal_summary">
         <item quantity="other">%2$d%% -ot merült az akkumulátor az elmúlt %1$d percben</item>
