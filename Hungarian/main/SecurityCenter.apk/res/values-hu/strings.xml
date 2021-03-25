@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="HIPS_Perm_Access_Gallery">Hozzáférés a Galériához</string>
+    <string name="HIPS_Perm_Access_Gallery_Desc">Engedélyezze az alkalmazás számára, hogy hozzáférjen a Galéria elemeihez</string>																   
     <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Bluetooth ki- és bekapcsolása</string>
     <string name="HIPS_Perm_CallLog_Desc">Híváslista írása és törlése</string>
     <string name="HIPS_Perm_Call_Desc">Közvetlen hívásindítás, -fogadás és -megszakítás</string>
@@ -14,6 +16,8 @@
     <string name="HIPS_Perm_add_voicemail_Desc">Rendszer-hangüzenetek hozzáadása</string>
     <string name="HIPS_Perm_get_accounts_Desc">Hozzáférés az összes eszközön tárolt fiókhoz</string>
     <string name="HIPS_Perm_process_nfc_Desc">NFC használata</string>
+    <string name="HIPS_Perm_tencentControl">Üzenetek elérésé a közösségi média alkalmazásokban</string>
+    <string name="HIPS_Perm_tencentControl_Desc">Engedélyezi, hogy az alkalmazás hozzáférjen a WeChat és QQ üzeneteihez</string>
     <string name="HIPS_Perm_use_sip_Desc">Session Initiation Protokol használata a videó streameléséhez</string>
     <string name="Phonepass">Hívások engedélyezése</string>
     <string name="SMS_and_MMS">SMS és MMS</string>
@@ -21,6 +25,7 @@
     <string name="Setting_lock">Beállítások</string>
     <string name="Settings_title_anti_spam">Tiltólista beállításai</string>
     <string name="Settings_title_anti_virus">A Biztonsági vizsgálat beállításai</string>
+    <string name="Settings_title_anti_virus_kddi">Biztonsági vizsgálat beállításai</string>
     <string name="Settings_title_garbage_cleanup">A Tisztító beállításai</string>
     <string name="Settings_title_network_assistants">Az Adatforgalom beállításai</string>
     <string name="Settings_title_power_center">Az akkuoptimalizálás beállításai</string>
@@ -45,10 +50,16 @@
     <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
     <string name="about_autostart">Az automatikus indításról</string>
+    <string name="abnormal_consume_disable_autostart_toast">A korlátozott automatikus indítás sikeres</string>
+    <string name="abnormal_consume_set_hidemode">Akkumulátorkímélő használata ezzel az alkalmazással</string>
+    <string name="abnormal_consume_type_cpu">Magas CPU-használat</string>
+    <string name="abnormal_consume_type_wakelock">"A rendszer nem tud aludni"</string>
+    <string name="about_autostart">Az automatikus indításról</string>																									  
     <string name="ac_enter_applock">Belépés az Alkalmazások zárolásába</string>
     <string name="ac_firstUseApplock_subTitle">Jobb rendszerszintű biztonsági eszközök használata</string>
     <string name="ac_firstUseApplock_title">Állítson be jelszót az alkalmazásai védelmére</string>
     <string name="ac_mask_all_apps">Elrejtés az összesnél</string>
+    <string name="ac_notification_action_text">Bekapcsolás</string>
     <string name="ac_notification_contentText">Érintse meg a bekapcsoláshoz</string>
     <string name="ac_notification_contentTitle">Védje zárolással az alkalmazásait</string>
     <string name="ac_post_notification_contentText">Szerezzen rendszerszintű védelmet</string>
@@ -65,18 +76,20 @@
     <string name="access_control_app_is_launching">Alkalmazás indítása</string>
     <string name="access_control_failed_need_to_unlock_nofingerprint">Adja meg a jelszavát új ujjlenyomattal való feloldás előtt</string>
     <string name="access_control_fingerprint_not_identified_msg">Ujjlenyomat-beolvasás sikertelen.</string>
-    <string name="access_control_need_password">"%s hozzáadva
+    <string name="access_control_need_password">"%s sikeresen hozzáadva
 "</string>
     <string name="access_control_need_to_unlock_nofingerprint">Adja meg az Alkalmazások zárolása jelszavát</string>
-    <string name="accessibility_gameboosterservice_description">Mikor játszik, kapcsolja be a WeChat bejövő hívások némítása lehetőséget</string>
+    <string name="accessibility_gameboosterservice_description">"Mikor játszik, kapcsolja be a WeChat bejövő hívások némítása lehetőséget"</string>
     <string name="action_button_text_100">Optimalizálás</string>
     <string name="action_button_text_60">Javítás</string>
     <string name="action_button_text_60_80">Javítás</string>
     <string name="action_button_text_80_100">Optimalizálás</string>
     <string name="action_source_call_title">Blokkolt hívások</string>
     <string name="action_source_sms_title">Blokkolt üzenetek</string>
+    <string name="actionbar_button_up_description">Visza</string>
     <string name="activity_title_antispam">Tiltólista</string>
     <string name="activity_title_antivirus">Biztonsági vizsgálat</string>
+    <string name="activity_title_antivirus_kddi">Biztonsági vizsgálat</string>
     <string name="activity_title_apps_manager">Alkalmazások</string>
     <string name="activity_title_auto_start_manager">Automatikus indítás</string>
     <string name="activity_title_create_shortcut">Parancsikonok kezelése</string>
@@ -87,6 +100,7 @@
     <string name="activity_title_permission_manager">Engedélykezelő</string>
     <string name="activity_title_permissions_manager">Engedélyek</string>
     <string name="activity_title_power_manager">Akkumulátoroptimalizálás</string>
+    <string name="activity_title_risk_app_install_manager">Alkalmazások lehetséges kockázatokkal</string>
     <string name="activity_title_root_acquired">Root jogosultságok engedélyezése</string>
     <string name="activity_title_root_manager">Root jogosultságok</string>
     <string name="activity_title_root_note">A root jogosultságokról</string>
@@ -95,8 +109,9 @@
     <string name="activity_title_virus_settings">Beállítások</string>
     <string name="activity_title_white_list">Kivételek</string>
     <string name="ad_btn_default_text">További információ</string>
-    <string name="ad_split_screen_title">A feloldáshoz lépjen ki az Osztott képernyős módból</string>
-    <string name="ad_update_time">Utolsó frissítés: %s</string>
+    <string name="ad_floating_window_title">Lebegő ablakok bezárása feloldáskor</string>
+     <string name="ad_split_screen_title">A feloldáshoz lépjen ki az Osztott képernyős módból</string>
+     <string name="ad_update_time">Utolsó frissítés: %s</string>
     <string name="ad_update_time_unKnown">Utolsó frissítés: ismeretlen</string>
     <string name="adb_install_no_network">Csatlakozzon a hálózatra és próbálja újra</string>
     <string name="adb_install_open">Engedélyezés…</string>
@@ -107,7 +122,7 @@
     <string name="add_done">Sikeresen hozzáadva</string>
     <string name="add_game">Játék hozzáadása</string>
     <string name="add_game_notification_summary">Érintse meg az indításhoz és a játékgyorsításhoz</string>
-    <string name="add_miservice_dialog_content">%s megköveteli a MIUI szolgáltatás keretrendszer hozzáadását a kivételekhez. Fogadhat értesítéseket a MIUI beépített és külső alkalmazásoktól.</string>
+    <string name="add_miservice_dialog_content">"%s megköveteli a MIUI szolgáltatás keretrendszer hozzáadását a kivételekhez. Fogadhat értesítéseket a MIUI beépített és külső alkalmazásoktól."</string>
     <string name="add_miservice_dialog_title">MIUI szolgáltatás keretrendszer</string>
     <string name="add_to_whitelist_button">Adatbarangolás kivételek</string>
     <string name="add_whitelist">Hozzáadás a kivételekhez</string>
@@ -122,11 +137,14 @@
     <string name="adjust_traffic_carrier_summary_yesterday">Frissítve: Tegnap %s</string>
     <string name="adjust_traffic_data">Az adatforgalom beállítása</string>
     <string name="after_the_lock_screen">Alkalmazások lezárása a képernyővel együtt</string>
+    <string name="afternoon">Délután</string>
+    <string name="ai_allow_all">Döntse el nekem minden esetben</string>
     <string name="alert_back_diving_mode_summary">Kikapcsolja most az Immerzív módot?</string>
     <string name="alert_back_diving_mode_title">Immerzív mód</string>
     <string name="alert_back_milink_hangup_tips_content">A hívás befejezése közben a kijátszás nem szakad meg. A képernyőébresztéshez nyomja meg a Bekapcsoló gombot.</string>
     <string name="alert_back_milink_hangup_tips_content_vb">Ha a kijelző ki van kapcsolva, az alkalmazás a háttérben anélkül fog továbbfutni, hogy megszakítaná a kivetítést. A kijelző visszakapcsolásához nyomja meg a Bekapcsoló gombot.</string>
     <string name="all_address_choose_hint">Minden szám ebben a régióban</string>
+    <string name="allow_all">Összes engedélyezése</string>
     <string name="already_close_gamebooster">Játékgyorsító kikapcsolva</string>
     <string name="anti_disturb_msg_detail">Az összes értesítés kikapcsolása, kivéve a bejövő hívásokat</string>
     <string name="anti_disturb_msg_title">Ne zavarjanak</string>
@@ -172,10 +190,12 @@
     <string name="apn_exception_summary">A szolgáltató hozzáférési pont konfigurációjának ellenőrzése</string>
     <string name="apn_exception_title">APN konfiguráció ellenőrzése</string>
     <string name="apn_exception_wap_summary">A WAP jelenleg instabil. Váltson NET-re.</string>
-    <string name="app_behavior_about_content_no_link">A MIUI meg tudja mutatni, ha az alkalmazások elindítottak más alkalmazásokat, automatikusan elindultak, engedélyeket használtak, valamint érzékeny műveleteket hajtottak végre. Az Android-verzió kompatibilitási problémái miatt néhány nyilvántartott adat lehet, hogy pontatlan. Ha olyan alkalmazés magatartási jelentést talál, amely nem pontos, jelentse a „Szolgáltatások és visszajelzés” alkalmazásban.</string>
+    <string name="app_behavior_about_content_no_link">"A MIUI meg tudja mutatni, ha az alkalmazások elindítottak más alkalmazásokat, automatikusan elindultak, engedélyeket használtak, valamint érzékeny műveleteket hajtottak végre. Az Android-verzió kompatibilitási problémái miatt néhány nyilvántartott adat lehet, hogy pontatlan. Ha olyan alkalmazés magatartási jelentést talál, amely nem pontos, jelentse a \"Szolgáltatások és visszajelzés\" alkalmazásban."</string>
     <string name="app_behavior_about_negative">Pontatlanságok jelentése</string>
     <string name="app_behavior_about_positive">Rendben</string>
-    <string name="app_behavior_allowed">Engedélyezés</string>
+    <string name="app_behavior_access_gallery">%1s accessed Gallery</string>
+    <string name="app_behavior_access_gallery_single">This app accessed Gallery</string>
+    <string name="app_behavior_access_sociality">%1s accessed social media apps</string>
     <string name="app_behavior_audio">%1s hangot rögzített</string>
     <string name="app_behavior_audio_bg">%1s hangot rögzített a háttérben</string>
     <string name="app_behavior_audio_bg_single">Az app hangot rögzített a háttérben</string>
@@ -334,7 +354,7 @@
     <string name="app_manager_data_size">Felhasználói adat</string>
     <string name="app_manager_default_cleared">Törölve</string>
     <string name="app_manager_default_close_summary">Nincs alapértelmezett beállítva.</string>
-    <string name="app_manager_default_open_summary">Ön kijelölte ezt az alkalmazást alapértelemzettként néhány művelethez.</string>
+    <string name="app_manager_default_open_summary">Ön kijelölte ezt az alkalmazást alapértelmezettként néhány művelethez.</string>
     <string name="app_manager_default_open_title">Alapértelmezések törlése</string>
     <string name="app_manager_defaults_setting">Alapértelmezett alkalmazások</string>
     <string name="app_manager_details_electric_title">Akkumulátor</string>
@@ -677,8 +697,8 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="bl_no_block_call">Nincsenek tiltott hívások.</string>
     <string name="bl_no_block_sms">Nincsenek letiltott üzenetek.</string>
     <string name="blacklist_prefix_add_hint">Minden ilyen előtaggal rendelkező számot adjon hozzá a tiltólistához</string>
-    <string name="block_message_number">Elutasított üzenet: &lt;font color=#5fab1b&gt;%d&lt;/font&gt;</string>
-    <string name="block_phone_number">Elutasított hívás: &lt;font color=#5fab1b&gt;%d&lt;/font&gt;</string>
+    <string name="block_message_number">Elutasított üzenet: &lt;font color=#5fab1b>%d&lt;/font></string>
+    <string name="block_phone_number">Elutasított hívás: &lt;font color=#5fab1b>%d&lt;/font></string>
     <string name="boost_done">Sikeresen gyorsítva</string>
     <string name="boost_stop">Sebességgyorsítás kikapcsolása</string>
     <string name="booster_immediately">Gyorsítás</string>
@@ -1807,9 +1827,9 @@ hogy válaszoljon</string>
 
 3. A szolgáltató térereje gyenge jelenlegi tartózkodási helyén.</string>
     <string name="network_operator_exception_summary">Nem sikerült aktiválni a SIM-kártyát. Ellenőrizze, hogy a SIM-kártya megfelelően lett behelyezve és a szolgáltatója aktiválta a mobiladat-kapcsolatot.</string>
-    <string name="network_permission_exception_tips">Nem használható mobiladat-kapcsolat az internetre való csatlakozáshoz</string>
-    <string name="network_roaming_exception_tips">Barangolás során nem használható mobiladat-kapcsolat az internetcsatlakozáshoz.</string>
-    <string name="network_route_exception_detail">Probléma lehet a routerrel, amelyhez csatlakoztatva van:
+    <string name="network_permission_exception_tips">"Nem használható mobiladat-kapcsolat az internetre való csatlakozáshoz"</string>
+    <string name="network_roaming_exception_tips">"Barangolás során nem használható mobiladat-kapcsolat az internetcsatlakozáshoz."</string>
+    <string name="network_route_exception_detail">"Probléma lehet a routerrel, amelyhez csatlakoztatva van:
 
 1. Nyilvános Wi-Fi-hálózati hiba
 Ha nyilvános Wi-Fi-hálózatra csatlakozott, a csatlakozott felhasználók lelassíthatják a hálózatot, illetve kapcsolódási problémákat okozhatnak. Váltson át másik hálózatra és próbálja újra.
@@ -1826,12 +1846,12 @@ Próbálja meg újraindítani a routert vagy ellenőrizze az admin beállításo
 5. Ellenőrizze, hogy a router megfelelően van-e csatlakoztatva
 Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondolja, hogy kapcsolódási hiba van, lépjen kapcsolatba az internetszolgáltatójával.</string>
     <string name="network_sim_exception_detail">Lehetséges, hogy probléma van a SIM-kártyával:
-	
+
 Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató előírásainak. Próbálja egy ismerős SIM-kártyáját nézze meg, hogy azzal tud-e normálisan csatlakozni.
 
 2. Ha Ön 2 SIM-kártyát használ, próbáljon átváltani a másik kártyára, hogy meglássa tud-e csatlakozni normálisan.
 
-3. Győződjön meg róla, hogy a SIM-kártya és a foglalata nem sérült-e. Bizonyosodjon meg róla, hogy a SIM, amit használ tökéletesen illeszkedik a készülék SIM foglalatába.</string>
+3. Győződjön meg róla, hogy a SIM-kártya és a foglalata nem sérült-e. Bizonyosodjon meg róla, hogy a SIM, amit használ tökéletesen illeszkedik a készülék SIM foglalatába."</string>
     <string name="network_speed_for_apps_close">Kényszerített leállítás</string>
     <string name="network_speed_for_apps_close_app_dlg_msg">Leállítja ezt az alkalmazást?</string>
     <string name="network_speed_for_apps_close_system_app_dlg_msg">Nem kényszerítheti a rendszeralkalmazás leállítását.</string>
@@ -2435,7 +2455,7 @@ Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató el�
     <string name="privacy_permission_call">Híváslistához való hozzáférés vagy annak szerkesztése</string>
     <string name="privacy_permission_call_title">Hívások védelme</string>
     <string name="privacy_permission_camera_title">Háttérkamera használatának korlátozása</string>
-    <string name="privacy_permission_contacts">Kontaktokhoz való hozzáférés vagy azok szerkesztése</string>
+    <string name="privacy_permission_contacts">Névjegyek elérésére vagy szerkesztésére</string>
     <string name="privacy_permission_location">Hozzáférés helyadatokhoz</string>
     <string name="privacy_permission_management">Engedélyek kezelése</string>
     <string name="privacy_permission_management_summary">Alkalmazások, amelyek engedélyeket használnak hívások bonyolításához, SMS küldéséhez és a névjegyekhez való hozzáféréshez</string>
@@ -2452,9 +2472,9 @@ Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató el�
     <string name="privacy_pop_record">Hangrögzítés a mai napon</string>
     <string name="privacy_pop_storage">Tárhelyhez való hozzáférés a mai napon</string>
     <string name="privacy_prompt_tc_sms_report_message">A telefonszáma és szolgáltatójának adatai fel lesznek töltve a Xiaomi szerverére az adatforgalmi adatok lekéréséhez.</string>
-    <string name="privacy_prompt_traffic_adjust_message">Miután elindította a hitelesítést, a MIUI rendszer csatlakozik a hálózathoz, kódolja a szolgáltatóinformációt, telefonszámot, IMEI számot és Mi Fiókot, és feltölti ezeket a MIUI szerverére. Mindez annak érdekében történik, hogy megszerezze a szolgáltatói sablont és megtudja, ha lehetséges, a vásárlás adatait.
-	
-	A hitelesítéskor a MIUI szöveges üzenetet fog küldeni a szolgáltatójának a hitelesítési sablon beszerzésének érdekében.</string>
+    <string name="privacy_prompt_traffic_adjust_message">"Miután elindította a hitelesítést, a MIUI rendszer csatlakozik a hálózathoz, kódolja a szolgáltatóinformációt, telefonszámot, IMEI számot és Mi Fiókot, és feltölti ezeket a MIUI szerverére. Mindez annak érdekében történik, hogy megszerezze a szolgáltatói sablont és megtudja, ha lehetséges, a vásárlás adatait.
+
+A hitelesítéskor a MIUI szöveges üzenetet fog küldeni a szolgáltatójának a hitelesítési sablon beszerzésének érdekében."</string>
     <string name="privacy_prompt_upload">Feltöltés</string>
     <string name="privacy_protect_summary">Védje személyes adatait</string>
     <string name="privacy_protect_title">Adatvédelem</string>
@@ -2595,8 +2615,6 @@ Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató el�
     <string name="sd_format_summary">Minden adat törlése az SD-kártyáról (zeneszámokkal és képekkel együtt)</string>
     <string name="sd_insert_summary">Helyezzen be egy SD-kártyát a csatlakoztatáshoz</string>
     <string name="sd_mount">SD-kártya csatlakoztatása</string>
-    <string name="sd_mount_summary" />
-    <string name="search_input_txt_na">&lt;font color=\'#ff0000\'&gt;%s&lt;/font&gt;</string>
     <string name="search_menu_title">Keresés</string>
     <string name="search_result_text">Nem található alkalmazás</string>
     <string name="section_clear_acc_item_title">%s. Ha még mindig nincs elég tárhely, használja a Tisztítót.</string>
@@ -2634,7 +2652,7 @@ Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató el�
     <string name="settings_share_enable_summary">A WeChaten megosztott elemek MIUI jelzéssel jelennek meg</string>
     <string name="settings_share_info">Itt találhatók az elérhető biztonságos megosztási opciók a Galériából és a Fájlkezelőből megosztott elemek számára:</string>
     <string name="settings_show_detail">Részletek megjelenítése</string>
-    <string name="settings_tip">Ugrás a Galéria &gt; Beállítások menüpontba a további lehetőségek megtekintéséhez</string>
+    <string name="settings_tip">Ugrás a Galéria  > Beállítások menüpontba a további lehetőségek megtekintéséhez</string>
     <string name="settings_title">Biztonságos megosztás</string>
     <string name="shield_keyboard_detail">Nyomja duplán a gombokat a visszakapcsolásukhoz</string>
     <string name="shield_keyboard_summary">A játékok közben korlátozza a gombokat és a vezérlőmozdulatokat</string>
@@ -2642,7 +2660,7 @@ Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató el�
     <string name="shortcut_title_scan">Keresés</string>
     <string name="shortcut_title_whatsapp_clean">WhatsApp-tisztító</string>
     <string name="show_system_app">Rendszeralkalmazások mutatása</string>
-    <string name="show_traffic_dialog_message">Az adatforgalmi adatok meg fognak jelenni az értesítési felületen. Ez a funkció bármikor be és kikapcsolható az Adatforgalom &gt; Beállítások menüpontban.</string>
+    <string name="show_traffic_dialog_message">Az adatforgalmi adatok meg fognak jelenni az értesítési felületen. Ez a funkció bármikor be és kikapcsolható az Adatforgalom > Beállítások menüpontban.</string>
     <string name="show_traffic_dialog_title">Adatforgalom kijelzése az értesítési felületen</string>
     <string name="showpattern">Minta mutatása</string>
     <string name="shutdown_cancel_reminder">Nem kapcsolja ki</string>

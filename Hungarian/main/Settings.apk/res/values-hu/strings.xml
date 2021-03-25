@@ -1127,7 +1127,9 @@ Alkalmazások:
     <string name="bluetooth_enable">Bluetooth</string>
     <string name="bluetooth_enable_alphanumeric_pin">A PIN-kód betűket vagy szimbólumokat tartalmaz</string>
     <string name="bluetooth_enable_gabeldorsche">Gabeldorsche engedélyezése</string>
-    <string name="bluetooth_enable_gabeldorsche_summary">Engedélyezi a Bluetooth Gabeldorsche-funkció stacket.</string>
+    <string name="bluetooth_enable_gabeldorsche_summary">Lehetővé teszi a Bluetooth Gabeldorsche funkciót.</string>
+    <string name="bluetooth_enable_page_scan">Lehetővé teszi a bluetooth oldali keresést</string>
+    <string name="bluetooth_enable_page_scan_summary">A Bluetooth keresési-teszt letiltása/engedélyezése</string>
     <string name="bluetooth_enter_passkey_msg">Gépelje be a párosítókódot, majd nyomja meg az Enter vagy a Return gombot</string>
     <string name="bluetooth_enter_passkey_other_device">Előfordulhat, hogy az azonosító kulcsot a másik eszközön is be kell írnia.</string>
     <string name="bluetooth_enter_pin_other_device">Előfordulhat, hogy a PIN-kódot a másik készüléken is meg kell adnia.</string>
@@ -1504,7 +1506,7 @@ Ha CA-tanúsítványt telepít, a tanúsítvány tulajdonosa az Ön által megl�
     <string name="calendar_sound_title">A naptár hangja</string>
     <string name="call_category">Hívás</string>
     <string name="call_example_name">Név</string>
-    <string name="call_manager_enable_summary">Engedélyezi a szolgáltatás számára a hívások módjának kezelését.</string>
+    <string name="call_manager_enable_summary">Lehetővé teszi a szolgáltatás számára a hívások módjának kezelését.</string>
     <string name="call_manager_enable_title">Híváskezelő engedélyezése</string>
     <string name="call_manager_title">Híváskezelő</string>
     <string name="call_records_name_1">Milestone bácsi</string>
@@ -1837,7 +1839,7 @@ Ez információt szolgáltat arról, hogy az adott névjegy használhat-e bizony
     <string name="contact_discovery_opt_in_summary">Elküldheti a névjegyek telefonszámait, hogy speciális funkciókhoz jusson</string>
     <string name="contact_discovery_opt_in_title">Névjegyek elküldése a szolgáltatónak</string>
     <string name="content_capture">Alkalmazástartalom</string>
-    <string name="content_capture_summary">Engedélyezi, hogy az alkalmazások tartalmakat küldhessenek az Android rendszernek</string>
+    <string name="content_capture_summary">Lehetővé teszi, hogy az alkalmazások tartalmakat küldhessenek az Android rendszernek</string>
     <string name="content_description_menu_button">Menü</string>
     <string name="content_miui_music_mute_by_user">Médiahang lejátszása, ha a Néma mód be van kapcsolva?</string>
     <string name="contextual_card_dismiss_confirm_message">Eltávolítja ezt a javaslatot?</string>
@@ -2503,6 +2505,10 @@ Ha a probléma továbbra is fennáll, akkor az akkumulátor teljesítményének 
     <string name="doze_title">Képernyő ébresztése értesítéskor</string>
     <string name="dpp_qrcode_generator_summary">Olvassa be ezt a QR-kódot az Easy Connect funkciót támogató eszközzel</string>
     <string name="draw_overlay">A többi alkalmazás fölött</string>
+    <string name="dsu_is_running">DSU futtatás</string>
+    <string name="dsu_loader_description">Dinamikus rendszerfrissítési lemezkép betöltése</string>
+    <string name="dsu_loader_loading">Betöltés...</string>
+    <string name="dsu_loader_title">DSU Futtatás</string>
     <string name="dtmf_tone_enable_title">Tárcsázó hangja</string>
     <string name="dual_cdma_sim_warning_notification_channel_title">SIM-kombináció</string>
     <string name="dual_cdma_sim_warning_notification_summary">A(z) %1$s használata korlátozhatja a működést. Koppintson, ha további információra van szüksége.</string>
@@ -2569,7 +2575,7 @@ A létrehozott naplókat a Fájlkezelőben tekintheti meg.</string>
     <string name="enable_adb_summary">Váltás hibakeresés módra USB csatlakoztatásakor</string>
     <string name="enable_adb_wireless">Vezeték nélküli hibakeresés</string>
     <string name="enable_adb_wireless_summary">Hibakeresés mód Wi‑Fi-re való csatlakozáskor</string>
-    <string name="enable_blurs_on_windows_summary">Engedélyezi az ablakok homályosítását az összeállító szintjén. Az engedélyezéshez szükség van az eszköz újraindítására.</string>
+    <string name="enable_blurs_on_windows_summary">Lehetővé teszi az ablakok homályosítását az összeállító szintjén. Az engedélyezéshez szükség van az eszköz újraindítására.</string>
     <string name="enable_blurs_on_windows_title">Homályosítás engedélyezése</string>
     <string name="enable_compatibility">Alkalmazás skálázása</string>
     <string name="enable_freeform_support">Szabad formájú ablakok engedélyezése</string>
@@ -2725,6 +2731,7 @@ Ha további információra van szüksége, vegye fel a kapcsolatot a szervezet r
     <string name="expandable_under_keyguard_title">Megjelenítés a Képernyőzáron</string>
     <string name="experimental_category_title">Kísérleti</string>
     <string name="experimental_preference">(Kísérleti)</string>
+    <string name="extended_power_menu">Kiterjesztett leállítás menü</string>
     <string name="exterior">Színséma</string>
     <string name="external_code_size_label">USB-alkalmazás</string>
     <string name="external_data_size_label">USB-adatok</string>
@@ -3672,7 +3679,7 @@ Nyissa meg a Xiaomi Cloudot és állítsa helyre az elemeket.</string>
     <string name="location_no_recent_apps">Az utóbbi időben egy alkalmazás sem kért le helyadatokat.</string>
     <string name="location_recent_location_access_view_details">Részletek megtekintése</string>
     <string name="location_recent_location_requests_see_all">Az összes megtekintése</string>
-    <string name="location_scanning_bluetooth_always_scanning_description">Engedélyezi az alkalmazásoknak és szolgáltatásoknak, hogy közeli eszközöket keressenek még akkor is, ha ki van kapcsolva a Bluetooth. Ez például a helyalapú funkciók és szolgáltatások javítására használható.</string>
+    <string name="location_scanning_bluetooth_always_scanning_description">Lehetővé teszi az alkalmazásoknak és szolgáltatásoknak, hogy közeli eszközöket keressenek még akkor is, ha ki van kapcsolva a Bluetooth. Ez például a helyalapú funkciók és szolgáltatások javítására használható.</string>
     <string name="location_scanning_bluetooth_always_scanning_title">Bluetooth-alapú keresés</string>
     <string name="location_scanning_screen_title">Wi‑Fi- és Bluetooth-alapú keresés</string>
     <string name="location_scanning_wifi_always_scanning_description">Engedélyezi az alkalmazásoknak és szolgáltatásoknak, hogy Wi-Fi-hálózatokat keressenek még akkor is, ha ki van kapcsolva a Wi-Fi. Ez például a helyalapú funkciók és szolgáltatások javítására használható.</string>
@@ -4941,6 +4948,7 @@ Az OTG 10 perc inaktivitás után automatikusan kikapcsol.</string>
     <string name="personal_data_section_title">Személyes adatok</string>
     <string name="personal_profile_app_subtext">Személyes</string>
     <string name="personal_section_title">Testreszabás</string>
+    <string name="personalize_title">Háttérkép és Testreszabás</string>
     <string name="phone_backup_summary">A készüléken lévő elemek biztonsági mentése és helyreállítása</string>
     <string name="phone_backup_title">Mobilkészülék</string>
     <string name="phone_call_noise_suppression">Telefonhívás zajcsökkentése</string>
@@ -5033,6 +5041,8 @@ Az OTG 10 perc inaktivitás után automatikusan kikapcsol.</string>
     <string name="power_mgr">Akkumulátoroptimalizálás</string>
     <string name="power_mode">Teljesítménybeállítások</string>
     <string name="power_mode_balanced_title">Kiegyensúlyozott teljesítmény</string>
+    <string name="power_monitor_summary">Teljesít figyelésére használható eszközök.</string>
+    <string name="power_monitor_title">Teljesítménymonitor</string>
     <string name="power_optimize">Akkumulátorkímélő</string>
     <string name="power_overcounted">Túlbecsült</string>
     <string name="power_phone">Hanghívások</string>
@@ -5451,8 +5461,8 @@ Indítsa újra az eszközt, majd próbálja újra.</string>
     <string name="reset_second_space_passwd_cancel">Mégse</string>
     <string name="reset_second_space_passwd_confirm">Folytatás</string>
     <string name="reset_second_space_passwd_detail">Belépés az Első asztalon használt Mi Fiók jelszavával</string>
-    <string name="reset_shortcut_manager_throttling">Visszaállítja a ShortcutManager gyakoriságkorlátozását</string>
-    <string name="reset_shortcut_manager_throttling_complete">A ShortcutManager gyakoriságkorlátozása visszaállítva</string>
+    <string name="reset_shortcut_manager_throttling">Alapra állítja a Parancsikon menedzser sebesség korlátozását</string>
+    <string name="reset_shortcut_manager_throttling_complete">A Parancsikon menedzser gyakoriságkorlátozása visszaállítva</string>
     <string name="reset_title">Visszaállítás</string>
     <string name="resetting_second_space_passwd">A Második asztal jelszavának visszaállítása</string>
     <string name="resident_timezone_summary">A második óra</string>
@@ -6500,6 +6510,7 @@ A szolgáltatásaink használata előtt olvassa el és fogadja el a következőt
     <string name="sound_category_system_title">Rendszer</string>
     <string name="sound_dashboard_summary">Hangerő, rezgés, Ne zavarjanak</string>
     <string name="sound_effects_enable_title">Koppintson a hangokra</string>
+    <string name="sound_haptic_settings">Hang és érintés</string>
     <string name="sound_mode">Csendes és „Ne zavarj” mód</string>
     <string name="sound_settings">Hang</string>
     <string name="sound_settings_example_summary">Csörgetés és értesítések hangereje 80%-on</string>

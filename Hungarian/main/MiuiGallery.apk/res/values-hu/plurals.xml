@@ -1,12 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="a_hour_ago">
+        <item quantity="other">1 órával ezelőtt</item>
+    </plurals>
+    <plurals name="abbrev_a_hour_ago">
+        <item quantity="other">1 órával ezelőtt</item>
+    </plurals>
+    <plurals name="abbrev_half_hour_ago">
+        <item quantity="other">Fél órával ezelőtt</item>
+    </plurals>
+    <plurals name="abbrev_in_a_hour">
+        <item quantity="other">1 óra múlva</item>
+    </plurals>
+    <plurals name="abbrev_in_half_hour">
+        <item quantity="other">Fél órán belül</item>
+    </plurals>
+    <plurals name="abbrev_in_less_than_one_minute">
+        <item quantity="other">Azonnal</item>
+    </plurals>
+    <plurals name="abbrev_in_num_minutes">
+        <item quantity="other">in %d perc</item>
+        <item quantity="one">in 1 perc</item>
+    </plurals>
+    <plurals name="abbrev_less_than_one_minute_ago">
+        <item quantity="other">Éppen most</item>
+    </plurals>
+    <plurals name="abbrev_num_minutes_ago">
+        <item quantity="other">%d perccel ezelőtt</item>
+        <item quantity="one">1 perccel ezelőtt</item>
+    </plurals>
     <plurals name="add_secret_ensure_message">
         <item quantity="other">Elrejti ezeket a fájlokat?</item>
         <item quantity="one">Elrejti ezt a fájlt?</item>
     </plurals>
     <plurals name="add_to_album_cloud_photo_count_tip">
-        <item quantity="other">%d fénykép hozzáadva a felhőhöz, megtekintéshez kapcsolja ki: &quot;Csak helyi albumok megjelenítése&quot;.</item>
-        <item quantity="one">%d fénykép hozzáadva a felhőhöz, megtekintéshez kapcsolja ki: &quot;Csak helyi albumok megjelenítése&quot;.</item>
+        <item quantity="other">%d fénykép hozzáadva a felhőhöz, megtekintéshez kapcsolja ki: \"Csak helyi albumok megjelenítése\"opciót.</item>
+        <item quantity="one">%d fénykép hozzáadva a felhőhöz, megtekintéshez kapcsolja ki: \"Csak helyi albumok megjelenítése\"opciót.</item>
     </plurals>
     <plurals name="add_to_album_failed_with_reason_and_count">
         <item quantity="other">%2$d elem nem adható hozzá az albumhoz. %1$s.</item>
@@ -43,6 +72,14 @@
     <plurals name="album_item_msg_format">
         <item quantity="other">(%d elem)</item>
         <item quantity="one">(%d elem)</item>
+    </plurals>
+    <plurals name="album_item_msg_format_new">
+        <item quantity="other">%d album</item>
+        <item quantity="one">%d album</item>
+    </plurals>
+    <plurals name="album_member">
+        <item quantity="other">%s az emberek megtekinthetik ezt az albumot</item>
+        <item quantity="one">%s az emberek megtekinthetik ezt az albumot</item>
     </plurals>
     <plurals name="album_photo_count_text">
         <item quantity="other">%1$d elem</item>
@@ -153,8 +190,8 @@
         <item quantity="one">Nem sikerült letölteni %1$d fájlt</item>
     </plurals>
     <plurals name="download_retry_message">
-        <item quantity="other">%1$d fájl letöltése sikertelen, ellenőrizze a hálózati kapcsolatot és próbálja újra</item>
-        <item quantity="one">%1$d fájl letöltése sikertelen, ellenőrizze a hálózati kapcsolatot és próbálja újra</item>
+        <item quantity="other">"%1$d fájl letöltése sikertelen, ellenőrizze a hálózati kapcsolatot és próbálja újra"</item>
+        <item quantity="one">"%1$d fájl letöltése sikertelen, ellenőrizze a hálózati kapcsolatot és próbálja újra"</item>
     </plurals>
     <plurals name="face_count">
         <item quantity="other">Összesen %d fénykép</item>
@@ -165,13 +202,36 @@
         <item quantity="one">Fényképfeldolgozás…</item>
     </plurals>
     <plurals name="fast_share_auto_render_failed">
-        <item quantity="other">%1$d fénykép kihagyva, amelyeket nem lehetett megjeleníteni.</item>
-        <item quantity="one">Egy fénykép kihagyva, amelyet nem lehetett megjeleníteni.</item>
+        <item quantity="other">"%1$d fénykép kihagyva, amelyeket nem lehetett megjeleníteni."</item>
+        <item quantity="one">"Egy fénykép kihagyva, amelyet nem lehetett megjeleníteni."</item>
     </plurals>
     <plurals name="file_type_detail_count">
         <item quantity="other">%1$d fájl</item>
         <item quantity="one">%1$d fájl</item>
     </plurals>
+    <plurals name="half_hour_ago">
+        <item quantity="other">Fél órával ezelőtt</item>
+    </plurals>
+    <plurals name="in_a_hour">
+        <item quantity="other">1 óra múlva</item>
+    </plurals>
+    <plurals name="in_half_hour">
+        <item quantity="other">Fél órán belül</item>
+    </plurals>
+    <plurals name="in_less_than_one_minute">
+        <item quantity="other">Azonnal</item>
+    </plurals>
+    <plurals name="in_num_minutes">
+        <item quantity="other">in %d perc</item>
+        <item quantity="one">in 1 perc</item>
+    </plurals>
+    <plurals name="less_than_one_minute_ago">
+        <item quantity="other">Éppen most</item>
+    </plurals>
+    <plurals name="num_minutes_ago">
+        <item quantity="other">%d perccel ezelőtt</item>
+        <item quantity="one">1 perccel ezelőtt</item>
+    </plurals>	
     <plurals name="number_of_images_and_videos_to_upload">
         <item quantity="other">%1$d elem vár szinkronizálásra</item>
         <item quantity="one">%1$d elem vár szinkronizálásra</item>
@@ -208,29 +268,53 @@
         <item quantity="other">Összesen %1$d elem</item>
         <item quantity="one">Összesen %1$d elem</item>
     </plurals>
+    <plurals name="photo_remain_days">
+        <item quantity="other">%d nao</item>
+        <item quantity="one">%d nap</item>
+    </plurals>
+    <plurals name="photo_remain_hours">
+        <item quantity="other">%d ó</item>
+        <item quantity="one">%d ó</item>
+    </plurals>
+    <plurals name="pic_to_pdf_filter_count">
+        <item quantity="other">Szűrt %d nem támogatott elem</item>
+        <item quantity="one">Filtered %d nem támogatott elem</item>
+    </plurals>
+    <plurals name="pic_to_pdf_support_max_count">
+        <item quantity="other">A PDF fájlok legfeljebb %d képet tartalmazhatnak </item>
+        <item quantity="one">A PDF fájlok legfeljebb %d képet tartalmazhatnak </item>
+    </plurals>
     <plurals name="picker_all_image_need_download">
-        <item quantity="other">A kiválasztott fénykép nincs a készüléken. Letölti mobiladat-kapcsolattal?</item>
-        <item quantity="one">A kiválasztott fénykép nincs a készüléken. Letölti mobiladat-kapcsolattal?</item>
+        <item quantity="other">"A kiválasztott fénykép nincs a készüléken. Letölti mobiladat-kapcsolattal?"</item>
+        <item quantity="one">"A kiválasztott fénykép nincs a készüléken. Letölti mobiladat-kapcsolattal?"</item>
     </plurals>
     <plurals name="picker_all_image_will_download">
-        <item quantity="other">A kiválasztott fényképek nincsenek a készüléken. Letöltésre fognak kerülni.</item>
-        <item quantity="one">A kiválasztott fénykép nincs a készüléken. Letöltésre fog kerülni.</item>
+        <item quantity="other">"A kiválasztott fényképek nincsenek a készüléken. Letöltésre fognak kerülni."</item>
+        <item quantity="one">"A kiválasztott fénykép nincs a készüléken. Letöltésre fog kerülni."</item>
     </plurals>
     <plurals name="picker_all_origin_need_download">
-        <item quantity="other">A kiválasztott fénykép (%dMB) nincs a készüléken. Letölti mobiladat-kapcsolattal?</item>
-        <item quantity="one">A kiválasztott fénykép (%dMB) nincs a készüléken. Letölti mobiladat-kapcsolattal?</item>
+        <item quantity="other">"A kiválasztott fénykép (%dMB) nincs a készüléken. Letölti mobiladat-kapcsolattal?"</item>
+        <item quantity="one">"A kiválasztott fénykép (%dMB) nincs a készüléken. Letölti mobiladat-kapcsolattal?"</item>
     </plurals>
     <plurals name="picker_cancel_confirm_message">
-        <item quantity="other">Mégsem tölti le a hátralévő %d fényképet?</item>
-        <item quantity="one">Mégsem tölti le a hátralévő fényképet?</item>
+        <item quantity="other">"Mégsem tölti le a hátralévő %d fényképet?"</item>
+        <item quantity="one">"Mégsem tölti le a hátralévő %d fényképet?"</item>
+    </plurals>
+    <plurals name="picker_file_will_download">
+        <item quantity="other">Hátralévő %d fájl letöltése</item>
+        <item quantity="one">Hátralévő %d fájl letöltése</item>
     </plurals>
     <plurals name="picker_no_network_retry_image_confirm_message">
-        <item quantity="other">%1$d kép letöltése sikertelen, csatlakozzon a hálózathoz, majd próbálja újra</item>
-        <item quantity="one">Kép letöltése sikertelen, csatlakozzon a hálózathoz, majd próbálja újra</item>
+        <item quantity="other">"%1$d kép letöltése sikertelen, csatlakozzon a hálózathoz, majd próbálja újra"</item>
+        <item quantity="one">"%1$d  Kép letöltése sikertelen, csatlakozzon a hálózathoz, majd próbálja újra"</item>
     </plurals>
     <plurals name="picker_no_network_retry_origin_confirm_message">
-        <item quantity="other">%1$d fénykép (%2$dMB) letöltése sikertelen, csatlakozzon a hálózathoz, majd próbálja újra</item>
-        <item quantity="one">Fénykép (%2$dMB) letöltése sikertelen, csatlakozzon a hálózathoz, majd próbálja újra</item>
+        <item quantity="other">"%1$d fénykép (%2$dMB) letöltése sikertelen, csatlakozzon a hálózathoz, majd próbálja újra"</item>
+        <item quantity="one">"%1$d Fénykép (%2$dMB) letöltése sikertelen, csatlakozzon a hálózathoz, majd próbálja újra"</item>
+    </plurals>
+    <plurals name="picker_origin_need_to_download">
+        <item quantity="other">"%1$d fájl (%2$d MB) még nincs letöltve. Letölti mobiladat átvitel segítségével?"</item>
+        <item quantity="one">"%1$d fájl (%2$d MB) még nincs letöltve. Letölti mobiladat átvitel segítségével?"</item>
     </plurals>
     <plurals name="picker_retry_image_confirm_message">
         <item quantity="other">Nem sikerült %1$d fénykép letöltése, megpróbálja újra?</item>
@@ -257,24 +341,120 @@
         <item quantity="one">%2$d elemet nem lehet eltávolítani a rejtett albumból. %1$s.</item>
     </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
-        <item quantity="other">%1$d fénykép hozzáadva ide: &quot;%2$s&quot; és az adatbázishoz.</item>
-        <item quantity="one">%1$d fénykép hozzáadva ide: &quot;%2$s&quot; és az adatbázishoz.</item>
+        <item quantity="other">%1$d fénykép hozzáadva ide: \"%2$s\" és az adatbázishoz.</item>
+        <item quantity="one">%1$d fénykép hozzáadva ide: \"%2$s\" és az adatbázishoz.</item>
     </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_positive">
-        <item quantity="other">%1$d fénykép eltávolítva innen: &quot;%2$s&quot; és hozzáadva az adatbázishoz.</item>
-        <item quantity="one">%1$d fénykép eltávolítva innen: &quot;%2$s&quot; és hozzáadva az adatbázishoz.</item>
+        <item quantity="other">%1$d fénykép eltávolítva innen: \"%2$s\" és hozzáadva az adatbázishoz.</item>
+        <item quantity="one">%1$d fénykép eltávolítva innen: \"%2$s\" és hozzáadva az adatbázishoz.</item>
     </plurals>
     <plurals name="search_feedback_done_mark_false_negative">
-        <item quantity="other">%1$d fénykép hozzáadva ehhez: &quot;%2$s&quot;.</item>
-        <item quantity="one">%1$d fénykép hozzáadva ehhez: &quot;%2$s&quot;.</item>
+        <item quantity="other">%1$d fénykép hozzáadva ehhez: \"%2$s\".</item>
+        <item quantity="one">%1$d fénykép hozzáadva ehhez: \"%2$s\".</item>
     </plurals>
     <plurals name="search_feedback_done_mark_false_positive">
-        <item quantity="other">%1$d fénykép eltávolítva innen: &quot;%2$s&quot;.</item>
-        <item quantity="one">%1$d fénykép eltávolítva innen: &quot;%2$s&quot;.</item>
+        <item quantity="other">%1$d fénykép eltávolítva innen: \"%2$s\".</item>
+        <item quantity="one">%1$d fénykép eltávolítva innen: \"%2$s\".</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%2$d Telepítő csomag (%3$s) tól %1$s</item>
+        <item quantity="one">%2$d Telepítő csomag (%3$s) tól %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">Telepítő csomag %2$d fogadása (%3$s) %1$s -tól</item>
+        <item quantity="one">Telepítő csomag %2$d fogadása (%3$s) %1$s -tól</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">Telepítő csomag %2$d fogadása (%3$s) %1$s -tól…</item>
+        <item quantity="one">Telepítő csomag %2$d fogadása (%3$s) %1$s -tól…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d audio files (%3$s) %1$s -tól</item>
+        <item quantity="one">%2$d audio file (%3$s) %1$s -tól</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">Audio fájl %2$d fogadása (%3$s) %1$s -tól</item>
+        <item quantity="one">Audio fájl %2$d fogadása (%3$s) %1$s -tól</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">Audio fájl %2$d fogadása (%3$s) %1$s…</item>
+        <item quantity="one">Audio fájl %2$d fogadása (%3$s) %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d %3$s fájl (%4$s) %1$s -tól</item>
+        <item quantity="one">%2$d %3$s fájl (%4$s) %1$s -tól</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">Fájl %2$d %3$s fogadása (%4$s) from %1$s</item>
+        <item quantity="one">Fájl %2$d %3$s fogadása (%4$s) from %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">Fájl %2$d %3$s fogadása (%4$s) -tól %1$s…</item>
+        <item quantity="one">Fájl %2$d %3$s fogadása (%4$s) -tól %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d kép %1$s -tól</item>
+        <item quantity="one">%2$d kép %1$s -tól</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">Kép %2$d fogadása %1$s -tól</item>
+        <item quantity="one">Kép %2$d fogadása %1$s -tól</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">Kép %2$d fogadása %1$s -tól…</item>
+        <item quantity="one">Kép %2$d fogadása %1$s -tól</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d Kép és videó %1$s -tól</item>
+        <item quantity="one">%2$d Kép és videó %1$s -tól</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">Kép és videó %2$d fogadása %1$s -tól</item>
+        <item quantity="one">Kép és videó %2$d fogadása %1$s -tól</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">Kép és videó %2$d fogadása %1$s -tól…</item>
+        <item quantity="one">Kép és videó %2$d fogadása %1$s -tól…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d fájl %1$s -tól</item>
+        <item quantity="one">%2$d fájl %1$s -tól</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">Fájl %2$d fogadása %1$s -tól</item>
+        <item quantity="one">Fájl %2$d fogadása %1$s -tól</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">Fájl %2$d fogadása %1$s -tól…</item>
+        <item quantity="one">Fájl %2$d fogadása %1$s -tól…</item>
     </plurals>
     <plurals name="send_processing_files_error">
-        <item quantity="other">Megosztás sikertelen. %d fénykép még feldolgozás alatt…</item>
-        <item quantity="one">Megosztás sikertelen. %d fénykép még feldolgozás alatt…</item>
+        <item quantity="other">"Megosztás sikertelen. %d fénykép még feldolgozás alatt…"</item>
+        <item quantity="one">"Megosztás sikertelen. %d fénykép még feldolgozás alatt…"</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d videó %1$s -tól</item>
+        <item quantity="one">%2$d videó %1$s -tól</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">Videó %2$d fogadása %1$s -tól</item>
+        <item quantity="one">Videó %2$d fogadása %1$s -tól</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">Videó %2$d fogadása %1$s…</item>
+        <item quantity="one">Videó %2$d fogadása %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d Archívum (%3$s) %1$s -tól</item>
+        <item quantity="one">%2$d Archívum (%3$s) %1$s -tól</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">Archívum %2$d fogadása (%3$s) %1$s -tól</item>
+        <item quantity="one">Archívum %2$d fogadása (%3$s) %1$s -tól</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">Archívum %2$d fogadása (%3$s) %1$s -tól…</item>
+        <item quantity="one">Archívum %2$d fogadása (%3$s) %1$s -tól…</item>
     </plurals>
     <plurals name="slideshow_interval_value">
         <item quantity="other">%1$d másodperc</item>
@@ -303,6 +483,26 @@
     <plurals name="sync_total_count">
         <item quantity="other">%d elem</item>
         <item quantity="one">%d elem</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_image">
+        <item quantity="other">"A kijelölt elem nem állíthtó vissza. %d Mégis törli?"</item>
+        <item quantity="one">"A kijelölt elem %d nem állítjató vissza, ha törli azt. Mégis törli?"</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_media">
+        <item quantity="other">"A kijelölt elem nem állíthtó vissza. %d Mégis törli?"</item>
+        <item quantity="one">"A kijelölt elem %d nem állítjató vissza, ha törli azt. Mégis törli?"</item>
+    </plurals>
+    <plurals name="trash_purge_dialog_message_video">
+        <item quantity="other">"A kijelölt elem nem állíthtó vissza. %d selected items if you delete them. Mégis törli?"</item>
+        <item quantity="one">"A kijelölt elem %d nem állítjató vissza, ha törli azt. Mégis törli?"</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_login">
+        <item quantity="other">Az elemek itt legfeljebb %1$d napig tárolhatók (%2$s)</item>
+        <item quantity="one">Az elemek itt tárolhatók %1$d napig (%2$s)</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_unlogin">
+        <item quantity="other">Az elemek itt legfeljebb %1$d napig tárolhatók . Frissítse a csomagját, hogy meghosszabbítsa ezt az időszakot.</item>
+        <item quantity="one">Az elemek itt tárolhatók %1$d napig. Frissítse a csomagját, hogy meghosszabbítsa ezt az időszakot.</item>
     </plurals>
     <plurals name="video_count_format">
         <item quantity="other">%1$d fájl</item>
