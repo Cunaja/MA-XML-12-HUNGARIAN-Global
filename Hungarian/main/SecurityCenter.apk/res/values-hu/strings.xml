@@ -110,8 +110,8 @@
     <string name="activity_title_white_list">Kivételek</string>
     <string name="ad_btn_default_text">További információ</string>
     <string name="ad_floating_window_title">Lebegő ablakok bezárása feloldáskor</string>
-     <string name="ad_split_screen_title">A feloldáshoz lépjen ki az Osztott képernyős módból</string>
-     <string name="ad_update_time">Utolsó frissítés: %s</string>
+    <string name="ad_split_screen_title">A feloldáshoz lépjen ki az Osztott képernyős módból</string>
+    <string name="ad_update_time">Utolsó frissítés: %s</string>
     <string name="ad_update_time_unKnown">Utolsó frissítés: ismeretlen</string>
     <string name="adb_install_no_network">Csatlakozzon a hálózatra és próbálja újra</string>
     <string name="adb_install_open">Engedélyezés…</string>
@@ -141,7 +141,7 @@
     <string name="ai_allow_all">Döntse el nekem minden esetben</string>
     <string name="alert_back_diving_mode_summary">Kikapcsolja most az Immerzív módot?</string>
     <string name="alert_back_diving_mode_title">Immerzív mód</string>
-    <string name="alert_back_milink_hangup_tips_content">A hívás befejezése közben a kijátszás nem szakad meg. A képernyőébresztéshez nyomja meg a Bekapcsoló gombot.</string>
+    <string name="alert_back_milink_hangup_tips_content">"A hívás befejezése közben a kijátszás nem szakad meg. A képernyőébresztéshez nyomja meg a Bekapcsoló gombot."</string>
     <string name="alert_back_milink_hangup_tips_content_vb">Ha a kijelző ki van kapcsolva, az alkalmazás a háttérben anélkül fog továbbfutni, hogy megszakítaná a kivetítést. A kijelző visszakapcsolásához nyomja meg a Bekapcsoló gombot.</string>
     <string name="all_address_choose_hint">Minden szám ebben a régióban</string>
     <string name="allow_all">Összes engedélyezése</string>
@@ -156,7 +156,6 @@
     <string name="antispam_notificaiton_type_show_none">Soha</string>
     <string name="antispam_notification_setting_title">Értesítések</string>
     <string name="antispam_xpace_text">Váltson az Első asztalra a Tiltólista beállításához</string>
-    <string name="antivirus_choose_engine">%s</string>
     <string name="antivirus_choose_engine_dialog_title">Válasszon adatbázist</string>
     <string name="antivirus_choose_engine_settings">VÍRUSADATBÁZIS-BEÁLLÍTÁS</string>
     <string name="antivirus_choose_engine_title">Adatbázisok</string>
@@ -170,14 +169,16 @@
     <string name="antivirus_monitor_virus_advice">Ez az alkalmazás vírust tartalmazhat, törölje</string>
     <string name="antivirus_monitored_app_empty">Nem találhatóak kompatibilis fizetési alkalmazások</string>
     <string name="antivirus_none_engine_dialog_ok">OK</string>
-    <string name="antivirus_not_wlan">Jelenleg nincs csatlakozva Wi-Fi-re. Mobiladat-kapcsolat használata további díjakat vonhat maga után. Biztosan folytatja?</string>
+    <string name="antivirus_not_wlan">"Jelenleg nincs csatlakozva Wi-Fi-re. Mobiladat-kapcsolat használata további díjakat vonhat maga után. Biztosan folytatja?"</string>
     <string name="antivirus_privacy_dialog_cloudscan">Alkalmazások neveinek és adatainak feltöltése</string>
-    <string name="antivirus_privacy_dialog_cloudscan_description">A vírusok hatékonyabb észlelése és semlegesítése érdekében feltöltjük az alkalmazáscsomagok nevét és tulajdonságait, hogy felhőmotor segítségével kereshetők legyenek.</string>
+    <string name="antivirus_privacy_dialog_cloudscan_description">"A vírusok hatékonyabb észlelése és semlegesítése érdekében feltöltjük az alkalmazáscsomagok nevét és tulajdonságait, hogy felhőmotor segítségével kereshetők legyenek."</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
     <string name="antivirus_privacy_dialog_summary">Ezt a funkciót harmadik fél víruskereső motorja üzemelteti. További információkért olvassa el a &lt;a href=\"%1$s\"&gt;Licencszerződést&lt;/a&gt; , melyet a harmadik fél bocsátott rendelkezésre.</string>
     <string name="antivirus_privacy_dialog_summary_link">Adatvédelmi Irányelvek</string>
     <string name="antivirus_privacy_dialog_title">Adatvédelmi Irányelvek</string>
-    <string name="antivirus_sec_network_unavailable">A Biztonság nem tudja elvégezni a frissítést, mert Ön korlátozta az internetkapcsolatot. Engedélyezi a Biztonság alkalmazásnak, hogy kapcsolódjon az internethez?</string>
+    <string name="antivirus_privacy_dialog_title_kddi">Felhasználási feltételek</string>
+    <string name="antivirus_sec_network_unavailable">"A Biztonság nem tudja elvégezni a frissítést, mert Ön korlátozta az internetkapcsolatot. Engedélyezi a Biztonság alkalmazásnak, hogy kapcsolódjon az internethez?"</string>
+    <string name="antivirus_third_privacy_title">Harmadik fél adatvédelmi irányelvei</string>																					  
     <string name="antivirus_toast_already_update">Naprakész</string>
     <string name="antivirus_toast_network_unavailable">Nincs internetkapcsolat</string>
     <string name="antivirus_toast_update_failed">Frissítés sikertelen</string>
@@ -193,9 +194,11 @@
     <string name="app_behavior_about_content_no_link">"A MIUI meg tudja mutatni, ha az alkalmazások elindítottak más alkalmazásokat, automatikusan elindultak, engedélyeket használtak, valamint érzékeny műveleteket hajtottak végre. Az Android-verzió kompatibilitási problémái miatt néhány nyilvántartott adat lehet, hogy pontatlan. Ha olyan alkalmazés magatartási jelentést talál, amely nem pontos, jelentse a \"Szolgáltatások és visszajelzés\" alkalmazásban."</string>
     <string name="app_behavior_about_negative">Pontatlanságok jelentése</string>
     <string name="app_behavior_about_positive">Rendben</string>
-    <string name="app_behavior_access_gallery">%1s accessed Gallery</string>
-    <string name="app_behavior_access_gallery_single">This app accessed Gallery</string>
-    <string name="app_behavior_access_sociality">%1s accessed social media apps</string>
+    <string name="app_behavior_access_gallery">%1s hozzáfér a Galériához</string>
+    <string name="app_behavior_access_gallery_single">Ez az alkalmazás hozzáfért a Galériához</string>
+    <string name="app_behavior_access_sociality">%1s hozzáfért a közösségi média alkalmazásokhoz</string>
+    <string name="app_behavior_access_sociality_single">Ez az alkalmazás hozzáfért a közösségi média alkalmazásokat</string>    
+    <string name="app_behavior_allowed">Engedélyez</string>
     <string name="app_behavior_audio">%1s hangot rögzített</string>
     <string name="app_behavior_audio_bg">%1s hangot rögzített a háttérben</string>
     <string name="app_behavior_audio_bg_single">Az app hangot rögzített a háttérben</string>
@@ -216,12 +219,20 @@
     <string name="app_behavior_camera_single">Az app képet vagy videót készített</string>
     <string name="app_behavior_clipboard">A(z) %1s hozzáfért elemekhez vagy elemeket mentett a vágólapra</string>
     <string name="app_behavior_clipboard_bg">A(z) %1s hozzáfért elemekhez vagy elemeket mentett a vágólapra a háttérben</string>
+    <string name="app_behavior_clipboard_bg_new">%1s elemeket másolt a vágólapra a háttérben</string>
     <string name="app_behavior_clipboard_bg_single">Az app hozzáfért elemekhez vagy elemeket mentett a vágólapra a háttérben</string>
+    <string name="app_behavior_clipboard_bg_single_new">Ez az app elemeket másolt a vágólapra a háttérben</string>																						
+    <string name="app_behavior_clipboard_new">%1s elemeket másolt a vágólapra</string>    
+    <string name="app_behavior_clipboard_read_bg_single">Ez az app hozzáfért a háttérben a vágólap elemeihez.</string>
+    <string name="app_behavior_clipboard_read_single">Ez az app elérte a vágólap elemeit</string>
     <string name="app_behavior_clipboard_single">Az app hozzáfért elemekhez vagy elemeket mentett a vágólapra</string>
+    <string name="app_behavior_clipboard_single_new">Ez az app elemeket másolt a vágólapra</string>																									   
     <string name="app_behavior_contacts">%1s hozzáfért a névjegyeihez</string>
     <string name="app_behavior_contacts_bg">%1s hozzáfért a névjegyeihez a háttérben</string>
     <string name="app_behavior_contacts_bg_single">Az app hozzáfért a névjegyeihez a háttérben</string>
     <string name="app_behavior_contacts_single">Az app hozzáfért a névjegyeihez</string>
+    <string name="app_behavior_delete_pic">%1s elem törölve lett a Galériából</string>
+    <string name="app_behavior_delete_pic_single">Ez az alkalmazás törölte az elemeket a Galériából</string>
     <string name="app_behavior_denied">Korlátozás</string>
     <string name="app_behavior_desc_allow_once">%1$s időpontban engedélyezve</string>
     <string name="app_behavior_desc_deny_once">%1$s időpontban korlátozva</string>
@@ -234,20 +245,25 @@
     <string name="app_behavior_key_camera">Képkészítés</string>
     <string name="app_behavior_key_location">Tartózkodási hely</string>
     <string name="app_behavior_key_protect">Személyes adatok védelme</string>
+    <string name="app_behavior_link_start">Láncindítás</string>															   
     <string name="app_behavior_list_load_more">Betöltés…</string>
     <string name="app_behavior_location">%1s hozzáfért a tartózkodási helyéhez</string>
     <string name="app_behavior_location_bg">%1s hozzáfért a tartózkodási helyéhez a háttérben</string>
     <string name="app_behavior_location_bg_single">Az app hozzáfért a tartózkodási helyéhez a háttérben</string>
     <string name="app_behavior_location_single">Az app hozzáfért a tartózkodási helyéhez</string>
+    <string name="app_behavior_media_volume">%1s módosította a média hangerőt</string>
+    <string name="app_behavior_media_volume_bg">%1s módosította a média hangerőt a háttérben</string>
+    <string name="app_behavior_media_volume_bg_single">Ez az app módosította a média hangerőt a háttérben</string>
+    <string name="app_behavior_media_volume_single">Ez az app módosította a média hangerőt</string>
     <string name="app_behavior_menu_about">Az alkalmazás magatartás nyilvántartásokról</string>
     <string name="app_behavior_monitor_off">Értesítések kikapcsolása</string>
-    <string name="app_behavior_monitor_off_content">Nem fog tudni értesítéseket fogadni az alkalmazás által végrehajtott érzékeny műveletekről. Biztosan kikapcsolja az értesítéseket?</string>
+    <string name="app_behavior_monitor_off_content">"Nem fog tudni értesítéseket fogadni az alkalmazás által végrehajtott érzékeny műveletekről. Biztosan kikapcsolja az értesítéseket?"</string>
     <string name="app_behavior_monitor_off_positive">Kikapcsolás</string>
     <string name="app_behavior_monitor_off_select">Ne jelenjen meg újra</string>
     <string name="app_behavior_monitor_tips_if_trust">Ha megbízik az alkalmazásban, kikapcsolhatja az érzékeny műveletek végrehajtására figyelmeztető értesítéseket.</string>
     <string name="app_behavior_monitor_tips_key">Értesítések az érzékeny műveletekről</string>
     <string name="app_behavior_monitor_tips_summary">Fogadhat értesítéseket, ha az alkalmazások hangot rögzítenek, hozzáférnek az Ön tartózkodási helyéhez vagy egyéb érzékeny műveleteket hajtanak végre a háttérben.</string>
-    <string name="app_behavior_no_recorder">Nincs találat</string>
+    <string name="app_behavior_no_recorder">"Nincs találat"</string>
     <string name="app_behavior_notification_audio_now_one">A(z) %1s hangot rögzít</string>
     <string name="app_behavior_notification_audio_now_two" formatted="false">A(z) %1s és a(z) %2s alkalmazások hangot rögzítenek</string>
     <string name="app_behavior_notification_camera_one">A(z) %1s képet készít</string>
@@ -280,6 +296,8 @@
     <string name="app_behavior_phonestate">%1s hozzáfért a készülékadatokhoz</string>
     <string name="app_behavior_phonestate_single">Az app hozzáfért a készülékadatokhoz</string>
     <string name="app_behavior_privacy_manager">Értesítések az érzékeny műveletekről</string>
+    <string name="app_behavior_read_clipboard">%1s hozzáfért a vágólap elemeihez</string>
+    <string name="app_behavior_read_clipboard_bg">%1s hozzáfért a vágólap elemeihez a háttérben</string>																						   
     <string name="app_behavior_recognition">%1s hozzáfért az ön tevékenységadataihoz</string>
     <string name="app_behavior_recognition_single">Az app hozzáfért az ön tevékenységadataihoz</string>
     <string name="app_behavior_search">Keresés</string>
@@ -289,6 +307,8 @@
     <string name="app_behavior_settings_category_privacy">Személyes adatok védelme</string>
     <string name="app_behavior_settings_perm_tips">Értesítés megjelenítése az állapotsávban, ha az alkalmazások hozzáférnek az Ön tartózkodási helyéhez, hangot rögzítenek vagy képet készítenek</string>
     <string name="app_behavior_settings_privacy_tips">Fogadjon értesítéseket, ha az alkalmazások hozzáférnek az Ön névjegyeihez, híváselőzményeihez vagy érzékeny műveleteket hajatanak végre</string>
+    <string name="app_behavior_share_file">Fájlok megosztása</string>
+    <string name="app_behavior_share_picture">Kepek megosztása</string>															   
     <string name="app_behavior_sms_read">%1s elolvasott egy SMS-t</string>
     <string name="app_behavior_sms_read_single">Az app SMS-t olvasott</string>
     <string name="app_behavior_sms_send">%1s SMS-t küldött</string>
@@ -318,8 +338,8 @@
     <string name="app_bg_restrict_dialog_message">A hálózati kapcsolat háttérbeli korlátozása megakadályozhatja, hogy az alkalmazás rendesen működjön. Nem tud például többé üzeneteket fogadni vagy tartalmat frissíteni.</string>
     <string name="app_check_no_issue">Úgy tűnik, nincsenek akkumulátorproblémák. Nagyszerű!</string>
     <string name="app_detail">Részletek</string>
-    <string name="app_error_tip_for_launcher">Készülékének hardverelemei vagy az Android-rendszer verziója kompatibilitási problémákat okozhatnak, és bizonyos alkalmazások rendeltetéstől eltérően működhetnek, lefagyhatnak vagy leállhat működésük. Ha ilyen problémákat tapasztal, ossza meg visszajelzésében a fejlesztőkkel.</string>
-    <string name="app_error_tip_for_store">Készülékének hardverelemei vagy az Android-rendszer verziója kompatibilitási problémákat okozhatnak, amelyek miatt egyes alkalmazásokat nem fog tudni feltelepíteni. Ha ilyen problémákat tapasztal, vagy néhány alkalmazás rendeltetéstől eltérően működik, lefagy vagy leáll a működése, várja meg, amíg a fejlesztők kijavítják a hibákat, majd próbálja újratelepíteni az alkalmazást.</string>
+    <string name="app_error_tip_for_launcher">"Készülékének hardverelemei vagy az Android-rendszer verziója kompatibilitási problémákat okozhatnak, és bizonyos alkalmazások rendeltetéstől eltérően működhetnek, lefagyhatnak vagy leállhat működésük. Ha ilyen problémákat tapasztal, ossza meg visszajelzésében a fejlesztőkkel."</string>
+    <string name="app_error_tip_for_store">"Készülékének hardverelemei vagy az Android-rendszer verziója kompatibilitási problémákat okozhatnak, amelyek miatt egyes alkalmazásokat nem fog tudni feltelepíteni. Ha ilyen problémákat tapasztal, vagy néhány alkalmazás rendeltetéstől eltérően működik, lefagy vagy leáll a működése, várja meg, amíg a fejlesztők kijavítják a hibákat, majd próbálja újratelepíteni az alkalmazást."</string>
     <string name="app_install_intercept">Telepítés letiltása</string>
     <string name="app_install_tips_go_to">Megnyitás</string>
     <string name="app_install_tips_install_success">%1$s sikeresen telepítve</string>
@@ -398,6 +418,7 @@
     <string name="app_manager_not_allow">Nem</string>
     <string name="app_manager_open_show_all_apps_immediate">Összes találat megjelenítése</string>
     <string name="app_manager_perm">Engedélykezelő</string>
+    <string name="app_manager_permission_dcimcontrol_title">Hozzáférés a Galériához</string>																				   
     <string name="app_manager_permission_manager_title">Engedélykezelő</string>
     <string name="app_manager_permission_notify_title">Értesítések</string>
     <string name="app_manager_permission_power_saving_title">Akkumulátorkímélő</string>
@@ -411,14 +432,14 @@
     <string name="app_manager_pref_ads">Hirdetések</string>
     <string name="app_manager_reset_app_preferences">Alkalmazások preferenciáinak visszaállítása</string>
     <string name="app_manager_reset_app_preferences_button">Visszaállítás</string>
-    <string name="app_manager_reset_app_preferences_desc">Ez alaphelyzetbe fogja állítani minden:
+    <string name="app_manager_reset_app_preferences_desc">"Ez alaphelyzetbe fogja állítani minden:
 
-Letiltott alkalmazás
-Letiltott alkalmazási értesítés
-Alapértelmezett alkalmazás
-Háttér alkalmazásadat-korlátozás
+"<li>Letiltott alkalmazás</li>"
+"<li>Letiltott alkalmazási értesítés</li>"
+"<li>Alapértelmezett alkalmazás</li>"
+"<li>Háttér alkalmazásadat-korlátozás</li>"
 
-beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
+beállításait. Alkalmazásadatait nem fogja elveszteni."</string>
     <string name="app_manager_reset_app_preferences_title">Visszaállítja az alkalmazások preferenciáit?</string>
     <string name="app_manager_search_prompt">Nincs találat? Próbálja meg az eredmény kijelzése minden alkalmazásból lehetőséget.</string>
     <string name="app_manager_show_all_apps">Összes alkalmazás megjelenítése</string>
@@ -426,17 +447,24 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="app_manager_show_detail_infos">Összes mutatása</string>
     <string name="app_manager_start_by">%s által elindítva</string>
     <string name="app_manager_system_mobile_disable">Adatforgalom kikapcsolása</string>
+    <string name="app_manager_tab_app">Alkalmazások</string>
+    <string name="app_manager_tab_manager">Kezelés</string>
     <string name="app_manager_thumbnail_blur_summary">Az alkalmazások előnézetének elhomályosítása az előzményekben</string>
     <string name="app_manager_thumbnail_blur_title">Előnézet-elhomályosítás</string>
     <string name="app_manager_title">Alkalmazáskezelés</string>
+    <string name="app_manager_to_appstore">További alkalmazások felfedezése</string>														   
     <string name="app_manager_total_size">Összesen</string>
     <string name="app_manager_uninstall">Eltávolítás</string>
+    <string name="app_manager_uninstall_button_text">Eltávolítás</string>
+    <string name="app_manager_uninstall_notify_title">Ritkán használt alkalmazások eltávolítása</string>
     <string name="app_manager_uninstall_protected_dlg_msg">Rendszeralkalmazás eltávolítása akadályozhatja más MIUI rendszerelemek megfelelő működését is. Biztosan eltávolítja?</string>
     <string name="app_manager_uninstall_protected_dlg_title">Rendszeralkalmazások eltávolítása</string>
     <string name="app_manager_uninstall_with_xspace_app_dlg_msg">A megfelelő klónozott alkalmazások el lesznek távolítva adataikkal együtt.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_msg">A klónozott alkalmazás eltávolítása törölni fog minden adatot.</string>
     <string name="app_manager_uninstall_xspace_app_dlg_title">Eltávolítja a klónozott alkalmazást?</string>
     <string name="app_manager_unstall_application">Eltávolítás</string>
+    <string name="app_manager_update">Frissítés</string>
+    <string name="app_manager_updater_notify_message">Frissítse az alkalmazásokat az új funkciók eléréséhez </string>														   
     <string name="app_managere_not_have_app">Üres</string>
     <string name="app_manger_des_separator">, </string>
     <string name="app_mobile">Mobiladat-kapcsolat</string>
@@ -471,6 +499,9 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="app_running_tip_dialog_text">A(z) %1$s alkalmazásból való kilépésnek hála nem fog futni a háttérben. Ez felgyorsítja a készüléket és csökkenti az energiafogyasztást.</string>
     <string name="app_running_tip_dialog_title">Kilépés az alkalmazásból</string>
     <string name="app_running_tip_uninstall">Alkalmazás eltávolítása</string>
+    <string name="app_statusbar_audio_now">Hangfelvétel</string>
+    <string name="app_statusbar_camera_now">Fényképek készítése</string>
+    <string name="app_statusbar_location_now">Helymeghatározás</string>															   
     <string name="app_usage_never">Sosem volt használva</string>
     <string name="app_usage_recently">Mostanában használva</string>
     <string name="app_version">Verzió:</string>
@@ -533,7 +564,7 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="applock_settings_unlock_all_toast">Összes alkalmazás feloldása</string>
     <string name="applock_toast_tip">Az Alkalmazások zárolása sikeresen hitelesítve</string>
     <string name="applock_unlock_all">Összes feloldása</string>
-    <string name="apps_item_sign_dialog_content">%s aláírása nem egyezik az Áruházas verzióval. Törli az alkalmazást és telepíti a hivatalos verziót? Megjegyzés: egy ütköző aláírású alkalmazás telepítése adatvesztéshez vezethet.</string>
+    <string name="apps_item_sign_dialog_content">"%s aláírása nem egyezik az Áruházas verzióval. Törli az alkalmazást és telepíti a hivatalos verziót? Megjegyzés: egy ütköző aláírású alkalmazás telepítése adatvesztéshez vezethet."</string>
     <string name="apps_item_sign_dialog_title">Hivatalos alkalmazás telepítése</string>
     <string name="apps_item_sign_install_button_text">Lecserélés</string>
     <string name="apps_item_sms_default_set_success">Beállítás kész</string>
@@ -561,6 +592,8 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="auto_data_booster_suc">A Játékgyorsító be van kapcsolva. Átkapcsolva Teljes képernyős módba.</string>
     <string name="auto_handle_title">Automatikus javítás</string>
     <string name="auto_import_games">Tegye az összes játékot egy helyre</string>
+    <string name="auto_send_correcting_msg">Hagyja üresen, hogy ellenőrizze automatikusan egy ingyenes SMS-ben</string>
+    <string name="auto_set_by_brand">Adatterv részleteinek szinkronizálása a szolgáltatóval</string>																											  
     <string name="auto_task_condition_choose_battery_level_down">Beállított töltöttségi szint alatt</string>
     <string name="auto_task_condition_choose_end_time">Befejezés</string>
     <string name="auto_task_condition_choose_ontime">Időzítés</string>
@@ -627,7 +660,7 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="back_description_securitycenter">Vissza</string>
     <string name="back_modifypassword">Visszalépés a jelszótípus-változtatáshoz</string>
     <string name="back_sound_data">Kapcsolja be a mobiladat-forgalmat, majd próbálja újra.</string>
-    <string name="back_sound_fail">Nem sikerült beállítani. A szolgáltatói beállítások megváltoztak. Állítsa be az aktuális SIM-kártyát adatkártyaként, csatlakozzon a hálózathoz, majd próbálja újra.</string>
+    <string name="back_sound_fail">"Nem sikerült beállítani. A szolgáltatói beállítások megváltoztak. Állítsa be az aktuális SIM-kártyát adatkártyaként, csatlakozzon a hálózathoz, majd próbálja újra."</string>
     <string name="back_sound_success">Sikeresen beállítva</string>
     <string name="back_sound_support">Az Ön szolgáltatói hálózata nem támogatja ezt a beállítást.</string>
     <string name="background_restrict_app_dialog_message">Az alkalmazás háttérbeli hálózat-hozzáférésének korlátozása lehetetlenné teheti az alkalmazás normális működését, üzenetek fogadását, letöltéseket, stb. Mégis korlátozza?</string>
@@ -654,6 +687,7 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="battery_estimate_charge_time_title">Töltési idő</string>
     <string name="battery_estimate_usage_time_title">Hátralévő idő</string>
     <string name="battery_health_left_battery_text">Hátralévő</string>
+    <string name="battery_health_level_text">Az akkumulátor állapota</string>																			   
     <string name="battery_health_status_text">Akkumulátorállapot</string>
     <string name="battery_health_temperature_text">Akkumulátor hőmérséklete</string>
     <string name="battery_health_title_text">Akkumulátorállapot</string>
@@ -666,7 +700,9 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="battery_low_button_not_open_power_save">Most nem</string>
     <string name="battery_low_button_open_power_save">Bekapcsolás</string>
     <string name="battery_low_percent_format_save_mode_closed">Kevesebb mint %s akkumulátor-töltöttség maradt. Ne felejtse el feltölteni készülékét.</string>
+    <string name="battery_low_percent_format_save_mode_closed_new_version">Az akkumulátor lemerült. Töltse fel a telefont most.</string>
     <string name="battery_low_percent_format_save_mode_open">Kevesebb mint %1$s akkumulátor-töltöttség maradt. Kapcsolja be az Akkumultárokímélőt és hosszabbítsa meg a használati időt %2$s extra idővel.</string>
+    <string name="battery_low_percent_format_save_mode_open_new_version">Az Akkumulátorkímélő bekapcsolása a %s hozzáadásához.</string>																	  
     <string name="battery_low_title">Az akkumulátor töltöttsége alacsony</string>
     <string name="battery_low_title_power_save">Akkumulátorkímélő</string>
     <string name="battery_statistics_activity_title">Akkuhasználati statisztikák</string>
@@ -678,6 +714,10 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="battery_stats_wake_lock_label">Ébren tartva</string>
     <string name="battery_stats_wifi_running_label">Wi‑Fi</string>
     <string name="battery_status_good">Normálisan működik</string>
+    <string name="battery_status_level_excellent">Kiváló</string>
+    <string name="battery_status_level_good">Jó</string>
+    <string name="battery_status_level_normal">Normális</string>
+    <string name="battery_status_level_poor">Gyenge</string>																	
     <string name="battery_status_overheat">Túlmelegedett</string>
     <string name="battery_status_unknown">Ismeretlen hiba</string>
     <string name="battery_temperature_title">Hőmérséklet</string>
@@ -688,7 +728,7 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="bill_limit_notification_title">Fedezethiány</string>
     <string name="bind_xiaomi_account_cancel">Mégse</string>
     <string name="bind_xiaomi_account_confirm">Hozzáadás</string>
-    <string name="bind_xiaomi_account_dialog_summery">Éppen a(z) %s Mi Fiókot készül hozzáadni. Ha elfelejti a jelszavát, ezt a fiókot használhatja a visszaállításhoz. A fiók automatikusan el lesz távolítva, ha kijelentkezik.</string>
+    <string name="bind_xiaomi_account_dialog_summery">"Éppen a(z) %s Mi Fiókot készül hozzáadni. Ha elfelejti a jelszavát, ezt a fiókot használhatja a visszaállításhoz. A fiók automatikusan el lesz távolítva, ha kijelentkezik."</string>
     <string name="bind_xiaomi_account_success">Mi Fiók sikeresen hozzáadva</string>
     <string name="bind_xiaomi_account_summary">Használjon Mi Fiókot a jelszó visszaállításához</string>
     <string name="bind_xiaomi_account_title">Mi Fiók hozzáadása</string>
@@ -709,6 +749,7 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="boot_time">Bekapcsolás %1$s-kor</string>
     <string name="boot_time_day">Bekapcsolás %1$d múlva, %2$s-kor</string>
     <string name="boot_time_day_tomorrow">Bekapcsolás holnap %1$s-kor</string>
+    <string name="bottom_func_guide_default_text">További funkciók</string>																		
     <string name="btn_back">Vissza</string>
     <string name="btn_finish_diagnostic">OK</string>
     <string name="btn_start_diagnostic">Hálózati teszt</string>
@@ -776,16 +817,19 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="card_main_applock_summary">Védje meg kiválasztott alkalmazásait egy jelszóval.</string>
     <string name="card_main_applock_title">Alkalmazások zárolása</string>
     <string name="card_main_deepclean_action">Tisztítás</string>
+    <string name="card_main_deepclean_facebook_title">Facebook tisztító</string>																			   
     <string name="card_main_deepclean_qq_title">QQ tisztító</string>
     <string name="card_main_deepclean_summary">Szükségtelen fájlok törlése</string>
     <string name="card_main_deepclean_title">Mély tisztítás</string>
     <string name="card_main_deepclean_wechat_action">Törlés</string>
     <string name="card_main_deepclean_wechat_summary">Tárhely felszabadításához törölje a WeChat gyorsítótárat</string>
     <string name="card_main_deepclean_wechat_title">WeChat gyorsítótár</string>
+    <string name="card_main_deepclean_whatsapp_title">WhatsApp tisztító</string>																			   
     <string name="card_main_gamebooster_summary">Hálózati stabilitás javítása játékok számára</string>
     <string name="card_main_gamebooster_title">Játékgyorsító</string>
     <string name="card_main_hbassistant_summary">Használja ezt a segédet, hogy mihamarabb hozzájuthasson a borítékokhoz</string>
     <string name="card_main_hbassistant_title">\"Piros boríték\" segéd</string>
+   <string name="card_main_hwtest_title">Hardver teszt</string>																
     <string name="card_main_monthreport_action">Megtekintés</string>
     <string name="card_main_netcheck_action">Teszt</string>
     <string name="card_main_netcheck_summary">Hálózat tesztelése problémák keresése céljából</string>
@@ -803,10 +847,15 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="card_main_xspace_summary">Hozzon létre két fiókot bármely alkalmazásban</string>
     <string name="card_main_xspace_title">Klónozott alkalmazások</string>
     <string name="card_tc_failed">Sikertelen hitelesítés</string>
+    <string name="card_uninstall_button_text">Kezelés</string>
+    <string name="card_uninstall_summary">Távolítsa el a ritkán használt alkalmazásokat a tárhely felszabadításához</string>
+    <string name="card_uninstall_title_1">Ritkán használt alkalmazások eltávolítása</string>															 
     <string name="cd_back">Vissza</string>
+    <string name="cellular_data_auto_check">Automatikus ellenőrzés</string>
+    <string name="cellular_package_daily_input">Bevitel</string>											  
     <string name="charger_detect_button_ok">Rendben</string>
     <string name="charger_detect_info1">Ellenőrizze, hogy a hálózati adapter és a kábel megfelelően van csatlakoztatva.</string>
-    <string name="charger_detect_info2">A töltés lassulhat, ha nem szabványos vagy régi hálózati adaptereket és kábeleket használ.</string>
+    <string name="charger_detect_info2">"A töltés lassulhat, ha nem szabványos vagy régi hálózati adaptereket és kábeleket használ."</string>
     <string name="charger_detect_no_remind">Ne mutassa újra</string>
     <string name="charger_detect_title">A töltés lassú</string>
     <string name="charging_text_battery_full_time">Utolsó feltöltés: </string>
@@ -827,22 +876,30 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="cleaned">Megtisztítva</string>
     <string name="clear_garbage">Felesleges fájlok törlése hely felszabadításához</string>
     <string name="clear_immediately">Tisztítás most</string>
+    <string name="clearable_edittext_clear_description">Tisztítás</string>																	  
     <string name="close">Bezárás</string>
     <string name="close_callwait">Kikapcsolva</string>
     <string name="cmcc_app_check_dialog_message">A készülék újraindítása a teljes javításhoz.</string>
     <string name="cmcc_app_check_dialog_negative">Később</string>
     <string name="cmcc_app_check_dialog_positive">Újraindítás</string>
     <string name="cmcc_app_check_dialog_title">A rendszer javítva</string>
+    <string name="comprehensive_protection_measures">Átfogó védelem</string>																					  
     <string name="confirmSecondSpacePassword">Erősítse meg a Második asztal jelszavát</string>
+    <string name="confirm_allow_all_permission">Engedélyezi az összes alkalmazás számára, hogy használja ezt a funkciót?</string>																								
     <string name="confirm_bind_xiaomi_account_dialog_title">Mi Fiók hozzáadása</string>
     <string name="confirm_fingerprint_msg">Ellenőrizze ujjlenyomatát</string>
+    <string name="confirm_leave">Köszönöm,nem</string>
+    <string name="confirm_open">Bekapcsolás</string>												   
     <string name="confirm_prompt_all_permission">Kérjen engedélyeket minden alkalmazás?</string>
     <string name="confirm_reject_all_permission">Az összes alkalmazásnak korlátozza ezt a funkciót?</string>
+    <string name="confirm_take">Beszerzés</string>
+    <string name="confirm_upgrade">Opciók</string>										   
     <string name="connect_internet_by_mobiledata">Mobiladat-kapcsolat</string>
     <string name="connect_internet_by_usbshare">Internet megosztás USB-n keresztül</string>
     <string name="connect_internet_by_wifi">Wi-Fi</string>
     <string name="connecting">Csatlakozás…</string>
     <string name="continue_install">Telepítés</string>
+    <string name="continue_set">Folytatni</string>												 
     <string name="convenient_mode">Összes alkalmazás feloldása egyszerre</string>
     <string name="convenient_summary">Adja meg a jelszót egyszer az összes alkalmazás feloldásához</string>
     <string name="copy">Másolás</string>
@@ -854,7 +911,7 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="cta_HIPS_Perm_Location_Desc">Az Ön tartózkodási helye szerinti korai földrengés előrejelzések kijelzésére</string>
     <string name="cta_agree_desc">A szolgáltatásaink használatához engedélyezze az alkalmazás számára, hogy csatlakozzon az internethet és megadja a fenti engedélyeket.</string>
     <string name="cta_close_dialog_cancel">Mégse</string>
-    <string name="cta_close_dialog_content">Ha letiltja a Biztonság internethez és helyadatokhoz való hozzáférését, nem fog értesítést kapni a földrengésekről, nem tudja majd frissíteni a vírusdefiníciós adatbázisokat és nem értesül a tiltólistás adatokról. Eszköze kevésbé lesz biztonságos. Így is letiltja?</string>
+    <string name="cta_close_dialog_content">"Ha letiltja a Biztonság internethez és helyadatokhoz való hozzáférését, nem fog értesítést kapni a földrengésekről, nem tudja majd frissíteni a vírusdefiníciós adatbázisokat és nem értesül a tiltólistás adatokról. Eszköze kevésbé lesz biztonságos. Így is letiltja?"</string>
     <string name="cta_close_dialog_ok">Tiltás</string>
     <string name="cta_close_dialog_title">Hozzáférés korlátozása</string>
     <string name="cta_dialog_negative">Kilépés</string>
@@ -868,7 +925,7 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="daily_card_setting_fragment_daily_card_brand">Szolgáltató</string>
     <string name="daily_card_setting_fragment_daily_card_brand_value">Válassza ki a szolgáltatót</string>
     <string name="daily_card_setting_fragment_daily_card_setting">A napi adat-előfizetés beállításai</string>
-    <string name="daily_card_setting_fragment_daily_card_summary">A MIUI az Ön által kiválasztott szolgáltatónak megfelelően fogja beállítani az adatforgalmi korlátokat és a korlátlan adattal rendelkező alkalmazásokat. Ha a szolgáltató nem szerepel a listán, válassza az \"Egyéb\" lehetőséget, és állítsa be manuálisan a napi adat-előfizetés.</string>
+    <string name="daily_card_setting_fragment_daily_card_summary">"A MIUI az Ön által kiválasztott szolgáltatónak megfelelően fogja beállítani az adatforgalmi korlátokat és a korlátlan adattal rendelkező alkalmazásokat. Ha a szolgáltató nem szerepel a listán, válassza az \"Egyéb\" lehetőséget, és állítsa be manuálisan a napi adat-előfizetés."</string>
     <string name="daily_card_setting_fragment_daily_package">Napi adatforgalmi korlát</string>
     <string name="daily_card_setting_fragment_month_package">Havi mobiladat-csomag</string>
     <string name="daily_card_setting_fragment_package_summary">Ha az Ön napi adat-előfizetés havi adatcsomagot is tartalmaz, akkor a havi kerül előbb felhasználásra a napi csomag előtt.</string>
@@ -880,7 +937,7 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="data_booster_title">Adatkapcsolat stabilizálása</string>
     <string name="data_network_blocked_notification_title">Nincs internetkapcsolat</string>
     <string name="data_usage_correction_timeout_title">Adatforgalom szinkronizálásának időtúllépése</string>
-    <string name="data_usage_disabled_dialog">Ön elérte az adatforgalmi korlátot. Ha Ön túllépi az adatforgalmi korlátot, szolgáltatója további díjakat számolhat fel.</string>
+    <string name="data_usage_disabled_dialog">"Ön elérte az adatforgalmi korlátot. Ha Ön túllépi az adatforgalmi korlátot, szolgáltatója további díjakat számolhat fel."</string>
     <string name="data_usage_disabled_dialog_enable">Mobilnet bekapcsolása</string>
     <string name="data_usage_leisure_warning_body">Érintse meg az adathasználat részleteinek megtekintéséhez.</string>
     <string name="data_usage_leisure_warning_title">Csúcsidőn kívül felhasználható adatforgalom</string>
@@ -890,9 +947,9 @@ beállításait. Alkalmazásadatait nem fogja elveszteni.</string>
     <string name="data_usage_no_total_package_body">Kattintson az adatforgalmi értékek beállításához</string>
     <string name="data_usage_no_total_package_body_dual">Beállít %s adatkapcsolathoz felhasználható adatforgalmi értéket?</string>
     <string name="data_usage_no_total_package_title">Adatforgalom</string>
-    <string name="data_usage_protected_dialog_message">A MIUI kikapcsolta a mobiladatokat, hogy megakadályozza további díjak kiszabását.
+    <string name="data_usage_protected_dialog_message">"A MIUI kikapcsolta a mobiladatokat, hogy megakadályozza további díjak kiszabását.
 	
-Szolgáltatója különdíjakat számolhat fel, ha visszakapcsolja a mobiladatokat.</string>
+Szolgáltatója különdíjakat számolhat fel, ha visszakapcsolja a mobiladatokat."</string>
     <string name="data_usage_protected_notify_message">A MIUI kikapcsolta a mobiladatokat, hogy megakadályozza további díjak kiszabását.</string>
     <string name="data_usage_protected_notify_title">Ön már felhasznált 5 GB mobiladatot</string>
     <string name="data_usage_warning_body">Érintse meg az adathasználat részleteinek megtekintéséhez.</string>
@@ -900,6 +957,9 @@ Szolgáltatója különdíjakat számolhat fel, ha visszakapcsolja a mobiladatok
     <string name="data_usage_warning_title_notify">Ön elérte az adatforgalmi korlátot</string>
     <string name="databooster_tips_message">Engedélyezze az összes SIM-kártya korlátozásához az adatkapcsolatra használt kártyát kivéve. Kapcsolja ki, ha problémák adódnak a választott játékánál.</string>
     <string name="databooster_tips_title">Figyelem</string>
+    <string name="date_picker_lunar">Kínai hagyományos naptár</string>
+    <string name="date_time_picker_dialog_title">Dátum és idő beállításaSet date and time</string>
+    <string name="day_overflow_tips">Napi adathasználati figyelmeztetés</string>																		  
     <string name="debug_open_final_tip">Bekapcsolja az USB-s hibaelhárítást?</string>
     <string name="debug_open_title">Ez a funkció fejlesztőknek készült és lehetséges, hogy általános felhasználók számára nem megfelelő. Az USB-s hibaelhárítás bekapcsolása lehet, hogy a következő változásokat hozza magával:</string>
     <string name="declaration_dialog_msg">Ez a funkció segíti mobiladat-forgalmazásának nyomonkövetésében, de nem garantált, hogy megakadályozza az esetleges további költségeket. A biztonság kedvéért állítson be kisebb határértéket.</string>
@@ -924,10 +984,10 @@ Szolgáltatója különdíjakat számolhat fel, ha visszakapcsolja a mobiladatok
     <string name="detail_app_button">Alkalmazásadatok</string>
     <string name="details_subtitle">A használat részletei</string>
     <string name="device_manager_apply_step_1">Aktiválja a készüléken a rendszergazda jogot ehhez az alkalmazáshoz?</string>
-    <string name="device_manager_apply_step_2">Amennyiben aktiválja a készüléken a rendszergazda jogot ehhez az alkalmazáshoz, azzal veszélynek teszi ki személyes adatait.
-A készülékén lévő összes adat törölhetővé válhat, és a képernyőzár-jelszava is alaphelyzetbe állítható.</string>
+    <string name="device_manager_apply_step_2">"Amennyiben aktiválja a készüléken a rendszergazda jogot ehhez az alkalmazáshoz, azzal veszélynek teszi ki személyes adatait.
+A készülékén lévő összes adat törölhetővé válhat, és a képernyőzár-jelszava is alaphelyzetbe állítható."</string>
     <string name="device_manager_apply_step_3">Legyen tisztában vele, milyen veszélyekkel járhat az aktiválás végrehajtása. Most aktiválja a készüléken a rendszergazda jogot ehhez az alkalmazáshoz?</string>
-    <string name="dialog_app_roaming_message">%1$s nem használhat mobiladatot barangolás során. Mikor ön barangol csak azok az alkalmazások jutnak mobiladathoz, amiket a kivételekhez adott.</string>
+    <string name="dialog_app_roaming_message">"%1$s nem használhat mobiladatot barangolás során. Mikor ön barangol csak azok az alkalmazások jutnak mobiladathoz, amiket a kivételekhez adott."</string>
     <string name="dialog_app_roaming_title">%1$s alkalmazásnak nincs engedélye az adatbarangoláshoz</string>
     <string name="dialog_change_package_type_summary">Az adat-előfizetés változtatása vissza fogja állítani alaphelyzetbe az adatfelhasználási beállításait (pl. adatkorlátok). Most szeretné megváltoztatni az adat-előfizetés típusát?</string>
     <string name="dialog_change_package_type_title">Az adat-előfizetés típusának megváltoztatása</string>
@@ -942,9 +1002,17 @@ A készülékén lévő összes adat törölhetővé válhat, és a képernyőz�
     <string name="dialog_restrict_positive">Mégse</string>
     <string name="dialog_roaming_message">Szolgáltatója további díjakat számolhat fel mobiladat használatért nemzetközi barangolás során.</string>
     <string name="dialog_roaming_title">Engedélyezi az adatbarangolást?</string>
-    <string name="dialog_roaming_warning_checkbox">Ne mutassa újra</string>
+    <string name="dialog_roaming_warning_checkbox">"Ne mutassa újra"</string>
     <string name="dialog_roaming_warning_message">A nemzetközi adatbarangolás bekapcsolását követően a szolgáltatója díjat fog felszámolni önnek. Mégis bekapcsolja?</string>
     <string name="dialog_roaming_warning_ok">Bekapcsolás</string>
+    <string name="dialog_skt_roaming_warning_cancel">Elutasítás</string>
+    <string name="dialog_skt_roaming_warning_message">"Olvassa el és fogadja el az alábbi feltételeket az adatroaming használatához. Nemzetközi roaming díjak merülhetnek fel. Adatbarangolási terv nélkül jelentős díjak merülhetnek fel az automatikusan frissülő alkalmazások számára, például a közösségi hálózatokhoz, az e-mailhez és az időjáráshoz kapcsolódó alkalmazásoknál. 
+ * Ha nem ért egyet az adatroaming használatával, akkor az adatbarangolás le lesz tiltva.
+ * A HD Hang alapértelmezés szerint a támogatott hálózatokon használható.
+ * Az 5G adatroaming csak a partnerhálózatainkban érhető el.
+"</string>
+    <string name="dialog_skt_roaming_warning_ok">Elfogadás</string>
+    <string name="dialog_skt_roaming_warning_title">Adatbarangolási megállapodás</string>
     <string name="dialog_title_attention">Figyelmeztetés</string>
     <string name="dialog_title_auto_start_declare">Az automatikus indításról</string>
     <string name="dialog_title_stop_virus_scan">Biztonsági vizsgálat leállítása</string>
@@ -952,7 +1020,7 @@ A készülékén lévő összes adat törölhetővé válhat, és a képernyőz�
     <string name="dlg_add_blacklist">Tiltólistára teszi ezt a telefonszámot?</string>
     <string name="dlg_add_blacklist_title">Hozzáadás a tiltólistához</string>
     <string name="dlg_add_keyword">Kulcsszavak hozzáadása</string>
-    <string name="dlg_add_white">Azoknak a telefonszámoknak a hívásai és üzenetei, amiket a kivételekhez adott, látszani fognak a híváslistában és a bejövő üzenetek között. Ám a korábban letiltott számoké nem jelennek meg. Hozzáadja a kijelölt számokat a kivételekhez?</string>
+    <string name="dlg_add_white">"Azoknak a telefonszámoknak a hívásai és üzenetei, amiket a kivételekhez adott, látszani fognak a híváslistában és a bejövő üzenetek között. Ám a korábban letiltott számoké nem jelennek meg. Hozzáadja a kijelölt számokat a kivételekhez?"</string>
     <string name="dlg_antispam_mode_delete_message">Törlés után nem állíthatóak vissza az egyéni módok.</string>
     <string name="dlg_antispam_mode_delete_title">Egyéni mód törlése?</string>
     <string name="dlg_antispam_using_mode_delete_message">Törli a jelenleg használatban lévő szabályzást és átvált a tiltólista alapértelmezett szabályaira?</string>
@@ -975,13 +1043,15 @@ A készülékén lévő összes adat törölhetővé válhat, és a képernyőz�
     <string name="dlg_keyword_ok">Mentés</string>
     <string name="dlg_message_not_open_stranger_identify">Kapcsolja be ezt a szolgáltatást a Beállítások &gt; Telefon menüben.</string>
     <string name="dlg_move_to_white">Hozzáadás a kivételekhez</string>
-    <string name="dlg_no_block">Biztosan engedélyezi ezt a telefonszámot?
-A szám a kivételek közé kerül, de a korábban letiltott számok nem látszanak a híváslistában.</string>
+    <string name="dlg_no_block">"Biztosan engedélyezi ezt a telefonszámot?
+A szám a kivételek közé kerül, de a korábban letiltott számok nem látszanak a híváslistában."</string>
     <string name="dlg_no_block_ok">Engedélyezés</string>
-    <string name="dlg_not_block_call">Biztosan engedélyezi a kijelölt telefonszámokat?
-A számok a kivételek közé kerülnek, de a korábban letiltott számok nem látszanak a híváslistában.</string>
-    <string name="dlg_not_block_sms">Biztosan engedélyezi ezt a telefonszámot?
-A szám a kivételek közé kerül, de a korábban letiltott számokról érkezett üzenetek nem látszanak a bejövő üzenetek között.</string>
+    <string name="dlg_not_block_call">"Biztosan engedélyezi a kijelölt telefonszámokat? A számok a kivételek közé kerülnek, de a korábban letiltott számok nem látszanak a híváslistában."</string>
+    <string name="dlg_not_block_sms">"Biztosan engedélyezi ezt a telefonszámot? A szám a kivételek közé kerül, de a korábban letiltott számokról érkezett üzenetek nem látszanak a bejövő üzenetek között."</string>
+    <string name="dlg_onlie_service_summary">Az online szolgáltatások kikapcsolásával az alkalmazás egyes funkciói nem lesznek elérhetők. Biztosan kikapcsolja?</string>
+    <string name="dlg_open_online_service_pos_text">Bekapcsolás</string>
+    <string name="dlg_open_online_service_summary">"Egyes szolgáltatások nem állnak rendelkezésre, ha az online szolgáltatások ki vannak kapcsolva. Bekapcsolja az online szolgáltatásokat?"</string>
+    <string name="dlg_open_online_service_title">Online szolgáltatások</string>																	
     <string name="dlg_remove_address_blacklist">Törli ezt a régiót a tiltólistáról?</string>
     <string name="dlg_remove_address_whitelist">Törli ezt a régiót a kivételek listájáról?</string>
     <string name="dlg_remove_blacklist">Törli ezeket a telefonszámokat a tiltólistáról?</string>
@@ -991,7 +1061,7 @@ A szám a kivételek közé kerül, de a korábban letiltott számokról érkeze
     <string name="dlg_remove_whitelist">Törli ezeket a telefonszámokat a kivételek listájáról?</string>
     <string name="dlg_remove_whitelist_ing">Eltávolítás…</string>
     <string name="dlg_remove_whitelist_title">Törlés</string>
-    <string name="dlg_sec_network_unavailable">A Biztonság nem tudja elvégezni a frissítést, mert Ön korlátozta az internetkapcsolatot. Engedélyezi a Biztonság alkalmazásnak, hogy kapcsolódjon az internethez?</string>
+    <string name="dlg_sec_network_unavailable">"A Biztonság nem tudja elvégezni a frissítést, mert Ön korlátozta az internetkapcsolatot. Engedélyezi a Biztonság alkalmazásnak, hogy kapcsolódjon az internethez?"</string>
     <string name="dlg_summary_close_app">Az alkalmazások nem fognak futni a háttérben. Az értesítések korlátozva lesznek.</string>
     <string name="dlg_summary_close_theme">A dinamikus témák nem fognak működni.</string>
     <string name="dlg_summary_close_wifi">A Wi-Fi, a Bluetooth és a hordozható hotspot kikapcsolásra kerül.</string>
@@ -1000,13 +1070,16 @@ A szám a kivételek közé kerül, de a korábban letiltott számokról érkeze
     <string name="dlg_title_not_open_stranger_identify">Hívóazonosító</string>
     <string name="dlg_update_btn_contiue">Folytatás</string>
     <string name="dlg_update_btn_open">Engedélyezés</string>
-    <string name="dlg_update_data_content">Jelenleg nincs Wi-Fi-re csatlakoztatva. Mobiladat-kapcsolat használata további díjakat vonhat maga után. Biztosan folytatja?</string>
+    <string name="dlg_update_data_content">"Jelenleg nincs Wi-Fi-re csatlakoztatva. Mobiladat-kapcsolat használata további díjakat vonhat maga után. Biztosan folytatja?"</string>
     <string name="dlg_update_date_title">Figyelmeztetés</string>
     <string name="dlg_update_updating">Frissítés…</string>
     <string name="dlg_white_address_antispam_message">Hozzáadja a kivételekhez ezt a régiót?</string>
     <string name="dlg_white_antispam_hint">Kivételek</string>
     <string name="dlg_white_antispam_message">Hozzáadja a kivételekhez?</string>
-    <string name="dns_exception_summary">A Router DNS beállításai nem érhetőek el.</string>
+    <string name="dnd_mode_type">Ne zavarj</string>
+    <string name="dnd_no_everything">Nincs emlékeztető</string>
+    <string name="dnd_no_sound">Csak a hang némítása</string>
+    <string name="dns_exception_summary">"A Router DNS beállításai nem érhetőek el"</string>
     <string name="dns_exception_title">DNS teszt</string>
     <string name="do_clean">Tisztítás…</string>
     <string name="domestic_roaming_setting">Belföldi adatbarangolás</string>
@@ -1029,7 +1102,9 @@ A szám a kivételek közé kerül, de a korábban letiltott számokról érkeze
     <string name="empty_title_root_apps">Nincs root jogosultsággal rendelkező alkalmazás</string>
     <string name="enable_extreme_power_save_mode">Rendkívül erős akkumulátorkímélő</string>
     <string name="enable_network">Mobiladat-kapcsolat bekapcsolása</string>
+    <string name="evening">Délután</string>
     <string name="every_day">Minden nap</string>
+
     <string name="examination_score_100">Nem szükséges vizsgálat, minden rendben van!</string>
     <string name="examination_score_60_0">Keresés most</string>
     <string name="examination_score_80_100">Néhány elem optimalizálása szükséges...</string>
@@ -1819,31 +1894,31 @@ hogy válaszoljon</string>
     <string name="network_connected_exception_title">Hálózati teszt</string>
     <string name="network_control">Hálózati felügyelet</string>
     <string name="network_diagnostics">Hálózati diagnosztika</string>
-    <string name="network_mobile_exception_detail">Készüléke nem csatlakozik az internetre:
+    <string name="network_mobile_exception_detail">"Készüléke nem csatlakozik az internetre:
 
 1. Ellenőrizze, hogy nem haladta meg a havi felhasználható mobiladat-kapcsolat értéket.
 
 2. Ha most töltötte fel egyenlegét, indítsa újra a készülékét majd próbálja újra.
 
-3. A szolgáltató térereje gyenge jelenlegi tartózkodási helyén.</string>
-    <string name="network_operator_exception_summary">Nem sikerült aktiválni a SIM-kártyát. Ellenőrizze, hogy a SIM-kártya megfelelően lett behelyezve és a szolgáltatója aktiválta a mobiladat-kapcsolatot.</string>
+3. A szolgáltató térereje gyenge jelenlegi tartózkodási helyén."</string>
+    <string name="network_operator_exception_summary">"Nem sikerült aktiválni a SIM-kártyát. Ellenőrizze, hogy a SIM-kártya megfelelően lett behelyezve és a szolgáltatója aktiválta a mobiladat-kapcsolatot."</string>
     <string name="network_permission_exception_tips">"Nem használható mobiladat-kapcsolat az internetre való csatlakozáshoz"</string>
     <string name="network_roaming_exception_tips">"Barangolás során nem használható mobiladat-kapcsolat az internetcsatlakozáshoz."</string>
     <string name="network_route_exception_detail">"Probléma lehet a routerrel, amelyhez csatlakoztatva van:
 
-1. Nyilvános Wi-Fi-hálózati hiba
+ "<b>1. Nyilvános Wi-Fi-hálózati hiba</b>"
 Ha nyilvános Wi-Fi-hálózatra csatlakozott, a csatlakozott felhasználók lelassíthatják a hálózatot, illetve kapcsolódási problémákat okozhatnak. Váltson át másik hálózatra és próbálja újra.
 
-2. Internetszolgáltató hiba
+ "<b>2. Internetszolgáltató hiba</b>"
 Ellenőrizze, hogy a szolgáltatónak megfelelő kapcsolat van beállítva.
 
-3. Router hardverhiba
+ "<b>3. Router hardverhiba</b>"
 Próbálja meg újraindítani a routert vagy ellenőrizze az admin beállításokat a routerben.
 
-4. Egyéb routerhiba
+ "<b>4. Egyéb routerhiba</b>"
 Állítsa vissza a router gyári beállításait.
 
-5. Ellenőrizze, hogy a router megfelelően van-e csatlakoztatva
+ "<b>5. Ellenőrizze, hogy a router megfelelően van-e csatlakoztatva</b>"
 Próbálja meg másik Ethernet-kábellel csatlakoztatni a routert. Ha úgy gondolja, hogy kapcsolódási hiba van, lépjen kapcsolatba az internetszolgáltatójával.</string>
     <string name="network_sim_exception_detail">Lehetséges, hogy probléma van a SIM-kártyával:
 
