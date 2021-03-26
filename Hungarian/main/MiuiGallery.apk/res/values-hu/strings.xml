@@ -228,10 +228,10 @@
     <string name="browse_category_title">Böngésző</string>
     <string name="btn_cancel">Mégsem</string>
     <string name="btn_sure">Rendben</string>
-    <string name="burst_image_download_item_title">Eredeti (%s|%s) letöltése</string>
+    <string name="burst_image_download_item_title" formatted="false">>Eredeti (%s|%s) letöltése</string>
     <string name="burst_preview_title">Sorozatfelvétel</string>
     <string name="burst_save_all">Az összes kép megtartása</string>
-    <string name="burst_save_choice_title">%d kijelölve %d közül</string>
+    <string name="burst_save_choice_title"> %1$d kijelölve %2$d közül</string>
     <string name="burst_save_error_msg">A mentés nem sikerült</string>
     <string name="burst_save_processing">Feldolgozás/u2026</string>
     <string name="buy_member_tip">Legyen tag</string>
@@ -263,6 +263,7 @@
     <string name="choose_people">Válassza ki egy személy albumát</string>
     <string name="choose_some_people">Válasszon egy albumot vele: %s</string>
     <string name="chooser_fragment_mishare_title">Megosztás a következővel</string>
+    <string name="cleaner_empty">Összes törlése</string>
     <string name="cleaner_empty_value_description">Minden jónak tűnik</string>
     <string name="cleaner_photo_pick_delete_selected">Törölje a kiválasztott fényképeket</string>
     <string name="cleaner_raw_action">Törlés</string>
@@ -348,17 +349,18 @@
     <string name="confirm_face">Egyezés</string>
     <string name="confirm_hidden_recommend_group_message">Ha az ajánlások ki vannak kapcsolva, még mindig használhatja az \"Egyformának tűnő személyek\" opciót</string>
     <string name="confirm_hidden_recommend_group_title">Ne jelenítse meg az ajánlásokat</string>
-    <string name="confirm_merge_face_albums">&lt;Data&gt; Összekapcsolja az albumot vele: %s? &lt;/Data&gt;</string>
-    <string name="confirm_merge_many_face_albums">&lt;Data&gt; Összekapcsolja ezeket az albumokat vele: %s? &lt;/Data&gt;</string>
+    <string name="confirm_merge_face_albums">" "<Data> Összekapcsolja az albumot vele: %s? </Data>" "</string>
+    <string name="confirm_merge_many_face_albums">" "<Data> Összekapcsolja ezeket az albumokat vele: %s? </Data>" "</string>
     <string name="confirm_not_face">Nincs találat</string>
-    <string name="confirm_recommandation_face_is">&lt;Data&gt; Biztos, hogy ő &lt;font color=#323232&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/font&gt;? Ez a személy áthelyezve a(z) \"%2$s\" albumba. &lt;/Data&gt;</string>
-    <string name="confirm_recommandation_face_not">&lt;Data&gt; Biztos, hogy ő nem &lt;font color=#323232&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/font&gt;? &lt;/Data&gt;</string>
-    <string name="confirm_recommandation_multiple_faces_are">&lt;Data&gt; Biztos, hogy ők &lt;font color=#323232&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/font&gt;? Ezek az személyek áthelyezve a(z) \"%2$s\" albumba. &lt;/Data&gt;</string>
-    <string name="confirm_recommandation_multiple_faces_not">&lt;Data&gt; Biztos, hogy ők nem &lt;font color=#323232&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;/font&gt;? &lt;/Data&gt;</string>
+    <string name="confirm_recommandation_face_is">" "<Data> Biztos, hogy őt  &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ez a személy áthelyezve a(z) \"%2$s\" albumba. </Data>" "</string>
+    <string name="confirm_recommandation_face_not">" "<Data>" Biztos, hogy ő nem &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_are">" "<Data> Biztos, hogy ők &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? Ezek a személyek áthelyezve a(z) \"%2$s\" albumba. </Data>" "</string>
+    <string name="confirm_recommandation_multiple_faces_not">" "<Data>" Biztos, hogy ők nem &lt;font color=#323232>&lt;b>%1$s&lt;/b>&lt;/font>? "</Data>" "</string>
     <string name="contact_tip">Névjegy</string>
     <string name="context_menu_add_contact">Hozzáadás a névjegyekhez</string>
     <string name="context_menu_copy">Másolás</string>
     <string name="context_menu_copy_notice">Kimásolva a vágólapra</string>
+    <string name="continue_feedback">További visszajelzések</string>
     <string name="correct_photo_time">A fénykép készítési dátumának és idejének korrigálása</string>
     <string name="correct_time_success">Sikeresen korrigálva</string>
     <string name="correct_time_tip">Dátum és idő korrigálása…</string>
@@ -423,7 +425,11 @@
     <string name="download_tip">Letöltés</string>
     <string name="download_title">Fájlok előkészítése…</string>
     <string name="download_type_origin">Eredeti fájlok</string>
+    <string name="download_type_origin_subtitle_china">Az eredeti képek több tárhelyet foglalnak el, és csak Wi-Fi-n keresztül tölthetőek le</string>
+    <string name="download_type_origin_title">Eredeti</string>
     <string name="download_type_thumbnail">Kiváló minőség</string>
+    <string name="download_type_thumbnail_subtitle">A kiváló minőségű képek szinte azonosak az eredetivel, de kevesebb helyet foglalnak</string>
+    <string name="download_type_thumbnail_title">Kiváló minőség</string>
     <string name="download_type_title">Letöltési minőség</string>
     <string name="download_with_metered_network_msg">Az eredeti fájlok letöltése további adatforgalmi költségeket generálhat. Biztosan letölti?</string>
     <string name="download_with_metered_network_title">Ön fizetett hálózatra van csatlakozva</string>
@@ -461,7 +467,7 @@
     <string name="error_build_thumbnail_msg">Indexkép letöltése sikertelen. Kísérelje meg letölteni az eredeti fájlt.</string>
     <string name="error_build_thumbnail_tip">Indexkép letöltése sikertelen.</string>
     <string name="error_change_storage_action">Tárhelyváltás</string>
-    <string name="error_change_storage_msg">Menjen a Beállítások &gt; Tárhely menüpontba, váltson tárhelyet, majd próbálja újra.</string>
+    <string name="error_change_storage_msg">Menjen a Beállítások > Tárhely menüpontba, váltson tárhelyet, majd próbálja újra.</string>
     <string name="error_cloud_not_active">Nincs fénykép a Xiaomi Cloudban</string>
     <string name="error_connect_timeout_action">Válasszon hálózatot</string>
     <string name="error_connect_timeout_msg">Csatlakozzon egy másik hálózathoz és próbálja újra.</string>
@@ -469,7 +475,7 @@
     <string name="error_decode_tip">A formátum nem támogatott vagy a fájl sérült.</string>
     <string name="error_download_tip">Sikertelen letöltés</string>
     <string name="error_external_sdcard_write_action">Tárhelyváltás</string>
-    <string name="error_external_sdcard_write_msg">Menjen a Beállítások &gt; Tárhely menüpontba, váltson tárhelyet, majd próbálja újra.</string>
+    <string name="error_external_sdcard_write_msg">Menjen a Beállítások > Tárhely menüpontba, váltson tárhelyet, majd próbálja újra.</string>
     <string name="error_external_sdcard_write_tip">Nem mentheti az SD-kártyára az elemeket.</string>
     <string name="error_forbidden">Hiba lépett fel a fiókazonosítás során: a szinkronizálás letiltva.</string>
     <string name="error_install_connect_fail">Beépülő modul betöltése sikertelen, ellenőrizze a hálózati kapcsolatot.</string>
@@ -527,7 +533,7 @@
     <string name="exit_video_play">Kilépés</string>
     <string name="expand_desc">Továbbiak</string>
     <string name="expand_people">További személyek megjelenítése</string>
-    <string name="ext_sdcard_first_entrance_request_failed_text">A Galéria elmenti a tételeket a belső tárhelyre. Ezt módosíthatja a Beállításokban, a &gt;Tárhely&gt;, Tárhelybeállítások menüpontban.</string>
+    <string name="ext_sdcard_first_entrance_request_failed_text">A Galéria elmenti a tételeket a belső tárhelyre. Ezt módosíthatja a Beállításokban, a > Tárhely > Tárhelybeállítások menüpontban.</string>
     <string name="ext_sdcard_first_entrance_request_failed_title">Nem sikerült megadni az engedélyeket.</string>
     <string name="ext_sdcard_guide_first_page_button_text">Következő</string>
     <string name="ext_sdcard_guide_last_page_button_text">Engedélyek megadása</string>
@@ -538,8 +544,8 @@
     <string name="ext_sdcard_permission_request_reason">A Galériának engedélyre van szüksége az SD-kártyához való hozzáféréshez. Ezzel törölheti és szerkesztheti az SD-kártyán tárolt képeit és videóit.</string>
     <string name="ext_sdcard_permission_request_title">Engedélyezze a galériának az SD-kártyához való hozzáférést</string>
     <string name="ext_sdcard_request_succeed_toast_text">Kész!</string>
-    <string name="face_album_empty">Nincs elegendő fénykép személyek felismeréséhez.
-Készítsen több fotót a barátairól!</string>
+    <string name="face_album_empty">"Nincs elegendő fénykép személyek felismeréséhez.
+Készítsen több fotót a barátairól!"</string>
     <string name="face_album_empty_syncing">Adatok szinkronizálása, jöjjön vissza később</string>
     <string name="face_album_empty_syncing_when_connect_wifi">Csatlakozzon a hálózathoz az adatok szinkronizálásához</string>
     <string name="face_album_long_tap_tip">Több személy kiválasztásához vagy a csoport beállításainak módosításához nyomja hosszan a profil fényképet</string>
@@ -562,15 +568,24 @@ Készítsen több fotót a barátairól!</string>
     <string name="fancy_color_desc">Színek</string>
     <string name="fast_share_auto_render">Szépítés</string>
     <string name="fast_share_auto_render_finish">Szépítve</string>
-    <string name="feature_guidance_photo_effects">Új fényképeffektek
-érhetők el</string>
+    <string name="feature_guidance_photo_effects">"Új fényképeffektek
+érhetők el"</string>
     <string name="feature_guidance_video_editor_smart_effects">Új effektek érhetők el</string>
     <string name="file_cannot_print">Ez az elem nem nyomtatható.</string>
     <string name="file_cannot_screen_throw">Ez az elem nem vetíthető ki.</string>
     <string name="file_sending">Fájlátvitel…</string>
+    <string name="filter_category_classic">Klaszikus</string>
+    <string name="filter_category_fresh">Friss</string>
+    <string name="filter_category_general">Általános</string>
     <string name="filter_category_master">Mester</string>
+    <string name="filter_category_movie">Film</string>
+    <string name="filter_category_nice_food">Étel</string>
+    <string name="filter_category_night_scene">Éjszaka</string>
+    <string name="filter_category_popular">Népszerű</string>
     <string name="filter_category_portrait">Portré</string>
     <string name="filter_category_sky">Ég</string>
+    <string name="filter_category_texture">Ritmus</string>
+    <string name="filter_category_travel">Utazás</string>
     <string name="filter_master_hazy">Elmosódott</string>
     <string name="filter_master_mellow">Zamatos</string>
     <string name="filter_master_memoire">Emlékirat</string>
@@ -637,9 +652,9 @@ Készítsen több fotót a barátairól!</string>
     <string name="generate_story_title">Emlékek</string>
     <string name="get_album_info_in_process">Megosztott album adatainak lekérése…</string>
     <string name="grant_permission_go_and_set">Beállítás</string>
-    <string name="grant_permission_text">A megfelelő működéshez a Galéria hozzáférést igényel ehhez:
+    <string name="grant_permission_text">"A megfelelő működéshez a Galéria hozzáférést igényel ehhez:
 %s
-kattintson a \"Beállítás\" gombra az Engedélyekre lépéshez.</string>
+kattintson a \"Beállítás\" gombra az Engedélyekre lépéshez."</string>
     <string name="grant_permission_title">Hozzáférés engedélyezése</string>
     <string name="grant_permission_unlock_and_set">Feloldás és beállítás</string>
     <string name="has_invalid_recipient">Érvénytelen címzett(ek): %1$s</string>
@@ -700,8 +715,8 @@ kattintson a \"Beállítás\" gombra az Engedélyekre lépéshez.</string>
     <string name="kick_sharer_failed">Nem távolítható el ez a személy</string>
     <string name="kick_sharer_successfully">Ez a személy eltávolítva</string>
     <string name="kilobyteShort">kB</string>
-    <string name="limit_height">A magassága &gt; 0 lehet</string>
-    <string name="limit_width">A szélessége &gt; 0 lehet</string>
+    <string name="limit_height">A magassága > 0 lehet</string>
+    <string name="limit_width">A szélessége > 0 lehet</string>
     <string name="load_complete">Nincs itt több elem</string>
     <string name="load_failed">Adatok betöltése sikertelen, érintse meg az újrapróbáláshoz</string>
     <string name="load_relations">Egy pillanat…</string>
@@ -719,6 +734,7 @@ kattintson a \"Beállítás\" gombra az Engedélyekre lépéshez.</string>
     <string name="loading_image_thumbnail">Indexkép letöltése…</string>
     <string name="loading_members">Tagok betöltése2026</string>
     <string name="loading_suspend">A letöltés szüneteltetve: folytatódik elérhető Wi-Fi kapcsolat esetén</string>
+    <string name="loading_text_format" formatted="false">Privát információk eltávolítása a fotókról (%d/%d)…</string>
     <string name="loading_video">Videó letöltése…</string>
     <string name="loading_video_fail_sync_without_network">A metaadat letöltéséhez csatlakozzon a hálózathoz</string>
     <string name="loading_video_fail_syncing">Várja meg, míg a metaadat teljesen letöltődik, majd próbálja újra</string>
@@ -734,8 +750,8 @@ kattintson a \"Beállítás\" gombra az Engedélyekre lépéshez.</string>
     <string name="main_save_origin">Eredeti fájl mentése</string>
     <string name="mark_myself_default_name">Én</string>
     <string name="mark_myself_suggestion_load_more">Ez nem én vagyok</string>
-    <string name="mark_myself_suggestion_title">A Galéria személyre szabásához
-válassza ki a fényképeket, amelyeken Ön látható</string>
+    <string name="mark_myself_suggestion_title">"A Galéria személyre szabásához
+válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="mark_operation_failed">Hozzáadás sikertelen</string>
     <string name="mark_operation_processing">Folyamatban…</string>
     <string name="mark_operation_succeeded">Sikeresen hozzáadva</string>
@@ -953,6 +969,7 @@ válassza ki a fényképeket, amelyeken Ön látható</string>
     <string name="photo_editor_miui_beauty_no_face">Nem észlelhető arc</string>
     <string name="photo_editor_mosaic">Mozaik</string>
     <string name="photo_editor_navigator_cancel">Mégse</string>
+    <string name="photo_editor_navigator_download_network_metered_msg" formatted="false">A %s letöltése körülbelül %2$d MB mobiladatot igényel. Letöltés most?</string>
     <string name="photo_editor_navigator_download_network_metered_title">Adatforgalmi figyelmeztetés</string>
     <string name="photo_editor_navigator_export">Mentés</string>
     <string name="photo_editor_navigator_module_download_failed">%s letöltése sikertelen</string>
@@ -1056,6 +1073,7 @@ válassza ki a fényképeket, amelyeken Ön látható</string>
     <string name="recommanded_face_abandon_tip">Eltávolítva a javaslatok közül</string>
     <string name="recommanded_face_added_tip">Hozzáadva ehhez: \"%s\"</string>
     <string name="recommend_category_title">Galériaképek</string>
+    <string name="recommend_page_label">Recommended</string>
     <string name="recovery_merge">Összekapcsolás</string>
     <string name="recovery_merge_or_rename">Albumok összekapcsolása</string>
     <string name="recovery_merge_or_rename_message">Már van itt egy ugyanilyen nevű album. Összekapcsolja most?</string>
@@ -1198,6 +1216,8 @@ válassza ki a fényképeket, amelyeken Ön látható</string>
     <string name="select_origin_tip">Eredeti fájl (%s)</string>
     <string name="send_file_beautify_failed">Megosztás sikertelen</string>
     <string name="send_files_to">Elemek küldése a következő helyre:</string>
+    <string name="send_heif_summary">HEIF-képek konvertálása JPEG-fájlba a kompatibilitás biztosítása érdekében</string>
+    <string name="send_heif_title">HEIF konvertálása JPEG-re küldés előtt</string>
     <string name="send_multiple_files_hint_format">Küldés (%s)</string>
     <string name="send_public_url">Album URL-jének küldése</string>
     <string name="send_secret_file_failed">Megosztás sikertelen</string>
@@ -1237,6 +1257,7 @@ válassza ki a fényképeket, amelyeken Ön látható</string>
     <string name="slideshow_interval_dialog_title">Adja meg a vetítés időtartamát</string>
     <string name="slideshow_interval_invalid">Az időtartamnak 3 és 3600 másodperc között kell lennie</string>
     <string name="slideshow_interval_title">Képek megjelenítési ideje diavetítéskor</string>
+    <string name="slideshow_loop_title">Összes dia újra</string>
     <string name="slim_complete">Kész</string>
     <string name="slim_complete_action_title">Sikeresen optimalizálva</string>
     <string name="slim_cost_time_minute">%dperc van hátra</string>
@@ -1379,6 +1400,16 @@ válassza ki a fényképeket, amelyeken Ön látható</string>
     <string name="trash_bin">Lomtár</string>
     <string name="trash_bin_key_word">Fényképek törölve</string>
     <string name="trash_bin_summary">Böngésszen a nemrégiben törölt fényképek között</string>
+    <string name="trash_bin_summary_local">Nemrég törölt fényképek és videók megtekintése</string>
+    <string name="trash_empty">Itt nincsenek elemek.</string>
+    <string name="trash_menu_delete">Törlés</string>
+    <string name="trash_menu_recovery">Visszaállítás</string>
+    <string name="trash_purge_all">"Az összes fotó és videó törlődik a felhőből. Nem lesz képes visszaállítani őket. Törli mégis?"</string>
+    <string name="trash_purge_positive_button">Törlés</string>
+    <string name="trash_size">Törölt elemek (%s)</string>
+    <string name="trash_vip_button_login">Kiterjesztés</string>
+    <string name="trash_vip_button_login_top_level">Megújítás</string>
+    <string name="trash_vip_button_unlogin">Bejelentkezés</string>
     <string name="try_again_later">Próbálja később.</string>
     <string name="try_to_send">Küldés</string>
     <string name="tuesday">Kedd</string>
@@ -1501,6 +1532,172 @@ válassza ki a fényképeket, amelyeken Ön látható</string>
     <string name="view_by_gallery_tip">MIUI Galéria</string>
     <string name="view_face_album">Album megtekintése</string>
     <string name="view_more_face_desc">További személyek megtekintése</string>
+    <string name="vlog_audio_changyang">Leisure</string>
+    <string name="vlog_audio_close_toast">Original soundtrack is off</string>
+    <string name="vlog_audio_fulan">Fog</string>
+    <string name="vlog_audio_guiyun">Clouds</string>
+    <string name="vlog_audio_jianyue">Minimalist</string>
+    <string name="vlog_audio_liuying">Reflections</string>
+    <string name="vlog_audio_mengya">Buds</string>
+    <string name="vlog_audio_metal">Metal</string>
+    <string name="vlog_audio_mili">Mystery</string>
+    <string name="vlog_audio_open_toast">Original soundtrack is on</string>
+    <string name="vlog_audio_quiet">Quiet</string>
+    <string name="vlog_audio_rumeng">Dreams</string>
+    <string name="vlog_audio_select_change_local_music">Change soundtrack</string>
+    <string name="vlog_audio_select_range_title">Select clip</string>
+    <string name="vlog_audio_shenyin">Depth</string>
+    <string name="vlog_audio_shiyi">Thoughts</string>
+    <string name="vlog_audio_wanyan">Metamorphosis</string>
+    <string name="vlog_audio_weifeng">Breeze</string>
+    <string name="vlog_back_dialog_exit">OK</string>
+    <string name="vlog_back_dialog_exit_cancel">Cancel</string>
+    <string name="vlog_bottom_view_back">Back</string>
+    <string name="vlog_bottom_view_edit">Edit</string>
+    <string name="vlog_bottom_view_exit">Exit</string>
+    <string name="vlog_bottom_view_save">Save</string>
+    <string name="vlog_cancel_download">Cancel</string>
+    <string name="vlog_caption">Text</string>
+    <string name="vlog_caption_add">Add</string>
+    <string name="vlog_caption_ai_cancel">Cancel</string>
+    <string name="vlog_caption_ai_conform">OK</string>
+    <string name="vlog_caption_ai_connecting">Downloading plug-in for auto captions…</string>
+    <string name="vlog_caption_ai_error">"Couldn't generate auto captions"</string>
+    <string name="vlog_caption_ai_generating">Generating auto captions…</string>
+    <string name="vlog_caption_ai_metered_network_msg">Using paid networks to create auto captions may generate additional carrier fees. Continue anyway?</string>
+    <string name="vlog_caption_ai_metered_network_title">Using paid network connection</string>
+    <string name="vlog_caption_ai_network_unavailable">"Couldn't connect to the network. Check your network settings and try again."</string>
+    <string name="vlog_caption_ai_no_detect">"Couldn't generate auto captions"</string>
+    <string name="vlog_caption_ai_replace_message">Replace auto captions with custom captions?</string>
+    <string name="vlog_caption_ai_replace_title">Replace captions</string>
+    <string name="vlog_caption_auto">Auto</string>
+    <string name="vlog_caption_clear">Clear captions</string>
+    <string name="vlog_caption_clear_sure_title">"You won't be able to restore captions after you clear them. Clear anyway?"</string>
+    <string name="vlog_caption_invalid_arguments">"Can't add when the interval is shorter than %1$d second"</string>
+    <string name="vlog_caption_style">Caption format</string>
+    <string name="vlog_caption_title">Credits</string>
+    <string name="vlog_clip_add_trans_title">Add transition</string>
+    <string name="vlog_clip_cut_fail">Clips must be at least %1$d sec long</string>
+    <string name="vlog_clip_cut_fail_min_time">Clips must be at least %1$s sec long</string>
+    <string name="vlog_clip_delete_dialog_btn_cancel">Cancel</string>
+    <string name="vlog_clip_delete_dialog_btn_delete">Delete</string>
+    <string name="vlog_clip_delete_dialog_btn_msg">Delete this video?</string>
+    <string name="vlog_clip_duration_time">%ss</string>
+    <string name="vlog_clip_is_reversed">Reversed</string>
+    <string name="vlog_clip_select_trans">Select transition</string>
+    <string name="vlog_clip_sort">Rearrange videos</string>
+    <string name="vlog_clip_zoom">Use two fingers to increase or decrease the number of frames in the preview</string>
+    <string name="vlog_cloud_file_download">Items from the cloud</string>
+    <string name="vlog_download">Download</string>
+    <string name="vlog_download_btn">Download</string>
+    <string name="vlog_download_cloud_file_retry">"Couldn't download items from the cloud. Try again."</string>
+    <string name="vlog_download_cloud_file_without_wifi_msg">"Couldn't connect to Wi-Fi. You can also download items from the cloud (%s) using mobile data."</string>
+    <string name="vlog_download_fail">"Couldn't download. Check your network settings and try again."</string>
+    <string name="vlog_download_failed_for_notwork">"Couldn't download. Check your network settings and try again."</string>
+    <string name="vlog_download_sdk_without_wifi_msg">"Couldn't connect to Wi-Fi. You can also download video editor using mobile data."</string>
+    <string name="vlog_download_sdk_without_wifi_title">Downloading video editor…</string>
+    <string name="vlog_download_with_metered_network_msg">Using paid networks to download original files may generate additional carrier fees. Download anyway?</string>
+    <string name="vlog_download_with_metered_network_title">Using paid network connection</string>
+    <string name="vlog_downloading_cloud_file">Downloading items from the cloud…</string>
+    <string name="vlog_end_of_film">Closing</string>
+    <string name="vlog_exit_ddit_message">All changes will be lost if you quit now. Quit anyway?</string>
+    <string name="vlog_exit_edit_title">Quitting editor</string>
+    <string name="vlog_exit_message">All unsaved changes will be lost. Cancel anyway?</string>
+    <string name="vlog_exit_title">Discarding changes</string>
+    <string name="vlog_film_title">Opening</string>
+    <string name="vlog_filter_bbp">BBP</string>
+    <string name="vlog_filter_beiou">Nordic</string>
+    <string name="vlog_filter_changfeng">Wind</string>
+    <string name="vlog_filter_chenmeng">Slumber</string>
+    <string name="vlog_filter_chujing">Calm</string>
+    <string name="vlog_filter_chunlu">Dew</string>
+    <string name="vlog_filter_heijin">Gold vibes</string>
+    <string name="vlog_filter_huadeng">Lantern</string>
+    <string name="vlog_filter_lading">Tango</string>
+    <string name="vlog_filter_lanmei">Blueberry</string>
+    <string name="vlog_filter_liulan">Mist</string>
+    <string name="vlog_filter_luoma">Rome</string>
+    <string name="vlog_filter_master_close">Removed video effects</string>
+    <string name="vlog_filter_master_open">Applied video effects</string>
+    <string name="vlog_filter_no_support_nums">"Skipped videos that don't support editing (%1$d)"</string>
+    <string name="vlog_filter_nuanyang">Sunshine</string>
+    <string name="vlog_filter_origin">None</string>
+    <string name="vlog_filter_qianyin">Tender</string>
+    <string name="vlog_filter_qihuan">Fantasy</string>
+    <string name="vlog_filter_qingcheng">Lime</string>
+    <string name="vlog_filter_rixi">Pastel</string>
+    <string name="vlog_filter_shenmi">Mystery</string>
+    <string name="vlog_filter_wangjiao">Carmen</string>
+    <string name="vlog_filter_xiari">Summer</string>
+    <string name="vlog_filter_xiayang">Midsummer</string>
+    <string name="vlog_filter_xiehou">Encounter</string>
+    <string name="vlog_filter_zhaomu">Daybreak</string>
+    <string name="vlog_float_view_change_audio">Change soundtrack</string>
+    <string name="vlog_float_view_original_ratio">Original</string>
+    <string name="vlog_float_view_ratio">Aspect ratio</string>
+    <string name="vlog_improt_encode_video_error">An encoding error occurred. Try again.</string>
+    <string name="vlog_load_data_fail">"Couldn't load data"</string>
+    <string name="vlog_mi_clip">Video editor</string>
+    <string name="vlog_mi_clip_cn">Video editor</string>
+    <string name="vlog_nav_title_audio">Soundtracks</string>
+    <string name="vlog_nav_title_caption">Captions</string>
+    <string name="vlog_nav_title_clip">Editor</string>
+    <string name="vlog_nav_title_filter">Filters</string>
+    <string name="vlog_nav_title_ratio">Aspect ratio</string>
+    <string name="vlog_nav_title_template">Templates</string>
+    <string name="vlog_none">None</string>
+    <string name="vlog_photo_edit_not_support">"Can't edit images"</string>
+    <string name="vlog_photo_not_support">"Can't edit images"</string>
+    <string name="vlog_ratio_choose">Select aspect ratio</string>
+    <string name="vlog_ratio_fullsize">Fullscreen</string>
+    <string name="vlog_ratio_original">Original</string>
+    <string name="vlog_reverse_dialog_cancel">Cancel reversing</string>
+    <string name="vlog_reverse_dialog_msg">Reversing playback…</string>
+    <string name="vlog_reverse_fail">"Couldn't reverse"</string>
+    <string name="vlog_save_failed">"Couldn't save video"</string>
+    <string name="vlog_save_stop_tips">Tap again to cancel saving</string>
+    <string name="vlog_saving">Exporting video…</string>
+    <string name="vlog_speed_double">2.0X</string>
+    <string name="vlog_speed_half">0.5X</string>
+    <string name="vlog_speed_normal">1.0X</string>
+    <string name="vlog_speed_quarter">0.25X</string>
+    <string name="vlog_speed_treble">3.0X</string>
+    <string name="vlog_support_max_duration">A project can be up to %1$d hours long</string>
+    <string name="vlog_support_max_number">You can add up to %1$d videos to a project</string>
+    <string name="vlog_template_baobao">Kiddo</string>
+    <string name="vlog_template_city">City</string>
+    <string name="vlog_template_food">Food</string>
+    <string name="vlog_template_fugu">Retro</string>
+    <string name="vlog_template_kuxuan">Tempo</string>
+    <string name="vlog_template_mandiao">Daydream</string>
+    <string name="vlog_template_memory">Memories</string>
+    <string name="vlog_template_mengchong">Cutie</string>
+    <string name="vlog_template_rixi">Pastel</string>
+    <string name="vlog_template_rule_downloading">Downloading plug-in…</string>
+    <string name="vlog_template_rule_importing">Importing…</string>
+    <string name="vlog_template_rule_matching">Adjusting template…</string>
+    <string name="vlog_template_shikong">Time</string>
+    <string name="vlog_template_summer">Summer</string>
+    <string name="vlog_template_travel">Travel</string>
+    <string name="vlog_text_editor">Edit text</string>
+    <string name="vlog_trans_diehua">Overlap</string>
+    <string name="vlog_trans_down">Down</string>
+    <string name="vlog_trans_fangda">Zoom in</string>
+    <string name="vlog_trans_fangda_rotate">Swirl in</string>
+    <string name="vlog_trans_heichang">Fade</string>
+    <string name="vlog_trans_left">Left</string>
+    <string name="vlog_trans_mohu">Blur</string>
+    <string name="vlog_trans_none">None</string>
+    <string name="vlog_trans_right">Right</string>
+    <string name="vlog_trans_suoxiao">Zoom out</string>
+    <string name="vlog_trans_suoxiao_rotate">Swirl out</string>
+    <string name="vlog_trans_up">Up</string>
+    <string name="vlog_unzip_file_fail">"Couldn't decompress file"</string>
+    <string name="vlog_video_adjust_order">Rearrange videos</string>
+    <string name="vlog_video_importing">Importing video…</string>
+    <string name="vlog_video_saved_in_my_create">Saved video successfully</string>
+    <string name="vlog_video_selected_not_support">"Can't edit selected video"</string>
+    <string name="vlog_video_trans_code_cons">Processing a high resolution file…</string>
     <string name="voice_assistant">Hangbemenet</string>
     <string name="wednesday">Szerda</string>
     <string name="wednesday_short">Sze</string>
@@ -1512,4 +1709,7 @@ válassza ki a fényképeket, amelyeken Ön látható</string>
     <string name="yes">Igen</string>
     <string name="yesterday">Tegnapi</string>
     <string name="you_are">Ön a baba</string>
+    <string name="yuzhitiaojie">Vastagságállítási skála</string>
+    <string name="zi_ding_yi_wenben">Egyéni méret</string>
+    <string name="zman_title">Biztonságos megosztás</string>
 </resources>
