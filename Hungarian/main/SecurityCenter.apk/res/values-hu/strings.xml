@@ -1934,13 +1934,14 @@ Győződjön meg arról, hogy SIM beállításai megfelelnek a szolgáltató el�
     <string name="network_speed_for_apps_title">Kapcsolat</string>
     <string name="network_speed_for_apps_total">Hálózati sebesség</string>
     <string name="network_test_speed">Wi-Fi sebességteszt</string>
-    <string name="network_traffic_warning_text">A MIUI itt nem tudja kiszámítani az egyes rendszeralkalmazások adatfelhasználási statisztikáját. Megnézheti az adatfelhasználással kapcsolatos információkat az alkalmazás részletes adatainál, abban az esetben, ha az alkalmazás aktívan mobiladatokat használ.</string>
+    <string name="network_traffic_warning_text">"A MIUI itt nem tudja kiszámítani az egyes rendszeralkalmazások adatfelhasználási statisztikáját. Megnézheti az adatfelhasználással kapcsolatos információkat az alkalmazás részletes adatainál, abban az esetben, ha az alkalmazás aktívan mobiladatokat használ."</string>
     <string name="network_traffic_warning_title">Adathasználat rendszeralkalmazásokhoz</string>
     <string name="networkchanged_exception_summary">A hálózati kapcsolat megváltozott. Tesztelje újra.</string>
     <string name="networkchanged_exception_title">Kapcsolat megváltozott</string>
     <string name="never">1 alkalommal</string>
     <string name="news_change">Módosítás</string>
     <string name="nickname">Becenév</string>
+    <string name="night">Este</string>
     <string name="no_game">Nem sikerült játékokat találni</string>
     <string name="not_limited_brand">Korlátlan</string>
     <string name="not_set">Nincs beállítva</string>
