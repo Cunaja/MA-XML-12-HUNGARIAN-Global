@@ -32,36 +32,36 @@
         <item>Tencent King kártya</item>
     </string-array>
     <string-array name="date_of_app_all">
-        <item>Tegnap (mobiladat) </item>
-        <item>Ma (mobiladat) </item>
-        <item>Múlt hónapban (mobiladat) </item>
-        <item>Ebben a hónapban (mobiladat) </item>
-        <item>Tegnap (Wi-Fi) </item>
-        <item>Ma (Wi-Fi) </item>
-        <item>Múlt hónapban (Wi-Fi) </item>
-        <item>Ebben a hónapban (Wi-Fi) </item>
+        <item>"Tegnap (mobiladat) "</item>
+        <item>"Ma (mobiladat) "</item>
+        <item>"Múlt hónapban (mobiladat) "</item>
+        <item>"Ebben a hónapban (mobiladat) "</item>
+        <item>"Tegnap (Wi-Fi) "</item>
+        <item>"Ma (Wi-Fi) "</item>
+        <item>"Múlt hónapban (Wi-Fi) "</item>
+        <item>"Ebben a hónapban (Wi-Fi) "</item>
     </string-array>
     <string-array name="date_of_traffic">
-        <item>Tegnap </item>
-        <item>Ma </item>
-        <item>Múlt hónapan </item>
-        <item>Ebben a hónapban </item>
+        <item>"Tegnap "</item>
+        <item>"Ma "</item>
+        <item>"Múlt hónapan "</item>
+        <item>"Ebben a hónapban "</item>
     </string-array>
     <string-array name="date_of_traffic_cmcc">
-        <item>Ezen a héten </item>
-        <item>Ma </item>
-        <item>Ebben a hónapban </item>
+        <item>"Ezen a héten "</item>
+        <item>"Ma "</item>
+        <item>"Ebben a hónapban "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix">
-        <item>Tegnap: </item>
-        <item>Ma: </item>
-        <item>Múlt hónapban: </item>
-        <item>Ebben a hónapban: </item>
+        <item>"Tegnap: "</item>
+        <item>"Ma: "</item>
+        <item>"Múlt hónapban: "</item>
+        <item>"Ebben a hónapban: "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
-        <item>Ezen a héten: </item>
-        <item>Ma: </item>
-        <item>Ebben a hónapban: </item>
+        <item>"Ezen a héten: "</item>
+        <item>"Ma: "</item>
+        <item>"Ebben a hónapban: "</item>
     </string-array>
     <string-array name="debug_open_intercept">
         <item>Hozzáférhet és szerkesztheti a készülékén megtalálható fájlokat számítógépről.</item>
@@ -76,24 +76,24 @@
     </string-array>
     <string-array name="lock_mode_value">
         <item>1</item>
-        <item>@null</item>
+        <item>0</item>
         <item>2</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
-        <item>Mobiladat-használat </item>
-        <item>Wi-Fi-használat </item>
+        <item>"Mobiladat-használat "</item>
+        <item>"Wi-Fi-használat "</item>
     </string-array>
     <string-array name="miui_optimization_close_intercept">
         <item>Fontos: lehetséges, hogy több rendszeralkalmazás nem fog megfelelően működni.</item>
         <item>A szövegelrendezés, a fiókok és a tartalom lehet, hogy nem fog helyesen megjelenni.</item>
     </string-array>
     <string-array name="operate_entryValues">
-        <item>@null</item>
+        <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
     <string-array name="operate_memory_entryValues">
-        <item>@null</item>
+        <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
@@ -166,7 +166,7 @@
         <item>Korlátlan adatforgalom</item>
     </string-array>
     <string-array name="traffic_type">
-        <item>Mobiladat-használat </item>
-        <item>Wi-Fi-használat </item>
+        <item>"Mobiladat-használat "</item>
+        <item>"Wi-Fi-használat "</item>
     </string-array>
 </resources>

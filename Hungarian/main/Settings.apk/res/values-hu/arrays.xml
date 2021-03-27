@@ -474,6 +474,18 @@
         <item>PIN-kód</item>
         <item>Jelszó</item>
     </string-array>
+    <string-array name="change_security_lock_picker_key">
+        <item>arc</item>
+        <item>minta</item>
+        <item>numerikus</item>
+        <item>kevert</item>
+    </string-array>
+    <string-array name="charge_animation_style_entries">
+        <item>Ki</item>
+        <item>Folyam</item>
+        <item>Izzás</item>
+        <item>Hullám</item>
+    </string-array>
     <string-array name="city_name">
         <item>Abidjan</item>
         <item>Accra</item>

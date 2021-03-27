@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="found_apps">
+        <item quantity="other">%d alkalmazás találat</item>
+        <item quantity="one">%d alkalmazás találat</item>
+    </plurals>
+    <plurals name="search_apps">
+        <item quantity="other">Keresés az %d alkalmazásnál</item>
+        <item quantity="one">Keresés az %d alkalmazásnál</item>
+    </plurals>
+    <plurals name="selected_apps">
+        <item quantity="other">%d alkalmazás kiválasztva</item>
+        <item quantity="one">%d alkalmazás kiválasztva</item>
+    </plurals>
+</resources>

@@ -97,12 +97,12 @@
         <item quantity="one">%d alkalmazás védve</item>
     </plurals>
     <plurals name="daily_sim_over_limit_dialog_message">
-        <item quantity="other">Már felhasznált %s napi adatcsomagot.
+        <item quantity="other">"Már felhasznált %s napi adatcsomagot.
 
-Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjakat számolhat fel.</item>
-        <item quantity="one">Már felhasznált %s napi adatcsomagot.
+Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjakat számolhat fel."</item>
+        <item quantity="one">"Már felhasznált %s napi adatcsomagot.
 
-Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjakat számolhat fel.</item>
+Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjakat számolhat fel."</item>
     </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">Már felhasznált %s napi adatcsomagot.</item>
@@ -241,8 +241,8 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
         <item quantity="one">Kössön össze legalább %d pontot</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">Várjon %d másodpercet, majd próbálja újra. </item>
-        <item quantity="one">Várjon %d másodpercet, majd próbálja újra. </item>
+        <item quantity="other">"Várjon %d másodpercet, majd próbálja újra. "</item>
+        <item quantity="one">"Várjon %d másodpercet, majd próbálja újra. "</item>
     </plurals>
     <plurals name="manual_white_list_header">
         <item quantity="other">%d kivétel</item>
@@ -277,8 +277,8 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
         <item quantity="one">A Hálózati sebesség gyorsítás időszakából %d nap van hátra. Újítsa meg a hálózat sebességproblémáinak elkerüléséért.</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"A hálózat elérése &lt;font color='#ff0000'>%d&lt;/font> az alkalmazás részére korlátozva van"</item>
-        <item quantity="one">"A hálózat elérése &lt;font color='#ff0000'>%d&lt;/font> az alkalmazás részére korlátozva van"</item>
+        <item quantity="other">"A hálózat elérése &lt;font color='#ff0000'>%d&lt;/font> alkalmazás részére korlátozva van"</item>
+        <item quantity="one">"A hálózat elérése &lt;font color='#ff0000'>%d&lt;/font> alkalmazás részére korlátozva van"</item>
     </plurals>
     <plurals name="notification_battery_consume_abnormal_summary">
         <item quantity="other">%2$d%% -ot merült az akkumulátor az elmúlt %1$d percben</item>
@@ -333,12 +333,12 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
         <item quantity="one">%d alkalmazás fogyasztja nagyon az akkumulátort</item>
     </plurals>
     <plurals name="pc_battery_history_hour">
-        <item quantity="other"> ó</item>
-        <item quantity="one"> ó</item>
+        <item quantity="other">" ó"</item>
+        <item quantity="one">" ó"</item>
     </plurals>
     <plurals name="pc_battery_history_minute">
-        <item quantity="other"> p</item>
-        <item quantity="one"> p</item>
+        <item quantity="other">" p"</item>
+        <item quantity="one">" p"</item>
     </plurals>
     <plurals name="pc_main_power_center_battery_day">
         <item quantity="other">%s nap</item>
@@ -409,8 +409,8 @@ Ha újra bekapcsolja a mobiladat-kapcsolatot, a szolgáltatója további díjaka
         <item quantity="one">%d óra </item>
     </plurals>
     <plurals name="power_center_battery_minute">
-        <item quantity="other">%d perc </item>
-        <item quantity="one">%d perc </item>
+        <item quantity="other">"%d perc "</item>
+        <item quantity="one">"%d perc "</item>
     </plurals>
     <plurals name="power_center_battery_temperature">
         <item quantity="other">%d ℃</item>

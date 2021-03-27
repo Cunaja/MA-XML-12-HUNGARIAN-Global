@@ -6,7 +6,6 @@
     </plurals>
     <plurals name="announce_for_unread">
         <item quantity="other">%2$s elolvasatlan ennyiből: %1$s</item>
-        <item quantity="one">%2$s elolvasatlan ennyiből: %1$s</item>
     </plurals>
     <plurals name="delete_wallpapers_message">
         <item quantity="other">Töröl %1$d háttérképet?</item>
@@ -15,6 +14,10 @@
     <plurals name="editing_mode_title">
         <item quantity="other">%1$d elem kiválasztva</item>
         <item quantity="one">%1$d elem kiválasztva</item>
+    </plurals>
+    <plurals name="remove_dialog_title_multi_format">
+        <item quantity="other">Eltávolítja a %1$d alkalmazást a Home képernyőről?</item>
+        <item quantity="one">Eltávolítja a %1$d alkalmazást a Home képernyőről?</item>
     </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
         <item quantity="other">%1$d oldal, %2$d alkalmazás.</item>

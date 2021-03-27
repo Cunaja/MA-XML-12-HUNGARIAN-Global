@@ -393,6 +393,8 @@ A rendszergazda képes a beállítások, hozzáférések, alkalmazások és a fe
     <string name="additional_permissions_more">%1$d további</string>
     <string name="additional_system_update_settings_list_item_title">További rendszerfrissítések</string>
     <string name="adjust_3d_depth_title">A játékok 3D mélységének beállítása</string>
+    <string name="adjust_font_size_answer_cn">Próbálja meg beállítani a szöveg méretét és a betűk vastagságát az alábbi csúszkákkal! </string>
+    <string name="adjust_font_size_answer_global">Próbálja meg beállítani a szöveg méretét az alábbi csúszka segítségével!</string>																													   
     <string name="adjust_temperature_title">Színhőmérséklet</string>
     <string name="admin_device_owner_message">A rendszergazda figyelheti és kezelheti az eszközzel társított alkalmazásokat és adatokat, beleértve a beállításokat, az engedélyeket, a vállalati hozzáférést, a hálózati tevékenységeket és az eszköz helyadatait is.</string>
     <string name="admin_disabled_other_options">A többi lehetőséget a rendszergazda letiltotta.</string>
@@ -1003,7 +1005,7 @@ Alkalmazások:
     <string name="biometric_weak_improve_matching_title">Arcfelismerés javítása</string>
     <string name="biometric_weak_liveliness_summary">Legyen szükséges egy pislantás a feloldáshoz</string>
     <string name="biometric_weak_liveliness_title">A személy valódiságának ellenőrzése</string>
-    <string name="ble_scan_notify_text">A pontosabb helyadatok érdekében a rendszeralkalmazások és -szolgáltatások továbbra is kereshetnek Bluetooth-eszközöket. Ezt a LINK_BEGINkeresési beállításoknálLINK_END módosíthatja.</string>
+    <string name="ble_scan_notify_text">A pontosabb helyadatok érdekében a rendszeralkalmazások és -szolgáltatások továbbra is kereshetnek Bluetooth-eszközöket. Ezt a LINK_BEGINkeresési beállításoknál  módosíthatja.LINK_END.</string>
     <string name="blob_expires_text">Lejárat ideje: %s</string>
     <string name="blob_id_text">Megosztott adatazonosító: %d</string>
     <string name="block_list_connected_devices">Csatlakoztatott készülékek</string>
@@ -1614,6 +1616,11 @@ Ez hatással lehet a többi olyan alkalmazásra vagy beszélgetésre is, amelyek
     <string name="change_wifi_state_title">Wi-Fi-vezérlés</string>
     <string name="channel_group_notifications_off_desc">Kérésére az Android letiltotta az értesítések jelen csoportjának megjelenését ezen az eszközön</string>
     <string name="channel_notifications_off_desc">Kérésére az Android letiltotta a jelen értesítési kategória megjelenését ezen az eszközön</string>
+    <string name="character_counter_content_description">Beírt karakterek %1$d of %2$d</string>
+    <string name="character_counter_overflowed_content_description">Túllépte a karakterkorlátot %1$d of %2$d</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="charge_animation_style_summary">Válassza ki a kívánt zárolási képernyő töltési animációs stílusát</string>
+    <string name="charge_animation_style_title">Töltési animáció</string>
     <string name="charge_length_format">%1$s óta</string>
     <string name="charging_sounds_title">Töltési hangok és rezgés</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
@@ -2676,7 +2683,7 @@ Ez segít az elvesztett vagy ellopott eszközökön lévő adatok védelmében. 
     <string name="enterprise_privacy_failed_password_wipe_device">Sikertelen jelszómegadási próbálkozások száma az összes eszközadat törlése előtt</string>
     <string name="enterprise_privacy_failed_password_wipe_work">Sikertelen jelszómegadási próbálkozások száma a munkaprofilhoz tartozó adatok törlése előtt</string>
     <string name="enterprise_privacy_global_http_proxy">Globális HTTP proxy beállítva</string>
-    <string name="enterprise_privacy_header">"Előfordulhat, hogy szervezete módosítja az Ön beállításait, és szoftvereket telepít eszközére annak érdekében, hogy hozzáférést biztosítson munkahelyi adataihoz. 
+    <string name="enterprise_privacy_header">"Előfordulhat, hogy szervezete módosítja az Ön beállításait, és szoftvereket telepít eszközére annak érdekében, hogy hozzáférést biztosítson munkahelyi adataihoz.
 
 Ha további információra van szüksége, vegye fel a kapcsolatot a szervezet rendszergazdájával."</string>
     <string name="enterprise_privacy_input_method">Alapértelmezett billentyűzet</string>
@@ -3190,6 +3197,7 @@ Ezt később bármikor módosíthatja a Beállítások > Alkalmazások és érte
     <string name="homepage_all_settings">Minden beállítás</string>
     <string name="homepage_condition_footer_content_description">Összecsukás</string>
     <string name="homepage_personal_settings">Javaslatok</string>
+    <string name="how_adjust_font_size">Hogyan állíthatom be a szöveg méretét?</string>
     <string name="how_backup_content">"A fájlokról helyileg és a felhőbe is készíthet biztonsági mentést. A helyi mentések tárolhatók a mobilkészülékén, a számítógépén vagy egy USB-meghajtón.
 
 Mobilkészülék
@@ -3897,6 +3905,8 @@ mint amennyit az Első asztal PIN-kódja."</string>
     <string name="lockscreen_remote_input">Ha az eszköz zárolva van, ne lehessen választ vagy egyéb szöveget beírni az értesítéseknél</string>
     <string name="lockscreen_settings_title">Lezárási képernyő</string>
     <string name="lockscreen_settings_what_to_show_category">Mi jelenjen meg?</string>
+    <string name="lockscreen_sidepanel_shortcuts_summary">A a zárolási képernyő oldalsó paneljén megjelenő alkalmazások testreszabása</string>
+    <string name="lockscreen_sidepanel_shortcuts_title">Oldalpanel parancsikonjai</string>
     <string name="login_account_dialog_message">Jelentkezzen be Mi-fiókjával és kapcsolja be a felhőszinkronizálást.</string>
     <string name="login_account_dialog_title">Bejelentkezés Mi Fiókkal</string>
     <string name="login_account_summary">Fiókkezelés, felhőszolgáltatás, vásárlás és sok minden más</string>
@@ -5031,6 +5041,8 @@ Az OTG 10 perc inaktivitás után automatikusan kikapcsol."</string>
     <string name="power_menu_privacy_show_controls">Vezérlők megjelenítése lezárt állapotban</string>
     <string name="power_menu_setting_name">Bekapcsolás menü</string>
     <string name="power_menu_setting_title">Bekapcsológomb menüje</string>
+    <string name="power_menu_under_keyguard_summary">Engedélyezi leállítás menü elérését lezárt készüléknél</string>
+    <string name="power_menu_under_keyguard_title">Leállítás menü hozzáférés</string>
     <string name="power_mgr">Akkumulátoroptimalizálás</string>
     <string name="power_mode">Teljesítménybeállítások</string>
     <string name="power_mode_balanced_title">Kiegyensúlyozott teljesítmény</string>
@@ -5385,7 +5397,7 @@ Az OTG 10 perc inaktivitás után automatikusan kikapcsol."</string>
     <string name="recommend_item_3">Power bank</string>
     <string name="recommend_item_4">Fülhallgatók</string>
     <string name="recommend_item_title">Kiegészítők</string>
-    <string name="recommend_tip">Szükségesek egyéb beállítások?</string>
+    <string name="recommend_tip">Más beállításokra van szüksége?</string>
     <string name="recompute_size">Méret újraszámítása...</string>
     <string name="regional_screen_shot">Részleges képernyőkép</string>
     <string name="register_automatically">Automatikus regisztráció…</string>
@@ -6264,8 +6276,8 @@ Megjegyzés: Nem használhatja ujjlenyomatát azt eszköz feloldására. Tovább
     <string name="show_background_processes">Tárolt folyamatok</string>
     <string name="show_badge_notifications_short">Jelvények</string>
     <string name="show_carrier_under_keyguard_title">Szolgáltató megjelenítése, ha a telefon zárolva van</string>
-	<string name="show_charging_in_non_lockscreen_animation">Töltésanimáció megjelenítése az eszköz feloldása után</string>
-    <string name="show_charging_in_non_lockscreen_animation_summary">A töltés animációjának megjelenítését a készülék feloldása után továbbra is elrejtheti, csak videólejátszáshoz és más hasonló teljes képernyős jelenetekhez</string>
+    <string name="show_charging_in_non_lockscreen_animation">Töltésanimáció megjelenítése az eszköz feloldása után</string>
+    <string name="show_charging_in_non_lockscreen_animation_summary">A töltés animációjának megjelenítését a készülék feloldása után továbbra is elrejtheti, csak video lejátszáshoz és más hasonló teljes képernyős jeleneteknél</string>
     <string name="show_connected_devices_summary">A csatlakoztatott készülékek megtekintése</string>
     <string name="show_connected_devices_title">Csatlakoztatott készülékek</string>
     <string name="show_dev_already">Nincs rá szükség, Ön már fejlesztő.</string>
@@ -7004,6 +7016,7 @@ Az adatok Google-féle szinkronizálása lehetővé teszi, hogy bárhonnan hozz�
     <string name="title_font2">Betűtípus és elrendezés</string>
     <string name="title_font_current">Rendszer-betűtípus</string>
     <string name="title_font_current2">Betűtípus</string>
+    <string name="title_font_settings">Betűtípus-beállítások</string>															 
     <string name="title_font_size">Betűméret</string>
     <string name="title_hdmi_color_calibration">Színkorrekció előbeállítás</string>
     <string name="title_layout_current">Betűméret</string>
@@ -7309,7 +7322,7 @@ A mentett ujjlenyomatokat a rendszer szintén eltávolítja ebből a profilból,
     <string name="usage_type_phone">Telefon</string>
     <string name="usage_type_radio_active">Mobil rádióadó aktív</string>
     <string name="usage_type_total_battery_capacity">Teljes akkumulátorkapacitás</string>
-    <string name="usage_type_video">Videó</string>
+    <string name="usage_type_video">Video</string>
     <string name="usage_type_wake_lock">Ébren tartás</string>
     <string name="usage_type_wifi_running">Wi-Fi használatban</string>
     <string name="usagestats_app_category_miui_financial">Pénzügy</string>
@@ -7395,15 +7408,15 @@ vagy fülhallgatót 3,5 mm-es dugóval.</string>
     <string name="usb_use_MIDI">MIDI</string>
     <string name="usb_use_MIDI_desc">A készülék használata MIDI-eszközként</string>
     <string name="usb_use_MIDI_miui12_5">MIDI</string>
-    <string name="usb_use_charging_only">Nincs adatátvitel</string>
-    <string name="usb_use_charging_only_desc">Csak töltse az eszközt</string>
+    <string name="usb_use_charging_only">Csak töltés</string>
+    <string name="usb_use_charging_only_desc">Csak tölti az eszközt</string>
     <string name="usb_use_file_transfers">Fájlátvitel</string>
     <string name="usb_use_file_transfers_desc">Fájlok átvitele más eszközre</string>
     <string name="usb_use_file_transfers_miui12_5">Fájlátvitel</string>
-    <string name="usb_use_miui12_5">Használjon USB-t ehhez:</string>
+    <string name="usb_use_miui12_5">USB-mód kiválasztása</string>
     <string name="usb_use_photo_transfers">Fényképátvitel (PTP)</string>
     <string name="usb_use_photo_transfers_desc">Fotók vagy fájlok átvitele, ha az MTP nem támogatott (PTP)</string>
-    <string name="usb_use_photo_transfers_miui12_5">Fotótranszferek</string>
+    <string name="usb_use_photo_transfers_miui12_5">Fényképátvitel</string>
     <string name="usb_use_power_only">Csatlakoztatott eszköz feltöltése</string>
     <string name="usb_use_tethering">USB-internetmegosztás</string>
     <string name="use_control_panel">Új Irányítóközpont használata</string>
@@ -7531,6 +7544,7 @@ Hozzáadáshoz érintse meg a + gombot."</string>
     <string name="users_summary">Bejelentkezve mint %1$s</string>
     <string name="v7_preference_off">KI</string>
     <string name="v7_preference_on">BE</string>
+    <string name="var_font_switch_title">System-wide variable font</string>																		   
     <string name="verify_apps_over_usb_summary">USB/ADB/ADT-n keresztül telepített alkalmazások káros viselkedésének ellenőrzése.</string>
     <string name="verify_apps_over_usb_title">USB-n keresztül érkező alkalmazások hitelesítése</string>
     <string name="version_text">Verzió: %1$s</string>
@@ -7546,8 +7560,8 @@ Hozzáadáshoz érintse meg a + gombot."</string>
     <string name="vibrate_when_ringing_option_never_vibrate">Soha nem rezeg</string>
     <string name="vibrate_when_ringing_option_ramping_ringer">Előbb rezgés, majd erősödő csörgés</string>
     <string name="vibrate_when_ringing_title">Rezgés híváskor</string>
-    <string name="video_calling_settings_title">Szolgáltatói videohívás</string>
-    <string name="video_tool_box_title">Videó eszköztár</string>
+    <string name="video_calling_settings_title">Szolgáltatói videóhívás</string>
+    <string name="video_tool_box_title">Videóeszköztár</string>
     <string name="view_saved_network">A megtekintéshez válassza ki a mentett hálózatot</string>
     <string name="vip_list">Bejövő hívások engedélyezése</string>
     <string name="virtual_keyboard_category">Képernyő-billentyűzet</string>
