@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="HIPS_Perm_Access_Gallery">Hozzáférés a Galériához</string>
-    <string name="HIPS_Perm_Access_Gallery_Desc">Engedélyezze az alkalmazás számára, hogy hozzáférjen a Galéria elemeihez</string>																   
+    <string name="HIPS_Perm_Access_Gallery_Desc">Engedélyezze az alkalmazás számára, hogy hozzáférjen a Galéria elemeihez</string>
     <string name="HIPS_Perm_Bluetooth_Connectivity_Desc">Bluetooth ki- és bekapcsolása</string>
     <string name="HIPS_Perm_CallLog_Desc">Híváslista írása és törlése</string>
     <string name="HIPS_Perm_Call_Desc">Közvetlen hívásindítás, -fogadás és -megszakítás</string>
@@ -49,12 +49,11 @@
     <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
     <string name="abc_shareactionprovider_share_with_application">Megosztás a következő alkalmazással: %s</string>
     <string name="abc_toolbar_collapse_description">Összecsukás</string>
-    <string name="about_autostart">Az automatikus indításról</string>
     <string name="abnormal_consume_disable_autostart_toast">A korlátozott automatikus indítás sikeres</string>
     <string name="abnormal_consume_set_hidemode">Akkumulátorkímélő használata ezzel az alkalmazással</string>
     <string name="abnormal_consume_type_cpu">Magas CPU-használat</string>
     <string name="abnormal_consume_type_wakelock">"A rendszer nem tud aludni"</string>
-    <string name="about_autostart">Az automatikus indításról</string>																									  
+    <string name="about_autostart">Az automatikus indításról</string>
     <string name="ac_enter_applock">Belépés az Alkalmazások zárolásába</string>
     <string name="ac_firstUseApplock_subTitle">Jobb rendszerszintű biztonsági eszközök használata</string>
     <string name="ac_firstUseApplock_title">Állítson be jelszót az alkalmazásai védelmére</string>
@@ -158,9 +157,9 @@
     <string name="antispam_xpace_text">Váltson az Első asztalra a Tiltólista beállításához</string>
     <string name="antivirus_choose_engine_dialog_title">Válasszon adatbázist</string>
     <string name="antivirus_choose_engine_settings">VÍRUSADATBÁZIS-BEÁLLÍTÁS</string>
-    <string name="antivirus_choose_engine_title">Adatbázisok</string>
-    <string name="antivirus_longtime_no_update">Úgy tűnik, a vírus-adatbázis elég régi. A folyamatos frissítés segíti a jobb vírusszűrési hatékonyságot. Engedélyezi a Biztonság alkalmazásnak az internetre kapcsolódást és a vírus-adatbázis frissítését?</string>
-    <string name="antivirus_longtime_no_update1">Úgy tűnik, a vírus-adatbázis elég régi. A folyamatos frissítés segíti a jobb vírusszűrési hatékonyságot. Frissítse az adatbázist, majd próbálja újra.</string>
+    <string name="antivirus_choose_engine_title">Definíciók</string>
+    <string name="antivirus_longtime_no_update">Úgy tűnik, a vírusdefiníciók régiek. A rendszeres frissítések segítenek a jobb vizsgálati eredmények eléréséhez. Engedélyezi a biztonságnak az internethez való csatlakozást és a vírusdefiníciók frissítését?</string>
+    <string name="antivirus_longtime_no_update1">Úgy tűnik, a vírusdefiníciók régiek. A rendszeres frissítések segítenek a jobb vizsgálati eredmények eléréséhez. Frissítse a definíciókat, majd próbálkozzon újra.</string>
     <string name="antivirus_main_activity_back">Vissza</string>
     <string name="antivirus_monitor_btn_text_clean_risk">Kockázatos alkalmazások törlése</string>
     <string name="antivirus_monitor_btn_text_clean_virus">Vírusok törlése</string>
@@ -173,12 +172,13 @@
     <string name="antivirus_privacy_dialog_cloudscan">Alkalmazások neveinek és adatainak feltöltése</string>
     <string name="antivirus_privacy_dialog_cloudscan_description">"A vírusok hatékonyabb észlelése és semlegesítése érdekében feltöltjük az alkalmazáscsomagok nevét és tulajdonságait, hogy felhőmotor segítségével kereshetők legyenek."</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
-    <string name="antivirus_privacy_dialog_summary">Ezt a funkciót harmadik fél víruskereső motorja üzemelteti. További információkért olvassa el a &lt;a href=\"%1$s\"&gt;Licencszerződést&lt;/a&gt; , melyet a harmadik fél bocsátott rendelkezésre.</string>
+    <string name="antivirus_privacy_dialog_summary"><Data>Ezt a funkciót harmadik fél víruskereső motorja üzemelteti. További információkért olvassa el a &lt;a href=\"%1$s\">Licencszerződést&lt;/a> melyet a harmadik fél bocsátott rendelkezésre.</Data></string>
+    <string name="antivirus_privacy_dialog_summary_kddi"><Data>"Biztonsági vizsgálat végrehajtásakor az eszközmodell és a vizsgálati eredmények feltöltésre kerülnek a következő kiszolgálókra: %1$s szervere, és a megfelelő &lt;a href=\"%2$s\">általános szerződési feltételekket használva &lt;/a>.&lt;br/>&lt;br/>Olvassa el és fogadja el %3$s'az Általános Szerződési Feltételeit, mielőtt biztonsági vizsgálatokat végezne.&lt;br/>&lt;br/>Ha nem vállalja, hogy adatokat tölt fel a %4$s szerverre, továbbra is használhatja a készülékén helyben továbbra is használhatja az eszközön helyileg tárolt vírusdefiníciókat. "</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Adatvédelmi Irányelvek</string>
     <string name="antivirus_privacy_dialog_title">Adatvédelmi Irányelvek</string>
     <string name="antivirus_privacy_dialog_title_kddi">Felhasználási feltételek</string>
     <string name="antivirus_sec_network_unavailable">"A Biztonság nem tudja elvégezni a frissítést, mert Ön korlátozta az internetkapcsolatot. Engedélyezi a Biztonság alkalmazásnak, hogy kapcsolódjon az internethez?"</string>
-    <string name="antivirus_third_privacy_title">Harmadik fél adatvédelmi irányelvei</string>																					  
+    <string name="antivirus_third_privacy_title">Harmadik fél adatvédelmi irányelvei</string>
     <string name="antivirus_toast_already_update">Naprakész</string>
     <string name="antivirus_toast_network_unavailable">Nincs internetkapcsolat</string>
     <string name="antivirus_toast_update_failed">Frissítés sikertelen</string>
@@ -240,7 +240,7 @@
     <string name="app_behavior_door">Alkalmazás magatartás</string>
     <string name="app_behavior_get_install">A(z) %1s hozzáfért az alkalmazáslistához</string>
     <string name="app_behavior_get_install_single">Az alkalmazás hozzáfért az alkalmazáslistához</string>
-    <string name="app_behavior_header_time">MMMM dd</string>
+    <string name="app_behavior_header_time">HHHH nn</string>
     <string name="app_behavior_key_audio">Hangrögzítés</string>
     <string name="app_behavior_key_camera">Képkészítés</string>
     <string name="app_behavior_key_location">Tartózkodási hely</string>
@@ -1485,7 +1485,7 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="gb_xunyou_gift_type_one">Xunyou gyorsító 1 napra</string>
     <string name="gb_xunyou_gift_type_three">Xunyou gyorsító 3 napra</string>
     <string name="gb_xunyou_gift_type_two">Xunyou gyorsító 2 napra</string>
-    <string name="gdpr_msg">A biztonsági kockázatok felismerése és az adatai védelme érdekében össze kell gyűjtenünk a szükséges mennyiségű információt az eszközéről. Olvassa el és fogadja el az &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&gt;Adatvédelmi irányelveket&lt;/a&gt;, mielőtt használja a szolgáltatásainkat. Amennyiben nem engedélyezi ezeknek az információknak a gyűjtését, akkor is fogja tudni használni az alkalmazást, csak néhány funkció nem lesz elérhető. </string>
+    <string name="gdpr_msg">"A biztonsági kockázatok felismerése és az adatai védelme érdekében össze kell gyűjtenünk a szükséges mennyiségű információt az eszközéről. Olvassa el és fogadja el az &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\"&gt;Adatvédelmi irányelveket&lt;/a&gt;, mielőtt használja a szolgáltatásainkat. Amennyiben nem engedélyezi ezeknek az információknak a gyűjtését, akkor is fogja tudni használni az alkalmazást, csak néhány funkció nem lesz elérhető."</string>
     <string name="get_sys_info">Adatok lekérése…</string>
     <string name="gigabyteShort">GB</string>
     <string name="global_wa_setting_alert_dialog_content">Akár %s helyet is felszabadíthat</string>
@@ -1519,8 +1519,7 @@ A szám a kivételek közé kerül, de a korábban letiltott számok nem látsza
     <string name="gs_game_disturb_msg">Ne zavarjanak</string>
     <string name="gs_game_duration">Idő</string>
     <string name="gs_game_manual_record">Felvétel manuálisan</string>
-    <string name="gs_game_manual_record_subtitle">Elkezdheti a felvételt az eszköztárban játék közben. A „Felvétel” gombra való kattintást követően maximálisan 30 másodpercet rögzíthet.
-A videók a Játékgyorsító &gt; Fontos pillanatok menübe kerülnek elmentésre.</string>
+    <string name="gs_game_manual_record_subtitle">A lebegő parancsikonnal egyszerre legfeljebb 30 másodpercnyi videót rögzíthet. A videók 7 nap után automatikusan törlődnek.</string>
     <string name="gs_game_manual_record_subtitle_child">A funkció használata során beleütközhet néhány hibába:</string>
     <string name="gs_game_manual_record_subtitle_child_carton">A játékmenet rögzítése sok energiát fogyaszt, amely a játék lelassulásához vezethet.</string>
     <string name="gs_game_manual_record_subtitle_child_conflict">Az egyéb képernyőfelvétellel kapcsolatos funkciók lehetséges, hogy nem fognak megfelelően működni.</string>
@@ -1635,15 +1634,17 @@ A videók a Játékgyorsító &gt; Fontos pillanatok menübe kerülnek elmentés
     <string name="legal_workday_invalidate">Hét-Pén (Szünnapok kivételével)</string>
     <string name="legal_workday_invalidate_message">Érintse meg a munkaszüneti napok frissítéséhez.</string>
     <string name="legal_workday_message">(Ünnepnapok kihagyása)</string>
-    <string name="leisure_usage_dialog_message">Elérte a csúcsidőn kívüli adatforgalmi határt.
 
-A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat használ.</string>
+    <string name="leisure_usage_dialog_message">"Elérte a csúcsidőn kívüli adatforgalmi határt.
+
+A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat használ."</string>
     <string name="leisure_usage_dialog_title">Ön elérte a csúcsidőn kívüli adatkorlátot, hálózati kapcsolat megszakítva</string>
+    <string name="limit_speed_by_quota">A sebességkorlátozások a határérték elérése után is érvényesek lehetnek</string>																									   
     <string name="list_empty_text">Üres</string>
     <string name="load_only_under_wlan">Betöltés csak Wi-Fi használatával</string>
     <string name="loading">Egy pillanat…</string>
     <string name="loading_text_format" formatted="false">Személyes adatok eltávolítása a képekről (%d/%d)…</string>
-    <string name="local_ip_exception_summary">Nem kérhető le a helyi IP-cím. A hibajelentéséhez lépjen be a Visszajelzés alkalmazásba és küldje el a hibanaplót.</string>
+    <string name="local_ip_exception_summary">"Nem kérhető le a helyi IP-cím. A hibajelentéséhez lépjen be a Visszajelzés alkalmazásba és küldje el a hibanaplót."</string>
     <string name="lock_all_title">Összes alkalmazás zárolása</string>
     <string name="lock_mode_title">Zárolási beállítások</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s felhasználva lezárt képernyőn.</string>
@@ -1687,7 +1688,7 @@ A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat ha
     <string name="low_memory_warning_dialog_ok_button">Tisztítás</string>
     <string name="low_memory_warning_dialog_title">Nincs elég szabad hely</string>
     <string name="low_temperature_button_ok">Rendben</string>
-    <string name="low_temperature_warning_message">Úgy tűnik, hogy túl hideg van és telefonja a vártnál hamarabb ki fog kapcsolni. Mentse el a fontos módosításokat.</string>
+    <string name="low_temperature_warning_message">"Úgy tűnik, hogy túl hideg van és telefonja a vártnál hamarabb ki fog kapcsolni. Mentse el a fontos módosításokat."</string>
     <string name="low_temperature_warning_title">Túl alacsony a levegőhőmérséklet</string>
     <string name="main_activity_content_summary_root">Root jogosultság</string>
     <string name="main_activity_content_summary_update">Rendszerfrissítés</string>
@@ -1720,10 +1721,10 @@ A szolgáltató további költségeket számolhat fel, ha újra adatforgalmat ha
     <string name="main_primary_message_traffic_warning">Mobiladat-forgalmi figyelmeztetés</string>
     <string name="main_purchase_tips">Promóció</string>
     <string name="main_tc_over">Sikeresen hitelesítve</string>
-    <string name="main_tc_send_sms">SMS küldése
-a hitelesítéshez</string>
-    <string name="main_tc_wait_result">Várakozás a szolgáltatóra
-hogy válaszoljon</string>
+    <string name="main_tc_send_sms">"SMS küldése
+a hitelesítéshez"</string>
+    <string name="main_tc_wait_result">"Várakozás a szolgáltatóra
+hogy válaszoljon"</string>
     <string name="main_today_used">Ma használt</string>
     <string name="main_toolbar_firewall">Korlátozás</string>
     <string name="main_toolbar_purchase">Feltöltés</string>
@@ -1751,7 +1752,7 @@ hogy válaszoljon</string>
     <string name="mark_number_agent">Ügynök</string>
     <string name="mark_number_fraud">Csaló</string>
     <string name="mark_number_harass">Zaklatás</string>
-    <string name="mark_number_info">Ne feledje, hogy olykor ezek a hívások hasznosak lehetnek (pl. amikor lakást keres). Csak azoknak a telefonszámait tiltsa le, akiktől soha nem szeretne hívást fogadni.</string>
+    <string name="mark_number_info">"Ne feledje, hogy olykor ezek a hívások hasznosak lehetnek (pl. amikor lakást keres). Csak azoknak a telefonszámait tiltsa le, akiktől soha nem szeretne hívást fogadni."</string>
     <string name="mark_number_sell">Telemarketinges</string>
     <string name="mark_number_setting_guide_content1">Elutasítja a hívásokat a bejelentett számokról?</string>
     <string name="mark_number_setting_guide_content2">Automatikusan letiltja a hívásokat más felhasználók által bejelentett telefonszámokról</string>
@@ -1763,14 +1764,13 @@ hogy válaszoljon</string>
     <string name="mark_sell_block_large">Telemarketing</string>
     <string name="mark_sell_time_setting">Bejelentett telemarketing-telefonszám letiltása a megadott időszakban</string>
     <string name="mark_time_setting_dialog_title">Szám bejelentése</string>
-    <string name="mark_time_text">%d</string>
     <string name="marked_by_user">Megjelölte mint </string>
-    <string name="megabyteShort">MB</string>
     <string name="megabyte_per_second">MB/mp</string>
     <string name="memory_check_content">%s felszabadítva</string>
     <string name="memory_clean_memory_size_tip">Gyorsítótár</string>
     <string name="memory_clean_no_need_clean">Minden rendben van</string>
-    <string name="memory_clean_no_need_clean_1" formatted="false">%s felszabadítva. Készüléke ennyivel gyorsabb: %d%%.</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">"%s felszabadítva.
+Készüléke ennyivel gyorsabb: %d%% ".</string>
     <string name="memory_clear_unused">Gyorsítótártörlés (%s)</string>
     <string name="memory_title">Elérhető: %1$s\9\9Összesen: %2$s</string>
     <string name="menu_add">Hozzáadás</string>
@@ -3516,6 +3516,8 @@ A hátralévő adat tartalmazza az előző hónapból áthozott adat mennyisége
     <string name="vb_video_effects_srs_premium_sound">Hang</string>
     <string name="video_repeat">Lejátszás újra</string>
     <string name="videobox_hangup_tips_content">A kijelző zárolásra kerül, de az alkalmazás továbbra is futni fog a háttérben, ha a funkció be van kapcsolva. A kijelző visszakapcsolásához nyomja meg a Bekapcsoló gombot. Bekapcsolja most a funkciót?</string>
+
+
     <string name="videobox_hangup_tips_title">Figyelem</string>
     <string name="videobox_settings_line_location">Billentyűparancs helye</string>
     <string name="videobox_settings_line_location_desc">Jelenítse meg a parancsikont a képernyő szélén</string>
