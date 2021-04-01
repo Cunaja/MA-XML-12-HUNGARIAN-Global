@@ -106,7 +106,7 @@
     <string name="menu_title_pause_all">Összes szüneteltetése</string>
     <string name="menu_title_resume_all">Az összes folytatása</string>
     <string name="menu_title_settings">Beállítások</string>
-    <string name="missing_title">&lt;Ismeretlen&gt;</string>
+    <string name="missing_title">&lt;Ismeretlen></string>
     <string name="net_error">Csatlakozzon a hálózatra, majd próbálja újra</string>
     <string name="no_downloads">Nincsenek fájlok</string>
     <string name="no_file_hint">Ez a fájl már a letöltési sorban van</string>
@@ -156,7 +156,7 @@
     <string name="retry_download">Próbálja újra</string>
     <string name="revert_default">Alapértelmezett beállítások visszaállítása</string>
     <string name="revert_download_path">Az alapértelmezett letöltési mappát használja?</string>
-    <string name="save_path">Letöltések mentési helye: </string>
+    <string name="save_path">"Letöltések mentési helye: "</string>
     <string name="save_text">Megtakarít %1$s CNY-t</string>
     <string name="select_all">Összes kijelölése</string>
     <string name="select_operation_items">Elemek kiválasztása</string>

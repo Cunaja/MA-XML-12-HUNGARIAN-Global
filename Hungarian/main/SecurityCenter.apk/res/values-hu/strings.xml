@@ -914,7 +914,7 @@ beállításait. Alkalmazásadatait nem fogja elveszteni."</string>
     <string name="daily_card_setting_fragment_package_summary">Ha az Ön napi adat-előfizetés havi adatcsomagot is tartalmaz, akkor a havi kerül előbb felhasználásra a napi csomag előtt.</string>
     <string name="daily_limit_and_lock_screen">Adatforgalmi figyelmeztetés</string>
     <string name="daily_limit_network_available_body">Kattintson az adatforgalom részleteinek megtekintéséhez.</string>
-    <string name="daily_limit_over_message">Túllépte a napi adatforgalmi korlátot.</string>
+    <string name="daily_limit_over_message">"Túllépte a napi adatforgalmi korlátot."</string>
     <string name="daily_pkg_traffic">Felhasználható adatforgalom</string>
     <string name="data_booster_desc">Kapcsolja ki a másik SIM-kártyahelyet, hogy stabil legyen a kapcsolat</string>
     <string name="data_booster_title">Adatkapcsolat stabilizálása</string>
@@ -979,7 +979,7 @@ A készülékén lévő összes adat törölhetővé válhat, és a képernyőz�
     <string name="dialog_no_longer_alert">Ne mutassa újra</string>
     <string name="dialog_restrict_all_mobile_summary">Ezután a %s mobiladat-kapcsolata minden alkalmazás számára korlátozásra kerül.</string>
     <string name="dialog_restrict_all_mobile_title">%s mobiladat-kapcsolatának korlátozása</string>
-    <string name="dialog_restrict_all_wlan_summary">Ezután a Wi-Fi-kapcsolat minden alkalmazás számára korlátozásra kerül.</string>
+    <string name="dialog_restrict_all_wlan_summary">Ezután a Wi-Fi kapcsolat minden alkalmazás számára korlátozásra kerül.</string>
     <string name="dialog_restrict_all_wlan_title">Wi-Fi-kapcsolat korlátozása</string>
     <string name="dialog_restrict_negative">Korlátozás</string>
     <string name="dialog_restrict_positive">Mégse</string>
@@ -991,8 +991,8 @@ A készülékén lévő összes adat törölhetővé válhat, és a képernyőz�
     <string name="dialog_skt_roaming_warning_cancel">Elutasítás</string>
     <string name="dialog_skt_roaming_warning_message">"Olvassa el és fogadja el az alábbi feltételeket az adatroaming használatához. Nemzetközi roaming díjak merülhetnek fel. Adatbarangolási terv nélkül jelentős díjak merülhetnek fel az automatikusan frissülő alkalmazások számára, például a közösségi hálózatokhoz, az e-mailhez és az időjáráshoz kapcsolódó alkalmazásoknál. 
  * Ha nem ért egyet az adatroaming használatával, akkor az adatbarangolás le lesz tiltva.
- * A HD Hang alapértelmezés szerint a támogatott hálózatokon használható.
- * Az 5G adatroaming csak a partnerhálózatainkban érhető el.
+ * HD Hang alapértelmezés szerint a támogatott hálózatokon használható.
+ * 5G adatroaming csak a partnerhálózatainkban érhető el.
 "</string>
     <string name="dialog_skt_roaming_warning_ok">Elfogadás</string>
     <string name="dialog_skt_roaming_warning_title">Adatbarangolási megállapodás</string>

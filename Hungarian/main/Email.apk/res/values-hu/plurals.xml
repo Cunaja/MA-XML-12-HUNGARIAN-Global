@@ -13,7 +13,7 @@
         <item quantity="one">Archiválja ezt a beszélgetést?</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Töröl %1$d beszélgetést?</item>
+        <item quantity="other">Törli %1$d beszélgetést?</item>
         <item quantity="one">Törli ezt a beszélgetést?</item>
     </plurals>
     <plurals name="confirm_delete_conversation_with_sub">
@@ -29,12 +29,12 @@
         <item quantity="one">%d névjegy hozzáadva</item>
     </plurals>
     <plurals name="conversation_archived">
-        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; archiválva.</item>
-        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; archiválva.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> archiválva.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> archiválva.</item>
     </plurals>
     <plurals name="conversation_deleted">
-        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; törölve.</item>
-        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; törölve.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> törölve.</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> törölve.</item>
     </plurals>
     <plurals name="conversation_folder_changed">
         <item quantity="other">Mappák megváltoztatva.</item>
@@ -45,24 +45,24 @@
         <item quantity="one">+%1$d további személy</item>
     </plurals>
     <plurals name="conversation_muted">
-        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; némítva</item>
-        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; némítva.</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> némítva</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> némítva.</item>
     </plurals>
     <plurals name="conversation_not_important">
-        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; üzenet eltávolítva a &apos;fontos&apos; mappából</item>
-        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; eltávolítva a &apos;fontos&apos; mappából</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b>" üzenet eltávolítva a 'fontos' mappából"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>" eltávolítva a &apos;fontos&apos; mappából"</item>
     </plurals>
     <plurals name="conversation_not_spam">
-        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; eltávolítva a &apos;spam&apos; mappából</item>
-        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; eltávolítva a &apos;spam&apos; mappából</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b>" eltávolítva a 'spam' mappából"</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b>" eltávolítva a 'spam' mappából</item>
     </plurals>
     <plurals name="conversation_phished">
-        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; üzenet megjelölve spamként</item>
-        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; üzenet megjelölve spamként</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> üzenet megjelölve spamként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> üzenet megjelölve spamként</item>
     </plurals>
     <plurals name="conversation_spammed">
-        <item quantity="other">&lt;b&gt;%1$d&lt;/b&gt; megjelölve spamként</item>
-        <item quantity="one">&lt;b&gt;%1$d&lt;/b&gt; megjelölve spamként</item>
+        <item quantity="other">&lt;b>%1$d&lt;/b> megjelölve spamként</item>
+        <item quantity="one">&lt;b>%1$d&lt;/b> megjelölve spamként</item>
     </plurals>
     <plurals name="day">
         <item quantity="other">%d nap</item>

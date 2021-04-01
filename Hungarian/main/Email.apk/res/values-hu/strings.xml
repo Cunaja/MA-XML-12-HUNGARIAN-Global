@@ -673,6 +673,7 @@
     <string name="menu_search">Keresés</string>
     <string name="menu_settings">Beállítások</string>
     <string name="merged_mailbox_compose_select_account">Fiók kiválasztása</string>
+    <string name="message_all_body">Az e-mail teljes szövege</string>
     <string name="message_body_load_set_description">E-mailek betöltése mobilinterneten</string>
     <string name="message_compose_insert_quick_response_list_title">Gyors válasz beillesztése</string>
     <string name="message_decode_error">Üzenet dekódolása sikertelen</string>
@@ -744,7 +745,7 @@ Próbáljon meg átváltani egy másik e-mail fiókra.</string>
     <string name="ntes_do_not_sms_uplink">Küldjön SMS-t a társított telefonszámról és koppintson az \"Üzenet elküldve\" gombra.</string>
     <string name="ntes_had_send">Az üzenet elküldve</string>
     <string name="ntes_had_send_to_content">Ha már küldött SMS-t a társított telefonszámról, érintse meg az \"Üzenet elküldve\" elemet a folytatáshoz.</string>
-    <string name="ntes_login_error_message">Nem elérhetők a fiókadatok (Hiba %s). %s.</string>
+    <string name="ntes_login_error_message" formatted="false">Nem elérhetők a fiókadatok (Hiba %s). %s.</string>
     <string name="ntes_password_error_hint">Ha hiba történik a jelszó megadásakor, zárja be ezt az oldalt és nyissa meg újra.</string>
     <string name="ntes_phone_send">Szöveges üzenet küldése a társított telefonszámról</string>
     <string name="ntes_send_to">Küldés neki: %s</string>
@@ -800,7 +801,8 @@ Próbáljon meg átváltani egy másik e-mail fiókra.</string>
     <string name="password_expire_warning_content_title">Képernyőzár jelszava hamarosan lejár</string>
     <string name="password_expire_warning_dialog_content_fmt">Hamarosan meg kell változtatni a képernyőzár PIN-kódját vagy jelszavát, különben az %s adatai törlésre kerülnek. Szeretné megváltoztatni most?</string>
     <string name="password_expire_warning_dialog_title">Képernyőzár jelszava hamarosan lejár</string>
-    <string name="password_expire_warning_ticker_fmt">\"%s\" a képernyőzár jelszavának vagy PIN-kódjának megváltoztatását igényli.</string>
+    <string name="password_expire_warning_ticker_fmt">"\"%s\" a képernyőzár jelszavának vagy 
+            PIN-kódjának megváltoztatását igényli."</string>
     <string name="password_expired_content_title">Képernyőzár jelszó lejárt</string>
     <string name="password_expired_dialog_content_fmt">A fiók adatai %s törlődnek a készülékről. Képernyőzár jelszó vagy PIN-kód megváltoztatásával visszaállíthatja az adatokat. Szeretné megváltoztatni most?</string>
     <string name="password_expired_dialog_title">Képernyőzár jelszó lejárt</string>
@@ -1029,13 +1031,13 @@ irányelvekkel</string>
     <string name="sync_contacts_fail_per_content">Érintse meg a névjegyek elérésenek engedélyezéséhez</string>
     <string name="sync_contacts_fail_per_title">Névjegyek szinkronizálása sikertelen</string>
     <string name="sync_contacts_req_per_ignored">Engedélyezze az E-mailnek a névjegyek elérését a szinkronizáláshoz</string>
-    <string name="sync_error">Nem sikerült szinkronizálni.</string>
+    <string name="sync_error">"Nem sikerült szinkronizálni."</string>
     <string name="sync_error_message">Az eszköz nem rendelkezik elegendő szabad hellyel a szinkronizáláshoz.</string>
     <string name="sync_question_feed">Szinkronizálási problémák bejelentése</string>
     <string name="sync_upload_question">Visszajelzés</string>
     <string name="syncing_wait_restart">Próbálja újra</string>
     <string name="syncing_wait_restart_title">Időtúllépés a szerverhez való csatlakozás során</string>
-    <string name="system_account_create_failed">Fiók létrehozása sikertelen. Próbálja újra.</string>
+    <string name="system_account_create_failed">"Fiók létrehozása sikertelen. Próbálja újra."</string>
     <string name="system_root_path">Belső tárhely</string>
     <string name="system_security_open_error">Biztonsági beállítások beállításához adja meg az E-mailnek a szükséges engedélyeket a Beállításokban</string>
     <string name="system_setup_open_error">Kapcsolja be az E-mail szinkronizálását a Beállításokban</string>
@@ -1044,25 +1046,27 @@ irányelvekkel</string>
     <string name="three_day">3 nap</string>
     <string name="title_activity_about">Névjegy</string>
     <string name="to">Címzett</string>
-    <string name="to_heading">Címzett: </string>
-    <string name="toast_bar_fail_synchronization">Nem sikerült elérni a kiszolgálót. Várjon egy-két percet, és próbálja újra.</string>
-    <string name="toast_bar_insufficient_memory_space">E-mailek fogadása sikertelen. Nincs elég tárhely.</string>
+    <string name="to_heading">"Címzett: "</string>
+    <string name="toast_bar_fail_synchronization">"Nem sikerült elérni a kiszolgálót. Várjon egy-két percet, és próbálja újra."</string>
+    <string name="toast_bar_insufficient_memory_space">"E-mailek fogadása sikertelen. Nincs elég tárhely."</string>
     <string name="toast_bar_invalid_account">A fiókadatok lejártak. Érintse meg az újra bejelentkezéshez.</string>
-    <string name="toast_bar_no_connection_network">Nem rendelkezik hálózati kapcsolattal</string>
-    <string name="toast_bar_open_gmail_synchronization">Nem sikerült kapcsolódni a Gmail-hez. Ellenőrizze a hálózati beállításokat és próbálja újra.</string>
-    <string name="toast_bar_send_fail_remind">E-mail küldése sikertelen. Mentve a \"Kimenő\" mappába.</string>
-    <string name="toast_bar_sync_failed_client_cert">Nem sikerült szinkronizálni egy hiányzó tanúsítvány miatt. Érintse meg a tanúsítvány újbóli hozzáadásához.</string>
+    <string name="toast_bar_no_connection_network">"Nem rendelkezik hálózati kapcsolattal"</string>
+    <string name="toast_bar_open_gmail_synchronization">"Nem sikerült kapcsolódni a Gmail-hez. Ellenőrizze a hálózati beállításokat és próbálja újra."</string>
+    <string name="toast_bar_send_fail_remind">"E-mail küldése sikertelen. Mentve a \"Kimenő\" mappába."</string>
+    <string name="toast_bar_sync_failed_client_cert">"Nem sikerült szinkronizálni egy hiányzó tanúsítvány miatt. Érintse meg a tanúsítvány újbóli hozzáadásához."</string>
     <string name="toast_bar_sync_failed_mi_authority">A készülék hitelesítéséhez jelentkezzen be</string>
     <string name="toastbar_calendar_and_contacts_permission_switch_close">Naptári adatok és névjegyek szinkronizálásához adja meg az E-mailnek a szükséges engedélyeket a Beállításokban</string>
-    <string name="toastbar_calendar_permission_switch_close">Naptári emlékeztetők fogadásához adja meg az E-mailnek a szükséges engedélyeket a Beállításokban</string>
+    <string name="toastbar_calendar_permission_switch_close">Naptár-emlékeztetők fogadásához adja meg az Emailnek a szükséges engedélyeket a Beállításokban</string>
     <string name="toastbar_contacts_permission_switch_close">Névjegyek hozzáadásához adja meg az E-mailnek a szükséges engedélyeket a Beállításokban</string>
+    <string name="toastbar_contacts_permission_switch_allow_only_using">A kapcsolatoknak nem valós idejű szinkronizálása volt, a Névjegyek engedély mindig engedélyezve van</string>
     <string name="toastbar_local_calendar_and_contacts_sync_switch_close">Kapcsolja be a naptár és a névjegyek szinkronizálását a naptár és a névjegyek szinkronizálásához</string>
     <string name="toastbar_local_calendar_sync_switch_close">Kapcsolja be a naptár szinkronizálását a naptári emlékeztetők fogadásához</string>
     <string name="toastbar_local_contacts_sync_swtich_close">A névjegyek hozzáadásához kapcsolja be a névjegyek szinkronizálását</string>
     <string name="today_text">Ma</string>
-    <string name="too_large_to_attach_additional">Maximális fájlméret %1$s.</string>
-    <string name="too_large_to_attach_multiple">Egy vagy több fájl nem lett csatolva. Maximális fájlméret %1$s.</string>
+    <string name="too_large_to_attach_additional">"Maximális fájlméret %1$s."</string>
+    <string name="too_large_to_attach_multiple">"Egy vagy több fájl nem lett csatolva. Maximális fájlméret %1$s."</string>
     <string name="too_large_to_attach_single">Csatolt fájl nem lehet nagyobb, mint %1$s.</string>
+    <string name="toolbar_add_image">Kép hozzáadása</string>
     <string name="toolbar_part_num">Bekezdés száma</string>
     <string name="toolbar_part_symbol">Bekezdés jele</string>
     <string name="topic_merge">Megjelenítési beállítások</string>
@@ -1079,15 +1083,15 @@ irányelvekkel</string>
     <string name="trigger_before_minute">%d perccel előbb</string>
     <string name="trigger_before_week">%d héttel előbb</string>
     <string name="try_exchange_login">Bejelentkezés EXCHANGE segítségével</string>
-    <string name="turn_auto_sync_on_dialog_body">Módosítások minden
+    <string name="turn_auto_sync_on_dialog_body">"Módosítások minden
 alkalmazáson és fiókon, nem csak a Gmailen, szinkronizálva lesznek
-az egyéb eszközök és a %1$s között.</string>
+az egyéb eszközök és a %1$s között."</string>
     <string name="turn_auto_sync_on_dialog_confirm_btn">Kapcsolja be</string>
     <string name="turn_auto_sync_on_dialog_title">Autom. szinkr. bekapcsolása?</string>
-    <string name="unbind_dialog_text">Az E-mail alkalmazás ezek után nem fogja elemezni az e-maileket.
-Eltávolítja a fiókot?</string>
-    <string name="under_16_content">Megerősíted, hogy még nem vagy 16 éves?</string>
-    <string name="under_sixteen">Még nem vagyok 16 éves.</string>
+    <string name="unbind_dialog_text">"Az E-mail alkalmazás ezek után nem fogja elemezni az e-maileket.
+Eltávolítja a fiókot?"</string>
+    <string name="under_16_content">"Megerősíted, hogy még nem vagy 16 éves?"</string>
+    <string name="under_sixteen">"Még nem vagyok 16 éves."</string>
     <string name="undo">Visszavon</string>
     <string name="unknow">Ismeretlen</string>
     <string name="unread_string">olvasatlan beszélgetés</string>
@@ -1103,7 +1107,7 @@ Eltávolítja a fiókot?</string>
     <string name="uploading_logs">Egy pillanat…</string>
     <string name="user_new_auth_code">Használj új kódot a bejelentkezéshez</string>
     <string name="user_privacy_settings">Adatvédelmi beállítások</string>
-    <string name="user_privacy_settings_agreement_authorization">(Az „Engedélyezés” lehetőségre való koppintással megadja a Mail számára az összes szükséges engedélyt)</string>
+    <string name="user_privacy_settings_agreement_authorization">"(Az „Engedélyezés” lehetőségre való koppintással megadja a Mail számára az összes szükséges engedélyt)"</string>
     <string name="user_privacy_settings_path">Az engedély visszavonásához menjen a Beállítások &gt; Adatvédelmi beállítások menüpontba.</string>
     <string name="user_privacy_settings_summary">Titkosított formában begyűjtjük Android-azonosítóját és egyedi felhasználói azonosítóként használjuk fel a Mailben. A naplófájlokat is begyűjthetjük. Az adatvédelmi beállításokban bármikor visszavonhatja az engedélyt.</string>
     <string name="user_privacy_settings_title">Mail adatvédelmi nyilatkozat</string>

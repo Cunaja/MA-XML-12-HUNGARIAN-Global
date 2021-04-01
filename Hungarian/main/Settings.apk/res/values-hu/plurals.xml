@@ -353,8 +353,8 @@
         <item quantity="one">%1$d mentett hallókészülék</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="one">%1$d lépésre van a készülékinformációs menü megnyitásától.</item>
         <item quantity="other">%1$d lépésre van a készülékinformációs menü megnyitásától.</item>
+        <item quantity="one">%1$d lépésre van a készülékinformációs menü megnyitásától.</item>
     </plurals>
     <plurals name="show_rep_countdown">
         <item quantity="other">%1$d lépésre van a hibajelentéstől.</item>
@@ -369,20 +369,12 @@
         <item quantity="one">Tanúsítvány elfogadása megbízhatóként vagy eltávolítása</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message">
-        <item quantity="other">%s tanúsítványkibocsátókat telepített az Ön munkaprofiljához, ami lehetővé teheti a munkahelyi hálózati tevékenységek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.
-		
-Ha további információt szeretne ezekről a tanúsítványokról, lépjen kapcsolatba a rendszergazdával.</item>
-        <item quantity="one">%s tanúsítványkibocsátót telepített az Ön munkaprofiljához, ami lehetővé teheti a munkahelyi hálózati tevékenységek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.
-		
-Ha további információt szeretne erről a tanúsítványról, lépjen kapcsolatba a rendszergazdával.</item>
+        <item quantity="other">%s tanúsítványkibocsátókat telepített az Ön munkaprofiljához, ami lehetővé teheti a munkahelyi hálózati tevékenységek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését. Ha további információt szeretne ezekről a tanúsítványokról, lépjen kapcsolatba a rendszergazdával.</item>
+        <item quantity="one">%s tanúsítványkibocsátót telepített az Ön munkaprofiljához, ami lehetővé teheti a munkahelyi hálózati tevékenységek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését. Ha további információt szeretne erről a tanúsítványról, lépjen kapcsolatba a rendszergazdával.</item>
     </plurals>
     <plurals name="ssl_ca_cert_info_message_device_owner">
-        <item quantity="other">%s tanúsítványkibocsátókat telepített az Ön eszközére, ami lehetővé teheti a hálózati tevékenységeinek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.
-		
-10Ha további információt szeretne ezekről a tanúsítványokról, lépjen kapcsolatba a rendszergazdával.</item>
-        <item quantity="one">%s tanúsítványkibocsátót telepített az Ön eszközére, ami lehetővé teheti a hálózati tevékenységeinek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését.
-		
-Ha további információt szeretne erről a tanúsítványról, lépjen kapcsolatba a rendszergazdával.</item>
+        <item quantity="other">%s tanúsítványkibocsátókat telepített az Ön eszközére, ami lehetővé teheti a hálózati tevékenységeinek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését. 10Ha további információt szeretne ezekről a tanúsítványokról, lépjen kapcsolatba a rendszergazdával.</item>
+        <item quantity="one">%s tanúsítványkibocsátót telepített az Ön eszközére, ami lehetővé teheti a hálózati tevékenységeinek, beleértve az e-mailek, alkalmazások és biztonságos webhelyek figyelését. Ha további információt szeretne erről a tanúsítványról, lépjen kapcsolatba a rendszergazdával.</item>
     </plurals>
     <plurals name="ssl_ca_cert_settings_button">
         <item quantity="other">Tanúsítványok ellenőrzése</item>
@@ -433,16 +425,16 @@ Ha további információt szeretne erről a tanúsítványról, lépjen kapcsola
         <item quantity="one">%d óra</item>
     </plurals>
     <plurals name="usage_state_hour_text">
-        <item quantity="other"> ó</item>
-        <item quantity="one"> ó</item>
+        <item quantity="other">ó</item>
+        <item quantity="one">ó</item>
     </plurals>
     <plurals name="usage_state_minute">
         <item quantity="other">%d perc</item>
         <item quantity="one">%d perc</item>
     </plurals>
     <plurals name="usage_state_miunte_text">
-        <item quantity="other"> p</item>
-        <item quantity="one"> p</item>
+        <item quantity="other">p</item>
+        <item quantity="one">p</item>
     </plurals>
     <plurals name="usage_state_noti_count">
         <item quantity="other">%d értesítés</item>
@@ -469,12 +461,12 @@ Ha további információt szeretne erről a tanúsítványról, lépjen kapcsola
         <item quantity="one">Hétköznapokon: %d perc</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_hour">
-        <item quantity="other"> ó</item>
-        <item quantity="one"> ó</item>
+        <item quantity="other">ó</item>
+        <item quantity="one">ó</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_min">
-        <item quantity="other"> p</item>
-        <item quantity="one"> p</item>
+        <item quantity="other">p</item>
+        <item quantity="one">p</item>
     </plurals>
     <plurals name="virus_scan_app_find_risk">
         <item quantity="other">%d kockázat található</item>
