@@ -171,7 +171,7 @@
     <string name="baby_lock_wallpaper_save_settings_msg">Alkalmazza a jelenlegi beállításokat?</string>
     <string name="baby_lock_wallpaper_title">Baba fényképek használata képernyőzár háttérképeként</string>
     <string name="baby_name_cannot_empty">Írja be a nevet</string>
-    <string name="baby_name_cannot_start_with">"A név nem kezdődhet ezzel: \'%s\'"</string>
+    <string name="baby_name_cannot_start_with">A név nem kezdődhet ezzel: \'%s\'</string>
     <string name="baby_name_contain_invalidate_char">A név nem tartalmazhatja: \'%s\'</string>
     <string name="baby_name_reserved">Ez a név már foglalt egy másik albumhoz</string>
     <string name="baby_nick_name">Becenév</string>
@@ -240,7 +240,7 @@
     <string name="burst_image_download_item_title" formatted="false">>Eredeti (%s|%s) letöltése</string>
     <string name="burst_preview_title">Sorozatfelvétel</string>
     <string name="burst_save_all">Az összes kép megtartása</string>
-    <string name="burst_save_choice_title">%1$d kijelölve %2$d közül</string>
+    <string name="burst_save_choice_title"> %1$d kijelölve %2$d közül</string>
     <string name="burst_save_error_msg">A mentés nem sikerült</string>
     <string name="burst_save_processing">Feldolgozás/u2026</string>
     <string name="buy_member_tip">Legyen tag</string>
@@ -1224,7 +1224,7 @@ válassza ki a fényképeket, amelyeken Ön látható"</string>
     <string name="see_ignore_faces">A már figyelmen kívül hagyottak megtekintése</string>
     <string name="select_all">Összes kijelölése</string>
     <string name="select_image_operation">Fényképek hozzáadása</string>
-    <string name="select_item_face">"'%s' van a képen?"</string>
+    <string name="select_item_face">\'%s\' van a képen?</string>
     <string name="select_origin_tip">Eredeti fájl (%s)</string>
     <string name="send_file_beautify_failed">Megosztás sikertelen</string>
     <string name="send_files_to">Elemek küldése a következő helyre:</string>

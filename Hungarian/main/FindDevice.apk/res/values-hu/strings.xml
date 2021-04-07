@@ -35,7 +35,7 @@ Részletekért lépjen kapcsolatba az értékesítővel.</string>
     <string name="find_device_telephony_fault">Készülékkeresés: telefonálás hiba (%s).</string>
     <string name="lock_msg_phone">Elérhetőség: %s</string>
     <string name="login_extra_steps">Bejelentkezés ellenőrzés</string>
-    <string name="login_failed">Nem sikerült bejelentkezni %s.</string>
+    <string name="login_failed">"Nem sikerült bejelentkezni %s."</string>
     <string name="open_wifi_settings">A Wi-Fi-beállítások megnyitása</string>
     <string name="passport_checking_vcode">Jelszó ellenőrzése…</string>
     <string name="passport_error_empty_vcode">Adja meg az ellenőrző kódot</string>
@@ -49,10 +49,10 @@ Részletekért lépjen kapcsolatba az értékesítővel.</string>
     <string name="phone_locked_account_email">, társított e-mail: %s</string>
     <string name="phone_locked_account_phone">, társított telefonszám: %s</string>
     <string name="return_to_call">Visszatérés a híváshoz</string>
-    <string name="stop_on_empty_captcha">A Robotszűrő kód nem lehet üres</string>
-    <string name="stop_on_empty_password">A jelszó nem lehet üres</string>
+    <string name="stop_on_empty_captcha">"A Robotszűrő kód nem lehet üres"</string>
+    <string name="stop_on_empty_password">"A jelszó nem lehet üres"</string>
     <string name="sys_notification_async_open_failed_content">Érintse meg az újrapróbáláshoz vagy törölje.</string>
-    <string name="sys_notification_async_open_failed_title">Készülékkeresés bekapcsolása sikertelen</string>
+    <string name="sys_notification_async_open_failed_title">"Készülékkeresés bekapcsolása sikertelen"</string>
     <string name="sys_notification_async_verify_content">A frissített Biztonsági irányelvek megkövetelik, hogy a Készölékkeresés újra aktiválva legyen.</string>
     <string name="sys_notification_async_verify_title">Készülékkeresés újraaktiválása</string>
     <string name="time_correction_failure">Nem sikerült az időt korrigálni (%s)</string>
@@ -63,26 +63,26 @@ Részletekért lépjen kapcsolatba az értékesítővel.</string>
     <string name="unlock_error_abort">Felhasználó által megszakítva</string>
     <string name="unlock_error_device_id">Nem kérhető le a készülékazonosító</string>
     <string name="unlock_error_interrupted">Megszakítva</string>
-    <string name="unlock_error_network">Nem sikerült kapcsolódni a hálózathoz</string>
-    <string name="unlock_error_passport_sdk_timeout">Mi Fiók SDK nem válaszol</string>
+    <string name="unlock_error_network">"Nem sikerült kapcsolódni a hálózathoz"</string>
+    <string name="unlock_error_passport_sdk_timeout">"Mi Fiók SDK nem válaszol"</string>
     <string name="unlock_error_rpc">RPC hiba</string>
     <string name="unlock_error_server">Szerverhiba</string>
-    <string name="unlock_error_ssl_hand_shake">Nem sikerült kapcsolódni a szerverhez, próbálja meg manuálisan beállítani a dátumot és az időt.</string>
-    <string name="unlock_error_unknown">A bejelentkezés sikertelen</string>
+    <string name="unlock_error_ssl_hand_shake">"Nem sikerült kapcsolódni a szerverhez, próbálja meg manuálisan beállítani a dátumot és az időt."</string>
+    <string name="unlock_error_unknown">"A bejelentkezés sikertelen"</string>
     <string name="unlock_error_user_name">Hibás felhasználónév</string>
     <string name="unlock_error_wrong_vcode">A megadott kód hibás</string>
-    <string name="unlock_help">Csatlakozzon a hálózathoz.
-Helyezzen be egy működő SIM-kártyát és ne csatlakozzon érvénytelen Wi-Fi-hálózatokhoz.
+    <string name="unlock_help">"Csatlakozzon a hálózathoz.
+Helyezzen be egy működő SIM-kártyát és ne csatlakozzon érvénytelen Wi-Fi hálózatokhoz.
 
 Elfelejtette jelszavát?
 Menjen az id.mi.com-ra, válassza az „Elfelejtette jelszavát?” opciót és kövesse az utasításokat.
 
 Nem tudja aktiválni készülékét?
-Menjen az i.mi.com/ss oldalra és küldje be jelentkezését a készülék feloldásához.</string>
+Menjen az i.mi.com/ss oldalra és küldje be jelentkezését a készülék feloldásához."</string>
     <string name="unlock_help_title">Feloldási segítség:</string>
     <string name="unlock_number">Kód feloldása: %s</string>
     <string name="unlock_wrong_captcha">A megadott kód hibás</string>
     <string name="unlocking">Aktiválás…</string>
     <string name="verifing_account">Jelszó ellenőrzése…</string>
-    <string name="verify_password_failed">Nem sikerült a Mi Fiók ID. ellenőrzése %s.</string>
+    <string name="verify_password_failed">"Nem sikerült a Mi Fiók ID. ellenőrzése %s."</string>
 </resources>
